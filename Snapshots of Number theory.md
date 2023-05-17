@@ -93,3 +93,10 @@ Proof of $$\frac{\Gamma '(s)}{\Gamma(s)}=O(\log|s|)$$
 ### 31
 https://math.stackexchange.com/questions/1828616/how-did-hecke-come-up-with-hecke-operators
 How did Hecke come up with Hecke-operators?
+### 32
+http://sporadic.stanford.edu/bump/group/gind2_5.html
+Daniel Bump - Group representation theory
+### 33
+https://www.math.columbia.edu/~chaoli/docs/AutomorphicForm.html
+Topics in automorphic forms
+	Courses in Harvard by Jack Thorne

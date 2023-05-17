@@ -1,7 +1,7 @@
 ### 1
 https://www-users.cse.umn.edu/~garrett/m/mfms/notes/02_solenoids.pdf
 2-Solenoid
-### 2
+### 2 Geodesic flow
 https://warwick.ac.uk/fac/sci/maths/people/staff/mark_pollicott/p3/lisbon-lectures-2.pdf
 Lectures on geodesic flow
 Together with Chapter 9 Geodesic Flow on Quotients of the Hyperbolic Plane
@@ -25,4 +25,8 @@ Example for lift of circle homeomorphism
 https://sites.millersville.edu/bikenaga/number-theory/periodic-continued-fractions/periodic-continued-fractions.html
 Elementary method of continued fractions
 ### 5
-
+https://metaphor.ethz.ch/x/2020/fs/401-3110-20L/ex/Lecture_Xiao.pdf
+Hyperbolic geometry on Diophantine approximation with surprising elementry plane geometry
+### 6
+https://math.stackexchange.com/questions/118592/limit-of-measures-is-again-a-measure
+Limit of measure is again a measure

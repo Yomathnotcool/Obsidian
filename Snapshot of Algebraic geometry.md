@@ -19,5 +19,10 @@ https://math.stackexchange.com/questions/2386356/radical-ideal-and-repeated-root
 Suppose $K$ is a algebraic closed field, then $<f(x)> \subset K[X]$ is a radical ideal if and only if $f(x)$ has no repeated roots.
 ### 7
 https://math.ucr.edu/home/baez/topos.html
-John BaeTopos Theory in nutshell
-
+John Baez - Topos Theory in nutshell
+### 8
+https://core.ac.uk/display/82294277
+The isomorphism and isogeny theorems for reductive algebraic groups
+### 9
+https://faculty.math.illinois.edu/~jpascale/courses/2018/595/
+Homological Mirror symmetry
