@@ -1,0 +1,10 @@
+{
+  "app:delete-file": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "D"
+    }
+  ]
+}
