@@ -24,7 +24,7 @@ WHERE meta(L.section).subpath="Action Plan" and file.name= "<% fileDate = moment
 > Writing:: 0
 
 
-> [!abstract]+ What am I grateful for?
+> [!abstract]+ What have I read today?
 > - 1
 > - 2
 > - 3
