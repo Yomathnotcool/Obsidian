@@ -1,6 +1,11 @@
 ## Conversation between User and Assistant
 
+More information about [[Notes for traces formula]] and [[Snapshot for dynamical system]]
 
+Tag:
+#dynamical-system #number-theory #trace-formula
+
+---
 User: what is the connection between homogenus dynamical system and trace formula
 
 Assistant: The connection between homogeneous dynamical systems and trace formula lies in the study of the dynamics of automorphisms on homogeneous spaces. Homogeneous dynamical systems are those where a Lie group acts transitively on a space, and the dynamical properties of this action are studied. Trace formulas, on the other hand, are mathematical tools used to study spectral properties of operators.
@@ -14,8 +19,8 @@ User: give me some examples about trace formulae on homogeneous dynamical system
 Assistant:
 1. Poisson summation formula
 2. Arthur's trace formula
-3. Vergne's trace formula
-4. Lefschetz fixed point theorem
+3. Vergne's trace formula [https://hal.science/hal-01504945/file/TraceFormulas.pdf](https://hal.science/hal-01504945/file/TraceFormulas.pdf)
+4. Lefschetz fixed point theorem [bachbecker.pdf](https://www.universiteitleiden.nl/binaries/content/assets/science/mi/scripties/bachbecker.pdf)
 These are just a few examples of trace formulas in the context of homogeneous dynamical systems.
 
 User: Poisson summation formula is too trivial and I already know Arthur trace formula, can you give me some new examples

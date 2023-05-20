@@ -1,4 +1,6 @@
 
+More information about [[Snapshots of Number theory]]
+
 Automorphic forms are functions that are invariant under a certain group of transformations, and they are widely used in number theory, geometry, and analysis. The moderate growth condition is important when studying automorphic forms because it allows us to define and analyze various arithmetic functions and representations associated with the forms.
 
 To understand why moderate growth is important, let's consider the example of modular forms, which are a type of automorphic form. A modular form is a function that is invariant under linear fractional transformations of the upper half-plane. In other words, it is a function f(z) that satisfies the following conditions:

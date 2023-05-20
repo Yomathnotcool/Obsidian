@@ -1,3 +1,6 @@
+[[Notes for traces formula]]
+
+
 ### 1
 https://mathoverflow.net/questions/95261/questions-about-the-bernstein-center-of-a-p-adic-reductive-group
 nice explaination about Bernstein center and Plancherel measure
@@ -100,5 +103,6 @@ Daniel Bump - Group representation theory
 https://www.math.columbia.edu/~chaoli/docs/AutomorphicForm.html
 Topics in automorphic forms
 	Courses in Harvard by Jack Thorne
-### 34
-物理，迹公式与黎曼猜想(Ⅱ):半经典近似下导出的Gutzwiller迹公式及其与黎曼猜想的联系;SelbergZeta函数 - missyou的文章 - 知乎 https://zhuanlan.zhihu.com/p/395822404
+
+
+
