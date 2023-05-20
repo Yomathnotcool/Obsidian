@@ -26,19 +26,18 @@ These are just a few examples of trace formulas in the context of homogeneous dy
 User: Poisson summation formula is too trivial and I already know Arthur trace formula, can you give me some new examples
 
 Assistant:
-1. Hardy-Littlewood-Selberg trace formula
 2. Gutzwiller trace formula
-3. Guillemin-Sternberg trace formula
-4. Ruelle-Bowen formula
+3. Guillemin-Sternberg trace formula file:///Users/zhdeng/Downloads/1214445310.pdf
+4. Ruelle-Bowen formula [https://www.mat.uc.cl/\~giommi/notas3\_escuela.pdf](https://www.mat.uc.cl/~giommi/notas3_escuela.pdf)
 These are some additional trace formulas in the context of homogeneous dynamical systems.
 
 User: I already know Gutzwiller trace formula, Hardy-Littlewood-Selberg trace formula as well, can you give me a few new examples
 
 Assistant:
-1. Baladi-Smania trace formula
-2. Prasad trace formula
-3. Mautner trace formula
-4. Patterson-Sullivan formula
+1. Baladi-Smania trace formula [https://theses.hal.science/tel-03096854v2/file/JEZEQUEL\_Malo\_2020.pdf](https://theses.hal.science/tel-03096854v2/file/JEZEQUEL_Malo_2020.pdf)
+2. Prasad trace formula [[Gan-Gross-Prasad conjecture]] is another big project
+3. Mautner trace formula [Plancherel theorem for spherical functions - Wikipedia](https://en.wikipedia.org/wiki/Plancherel_theorem_for_spherical_functions)
+4. Patterson-Sullivan formula [https://www.math.u-bordeaux.fr/\~jquint/publications/courszurich.pdf](https://www.math.u-bordeaux.fr/~jquint/publications/courszurich.pdf) another big shit theory 
 These trace formulas provide important tools for studying the spectral properties, period orbits, and geometric structure of homogeneous dynamical systems.
 
 User: Mautner trace formula is very interesting, can you give me more information about it
