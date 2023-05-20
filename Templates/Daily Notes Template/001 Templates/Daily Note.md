@@ -18,7 +18,6 @@ WHERE meta(L.section).subpath="Action Plan" and file.name= "<% fileDate = moment
 
 > [!tip]+ Habit Tracker
 > Sleep:: 0
-> Reading:: 0
 > Exercise:: 0
 > Meditation:: 0
 > Writing:: 0
@@ -29,9 +28,11 @@ WHERE meta(L.section).subpath="Action Plan" and file.name= "<% fileDate = moment
 > - 2
 > - 3
 
-### Notes
+# Journal
 
 ---
+
+
 ---
 ### Action Plan
 - Goal 1
