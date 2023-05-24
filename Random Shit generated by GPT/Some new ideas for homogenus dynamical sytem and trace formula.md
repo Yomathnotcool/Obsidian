@@ -26,7 +26,7 @@ These are just a few examples of trace formulas in the context of homogeneous dy
 User: Poisson summation formula is too trivial and I already know Arthur trace formula, can you give me some new examples
 
 Assistant:
-2. Gutzwiller trace formula
+2. Gutzwiller trace formula [[Notes for traces formula#^Gutzwiller]]
 3. Guillemin-Sternberg trace formula file:///Users/zhdeng/Downloads/1214445310.pdf
 4. Ruelle-Bowen formula [https://www.mat.uc.cl/\~giommi/notas3\_escuela.pdf](https://www.mat.uc.cl/~giommi/notas3_escuela.pdf)
 These are some additional trace formulas in the context of homogeneous dynamical systems.
@@ -38,6 +38,7 @@ Assistant:
 2. Prasad trace formula [[Gan-Gross-Prasad conjecture]] is another big project
 3. Mautner trace formula [Plancherel theorem for spherical functions - Wikipedia](https://en.wikipedia.org/wiki/Plancherel_theorem_for_spherical_functions)
 4. Patterson-Sullivan formula [https://www.math.u-bordeaux.fr/\~jquint/publications/courszurich.pdf](https://www.math.u-bordeaux.fr/~jquint/publications/courszurich.pdf) another big shit theory 
+5. 1.  Arithmetic Hyperbolic 3-Manifolds: Let M be a hyperbolic 3-manifold with finite volume and satisfying certain arithmetic conditions. By using the trace formula and the [[Langlands-Shahidi method]], one can compute the distribution of rational points on M with respect to the volume measure. This leads to a deep connection between the arithmetic properties of M and the spectral theory of certain Hecke operators acting on automorphic forms.
 These trace formulas provide important tools for studying the spectral properties, period orbits, and geometric structure of homogeneous dynamical systems.
 
 User: Mautner trace formula is very interesting, can you give me more information about it
