@@ -11,8 +11,12 @@
             "id": "b5da3a7422335c36",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Daily Journal/2023-05-27.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "Daily Journal/2023-05-27.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "Daily Journal/2023-05-27.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -107,7 +113,9 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {}
+          "state": {
+            "file": "Daily Journal/2023-05-27.md"
+          }
         }
       },
       {
@@ -135,6 +143,7 @@
   },
   "active": "b5da3a7422335c36",
   "lastOpenFiles": [
+    "Daily Journal/2023-05-27.md",
     "hsihsi.md",
     "sss.md",
     "Snapshots of Number theory.md",
