@@ -26,45 +26,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "cf011b640b7e0be7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "test.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "90a1cf3e8de8369f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "hsihsi.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "65b8b9895ee3b271",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "sss.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -130,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sss.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +110,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sss.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,9 +131,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "sss.md"
-              }
+              "state": {}
             }
           },
           {
@@ -201,7 +161,7 @@
       "fantasy-calendar:Open Large Fantasy Calendar": false
     }
   },
-  "active": "65b8b9895ee3b271",
+  "active": "46af53958c7753a8",
   "lastOpenFiles": [
     "hsihsi.md",
     "sss.md",
