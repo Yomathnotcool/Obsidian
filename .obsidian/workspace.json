@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "1168917165fa69cb",
+        "id": "a66fb04b8af2c556",
         "type": "tabs",
         "children": [
           {
-            "id": "a8e66600e7e1180c",
+            "id": "527080c8b1f8a37a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Daily Journal/2023-05-26.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Daily Journal/2023-05-26.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Daily Journal/2023-05-26.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Daily Journal/2023-05-26.md"
+              }
             }
           }
         ]
@@ -135,17 +143,22 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "a8e66600e7e1180c",
+  "active": "527080c8b1f8a37a",
   "lastOpenFiles": [
+    "Templates/Daily Notes Template/Habit Tracker.md",
+    "Templates/Daily Notes Template/Important Links.md",
+    "Daily Journal/2023-05-25.md",
+    "Daily Journal/2023-05-26.md",
+    "Templates/Daily Notes Template/001 Templates/Daily Note.md",
+    "未命名.md",
+    "2023-05-26.md",
     "Test_git/Langlands-Shahidi method.md",
     "test",
     "Templates/Daily Notes Template/001 Templates/Notes.md",
-    "Templates/Daily Notes Template/001 Templates/Daily Note.md",
-    "Templates/Daily Notes Template/Important Links.md",
-    "Templates/Daily Notes Template/Habit Tracker.md",
     "Templates/Daily Notes Template/001 Templates",
     "Templates/Daily Notes Template",
     "Templates",
