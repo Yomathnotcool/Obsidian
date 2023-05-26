@@ -1,4 +1,6 @@
 [
   "dataview",
-  "templater-obsidian"
+  "templater-obsidian",
+  "fantasy-calendar",
+  "obsidian-auto-link-title"
 ]
