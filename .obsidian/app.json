@@ -1,5 +1,8 @@
+<<<<<<< main
+{}
+=======
 {
   "promptDelete": false,
-  "alwaysUpdateLinks": true,
-  "trashOption": "local"
+  "alwaysUpdateLinks": true
 }
+>>>>>>> origin/main
