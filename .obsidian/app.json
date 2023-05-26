@@ -1,8 +1,4 @@
-<<<<<<< main
-{}
-=======
 {
-  "promptDelete": false,
-  "alwaysUpdateLinks": true
+  "attachmentFolderPath": "Attachment",
+  "promptDelete": false
 }
->>>>>>> origin/main
