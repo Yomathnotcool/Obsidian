@@ -1,1 +1,8 @@
+<<<<<<< main
 {}
+=======
+{
+  "promptDelete": false,
+  "alwaysUpdateLinks": true
+}
+>>>>>>> origin/main
