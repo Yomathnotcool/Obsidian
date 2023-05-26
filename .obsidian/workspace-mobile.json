@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Mathematics/Number theory/Notes for traces formula.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,6 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "Mathematics/Number theory/Notes for traces formula.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -101,6 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "Mathematics/Number theory/Notes for traces formula.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -111,7 +113,9 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {}
+          "state": {
+            "file": "Mathematics/Number theory/Notes for traces formula.md"
+          }
         }
       },
       {
@@ -137,11 +141,11 @@
       "fantasy-calendar:Open Large Fantasy Calendar": false
     }
   },
-  "active": "03c0d3d2fd448a0f",
+  "active": "b5da3a7422335c36",
   "lastOpenFiles": [
+    "Test link to folder.md",
     "Attachments",
     "README.md",
-    "Test link to folder.md",
     "Mathematics/General information for math.md",
     "Attachment",
     "Mathematics/Number theory",
