@@ -22,4 +22,4 @@ More physics taste
 
 ### 4
 [https://math.berkeley.edu/\~barrett/resources/obarrett\_yale\_senior\_essay.pdf](https://math.berkeley.edu/~barrett/resources/obarrett_yale_senior_essay.pdf)
-Thesis for seberg trace formula and quantum chaos
+Thesis for Selberg trace formula and quantum chaos
