@@ -25,3 +25,8 @@ More physics taste
 ### 4
 [https://math.berkeley.edu/\~barrett/resources/obarrett\_yale\_senior\_essay.pdf](https://math.berkeley.edu/~barrett/resources/obarrett_yale_senior_essay.pdf)
 Thesis for Selberg trace formula and quantum chaos
+
+### 5
+[1704.08337.pdf](https://arxiv.org/pdf/1704.08337.pdf)
+Séminaire Bourbaki by Ma Xiaonan
+There is a one-to-one correspondence between orbit integrals and closed geodesic. Bismut gave a natural construction of a Hodge theory whose corresponding Laplacian is a hypoelliptic operator acting on the total space of the cotangent bundle of a Riemannian manifold.

@@ -1,5 +1,10 @@
+Tags:
+#number-theory #L-function #trace-formula 
+Other related notes:
 [[Notes for traces formula]]
-
+[[Snapshot of Algebraic geometry]]
+[[Snapshot of Analysis]]
+[[Snapshot for dynamical system]]
 
 ### 1
 https://mathoverflow.net/questions/95261/questions-about-the-bernstein-center-of-a-p-adic-reductive-group
