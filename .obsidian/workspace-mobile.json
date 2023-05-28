@@ -137,8 +137,7 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "templater-obsidian:Templater": false,
-      "fantasy-calendar:Open Large Fantasy Calendar": false
+      "templater-obsidian:Templater": false
     }
   },
   "active": "b5da3a7422335c36",
