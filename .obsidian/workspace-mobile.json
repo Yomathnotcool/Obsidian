@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Mathematics/Number theory/Notes for traces formula.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -132,6 +132,7 @@
   "left-ribbon": {
     "hiddenItems": {
       "templater-obsidian:Templater": false,
+      "fantasy-calendar:Open Large Fantasy Calendar": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
