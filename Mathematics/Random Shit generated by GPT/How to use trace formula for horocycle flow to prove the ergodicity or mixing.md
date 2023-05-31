@@ -52,7 +52,7 @@ $$\sum_{\gamma\in M\backslash\{1\}} \int_{\Gamma_\gamma\backslash\mathbb{H}} f(z
 
 Here, $M$ is the modular group, $\Gamma_\gamma$ is the stabilizer of $\gamma$ under $M$, $\mathbb{H}$ is the upper half plane, $f$ is a function in the space of automorphic forms, $\mu_\gamma$ is the invariant measure on the horocycle determined by $\gamma$, $\mathcal{H}_j$ is the space of holomorphic cusp forms of weight $k_j$ and $m_j$ is the multiplicity of the eigenvalue $k_j^2/4$ of the Laplacian operator on $\mathcal{H}_j$.
 
-The left-hand side of the formula sums over the horocycles determined by the non-trivial elements of $M$, while the right-hand side sums over the eigenspaces of the Laplacian operator. The trace formula thus expresses a profound relationship between the spectral properties of the Laplacian and the geometry of the horocycles.
+The left-hand side of the  sums over the eigenspaces of the Laplacian operator. The trace formula thus expresses a profound relationship between the spectral properties of the Laplacian and the geometry of the horocycles.
 
 ## How to get the spectral side of this trace formula
 
