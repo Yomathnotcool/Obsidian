@@ -95,8 +95,6 @@ Using the Fourier decomposition of $L^2(\mathcal{M})$ with respect to the Lapl
 
 Since the eigenfunctions of both the Laplace-Beltrami operator and the horocycle flow operator form orthonormal bases for $L^2(\mathcal{M})$, any square-integrable function on $\mathcal{M}$ can be expressed as a linear combination of these eigenfunctions. Therefore, the eigenfunctions of the horocycle flow operator form a basis for $L^2(\mathcal{M})$.
 
-This property has important consequences in the study of hyperbolic geometry, spectral theory, and number theory. In particular, the study of the spectrum of the Laplace-Beltrami operator and the horocycle flow operator is closely related to the distribution of geodesics on the hyperbolic surface, the distribution of prime numbers, and the behavior of automorphic forms.
-
 
 ### Based on new information about horocycle flow operator, can you find a integral operator that commutes with horocycle flow operator?
 
@@ -110,9 +108,9 @@ $$ F_t(x) = \int_{\mathcal{M}} K_t(x,y) f(y) d\mu(y) $$
 
 where $d\mu(y)$ is the hyperbolic area measure on $\mathcal{M}$.
 
-This defines a continuous family of integral operators $T_t$ on $L^2(\mathcal{M})$ given by:
+This defines a continuous family of integral operators (trace class) $T_t$ on $L^2(\mathcal{M})$ given by:
 
-$$ T_t(f)(x) = \int_{\mathcal{M}} K_t(x,y) f(y) d\mu(y) $$
+$$ T_t(f)(x) = \int_{\mathcal{M}} K_t(x,y) f(y) d\mu(y)=F_{t}(x)$$
 
 Now, to check whether $T_t$ commutes with the horocycle flow operator at each time $t$, we need to show that:
 
@@ -132,5 +130,5 @@ U_t(T_t(f))(x) &= U_t\Big(\int_{\mathcal{M}} K_t(x,y) f(y) d\mu(y)\Big) \\
 
 where we have used the fact that the horocycle flow $\Phi_t$ commutes with convolution under the heat kernel, i.e. $K_t(x,y) = K_t(\Phi_t(x),\Phi_t(y))$ for all $x,y \in \mathcal{M}$ and $t \geq 0$.
 
-Therefore, we have shown that the integral operator $T_t$ commutes with the horocycle flow operator $U_t$, for all $t \geq 0$. This property is useful for studying the behavior of harmonic functions under the horocycle flow, and it has important applications in geometric analysis, number theory and dynamics.
+Therefore, we have shown that the integral operator $T_t$ commutes with the horocycle flow operator $U_t$, for all $t \geq 0$. 
 
