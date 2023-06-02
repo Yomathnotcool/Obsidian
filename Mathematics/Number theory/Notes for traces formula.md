@@ -30,6 +30,19 @@ Thesis for Selberg trace formula and quantum chaos
 [1704.08337.pdf](https://arxiv.org/pdf/1704.08337.pdf)
 Séminaire Bourbaki by Ma Xiaonan
 There is a one-to-one correspondence between orbit integrals and closed geodesic. Bismut gave a natural construction of a Hodge theory whose corresponding Laplacian is a hypoelliptic operator acting on the total space of the cotangent bundle of a Riemannian manifold.
-## 6
+## 6 [ChaosBook.org](https://chaosbook.org)
+Huge dictionary including trace formulae for flows.
+#dynamical-system 
 
-[ChaosBook.org](https://chaosbook.org)
+## 7 [https://perso.u-cergy.fr/\~elemasson/qchyp.pdf](https://perso.u-cergy.fr/~elemasson/qchyp.pdf)
+
+Quantum chaos and hyperbolic surfaces by Etienne Le Masson.
+Basically covered Selberg trace formula, mircolift, quantum ergodicity
+#dynamical-system 
+
+
+## 8 [https://archimede.mat.ulaval.ca/tr60/talks/Jakobson.pdf](https://archimede.mat.ulaval.ca/tr60/talks/Jakobson.pdf)
+
+General survey about Weyl's law towards an interest in #dynamical-system 
+By Jakobson
+
