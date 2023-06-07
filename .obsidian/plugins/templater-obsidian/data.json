@@ -15,8 +15,8 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "",
-      "template": ""
+      "folder": "Templates",
+      "template": "Templates/Notes.md"
     }
   ],
   "syntax_highlighting": true,
@@ -24,7 +24,7 @@
     ""
   ],
   "startup_templates": [
-    ""
+    "Templates/Notes.md"
   ],
   "enable_ribbon_icon": true
 }
