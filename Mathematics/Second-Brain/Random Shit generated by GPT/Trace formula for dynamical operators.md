@@ -12,7 +12,7 @@
 [[Snapshot for dynamical system]]
 [[Notes for traces formula]]
 [[Snapshots of Number theory]]
-[[Some new ideas for homogenus dynamical sytem and trace formula]]
+[[Some new ideas for homogeneous dynamical system and trace formula]]
 
 ---
 
