@@ -1,5 +1,4 @@
 ```dataview 
-List
+Table ctimes
 FROM ""
 ```
-
