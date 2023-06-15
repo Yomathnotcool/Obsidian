@@ -1,5 +1,5 @@
 ---
-Tags: number-theory
+Tags: number-theory, trace-formula, dynamical-system, spectral-method
 
 ---
 #number-theory #trace-formula #dynamical-system #spectral-method
@@ -36,9 +36,6 @@ Work about length spectrum from Guillemin Kazhdan
 [[How to use trace formula for horocycle flow to prove the ergodicity or mixing]]
 [[Some new ideas for homogeneous dynamical system and trace formula]]
 [[Dynamical System Course]]
-<<<<<<< main
 
-=======
->>>>>>> origin/main
 
 ---
