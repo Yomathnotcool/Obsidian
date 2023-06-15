@@ -13,6 +13,10 @@ Asymptotic Behavior of Periodic Orbits of the Horocycle Flow and Eisenstein Seri
 
 [[2107.02090] Asymptotics and limit theorems for horocycle ergodic integrals à la Ratner](https://arxiv.org/abs/2107.02090)
 
+http://www2.math.uu.se/~astrombe/papers/iha.pdf
+On the deviation of ergodic averages for horocycle flows by Andeas Strömbergsson
+
+
 ---
 Work about length spectrum from Guillemin Kazhdan 
 [Jacopo De Simoi - Teaching](http://www.math.toronto.edu/jacopods/mat1846.html)
