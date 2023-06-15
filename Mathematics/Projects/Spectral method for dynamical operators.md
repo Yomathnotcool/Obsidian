@@ -33,5 +33,7 @@ Work about length spectrum from Guillemin Kazhdan
 [[Notes for traces formula]]
 [[How to use trace formula for horocycle flow to prove the ergodicity or mixing]]
 [[Some new ideas for homogeneous dynamical system and trace formula]]
+[[Dynamical System Course]]
+
 
 ---
