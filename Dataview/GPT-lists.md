@@ -1,4 +1,4 @@
 ```dataview 
-Table file.ctime, tag
+Table tags
 FROM ""
 ```
