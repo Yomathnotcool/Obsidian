@@ -23,3 +23,8 @@ A dynamical system consists of :
 - A map $T:X\rightarrow X$ (*Given current state $x\in X$, $T(x)$ gives the next state of the system*)
 
 [[Lectures note about Dynamical System]]
+
+
+[[Lectures note about ergodic theory]]
+
+[[Notes about chaos theory]]
