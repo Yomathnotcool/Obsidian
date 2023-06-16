@@ -3,7 +3,7 @@ Alex Gorodnik
 
 
 ## Tags
-#dynamical-system 
+#dynamical-system #notes 
 
 ---
 
@@ -17,7 +17,7 @@ Alex Gorodnik
 ---
 ## Introduction
 
-### Def of dynamical system
+### Def ::dynamical system
 A dynamical system consists of :
 - A non-empty set $X$ (*the set of all configurations*)
 - A map $T:X\rightarrow X$ (*Given current state $x\in X$, $T(x)$ gives the next state of the system*)

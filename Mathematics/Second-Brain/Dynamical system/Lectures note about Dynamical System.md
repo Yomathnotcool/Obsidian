@@ -1,6 +1,6 @@
 
 ## Tags
-#dynamical-system 
+#dynamical-system #notes 
 
 ---
 
@@ -10,18 +10,23 @@
 
 ---
 
-### Def ::  orbit:
+### Def ::  Orbit:
 The evolution of the system is described by the sequence:
 $$\{T^{n}(x)|n\in \mathbb{N}_{\geq 0}\},$$
 which is called the orbit of $x$.
 
-### Def of fixed point:
+### Def :: Fixed Point:
 $x$ is a fixed point if $Tx=x$.
 
-### Def of minimal:
+### Def :: Minimal:
 A (topological) dynamical system is called minimal if all orbits are dense.
 
-### Def of topological transitive:
+### Def :: Topological Transitive:
+
+^7946a0
+
 There is a dense orbit in the dynamical system.
 
 
+## Ex :: [[Monotone Maps of Intervals]] 
+## Ex :: [[Circle Rotation]]
