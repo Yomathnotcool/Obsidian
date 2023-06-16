@@ -1,9 +1,14 @@
 ---
 Tags: number-theory, trace-formula, dynamical-system, spectral-method
 
+<<<<<<< main
 ---
 #number-theory #trace-formula #dynamical-system #spectral-method
+=======
+## Tags:
+>>>>>>> origin/main
 
+#number-theory #trace-formula #dynamical-system #spectral-method
 
 ---
 
