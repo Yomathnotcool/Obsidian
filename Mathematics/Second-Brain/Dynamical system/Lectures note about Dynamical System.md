@@ -10,7 +10,7 @@
 
 ---
 
-### Def of orbit:
+### Def ::  orbit:
 The evolution of the system is described by the sequence:
 $$\{T^{n}(x)|n\in \mathbb{N}_{\geq 0}\},$$
 which is called the orbit of $x$.

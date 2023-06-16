@@ -1,5 +1,4 @@
 ```dataview 
-Table tags
-FROM ""
-Where tags = number-theory
+Table Def
+FROM #dynamical-system 
 ```
