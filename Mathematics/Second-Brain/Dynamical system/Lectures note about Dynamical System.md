@@ -27,6 +27,11 @@ A (topological) dynamical system is called minimal if all orbits are dense.
 
 There is a dense orbit in the dynamical system.
 
+## Def :: Periodic point
+
+A point $x$ is periodic of period $n$ if $T^{n}x=x$.
 
 ## Ex :: [[Monotone Maps of Intervals]] 
 ## Ex :: [[Circle Rotation]]
+## Ex :: [[Doubling Map]]
+## Ex :: [[Shift map]]
