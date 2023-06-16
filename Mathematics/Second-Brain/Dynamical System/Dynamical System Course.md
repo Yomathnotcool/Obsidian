@@ -15,9 +15,16 @@ Alex Gorodnik
 [[Snapshot for dynamical system]]
 
 ---
-## Lecture 1
+## Introduction
 
-### Def:
+### Def of dynamical system
 A dynamical system consists of :
 - A non-empty set $X$ (*the set of all configurations*)
-- A map $T:X\rightarrow X$ (Given current state $x\in X$, $T(x)$ gives the next state of the system)
+- A map $T:X\rightarrow X$ (*Given current state $x\in X$, $T(x)$ gives the next state of the system*)
+
+[[Lectures note about Dynamical System]]
+
+
+[[Lectures note about ergodic theory]]
+
+[[Notes about chaos theory]]
