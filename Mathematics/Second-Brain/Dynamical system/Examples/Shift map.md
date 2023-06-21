@@ -19,3 +19,14 @@ $$S:\Omega_{k}\rightarrow \Omega_{k}:(\omega_{1},\omega_{2},\omega_{3},...)\maps
 
 
 ## Thm :: For the shift map $S$, recurrent point $(\omega_{i})_{i\geq1}\in \Omega_{k}$ if and only if for any pre-fixed $\omega_{1},...,\omega_{l}$ appears again in $(\omega_{i})_{i\geq0}$. 
+
+
+
+
+
+## Thm :: For the shift map $S$, sequence $(\omega_{i})_{i\geq 0}$ is uniformly recurrent if and only if for any pre-fixed $\omega_{1},...,\omega_{l}$ appears in $(\omega_{i})_{i\geq0}$ with uniforml bounded gaps.
+
+
+
+
+## Thm :: For the shift map $S$, if $x$ has dense orbit, it's not uniformly recurrent; if $x$ is periodic, it is uniformly recurrent.

@@ -14,3 +14,10 @@ $T:x\mapsto 2x (\text{mod} 1)$
 
 
 ## Thm :: There exists dense orbits of $T$. Doubling map is topological transitive.
+
+
+
+## Thm :: For the doubling map $T:\mathbb{R}/\mathbb{Z}\rightarrow\mathbb{R}/\mathbb{Z}$, if $x$ has dense orbit, it's not uniformly recurrent; if $x$ is periodic, it is uniformly recurrent.
+
+^203fe9
+

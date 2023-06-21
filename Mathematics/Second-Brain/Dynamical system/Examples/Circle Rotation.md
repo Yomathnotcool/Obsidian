@@ -18,3 +18,11 @@ Before we prove this theorem, recall the pigeon hole principal:
 
 Now we are ready to prove the theorem:
 ### Proof:
+
+
+
+
+
+## Thm :: Rotation $R_{\alpha}: S^{1}\rightarrow S^{1}$ in which $\alpha\not\in \pi\mathbb{Q}$ is minimal then $\forall x\in S^{1}$ is [[Lectures note about Dynamical System#^88fab3|uniformly recurrent]].
+
+^8903ec
