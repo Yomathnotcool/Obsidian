@@ -31,3 +31,7 @@
 
 
 ## Thm :: The Thue-Morse word $w$ is uniformly recurrent but nor periodic.
+
+
+
+

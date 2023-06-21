@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Second-Brain/Category Theory.md",
+                "file": "Mathematics/Second-Brain/Dynamical system/Examples/Thue-Morse sequence.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathematics/Second-Brain/Category Theory.md",
+                "file": "Mathematics/Second-Brain/Dynamical system/Examples/Thue-Morse sequence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathematics/Second-Brain/Category Theory.md",
+                "file": "Mathematics/Second-Brain/Dynamical system/Examples/Thue-Morse sequence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathematics/Second-Brain/Category Theory.md"
+                "file": "Mathematics/Second-Brain/Dynamical system/Examples/Thue-Morse sequence.md"
               }
             }
           }
@@ -148,8 +148,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "46af53958c7753a8",
+  "active": "faea2f573a0cd19c",
   "lastOpenFiles": [
+    "Mathematics/Second-Brain/Category Theory.md",
     "Mathematics/Second-Brain/Dynamical system/Examples",
     "Mathematics/Second-Brain/Dynamical system/Examples/Thue-Morse sequence.md",
     "Mathematics/Second-Brain/Dynamical system/Lectures note about Dynamical System.md",
@@ -162,7 +163,6 @@
     "Mathematics/Second-Brain/Dynamical system/Dataview/List of theorems from dynamical system.md",
     "Excalidraw/Drawing 2023-06-17 21.44.40.excalidraw.md",
     "Excalidraw",
-    "Mathematics/Second-Brain/Category Theory.md",
     "Mathematics/Second-Brain/Dynamical system/Dataview/List of definitions from dynamical system.md",
     "Templates/Simple-notes.md",
     "Templates/Notes.md",
