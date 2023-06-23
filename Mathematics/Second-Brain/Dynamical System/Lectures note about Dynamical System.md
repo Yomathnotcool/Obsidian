@@ -98,4 +98,36 @@ Given $X$ compact metric space with $T: X\rightarrow X$ continuous map,
 
 
 ## Thm :: (Birkhoff) There exists a closed subset $Y\subset X$: $T(Y)\subset Y$, then $T:Y\rightarrow Y$ is minimal.
+<<<<<<< HEAD:Mathematics/Second-Brain/Dynamical System/Lectures note about Dynamical System.md
 >>>>>>> origin/main
+=======
+
+
+
+
+
+
+## Def :: uniformly recurrent (almost periodic)
+
+^88fab3
+
+A point $x\in X$ is uniformly recurrent (or almost periodic) if $\forall \epsilon>0: \exists n_{k}\rightarrow \infty: d(T^{n_{k}},x)<\epsilon$, in which $\text{sup}_{k}(n_{k+1}-n_{k})<\infty$.
+
+### Example
+- [[Circle Rotation#^8903ec]]
+- [[Doubling Map#^203fe9]]
+
+A direct question from the definition: uniformly recurrent but not periodic point for $S:\prod^{\infty}_{i\geq1}\{0,1\}\rightarrow \prod^{\infty}_{i\geq 1}\{0,1\}$ ?
+### Ex :: [[Thue-Morse sequence]]
+
+
+
+
+
+
+## Thm :: A point $x$ is uniformly recurrent if and only if $\overline{\{T^{n}:n\geq 0\}}$ is minimal.
+
+
+
+
+>>>>>>> main:Mathematics/Second-Brain/Dynamical system/Lectures note about Dynamical System.md
