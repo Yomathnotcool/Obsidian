@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Second-Brain/Dynamical system/Examples/Thue-Morse sequence.md",
+                "file": "Mathematics/Projects/Spectral method for dynamical operators.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathematics/Second-Brain/Dynamical system/Examples/Thue-Morse sequence.md",
+                "file": "Mathematics/Projects/Spectral method for dynamical operators.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathematics/Second-Brain/Dynamical system/Examples/Thue-Morse sequence.md",
+                "file": "Mathematics/Projects/Spectral method for dynamical operators.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathematics/Second-Brain/Dynamical system/Examples/Thue-Morse sequence.md"
+                "file": "Mathematics/Projects/Spectral method for dynamical operators.md"
               }
             }
           }
@@ -150,13 +150,13 @@
   },
   "active": "faea2f573a0cd19c",
   "lastOpenFiles": [
+    "Mathematics/Second-Brain/Dynamical system/Dynamical System Course.md",
+    "Mathematics/Second-Brain/Dynamical system/Examples/Thue-Morse sequence.md",
     "Mathematics/Second-Brain/Category Theory.md",
     "Mathematics/Second-Brain/Dynamical system/Examples",
-    "Mathematics/Second-Brain/Dynamical system/Examples/Thue-Morse sequence.md",
     "Mathematics/Second-Brain/Dynamical system/Lectures note about Dynamical System.md",
     "Mathematics/Second-Brain/Dynamical system/Examples/Monotone Maps of Intervals.md",
     "Mathematics/Second-Brain/Dynamical system/Dataview/List of examples from dynamical system.md",
-    "Mathematics/Second-Brain/Dynamical system/Dynamical System Course.md",
     "Mathematics/Second-Brain/Dynamical system/Examples/Shift map.md",
     "Mathematics/Second-Brain/Dynamical system/Examples/Doubling Map.md",
     "Mathematics/Second-Brain/Dynamical system/Examples/Circle Rotation.md",
