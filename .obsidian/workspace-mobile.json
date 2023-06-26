@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Second-Brain/Dynamical System/Lectures note about Dynamical System.md",
+                "file": "Mathematics/Second-Brain/Dynamical System/Doubling Map.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Mathematics/Second-Brain/Dynamical System/Lectures note about Dynamical System.md",
+            "file": "Mathematics/Second-Brain/Dynamical System/Doubling Map.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Mathematics/Second-Brain/Dynamical System/Lectures note about Dynamical System.md",
+            "file": "Mathematics/Second-Brain/Dynamical System/Doubling Map.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Mathematics/Second-Brain/Dynamical System/Lectures note about Dynamical System.md"
+            "file": "Mathematics/Second-Brain/Dynamical System/Doubling Map.md"
           }
         }
       }
@@ -134,7 +134,11 @@
   },
   "active": "b733eeaf0a41f872",
   "lastOpenFiles": [
+    "Mathematics/Second-Brain/Dynamical System/Circle Rotation.md",
     "Mathematics/Second-Brain/Dynamical System/Dynamical System Course.md",
+    "Mathematics/Second-Brain/Dynamical System/Shift map.md",
+    "Mathematics/Second-Brain/Dynamical System/Monotone Maps of Intervals.md",
+    "Mathematics/Second-Brain/Dynamical System/Lectures note about Dynamical System.md",
     "Mathematics/Second-Brain/Dynamical system/Examples/Monotone Maps of Intervals.md",
     "Mathematics/Second-Brain/Dynamical system/Examples/Doubling Map.md",
     "Mathematics/Second-Brain/Dynamical system/Examples/Shift map.md",
@@ -143,21 +147,17 @@
     "Mathematics/Second-Brain/Dynamical system/Examples/Circle Rotation.md",
     "Mathematics/Second-Brain/Category Theory.md",
     "Excalidraw",
-    "Mathematics/Second-Brain/Dynamical System/Shift map.md",
     "Mathematics/Second-Brain/Dynamical System/Doubling Map.md",
     "Excalidraw/Drawing 2023-06-17 21.44.40.excalidraw.md",
     "Dataview/GPT-lists.md",
-    "Mathematics/Second-Brain/Dynamical System/Monotone Maps of Intervals.md",
     "Templates/Simple-notes.md",
     "Mathematics/Second-Brain/Dynamical system/Dataview",
     "Mathematics/Second-Brain/Dynamical system/Dataview/List of examples from dynamical system.md",
-    "Mathematics/Second-Brain/Dynamical System/Circle Rotation.md",
     "Doubling Map.md",
     "Shift map.md",
     "Mathematics/Second-Brain/Dynamical system/Dataview/List of definitions from dynamical system.md",
     "Mathematics/Second-Brain/Dynamical system/Dataview/List of theorems from dynamical system.md",
     "Mathematics/Projects/Spectral method for dynamical operators.md",
-    "Mathematics/Second-Brain/Dynamical System/Lectures note about Dynamical System.md",
     "Mathematics/Second-Brain/Dynamical system",
     "Mathematics/Second-Brain/Dynamical System",
     "未命名.md",

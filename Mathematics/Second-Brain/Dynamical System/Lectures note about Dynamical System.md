@@ -1,10 +1,9 @@
 
 ## Tags
-<<<<<<< HEAD
+
 #dynamical-system 
 =======
 #dynamical-system #notes 
->>>>>>> main
 
 ---
 
@@ -14,16 +13,14 @@
 
 ---
 
-<<<<<<< HEAD
-### Def of orbit:
-=======
+
 ### Def ::  Orbit:
->>>>>>> main
+
 The evolution of the system is described by the sequence:
 $$\{T^{n}(x)|n\in \mathbb{N}_{\geq 0}\},$$
 which is called the orbit of $x$.
 
-<<<<<<< HEAD
+
 ### Def of fixed point:
 $x$ is a fixed point if $Tx=x$.
 
@@ -34,7 +31,7 @@ A (topological) dynamical system is called minimal if all orbits are dense.
 There is a dense orbit in the dynamical system.
 
 
-=======
+
 ### Def :: Fixed Point:
 $x$ is a fixed point if $Tx=x$.
 
@@ -55,9 +52,7 @@ A point $x$ is periodic of period $n$ if $T^{n}x=x$.
 ## Ex :: [[Circle Rotation]]
 ## Ex :: [[Doubling Map]]
 ## Ex :: [[Shift map]]
-<<<<<<< main
->>>>>>> main
-=======
+
 
 [[Category Theory | Categorically]] speaking, an important tool to understand structure of dynamical system, we should get the information from another "simpler" system or get information from an equivalence class.
 
@@ -98,9 +93,6 @@ Given $X$ compact metric space with $T: X\rightarrow X$ continuous map,
 
 
 ## Thm :: (Birkhoff) There exists a closed subset $Y\subset X$: $T(Y)\subset Y$, then $T:Y\rightarrow Y$ is minimal.
-<<<<<<< HEAD:Mathematics/Second-Brain/Dynamical System/Lectures note about Dynamical System.md
->>>>>>> origin/main
-=======
 
 
 
@@ -127,7 +119,3 @@ A direct question from the definition: uniformly recurrent but not periodic poin
 
 ## Thm :: A point $x$ is uniformly recurrent if and only if $\overline{\{T^{n}:n\geq 0\}}$ is minimal.
 
-
-
-
->>>>>>> main:Mathematics/Second-Brain/Dynamical system/Lectures note about Dynamical System.md
