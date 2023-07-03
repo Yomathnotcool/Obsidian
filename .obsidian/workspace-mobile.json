@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Second-Brain/Number theory/Master thesis project - Gal Dor/Kirillov model.md",
+                "file": "Mathematics/Second-Brain/Dynamical system/Examples/Circle Rotation.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Mathematics/Second-Brain/Number theory/Master thesis project - Gal Dor/Kirillov model.md",
+            "file": "Mathematics/Second-Brain/Dynamical system/Examples/Circle Rotation.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Mathematics/Second-Brain/Number theory/Master thesis project - Gal Dor/Kirillov model.md",
+            "file": "Mathematics/Second-Brain/Dynamical system/Examples/Circle Rotation.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Mathematics/Second-Brain/Number theory/Master thesis project - Gal Dor/Kirillov model.md"
+            "file": "Mathematics/Second-Brain/Dynamical system/Examples/Circle Rotation.md"
           }
         }
       }
@@ -134,20 +134,20 @@
   },
   "active": "b733eeaf0a41f872",
   "lastOpenFiles": [
+    "Mathematics/Second-Brain/Dynamical system/Dynamical System Course.md",
+    "Mathematics/Second-Brain/Dynamical System/Circle Rotation.md",
     "Mathematics/Second-Brain/Dynamical System/Doubling Map.md",
+    "Mathematics/Second-Brain/Dynamical system/Examples/Circle Rotation.md",
+    "Mathematics/Second-Brain/Dynamical system/Lectures note about Dynamical System.md",
     "Mathematics/Second-Brain/Number theory/Master thesis project - Gal Dor/Kirillov model.md",
     "Mathematics/Second-Brain/Number theory/Master thesis project - Gal Dor",
-    "Mathematics/Second-Brain/Dynamical System/Circle Rotation.md",
-    "Mathematics/Second-Brain/Dynamical System/Dynamical System Course.md",
     "Mathematics/Second-Brain/Dynamical System/Shift map.md",
     "Mathematics/Second-Brain/Dynamical System/Monotone Maps of Intervals.md",
-    "Mathematics/Second-Brain/Dynamical System/Lectures note about Dynamical System.md",
     "Mathematics/Second-Brain/Dynamical system/Examples/Monotone Maps of Intervals.md",
     "Mathematics/Second-Brain/Dynamical system/Examples/Doubling Map.md",
     "Mathematics/Second-Brain/Dynamical system/Examples/Shift map.md",
     "Mathematics/Second-Brain/Dynamical system/Examples/Thue-Morse sequence.md",
     "Mathematics/Second-Brain/Dynamical system/Examples",
-    "Mathematics/Second-Brain/Dynamical system/Examples/Circle Rotation.md",
     "Mathematics/Second-Brain/Category Theory.md",
     "Excalidraw",
     "Excalidraw/Drawing 2023-06-17 21.44.40.excalidraw.md",
