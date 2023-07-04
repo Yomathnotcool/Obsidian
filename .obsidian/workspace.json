@@ -11,17 +11,12 @@
             "id": "faea2f573a0cd19c",
             "type": "leaf",
             "state": {
-<<<<<<< main
-              "type": "empty",
-              "state": {}
-=======
               "type": "markdown",
               "state": {
                 "file": "Mathematics/Second-Brain/Dynamical system/Lectures note about Dynamical System.md",
                 "mode": "source",
                 "source": false
               }
->>>>>>> origin/main
             }
           }
         ]
@@ -90,22 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< main
-<<<<<<< main
-<<<<<<< main
-<<<<<<< main
-=======
                 "file": "Mathematics/Second-Brain/Dynamical system/Lectures note about Dynamical System.md",
->>>>>>> origin/main
-=======
-                "file": "Mathematics/Second-Brain/Dynamical system/Examples/Thue-Morse sequence.md",
->>>>>>> origin/main
-=======
-                "file": "Mathematics/Projects/Spectral method for dynamical operators.md",
->>>>>>> origin/main
-=======
-                "file": "Mathematics/Second-Brain/Dynamical system/Lectures note about Dynamical System.md",
->>>>>>> origin/main
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,22 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< main
-<<<<<<< main
-<<<<<<< main
-<<<<<<< main
-=======
                 "file": "Mathematics/Second-Brain/Dynamical system/Lectures note about Dynamical System.md",
->>>>>>> origin/main
-=======
-                "file": "Mathematics/Second-Brain/Dynamical system/Examples/Thue-Morse sequence.md",
->>>>>>> origin/main
-=======
-                "file": "Mathematics/Projects/Spectral method for dynamical operators.md",
->>>>>>> origin/main
-=======
-                "file": "Mathematics/Second-Brain/Dynamical system/Lectures note about Dynamical System.md",
->>>>>>> origin/main
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,13 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-<<<<<<< main
-              "state": {}
-=======
               "state": {
                 "file": "Mathematics/Second-Brain/Dynamical system/Lectures note about Dynamical System.md"
               }
->>>>>>> origin/main
             }
           }
         ],
@@ -173,47 +134,34 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "templater-obsidian:Templater": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "faea2f573a0cd19c",
   "lastOpenFiles": [
-<<<<<<< main
-<<<<<<< main
-<<<<<<< main
-    "Mathematics/Second-Brain/Dynamical system/Dataview/List of examples from dynamical system.md",
-    "Mathematics/Second-Brain/Dynamical system/Dataview/List of theorems from dynamical system.md",
-    "Mathematics/Second-Brain/Dynamical system/Dataview/List of definitions from dynamical system.md",
-    "Mathematics/Second-Brain/Dynamical System 2/Dynamical System Course.md",
-    "Mathematics/Second-Brain/Dynamical system/Monotone Maps of Intervals.md",
-    "Mathematics/Second-Brain/Dynamical system/Circle Rotation.md",
-=======
-=======
-=======
+    "Mathematics/Second-Brain/Number theory/Master thesis project - Gal Dor/Kirillov model.md",
+    "Mathematics/Second-Brain/Number theory/Master thesis project - Gal Dor",
+    "Mathematics/Second-Brain/Dynamical system/Dataview/List of definitions from dynamical system.md~main",
+    "Mathematics/Second-Brain/Dynamical system/Dataview/List of definitions from dynamical system.md~HEAD",
     "Mathematics/Second-Brain/Dynamical system/Dynamical System Course.md",
     "Mathematics/Projects/Spectral method for dynamical operators.md",
     "Mathematics/Second-Brain/Dynamical system/Examples/Thue-Morse sequence.md",
->>>>>>> origin/main
     "Mathematics/Second-Brain/Category Theory.md",
     "Mathematics/Second-Brain/Dynamical system/Examples",
     "Mathematics/Second-Brain/Dynamical system/Lectures note about Dynamical System.md",
     "Mathematics/Second-Brain/Dynamical system/Examples/Monotone Maps of Intervals.md",
     "Mathematics/Second-Brain/Dynamical system/Dataview/List of examples from dynamical system.md",
-<<<<<<< main
->>>>>>> origin/main
-    "Mathematics/Second-Brain/Dynamical system/Dynamical System Course.md",
-=======
->>>>>>> origin/main
     "Mathematics/Second-Brain/Dynamical system/Examples/Shift map.md",
     "Mathematics/Second-Brain/Dynamical system/Examples/Doubling Map.md",
     "Mathematics/Second-Brain/Dynamical system/Examples/Circle Rotation.md",
@@ -230,49 +178,13 @@
     "Mathematics/Second-Brain/Random Shit generated by GPT/Why do we need the moderate growth condition for automorphic forms.md",
     "Mathematics/General information for math.md",
     "Mathematics/Second-Brain/Random Shit generated by GPT/未命名.md",
-<<<<<<< main
->>>>>>> origin/main
-    "Mathematics/Projects/Spectral method for dynamical operators.md",
-<<<<<<< main
-    "Templates/Simple-notes.md",
-    "Shift map.md",
-    "Doubling Map.md",
-    "Mathematics/Second-Brain/Dynamical system/Lectures note about Dynamical System.md",
-    "Mathematics/Second-Brain/Dynamical system/Dataview",
-    "Mathematics/Second-Brain/Dynamical system",
-    "Mathematics/Second-Brain/Dynamical System 2",
-    "Mathematics/Second-Brain/Dynamical System/Dynamical System Course.md",
-    "Mathematics/Second-Brain/Dynamical System/Dynamical System course.md",
-    "Mathematics/Second-Brain/Random Shit generated by GPT/Some new ideas for homogeneous dynamical system and trace formula.md",
-=======
-=======
->>>>>>> origin/main
     "Mathematics/Second-Brain/Random Shit generated by GPT/How to use trace formula for horocycle flow to prove the ergodicity or mixing.md",
     "Mathematics/Second-Brain/Number theory/Langlands-Shahidi method.md",
->>>>>>> origin/main
     "Mathematics/Second-Brain/Number theory/Notes for traces formula.md",
     "Mathematics/Projects",
     "Mathematics/Second-Brain",
-<<<<<<< main
-    "Mathematics/Second-Brain/Web-snapshot/Snapshot for dynamical system.md",
-    "Dataview/GPT-lists.md",
-    "Dataview",
-    "Mathematics/Second-Brain/Random Shit generated by GPT/How to use trace formula for horocycle flow to prove the ergodicity or mixing.md",
-    "Mathematics/Second-Brain/Random Shit generated by GPT/Theta correspondence for dynamical system.md",
-    "Mathematics/Second-Brain/Random Shit generated by GPT/Trace formula for dynamical operators.md",
-    "Mathematics/General information for math.md",
-    "Mathematics/Second-Brain/Dynamical system/Moduli space.md",
-    "Mathematics/Second-Brain/Random Shit generated by GPT/Why do we need the moderate growth condition for automorphic forms.md",
-    "Templates/Notes.md",
-    "Mathematics/Second-Brain/Web-snapshot/Snapshots of Number theory.md",
-    "Mathematics/Second-Brain/Number theory/Langlands-Shahidi method.md",
-=======
     "Mathematics/Second-Brain/Dynamical system/Dataview",
     "Mathematics/Second-Brain/Dynamical system",
->>>>>>> origin/main
-    "Mathematics/Second-Brain/Web-snapshot",
-    "Mathematics/Second-Brain/Number theory",
-    "Mathematics",
-    "test"
+    "Mathematics/Second-Brain/Web-snapshot"
   ]
 }
