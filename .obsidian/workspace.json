@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "eab6eba32dd6e5a9",
+    "id": "3503766ae4e93cdc",
     "type": "split",
     "children": [
       {
-        "id": "aa1625898a01cea0",
+        "id": "85ac0a325aeff7f2",
         "type": "tabs",
         "children": [
           {
-            "id": "faea2f573a0cd19c",
+            "id": "c9796995151ef04a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Second-Brain/Dynamical system/Lectures note about Dynamical System.md",
+                "file": "Mathematics/Projects/Equivalence between Jacquet-Langlands, Godement-Jacquet and Rankin-Selberg/Gal Dor's thesis.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "9e4e72595aca08b8",
+    "id": "f48621b1198d80a3",
     "type": "split",
     "children": [
       {
-        "id": "0d1fcce724cc2e6c",
+        "id": "bac8c01a7e5fa7c8",
         "type": "tabs",
         "children": [
           {
-            "id": "46af53958c7753a8",
+            "id": "ff463ed69f3a41a4",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +43,7 @@
             }
           },
           {
-            "id": "58676b4957f4bb5d",
+            "id": "053d5a96edec9230",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +58,7 @@
             }
           },
           {
-            "id": "01395a90087eacec",
+            "id": "611cb57361fd1aad",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -69,23 +69,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.50260543823242
+    "width": 300
   },
   "right": {
-    "id": "4daf823c583a6cb1",
+    "id": "8847183ff43b2499",
     "type": "split",
     "children": [
       {
-        "id": "20fb43db5887ebfd",
+        "id": "413b0d863b8daf78",
         "type": "tabs",
         "children": [
           {
-            "id": "4f8fe62268d802fe",
+            "id": "fd819a80423565d9",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathematics/Second-Brain/Dynamical system/Lectures note about Dynamical System.md",
+                "file": "Mathematics/Projects/Equivalence between Jacquet-Langlands, Godement-Jacquet and Rankin-Selberg/Gal Dor's thesis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +97,19 @@
             }
           },
           {
-            "id": "5b8492855ba752fb",
+            "id": "f9101bb0d98ecde3",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathematics/Second-Brain/Dynamical system/Lectures note about Dynamical System.md",
+                "file": "Mathematics/Projects/Equivalence between Jacquet-Langlands, Godement-Jacquet and Rankin-Selberg/Gal Dor's thesis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "4e2f5b3796e3ce30",
+            "id": "099174ed2bae1cf5",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,21 +120,20 @@
             }
           },
           {
-            "id": "9084998ed54e28a8",
+            "id": "07cfb6d137842991",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathematics/Second-Brain/Dynamical system/Lectures note about Dynamical System.md"
+                "file": "Mathematics/Projects/Equivalence between Jacquet-Langlands, Godement-Jacquet and Rankin-Selberg/Gal Dor's thesis.md"
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
@@ -148,43 +147,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "faea2f573a0cd19c",
+  "active": "c9796995151ef04a",
   "lastOpenFiles": [
-    "Mathematics/Second-Brain/Number theory/Master thesis project - Gal Dor/Kirillov model.md",
-    "Mathematics/Second-Brain/Number theory/Master thesis project - Gal Dor",
-    "Mathematics/Second-Brain/Dynamical system/Dataview/List of definitions from dynamical system.md~main",
-    "Mathematics/Second-Brain/Dynamical system/Dataview/List of definitions from dynamical system.md~HEAD",
-    "Mathematics/Second-Brain/Dynamical system/Dynamical System Course.md",
-    "Mathematics/Projects/Spectral method for dynamical operators.md",
-    "Mathematics/Second-Brain/Dynamical system/Examples/Thue-Morse sequence.md",
-    "Mathematics/Second-Brain/Category Theory.md",
-    "Mathematics/Second-Brain/Dynamical system/Examples",
-    "Mathematics/Second-Brain/Dynamical system/Lectures note about Dynamical System.md",
-    "Mathematics/Second-Brain/Dynamical system/Examples/Monotone Maps of Intervals.md",
-    "Mathematics/Second-Brain/Dynamical system/Dataview/List of examples from dynamical system.md",
-    "Mathematics/Second-Brain/Dynamical system/Examples/Shift map.md",
-    "Mathematics/Second-Brain/Dynamical system/Examples/Doubling Map.md",
-    "Mathematics/Second-Brain/Dynamical system/Examples/Circle Rotation.md",
-    "Mathematics/Second-Brain/Dynamical system/Dataview/List of theorems from dynamical system.md",
-    "Excalidraw/Drawing 2023-06-17 21.44.40.excalidraw.md",
-    "Excalidraw",
-    "Mathematics/Second-Brain/Dynamical system/Dataview/List of definitions from dynamical system.md",
-    "Templates/Simple-notes.md",
-    "Templates/Notes.md",
-    "Mathematics/Second-Brain/Web-snapshot/Snapshot for dynamical system.md",
-    "Mathematics/Second-Brain/Web-snapshot/Snapshot of Algebraic geometry.md",
-    "Mathematics/Second-Brain/Web-snapshot/Snapshot of Analysis.md",
-    "Mathematics/Second-Brain/Web-snapshot/Snapshots of Number theory.md",
-    "Mathematics/Second-Brain/Random Shit generated by GPT/Why do we need the moderate growth condition for automorphic forms.md",
-    "Mathematics/General information for math.md",
-    "Mathematics/Second-Brain/Random Shit generated by GPT/未命名.md",
-    "Mathematics/Second-Brain/Random Shit generated by GPT/How to use trace formula for horocycle flow to prove the ergodicity or mixing.md",
-    "Mathematics/Second-Brain/Number theory/Langlands-Shahidi method.md",
-    "Mathematics/Second-Brain/Number theory/Notes for traces formula.md",
-    "Mathematics/Projects",
-    "Mathematics/Second-Brain",
-    "Mathematics/Second-Brain/Dynamical system/Dataview",
-    "Mathematics/Second-Brain/Dynamical system",
-    "Mathematics/Second-Brain/Web-snapshot"
+    "Mathematics/Projects/Equivalence between Jacquet-Langlands, Godement-Jacquet and Rankin-Selberg/Gal Dor's thesis.md",
+    "Mathematics/Projects/Equivalence between Jacquet-Langlands, Godement-Jacquet and Rankin-Selberg",
+    "Mathematics/Projects/Dynamical operator"
   ]
 }

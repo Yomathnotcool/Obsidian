@@ -18,49 +18,391 @@
 
 
 ---
-# Abstract
+\documentclass[12pt,a4paper,english]{article}
+\usepackage[a4paper]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[OT2,T1]{fontenc}
+\usepackage[keeplastbox]{flushend}
+\usepackage{color}
+\usepackage{tikz-cd}
+\usepackage{appendix}
+\usepackage{babel}
+\usepackage{dsfont}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{stmaryrd}
+\usepackage{color}
+\usepackage{array}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{mathtools}
+\usepackage{natbib}
+\usepackage[bb=boondox]{mathalfa}
+\geometry{top=3cm,bottom=3cm,left=2.5cm,right=2.5cm}
+\setlength\parindent{0pt}
+\renewcommand{\baselinestretch}{1.3}
+
+\newcommand\restr[2]{{% we make the whole thing an ordinary symbol
+  \left.\kern-\nulldelimiterspace % automatically resize the bar with \right
+  #1 % the function
+  \vphantom{\big|} % pretend it's a little taller at normal size
+  \right|_{#2} % this is the delimiter
+  }}
+  
+% definition of the "structure"
+\theoremstyle{plain}
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem{coro}[thm]{Corollary}
+\newtheorem{cla}[thm]{Claim}
+\theoremstyle{definition}
+\newtheorem{conj}{Conjecture}
+\newtheorem{defi}{Definition}
+\newtheorem*{ex}{Example}
+\newtheorem*{rem}{Remark}
+\newtheorem{step}{Step}
+
+\newcommand{\cInd}{\mathrm{cInd}}
+\newcommand{\mulldif}{\mathrm{d}^{\times}}
+
+\title{The equivalence of Godement-Jacquet $L$ function and Jacquet-Langlands $L$ function}
+\date{\today}
+\author{Deng Zhiyuan\footnote{Email:\ \href{mailto:dengzymathnt@outlook.com}{dengzymathnt@outlook.com}} \\[0.5cm]{\small Advisor: Prof. Farrell Brumley}}
+
+
+\begin{document}
+\maketitle
+\newpage
+
+\tableofcontents
+\newpage
+
+\begin{abstract}
 For my master thesis, there are two parts: first it is recollection of classical theory about Godement-Jacquet $L$-function and Jacquet-Langlands $L$-function. This part starts from Riemann and Tate's classical theory. Then the main result of Godement-Jacquet and Jacquet-Langlands associated with automorphic form is introduced. The second part is a new method to prove the equivalence of ingredient between those type of $L$-functions: we construct an $G$-module isomorphism between the ingredient of Godement-Jacquet $\widetilde{V}\otimes_{G}S(M_{2}(F)\times F^{\times})\otimes_{G}V$ and the ingredient of Jacquet-Langlands $\mathcal{K}(V(-1))(1)$ by using Weil representation.
+\end{abstract}
+\begin{abstract}
+Pour mon mémoire de master, il y a deux parties: la première partie est un rappel de la théorie classique sur la fonction $L$ de Godement-Jacquet et la fonction $L$ de Jacquet-Langlands. Cette partie part de la théorie classique de Riemann et Tate, puis on introduit le résultat principal de Godement-Jacquet et Jacquet-Langlands associé à la forme automorphe. La deuxième partie est une nouvelle méthode pour démontrer l'équivalence entre ces deux types de fonctions $L$: on construit un isomorphisme de $G$-modules entre l'ingrédient de Godement-Jacquet $\widetilde{V}\otimes_{G}S( M_{2}(F)\times F^{\times})\otimes_{G}V$ et l'ingrédient de Jacquet-Langlands $\mathcal{K}(V(-1))(1)$ par la représentation de Weil.
+\end{abstract}
+\newpage
 
-
-# Classical Theory of Godement-Jacquet and Jacquet-Langlands
-## Introduction
+\vspace{0.5cm}
+\section{Classical Theory of Godement-Jacquet and Jacquet-Langlands}
+\subsection{Introduction}
 Whenever we start to talk about number theory, the legend of $L$-function which begun with Riemann is always the prototype. Considering $L$-function, it's related to a lot of famous conjectures in number theory, for example the Riemann conjecture and Ramanujan conjecture. There are three different types of problems at least when one encounter with $L$-function: the analytic continuation and functional equation; the location of the zeros; and the values at special points. Here we are only interested in the analytic properties.
 
-About 170 years ago, Leonhard Euler first introduced and studied the $\zeta$ function over $\mathbb{R}$. Later Bernhard Riemann published article "On the number of primes less than a given magnitude" which extended the Euler definition of zeta function to $\mathbb{C}$ in 1859 and proved its meromorphic continuation and functional equation, and established a relation between the zeros of $\zeta$ functions and the distribution of prime numbers. In this famous paper, Riemann proposed the Riemann conjecture:
-### Conj :: Riemann hypothesis
+About 170 years ago, Leonhard Euler first introduced and studied the $\zeta$ function over $\mathbb{R}$. Later Bernhard Riemann published article "On the number of primes less than a given magnitude" which extended the Euler definition of zeta function to $\mathbb{C}$ in 1859 and proved its meromorphic continuation and functional equation, and established a relation between the zeros of $\zeta$ functions and the distribution of prime numbers \cite{riemann1859ueber}. In this famous paper, Riemann proposed the Riemann conjecture:
+\begin{conj}
 All non-trivial zeroes of $\zeta(s)$ lie on the line $\mathfrak{Re}(s)=\frac{1}{2}$. 
 
 The Riemann hypothesis is equivalent to the error term in the prime number theorem:
-$$
 \begin{equation*}
     \#\{\text{Prime numbers}\leq x\}=\int^{x}_{2}\frac{\text{d}t}{\log t}+\text{error term}
 \end{equation*}
-$$
 being as sharp as possible, namely, $O(\sqrt{x}\log x)$ as $x\rightarrow\infty$.
+\end{conj}
 
-
-
-The analytic theory of $L$-functions associated to [[Modular form]] was studied by Erich Hecke, and later extended to non-holomorphic automorphic forms by Hans Maass. The analytic continuation and functional equation of such an $L$-function was obtained by Mellin transform of an automorphic form $f(x)$:
-$$
+The analytic theory of $L$-functions associated to modular forms was studied by Erich Hecke \cite{hecke1936bestimmung}, and later extended to non-holomorphic automorphic forms by Hans Maass \cite{maass1949neue}. The analytic continuation and functional equation of such an $L$-function was obtained by Mellin transform of an automorphic form $f(x)$:
 \begin{equation*}
     f(x)\mapsto \{\mathcal{M}f\}(s)=\phi(s)=\int^{\infty}_{0}x^{s-1}f(x)\text{d}x, 
 \end{equation*}
-$$
-and applying the modular relation $z\mapsto -z^{-1}$ as same as Riemann's proof. Then the idea was generalized to the Adelic setting by Gelfand-Graev-Pyatetski-Shapiro and Jacquet-Langlands. In 1950, John Tate developed used a translation invariant integration on the locally compact group of ideles to lift the zeta function twisted by a Hecke character, i.e. a Hecke $L$-function, of a number field to a zeta integral and study its properties.  By the Poisson summation formula, Tate proved the functional equation and meromorphic continuation of the zeta integral and the Hecke $L$-function. He also located the poles of the twisted zeta function. During that period, Kenkichi Iwasawa independently developed same results as Tate but without a analogue of local theory as Tate. Hence this theory is often taken as Iwasawa-Tate theory. Iwasawa–Tate theory was extended to the general linear group $GL(n)$ over an algebraic number field and automorphic representations of its adelic group by Roger Godement and Hervé Jacquet in 1972 which formed the foundations of the Langlands correspondence. Tate's thesis can be viewed as the $GL(1)$ case of the work by Godement–Jacquet.
-On the other side of the story, Jacquet and Langlands did associate $L$-function to automorphic representations on $GL_{2}$.
+and applying the modular relation $z\mapsto -z^{-1}$ as same as Riemann's proof \cite{riemann1859ueber}. Then the idea was generalized to the Adelic setting by Gelfand-Graev-Pyatetski-Shapiro \cite{gelfand1968representation} and Jacquet-Langlands \cite{langlands1970automorphic}. In 1950, John Tate
+developed used a translation invariant integration on the locally compact group of ideles to lift the zeta function twisted by a Hecke character, i.e. a Hecke $L$-function, of a number field to a zeta integral and study its properties \cite{tate1997fourier}.  By the Poisson summation formula, Tate proved the functional equation and meromorphic continuation of the zeta integral and the Hecke $L$-function. He also located the poles of the twisted zeta function. During that period, Kenkichi Iwasawa independently developed same results as Tate but without a analogue of local theory as Tate \cite{iwasawa1992letter}. Hence this theory is often taken as Iwasawa-Tate theory. Iwasawa–Tate theory was extended to the general linear group $GL(n)$ over an algebraic number field and automorphic representations of its adelic group by Roger Godement and Hervé Jacquet in 1972 which formed the foundations of the Langlands correspondence \cite{godement1974notes}. Tate's thesis can be viewed as the $GL(1)$ case of the work by Godement–Jacquet.
+On the other side of the story, as same as for $GL_{1}$, Jacquet and Langlands did associate $L$-function to automorphic representations on $GL_{2}$ \cite{langlands1970automorphic}.
 
 The research detailed in this paper was the result of taking a different point
 of view on these automorphic $L$-functions. The idea is to study the entire space
-of zeta integrals, instead of just the $L$-functions that are generated from them. The classical method to understand the equivalence between those two constructions is tedious due to case-by-case calculation without a clear conceptual understanding. Gal Dor's main idea is to construct Algebraic structures on the space of zeta integral. As we can find out from the classic theory, $L$-functions are built as the great common divisors (shortened as GCD from now on) of classes of zeta integral. Instead of calculation, Gal Dor used theta correspondence to study the equivalence.  The exotic symmetric monoidal structure of $GL_{2}$-modules enables us to construct an Abelian category of abstractly automorphic representations, whose irreducible objects are the usual automorphic representations. The category setting that he constructed has more philosophical understanding about those two constructions of $L$-functions. For my thesis, I will focus on the first part of his paper, which is the construction of the equivalence of isomorphism of the ingredient spaces of those two types of zeta integrals by local theta correspondence. 
+of zeta integrals, instead of just the $L$-functions that are generated from them. The classical method to the equivalence between those two constructions is tedious due to case-by-case calculation without a clear conceptual understanding. Gal Dor's main idea is to construct Algebraic structures on the space of automorphic $L$-functions. As we can find out from the classic theory, $L$-functions are built as the great common divisors (shortened as GCD from now on) of classes of zeta integral. Instead of calculation, Gal Dor used theta correspondence to study the equivalence.  The exotic symmetric monoidal
+structure of $GL_{2}$-modules enables us to construct an Abelian category of abstractly
+automorphic representations, whose irreducible objects are the usual automorphic representations. The category setting that he constructed has more philosophical understanding about those two constructions of $L$-functions. For my thesis, I will focus on the first part of his paper, which is the construction of the equivalence of isomorphism of the ingredient spaces of those two types of zeta integrals. This is enough to understand the proof of the equivlence but without abstract monodial category.
 
-The interesting thing based on Gal Dor is that his method can be generalized to $GL_{n}$ and global setting. 
-## Godement-Jacquet Theory
-#### [[Riemann theory]]
-### [[Tate's thesis]]
+The interesting thing based on Gal Dor is that his method can be generalized to $GL_{n}$ and global setting. And the paper that we cited here is only part of his Ph.D thesis \cite{dor2020exotic}.
+\subsection{Godement-Jacquet Theory}
+\subsubsection{Review of Riemann theory}
+The most famous $L$-function is Riemann's $\zeta$-function:
+\begin{equation*}
+    \zeta(s)=\sum_{n\geq 1}n^{-s}\ \ \ \ (\mathfrak{Re}s> 1).
+\end{equation*}
 
+By an easy argument using the fact that every $n\geq 1$ has a unique prime factorisation, one shows that $\zeta(s)$ can be written as an Euler product
+\begin{equation*}
+    \zeta(s)=\prod_{p\ prime} (1-p^{-s})^{-1}\ \ \ \ (\mathfrak{Re}s >1).
+\end{equation*}
+This shows that $\zeta(s)$ does not have any zeroes in the region $\mathfrak{Re}s >1$.
 
+We define the completed $\zeta$-function by $Z(s)=\pi^{s/2}\Gamma(s/2)\zeta(s)$. Here we have used the $\Gamma-$function
+\begin{equation*}
+    \Gamma(s)=\int^{\infty}_{0}e^{-t}t^{s-1}\text{d}t\ \ \ \ (\mathfrak{Re}s>0). 
+\end{equation*}
+\begin{rem}
+Let's recall a few important properties of $\Gamma$-function:
+\begin{enumerate}
+    \item The Gamma function satisfies the functional equation $\Gamma(s+1)=s\Gamma(s)$;
+    \item The Gamma function has an analytic continuation on $\mathbb{C}$ with simple poles at $s=0,-1,-2,...$
+    \item The reciprocal of the Gamma function is entire, i.e. 
+    \begin{equation*}
+        \frac{1}{\Gamma(s)}=\frac{\sin(\pi s)}{\pi}\Gamma(1-s)
+    \end{equation*}
+    is entire.
+\end{enumerate}
+During the proofs of those properties, the identity $$\int^{\infty}_{0}e^{-(ax^{2}+b)} \text{d}x=\sqrt{\frac{\pi}{a}}$$ is essential.
+\end{rem}
+\begin{lem}\label{PoiR}
+Given a Schwazrtz function $f$, and $\hat{f}$ is the Fourier transform, then
+\begin{equation*}
+    \sum_{n\in\mathbb{Z}}f(n)=\sum_{m\in\mathbb{Z}}\hat{f}(m).
+\end{equation*}
+\end{lem}
+\begin{proof}
+Denote $F(x)=\sum_{n\in\mathbb{Z}}f(x+n)$, which is 1-periodic, then we can calculate the Fourier coefficients: 
+\begin{equation*}
+    \hat{F}(k)=\int^{1}_{0}F(x)e^{-2\pi ikx}\text{d}x=\int^{1}_{0}\sum_{n\in\mathbb{Z}}f(x+n)e^{-2\pi ikx}\text{d}x.
+\end{equation*}
+Because $f$ is Schwartz, so this integral converges uniformly.
+\begin{equation*}
+    =\sum_{n\in\mathbb{Z}}\int^{n+1}_{n}f(x)e^{-2\pi ikx} \text{d}x=\int_{\mathbb{R}}f(x)e^{-2\pi ikx}\text{d}x=\hat{f}(k),
+\end{equation*}
+by the definition of Fourier series of $f$, $F(x)=\sum\limits_{k\in\mathbb{Z}}\hat{f}(k)e^{ikx}$. Choosing $x=0$, we get the formula as desired:
+\begin{equation*}
+    \sum_{n\in\mathbb{Z}}f(n)=\sum_{k\in\mathbb{Z}}\hat{f}(k).
+\end{equation*}
+\end{proof}
+\begin{defi}
+The Jacobi theta function, or called as the classical theta function is the on right half plane defined by 
+\begin{equation*}
+    \theta(s)=\sum_{n\in\mathbb{Z}}e^{-\pi n^{2}s},\ \ \ \ \mathfrak{Re}s>0.
+\end{equation*}
+The theta function here is a holomorphic function on the right half plane.
+\end{defi}
+\begin{lem}
+By the Poisson formula \ref{PoiR}, one can prove that $\theta(s)$ satisfies the functional equation
+\begin{equation*}
+\theta(\frac{1}{s})=\sqrt{s}\theta(s).
+\end{equation*}
+\end{lem}
+
+\begin{proof}
+Given $g(x)=e^{-\pi tx^{2}}$, in order to get the formula, we need to calculate its Fourier transform of $g(x)$, 
+\begin{equation*}
+    \hat{g}(t)=\int^{+\infty}_{-\infty}e^{-\pi tx^{2}}\cdot e^{-2\pi iyx}\text{d}x=e^{\pi}(\frac{iy}{\sqrt{t}})\int^{+\infty}_{-\infty}e^{-\pi(\sqrt{t}x+\frac{ix}{\sqrt{t}})^{2}}\text{d}x=\frac{1}{\sqrt{t}} e^{-\pi \frac{y^{2}}{t}}
+\end{equation*}
+Then 
+\begin{equation*}
+    \theta(s)=\sum_{n\in\mathbb{Z}}e^{-\pi n^{2}s}=\sum_{n\in\mathbb{Z}}g(n)=\sum_{m\in\mathbb{Z}}\hat{g}(m)=\frac{1}{\sqrt{s}}\sum_{m\in\mathbb{Z}}e^{-\pi \frac{n^{2}}{s}}=\frac{1}{\sqrt{s}}\theta(\frac{1}{s}).
+\end{equation*}
+\end{proof}
+Before we moved to the proof of the analytic continuation of Riemann Zeta function, we need to know the behaviour of the theta functions near zero and infinity to justify the Mellin transform later in proof.
+
+For theta function, there exists a constant $C=\pi-1> 0$ such that for all sufficiently small $t>0$ the following inequality holds: 
+\begin{equation*}
+    |\theta(t)-t^{\frac{1}{2}}|< e^{-C/t}.
+\end{equation*}
+
+Usually the Mellin transform is that Given a function $f(t)$ with $\mathfrak{Re}t>0$, its Mellin transform is defined to be
+\begin{equation*}
+    \mathcal{M}_{f}(s):=\int^{\infty}_{0}f(t)t^{s-1}\text{d}t,
+\end{equation*}
+which is defined for all values $s$ for which the integral exists.
+\begin{thm}
+The function $Z(s)$ can be continued to a meromorphic function on the whole complex plane with a simple pole at $s=1$ with residue 1, a simple pole at $s=0$ with residue -1, and no other poles. It satisfies the functional equation 
+\begin{equation*}
+        Z(s)=Z(1-s)
+\end{equation*}
+i.e., $\zeta(s)$ satisfies the functional equation
+\begin{equation*}        \pi^{s
+/2}\Gamma(\frac{s}{2})\zeta(s)=\pi^{(1-s)/2}\Gamma(\frac{1-s}{2})\zeta(1-s).
+\end{equation*}
+\end{thm}
+\begin{proof}
+We express $Z(s)$ as the Mellin transform of a modular form. The modular form we need is Jacobin theta-function. But theta function behaves like $t^{-1/2}$ at 0 and converges rapidly to 1 at infinity. So we need to introduce some correction term to make the integral converge. So We now consider the Mellin transform of $\theta$, defined as \begin{equation*}
+    \mathcal{M}_{\theta}(s)=\int^{\infty}_{1}(\theta(t)-1)t^{s-1}\text{d}t+\int^{1}_{0}(\theta(t)-\frac{1}{\sqrt{t}})t^{s-1}\text{d}t,\ \ \ \ (\mathfrak{Re}> 1).
+\end{equation*}
+From this we get the following equation, due to Riemann: $Z(s)=\frac{1}{2}\mathcal{M}_{\theta}(s/2)$. And we can rewrite $\mathcal{M}_{\theta}(s/2)$ as follows.  We obtain, for $\mathfrak{Re}s>1$, 
+\begin{align*}
+\int^{1}_{0}\bigg(\theta(t)-\frac{1}{\sqrt{t}}\bigg)t^{\frac{s}{2}-1}\text{d}t
+&= \int^{1}_{0}\theta(t)t^{\frac{s}{2}-1}\text{d}t-\int^{1}_{0}t^{\frac{s-1}{2}}\text{d}t\\
+&= \int^{1}_{0}\bigg(\sum_{n\in\mathbb{Z}}e^{-\pi n^{2}t}\bigg)t^{\frac{s}{2}-1}\text{d}t-\frac{2}{s-1}\\
+&= \int^{1}_{0}t^{\frac{s}{2}-1}\text{d}t+2\int^{1}_{0}\bigg(\sum_{n\geq 1}e^{-\pi n^{2}t}\bigg)t^{\frac{s}{2}-1}\text{d}t +\frac{2}{1-s}\\
+&= 2\sum_{n\geq 1}\int^{1}_{0}e^{-\pi n^{2}t}t^{\frac{s}{2}-1}\text{d}t+\frac{s}{2}+\frac{2}{1-s}
+\end{align*}
+Therefore we have
+\begin{equation*}
+    \mathcal{M}_{\theta}(s)=2\sum_{n\geq1}\int^{\infty}_{0}e^{-\pi n^{2}t}t^{\frac{s}{2}-1}\text{d}t+\frac{2}{s}+\frac{2}{1-s}
+\end{equation*}
+By the substitution $t\mapsto 1/t$ we get
+\begin{equation*}
+    \frac{1}{2}\mathcal{M}_{\theta}(s)=\pi^{-\frac{s}{2}}\Gamma(\frac{s}{2})\zeta(s)+\frac{1}{s}+\frac{1}{1-s}.
+\end{equation*}
+Both integrals in the definition of $\mathcal{M}_{\theta}(s)$ converge, it's an entire function. Then we can define an analytic continuation of the zeta function on the whole complex plane, which agrees with $\zeta(s)$ for $\mathfrak{Re}s>1$, by 
+\begin{equation*}
+    \zeta(s)=\frac{\pi^{\frac{s}{2}}}{\Gamma(\frac{s}{2})}\bigg(\frac{1}{2}\mathcal{M}_{\theta}(s)-\frac{1}{s}-\frac{1}{1-s}\bigg),
+\end{equation*}
+whose poles are at $s=0$ or $s=1$ as $\mathcal{M}_{\theta}(s) $ and $\frac{1}{\Gamma(s)}$ are entire. We can replace $s\Gamma(\frac{s}{2})$ by $\frac{2}{s}\Gamma(s/2)=2\Gamma(s/2+1)$ which converges to $2\Gamma(1)$ as $s$ goes to zero. Hence it's nonzero and the only pole is at 1. We now compute the residue:
+\begin{equation*}
+    \lim_{s\mapsto 1}(s-1)\frac{\pi^{s/2}}{\Gamma(s/2)}\bigg(\frac{1}{2}\mathcal{M}_{\theta}(s)-\frac{1}{s}-\frac{1}{1-s}\bigg)=\frac{\pi^{1/2}}{\Gamma(1/2)}=1.
+\end{equation*}
+Now the only thing left is $Z(s)=Z(1-s)$. Since $Z(s)=\frac{1}{2}\mathcal{M}_{\theta}(s)-\frac{1}{s}-\frac{1}{1-s}$, which means we only need to check that $\mathcal{M}_{\theta}(s)=\mathcal{M}_{\theta}(1-s)$, and we need to use $y=\frac{1}{t}$:
+\begin{align*}
+        \mathcal{M}_{\theta}(s)=
+        &= \int^{1}_{0}y^{-s/2-1}(\theta(1/y)-1)\text{d}y+\int^{\infty}_{1}y^{-s/2-1}(\theta(1/y)-\sqrt{y})\text{d}y\\
+        &= \int^{1}_{0}y^{(-1/2-s/2)}(\theta(y)-\frac{1}{\sqrt{y}})\text{d}y+\int^{\infty}_{1}y^{-1/2-s/2}(\theta(y)-\sqrt{y})\text{d}y\\
+        &=\mathcal{M}_{\theta}(1-s).
+\end{align*}
+Now the proof is complete.
+\end{proof}
+\subsubsection{Review of Tate's thesis}
+
+In this section, let $F$ be a number field and $\mathbb{A}_{F}$ its ring of adeles. An automorphic representation of $GL_{1}(F)$ is any irreducible unitary representation of $GL_{1}(\mathbb{A}_{F})$ appearing in $L^{2}(GL_{1}(F)\backslash GL_{1}(\mathbb{A}_{F}))$. As a $GL_{1}(\mathbb{A}_{F})$-module,
+\begin{equation*}
+    L^{2}(GL_{1}(F)\backslash GL_{1}(\mathbb{A}_{F}))=\int^{\oplus}_{GL_{1}(F)\backslash GL_{1}(\mathbb{A}_{F})}\psi(g)
+\end{equation*}
+so an automorphic representation is simply a grossencharacter of $F$, i.e.  a character $\psi:F^{\times}\backslash \mathbb{A}_{F}^{\times}\rightarrow S^{1}$. Thus the theory we are discussing is that in the case of $GL_{1}$, simply Hecke's theory of $L$-functions associated to grossencharacters. 
+
+Let $\psi: F^{\times}\backslash \mathbb{A}_{F}^{\times}\rightarrow S^{1}$ be a grossencharacter of $F$. We can decompose it $\psi=\prod_{v}\psi_{v}$ as a product of characters $\psi_{v}$ on $F^{\times}$, with $\psi_{v}$ unramified for almost all $v$. Let $S$ be the set of ramified places. For every $v\not\in S$, define $\chi(v)=\psi_{v}(\pi_{v})$ where $\pi_{v}\in F_{v}$ is a uniformizer. Note that the choice of uniformizer does not matter. We can extend $\chi$ by multiplicativity to the set of ideals of $F$ prime to $S$. 
+
+\begin{defi}
+The L-series associated to $\phi$, or to $\chi$, is 
+\begin{equation*}
+    L(s, \chi)=\sum_{S\nmid\mathfrak{a}}\frac{\chi(\mathfrak{a})}{N(\mathfrak{a})^{s}}=\prod_{v\not\in S}\bigg(1-\frac{\chi(v)}{N(v)^{s}}\bigg)^{-1}.
+\end{equation*}
+\end{defi}
+\begin{thm}
+$L(s,\chi)$ has nice $L$-function properties:
+\begin{enumerate}
+    \item It converges for $\mathfrak{Re}(s)>1$;
+    \item It has a meromorphic continuation to the whole plane, with a simple pole at $s=1$ if $\chi$ is trivial and no poles otherwise;
+    \item There is a constant $A$, a constant $W(\chi)$ of modulus 1, and a gamma factor $\Gamma(s,\chi)$ such that $\mathfrak{L}(s,\chi)=s(s-1)A^{s}\Gamma(s,\chi)L(s,\chi)$ is entire and satisfies the functional equation
+    \begin{equation*}
+        \mathfrak{L}(1-s,\chi^{-1})=W(\chi)\mathfrak{L}(s,\chi)
+    \end{equation*}
+\end{enumerate}
+\end{thm}
+We skip the proof of this theorem. For the detail of this theorem, check in \cite{gelbart2016automorphic}.
+By choosing an appropriate set of test functions and an appropriate measures, we can extend Riemann zeta to an idelic integral.
+For the set of test functions are defined as following:
+\begin{defi}\label{BruhatSchwartz}
+Adelic Bruhat-Schwartz functions are linear combinations of functions $\Phi: \mathbb{A}_{\mathbb{Q}}\rightarrow \mathbb{C}$ where $\Phi=\prod\limits_{v\leq\infty} \Phi_{v}$, in which $\Phi_{v}$ are the characteristic function of $\mathbb{Z}_{v}$ for all but finitely many $v< \infty$. And $\Phi_{\infty}$ is Schwartz on $\mathbb{R}$, $\Phi_{v}$ is Bruhat-Schwartz function on $\mathbb{Q}_{v}$. The space of Bruhat-Schwartz functions are denoted as $S(\mathbb{A_{\mathbb{Q}}})$.
+\end{defi}
+Recall the definition of Schwartz on $\mathbb{R}$:
+\begin{equation*}
+    S(\mathbb{R},\mathbb{C})=\{f\in C^{\infty}(\mathbb{R},\mathbb{C})|\forall \alpha,\beta\in \mathbb{N}, ||f||_{\alpha,\beta}=\text{sup}_{x\in\mathbb{R}}x^{\alpha}(D^{\beta}f)<\infty\}
+\end{equation*}
+Now let's give the defition of Idelic integral: 
+\begin{defi}
+Define the idelic integral for factorizable idelic functions $\Phi=\prod_{v}\Phi_{v}$ such that $\Phi_{p}$ is the characteristic function $\mathbb{1}_{\mathbb{Z}_{p}}$ for almost all primes $p$ by 
+\begin{equation*}
+    \int_{\mathbb{A}^{\times}_{\mathbb{Q}}}\Phi(x)\text{d}^{\times}x=\prod_{v\in S}\int_{\mathbb{Q}^{\times}_{v}}\Phi_{v}(x_{v})\text{d}^{\times}x_{v},
+\end{equation*}
+in which $S$ is a finite set containing $\infty$ and all primes that $\Phi_{p}\not=\mathbb{1}_{\mathbb{Z}_{p}}$. The measure $\text{d}^{\times}x$ is defined as following:
+\begin{equation*}\label{Haar}
+\text{d}^{\times}x= \left\{
+    \begin{array}{cc}
+        \frac{\text{d}x_{\infty}}{|x_{\infty}|_{\infty}}, &  \text{if}\ v=\infty\\
+        \frac{1}{1-p^{-1}}\frac{\text{d}x_{p}}{|x_{p}|_{p}}, & \text{if}\ v=p, p\ \text{are finite primes}
+    \end{array}
+    \right
+\end{equation*}
+
+Such that $\text{d}^{\times}x_{p}$ is normalized so that $\int_{\mathbb{Z}_{p}^{\times}}\text{d}^{\times}x_{p}=1$.
+\end{defi}
+\begin{defi}
+Idelic absolute value: $x=\{x_{\infty},x_{2},...\}\in\mathbb{A}^{\times}_{\mathbb{Q}}$, then $|x|_{\mathbb{A}}=\prod_{v\leq\infty}|x_{v}|_{v}$.
+\end{defi}
+In order to get idelic absolute value, we choose a special test function: for $x=\{x_{\infty},x_{2},x_{3},...\}$, then
+\begin{equation*}
+    h(x)=e^{-\pi x_{\infty}^{2}}\prod_{v<\infty}\mathbb{1}_{\mathbb{Z}_{v}}(x_{v})\in S(\mathbb{A}_{\mathbb{Q}}).
+\end{equation*}
+After some calculation, we know that the Fourier transform of $h(x)$ is equal to $h(x)$.
+
+Now we are ready to write down the zeta integral:
+\begin{equation*}
+    Z(s)=\int_{\mathbb{A}^{\times}_{\mathbb{Q}}}h(x)|x|^{s}_{\mathbb{A}_{\mathbb{Q}}}\text{d}^{\times}x, \ \ s\in\mathbb{C},\ \mathfrak{Re}(s)>1.
+\end{equation*}
+For every automorpic form $\phi$ on $\mathbb{A}_{\mathbb{Q}}^{\times}$ can be uniquely expressed in the form 
+\begin{equation*}
+    \phi(x)=c\cdot \chi_{idelic}(x)\cdot |x|^{it}_{\mathbb{A}},\ \ \forall x\in\mathbb{A^{\times}_{Q}},\ 
+\end{equation*}
+in which $c\in\mathbb{C},\ t\in\mathbb{R}$ are fixed constants. And the character $\chi_{idelic}$ is an idelic lift of a Dirichilet character $\chi(mod\ p^{f})$. The idelic lift of $\chi$ is the Hecke character $\chi_{idelic}:\mathbb{Q}^{\times}\backslash\mathbb{A}^{\times}_{\mathbb{Q}}\rightarrow\mathbb{C}$ defined as 
+\begin{equation*}
+    \chi_{idelic}(g)=\chi_{\infty}(g_{\infty})\cdot\chi_{2}(g_{2})\cdot\chi_{3}(g_{3})\cdot\cdot\cdot\ \ \ g=\{g_{\infty},g_{2},g_{3},...\}\in\mathbb{A^{\times}_{Q}},
+\end{equation*}
+where 
+\begin{equation*}
+\chi_{\infty}(g_{\infty})=\left\{
+\begin{array}{ccc}
+     1& \chi(-1)=1 \\
+     1&  \chi(-1)=-1\ \text{if}\  g_{\infty}>0\\ 
+     -1& \chi(-1)=-1\ \text{if}\ g_{\infty}<0
+\end{array}
+\right
+\end{equation*}
+and 
+\begin{equation*}
+    \chi_{v}(g_{v})=\left\{
+    \begin{array}{cc}
+        \chi(v)^{m} &\text{if}\ g_{v}\in v^{m}\mathbb{Z}^{\times}_{v}\ \text{and}\  v\not=p  \\
+         \chi(j)^{-1} & \text{if}\ g_{v}\in p^{k}(j+p^{f}\mathbb{Z}_{p})\ \text{with}\ j,k\in\mathbb{Z}.\ (j,p)=1,\ \text{and}\ v=p 
+    \end{array}
+    \right
+\end{equation*}
+Let's write down adelic Poisson summation formula:
+\begin{equation}
+    1+\sum_{\alpha\in\mathbb{Q}^{\times}}h(\alpha x)=\frac{1}{|x|_{\mathbb{A}}}+\frac{1}{|x|_{\mathbb{A}}}\sum_{\alpha\in\mathbb{Q}^{\times}}h(\frac{\alpha}{x})
+\end{equation}
+
+By using the decomposition $\mathbb{A}^{\times}_{\mathbb{Q}}=\bigcup_{\alpha\in\mathbb{Q\times}}\alpha\cdot(\mathbb{Q}^{\times}\backslash\mathbb{A}^{\times}_{\mathbb{Q}})$, we obtain:
+\begin{equation*}
+    \int_{\mathbb{A}^{\times}}h(x)|x|^{s}_{\mathbb{A}}\text{d}^{\times}x=\sum_{\alpha\in\mathbb{Q}^{\times}}\int_{\alpha\cdot(\mathbb{Q}^{\times}\backslash\mathbb{A}^{\times})}h(x)|x|^{s}_{\mathbb{A}}\text{d}^{\times}x
+\end{equation*}
+In order to obtain the analytic coninuation and functional equation, we calculate this integral by Poisson summation formula:
+\begin{align*}
+    \pi^{-\frac{s}{2}}\Gamma(\frac{s}{2})\zeta(s)&=\int_{x\in\mathbb{Q}^{\times}\backslash\mathbb{A}^{\times}_{\mathbb{Q}}}\sum_{\alpha\in\mathbb{Q}^{\times}}h(\alpha x)|x|^{s}_{\mathbb{A}}\text{d}^{\times}x\\
+   &=\frac{1}{s-1}-\frac{1}{s}+\int_{x\in\mathbb{Q}^{\times}\backslash\mathbb{A}_{\mathbb{Q}^{\times}}\& |x|_{\mathbb{A}\geq 1}}\sum_{\alpha\in\mathbb{Q}^{\times}}h(\alpha x)(|x|^{s}_{\mathbb{A}}+|x|^{1-s}_{\mathbb{A}})\text{d}^{\times}x.
+\end{align*}
+In Tate's thesis \cite{tate1997fourier}, we can obtain same result for any test function $\Phi$ in the adelic Bruhat-Schwartz space $S(\mathbb{A}_{\mathbb{Q}})$. Let's rewrite the adelic Poisson summation formula:
+\begin{equation*}
+    \sum_{\alpha\in\mathbb{Q}^{\times}}\Phi(\alpha x)=\frac{\hat{\Phi}(0)}{|x|_{\mathbb{A}}}+\frac{1}{|x|_{\mathbb{A}}}\sum_{\alpha\in\mathbb{Q}^{\times}}\hat{\Phi}(\frac{\alpha}{x})-\Phi(0)
+\end{equation*}
+by same kind of calculation, we get similar result:
+\begin{align*}
+    \int_{x\in \mathbb{Q}^{\times}\backslash\mathbb{A}^{\times}}\sum_{\alpha\in\mathbb{Q}^{\times}}\Phi(\alpha x)|x|^{s}_{\mathbb{A}}\text{d}^{\times}x&=\frac{\hat{\Phi}(0)}{s-1}-\frac{\Phi(0)}{s}\\
+    &+\int_{x\in\mathbb{Q}^{\times}\backslash\mathbb{A}_{\mathbb{Q}^{\times}}\& |x|_{\mathbb{A}\geq 1}}\sum_{\alpha\in\mathbb{Q}^{\times}}(\Phi(\alpha x)|x|^{s}_{\mathbb{A}}+\hat{\Phi}(\alpha x)|x|^{1-s}_{\mathbb{A}})\text{d}^{\times}xx
+\end{align*}
+The right hand side is invariant under translation: $s\rightarrow 1-s,\ \Phi\rightarrow \hat{\Phi}$. For the left hand side, as we assumed in the definition, $\Phi\in S(\mathbb{A}_{\mathbb{Q}})$ is factorizable. It follows that
+\begin{align*}
+    \int_{\mathbb{A}^{\times}_{\mathbb{Q}}}\Phi(x)|x|^{s}_{\mathbb{A}}\text{d}^{\times}x&=\int_{\mathbb{R}^{\times}}\Phi_{\infty}(x_{\infty})|x_{\infty}|^{s}_{\infty}\frac{\text{d}x_{\infty}}{|x_{\infty}|_{\infty}}\cdot\prod_{p}\int_{\mathbb{Q}^{\times}_{p}}\Phi_{p}(x_{p})|x_{p}|^{s}_{p}\text{d}^{\times}x_{p}\\
+    &=\widetilde{\Phi}_{\infty}(s)\cdot\bigg(\prod_{p\in S}\frac{\int_{\mathbb{Q}^{\times}_{p}}\Phi_{p}(x_{p})|x_{p}|_{p}^{s}\text{d}^{\times}x_{p}}{(1-p^{-s})^{-1}}\bigg)\zeta(s)
+\end{align*}
+where $\widetilde{\Phi}(s)=\int_{\mathbb{R}^{\times}}\Phi(y)y^{s}\frac{\text{d}y}{y}$.
+
+Now let $v\leq \infty$ determine a local field $\mathbb{Q}_{v}$. Then we can have the local zeta integral:
+\begin{defi}
+    Fix $s\in\mathbb{C}$ with $\mathfrak{Re}(s)>0$. Let $\Phi:\mathbb{Q}_{v}\rightarrow \mathbb{C}$ be a locally constant compactly supported function as definition \ref{BruhatSchwartz} if $v<\infty$, and a Schwartz function if $v=\infty$. Let $\omega:\mathbb{Q}^{\times}_{v}\rightarrow\mathbb{C}^{\times}$ be a local unitary character, i.e. a continuous homomorphism of absolute value 1. 
+    
+    The local zeta integral associated to $\omega$ and $\Phi$ is defined as 
+    \begin{equation*}
+        Z_{v}(s,\Phi, \omega)=\int_{\mathbb{Q}^{\times}_{v}}\Phi(x)\omega(x)|x|^{s}_{v}\text{d}^{\times}x,
+    \end{equation*}
+    in which the $\text{d}^{\times}x$ denotes the multiplicative Haar measure as defined in \ref{Haar}.
+\end{defi}
+We state the main result for the local zeta integral without further detail:
+\begin{thm}
+Let $s\in\mathbb{C}$ with $0<\mathfrak{Re}(s)<1$. The local zeta integral $Z_{v}(s,\Phi,\omega)$ satisfies the functional equation
+\begin{equation*}
+    Z_{v}(s,\Phi,\omega)=\gamma(s,\omega)\cdot Z_{v}(1-s,\hat{\Phi},\bar{\omega})
+\end{equation*}
+where $\hat{\Phi}$ is the Fourier transform of $\Phi$: 
+\begin{equation*}
+    \hat{\Phi}(x )=\int_{\mathbb{Q}^{\times}_{v}}\Phi(y)e_{v}(-xy)\text{d}y,
+\end{equation*}
+$\overline{\omega}=\omega^{-1}$ is the complex conjugate of $\omega$, and $\gamma(s,\omega)$ is a meromorphic function which is independent of the choice of $\Phi$.
+\end{thm}
+\begin{rem}
+After some calculation, we can get the explicit form of the $\gamma(s,\omega)$. If we choose appropriate test function, the result of zeta integral will be the $L$-functions that we desire.
+\end{rem}
 \subsubsection{Godement-Jacquet $L$-function}
-Tate's method is generalized to $L$-functions of $GL_{n}$ for any $n\geq1$ by Roger Godement and Hervé jacquet \cite{goldfeld2006automorphic}. Godement and Jacquet considered the inner form of $GL_{n}$ and the affine emmbedding $\mathbb{G}_{m}\rightarrow\mathbb{G}_{a}$ is replaced as $GL_{n}\rightarrow M_{n}$. The theory of Tate is generalized in the modern setting of automorphic representations. The analytic continuation and functional equation of an $L$-function associated to an automorphic form on $GL(n,\mathbb{A}_{\mathbb{Q}})$ was derived directly from the Poisson summation formula for $GL(n,\mathbb{A}_{\mathbb{Q}})$ exactly as in Tate's thesis.
+Tate's method is generalized to $L$-functions of $GL_{n}$ for any $n\geq1$ by Roger Godement and Herv\'{e} jacquet \cite{goldfeld2006automorphic}. Godement and Jacquet considered the inner form of $GL_{n}$ and the affine emmbedding $\mathbb{G}_{m}\rightarrow\mathbb{G}_{a}$ is replaced as $GL_{n}\rightarrow M_{n}$. The theory of Tate is generalized in the modern setting of automorphic representations. The analytic continuation and functional equation of an $L$-function associated to an automorphic form on $GL(n,\mathbb{A}_{\mathbb{Q}})$ was derived directly from the Poisson summation formula for $GL(n,\mathbb{A}_{\mathbb{Q}})$ exactly as in Tate's thesis.
 
 Denote $M_{2}(\mathbb{A}_{\mathbb{Q}})$ as the matrix:
 \begin{equation*}

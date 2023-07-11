@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Category Theory.md",
+                "file": "Mathematics/Second-Brain/Dynamical system/Examples/Circle Rotation.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Mathematics/Category Theory.md",
+            "file": "Mathematics/Second-Brain/Dynamical system/Examples/Circle Rotation.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Mathematics/Category Theory.md",
+            "file": "Mathematics/Second-Brain/Dynamical system/Examples/Circle Rotation.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Mathematics/Category Theory.md"
+            "file": "Mathematics/Second-Brain/Dynamical system/Examples/Circle Rotation.md"
           }
         }
       }
@@ -134,22 +134,6 @@
   },
   "active": "b733eeaf0a41f872",
   "lastOpenFiles": [
-    "Mathematics/Second-Brain/Dynamical system/Examples/Circle Rotation.md",
-    "Mathematics/Second-Brain/Number theory/Goldfeld-Hundley Automorphic representations and L-functions for the general linear group/Chapter 11 The Godement-Jacquet L-function for GL(2).md",
-    "Mathematics/Second-Brain/Number theory/Goldfeld-Hundley Automorphic representations and L-functions for the general linear group",
-    "Mathematics/Second-Brain/Number theory/Tate's thesis.md",
-    "Mathematics/Second-Brain/Number theory/Dataview/List of theorems from number theory.md",
-    "Mathematics/Second-Brain/Number theory/Dataview/List of definitions from number theory.md",
-    "Mathematics/Second-Brain/Number theory/Dataview",
-    "Mathematics/Second-Brain/Number theory/Riemann theory.md",
-    "Mathematics/Second-Brain/Number theory/Modular form.md",
-    "Mathematics/Second-Brain/Dynamical system/Dataview/List of definitions from dynamical system.md",
-    "Mathematics/List of all conjectures.md",
-    "Mathematics/Projects/Gal Dor - Equivalence between Jacquet-Langlands, Godement-Jacquet and Rankin-Selberg/Gal Dor's thesis.md",
-    "Mathematics/Projects/Gal Dor - Equivalence between Jacquet-Langlands, Godement-Jacquet and Rankin-Selberg/Kirillov model.md",
-    "Mathematics/Projects/Gal Dor - Equivalence between Jacquet-Langlands, Godement-Jacquet and Rankin-Selberg",
-    "Mathematics/Projects/Peter Sarnak - Spectral method of geodesic flows and horocycle flows/Spectral method for dynamical operators.md",
-    "Mathematics/Projects/Peter Sarnak - Spectral method of geodesic flows and horocycle flows",
     "Mathematics/Projects/Dynamical operator/Spectral method for dynamical operators.md",
     "Mathematics/Projects/Dynamical operator",
     "Mathematics/Projects/Equivalence between Jacquet-Langlands, Godement-Jacquet and Rankin-Selberg/Gal Dor's thesis.md",
@@ -157,6 +141,7 @@
     "Mathematics/Second-Brain/Dynamical system/Dynamical System Course.md",
     "Mathematics/Second-Brain/Dynamical System/Circle Rotation.md",
     "Mathematics/Second-Brain/Dynamical System/Doubling Map.md",
+    "Mathematics/Second-Brain/Dynamical system/Examples/Circle Rotation.md",
     "Mathematics/Second-Brain/Dynamical system/Lectures note about Dynamical System.md",
     "Mathematics/Second-Brain/Number theory/Master thesis project - Gal Dor/Kirillov model.md",
     "Mathematics/Second-Brain/Number theory/Master thesis project - Gal Dor",
@@ -167,8 +152,23 @@
     "Mathematics/Second-Brain/Dynamical system/Examples/Shift map.md",
     "Mathematics/Second-Brain/Dynamical system/Examples/Thue-Morse sequence.md",
     "Mathematics/Second-Brain/Dynamical system/Examples",
-    "Mathematics/Category Theory.md",
+    "Mathematics/Second-Brain/Category Theory.md",
     "Excalidraw",
-    "Mathematics/Second-Brain/Dynamical system/Dataview"
+    "Excalidraw/Drawing 2023-06-17 21.44.40.excalidraw.md",
+    "Dataview/GPT-lists.md",
+    "Templates/Simple-notes.md",
+    "Mathematics/Second-Brain/Dynamical system/Dataview",
+    "Mathematics/Second-Brain/Dynamical system/Dataview/List of examples from dynamical system.md",
+    "Doubling Map.md",
+    "Shift map.md",
+    "Mathematics/Second-Brain/Dynamical system/Dataview/List of definitions from dynamical system.md",
+    "Mathematics/Second-Brain/Dynamical system/Dataview/List of theorems from dynamical system.md",
+    "Mathematics/Projects/Spectral method for dynamical operators.md",
+    "Mathematics/Second-Brain/Dynamical system",
+    "Mathematics/Second-Brain/Dynamical System",
+    "未命名.md",
+    "六月计划.md",
+    "Dataview",
+    "Mathematics/Projects"
   ]
 }
