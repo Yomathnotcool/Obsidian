@@ -34,7 +34,10 @@ $$
     \Gamma(s)=\int^{\infty}_{0}e^{-t}t^{s-1}\text{d}t\ \ \ \ (\mathfrak{Re}s>0). 
 \end{equation*}
 $$
-#### Rem:
+#### Thm :: Properties of $\Gamma$ function
+
+^65bbd0
+
 Let's recall a few important properties of $\Gamma$-function:
 
  1. The Gamma function satisfies the functional equation $\Gamma(s+1)=s\Gamma(s)$;
@@ -195,4 +198,53 @@ $$
 \end{align*}
 $$
 Now the proof is complete.
-\end{proof}
+
+
+## Integral representation of Riemann zeta function:
+#### Thm :: Integral representation of Riemann zeta function
+$\zeta(s)=\sum\limits^{\infty}_{n=1}\frac{1}{n^{s}}$ can be written as on integral: for $\mathfrak{Re}(s)>1$,
+$$
+\zeta(s)=\frac{1}{\Gamma(s)}\int^{\infty}_{0}\frac{x^{s-1}}{e^{x}-1}\text{d}x
+$$
+ 
+#### Proof:
+Rewrite the integral by [[Riemann theory#^65bbd0|$Gamma$ function]] , 
+$$
+\begin{align}
+\Gamma(s)n^{-s}&=\int_{0}^{\infty}e^{-x}x^{s-1}n^{-s}dx\\
+               &=\int_{0}^{\infty}e^{-nx}(nx)^{s-1}n^{-s}ndx\\
+               &=\int_{0}^{\infty}e^{-nx}x^{s-1}dx
+\end{align}
+$$
+So next step is to sum over $n$ to calculate the integral again, then push the limit of $n$ to $\infty$:
+$$
+\begin{align}
+\Gamma(s)\sum\limits_{n=1}^{\infty} n^{-s}&=\int_{0}^{\infty}e^{-x}x^{s-1}\sum\limits_{n=1}^{\infty}n^{-s}dx\\
+               &=\sum\limits_{n=1}^{\infty}\int_{0}^{\infty}e^{-nx}(nx)^{s-1}n^{-s}ndx\\
+               &=\int_{0}^{\infty}\sum\limits_{n=1}^{\infty}e^{-nx}x^{s-1}dx\\
+               &=\int^{\infty}_{0}\frac{1}{e^{x}-1}x^{s-1}dx
+\end{align}
+$$
+The inversion of the integral and sum depends on dominated convergence theorem.
+
+But if we want to avoid "fancy" theorem, it can be shown in very elementary way as well by writing down the limit:
+$$
+\zeta(s)=\sum\limits^{\infty}_{n=1}\frac{1}{n^{s}}=\lim_{N\rightarrow\infty}\sum\limits^{N}_{n=1}\frac{1}{n^{s}}
+$$
+By plugging this into the left hand side:
+$$
+\begin{align}
+\Gamma(s)\sum\limits_{n=1}^{\infty} n^{-s}&=    \Gamma(s)\lim_{N\rightarrow\infty}\sum\limits^{N}_{n=1}\frac{1}{n^{s}}\\
+               &=\int_{0}^{\infty}e^{-x}x^{s-1}\lim_{N\rightarrow\infty}\sum\limits^{N}_{n=1}\frac{1}{n^{s}}dx\\
+            
+               &=\lim_{N\rightarrow\infty}\int_{0}^{\infty}\sum\limits_{n=1}^{N}e^{-nx}x^{s-1}dx\\
+               &=\lim_{N\rightarrow\infty}\int_{0}^{\infty}\frac{1-e^{-Nx}}{e^{x}-1}x^{s-1}dx\\
+           &= \int_{0}^{\infty}\frac{1}{e^{x}-1}x^{s-1}dx-\lim_{N\rightarrow\infty}\int_{0}^{\infty}\frac{e^{-Nx}}{e^{x}-1}x^{s-1}dx\\
+\end{align}
+
+$$
+which is obvious to prove our result because for $x>0$, $|\frac{x}{e^{x}-1}|<1$, 
+$$
+\lim_{N\rightarrow\infty}\int_{0}^{\infty}\frac{e^{-Nx}}{e^{x}-1}x^{s-1}dx
+$$
+converges to zero as $N\rightarrow \infty$.
