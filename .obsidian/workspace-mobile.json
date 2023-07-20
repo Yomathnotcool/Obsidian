@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Second-Brain/Number theory/Riemann theory.md",
+                "file": "Mathematics/Category Theory.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Mathematics/Second-Brain/Number theory/Riemann theory.md",
+            "file": "Mathematics/Category Theory.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Mathematics/Second-Brain/Number theory/Riemann theory.md",
+            "file": "Mathematics/Category Theory.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Mathematics/Second-Brain/Number theory/Riemann theory.md"
+            "file": "Mathematics/Category Theory.md"
           }
         }
       }
@@ -131,9 +131,8 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "b733eeaf0a41f872",
+  "active": "43ab9033f1e1d915",
   "lastOpenFiles": [
-    "Mathematics/Category Theory.md",
     "Mathematics/Algebra and representation theory/Lie group and Lie algebra/Jacobi identity-intuitive explanation.md",
     "Mathematics/Algebra and representation theory/Lie group and Lie algebra",
     "Mathematics/Algebra and representation theory",
@@ -168,6 +167,7 @@
     "Mathematics/Second-Brain/Dynamical System/Circle Rotation.md",
     "Mathematics/Second-Brain/Dynamical System/Doubling Map.md",
     "Mathematics/Second-Brain/Dynamical system/Lectures note about Dynamical System.md",
-    "Mathematics/Second-Brain/Dynamical System/Shift map.md"
+    "Mathematics/Second-Brain/Dynamical System/Shift map.md",
+    "Mathematics/Second-Brain/Dynamical System/Monotone Maps of Intervals.md"
   ]
 }

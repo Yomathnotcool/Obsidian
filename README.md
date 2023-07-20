@@ -1,2 +1,0 @@
-# Obsidian
- Backup for obsidian
