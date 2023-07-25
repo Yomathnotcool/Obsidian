@@ -1,1 +1,10 @@
-{}
+{
+  "templater-obsidian:Templates/Notes.md": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "."
+    }
+  ]
+}
