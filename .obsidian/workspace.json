@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Algebra and representation theory/Abstract Algebra/algebra.md",
+                "file": "Mathematics/Algebra and representation theory/Abstract Algebra/group algebra.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathematics/Algebra and representation theory/Abstract Algebra/algebra.md",
+                "file": "Mathematics/Algebra and representation theory/Abstract Algebra/group algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathematics/Algebra and representation theory/Abstract Algebra/algebra.md",
+                "file": "Mathematics/Algebra and representation theory/Abstract Algebra/group algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathematics/Algebra and representation theory/Abstract Algebra/algebra.md"
+                "file": "Mathematics/Algebra and representation theory/Abstract Algebra/group algebra.md"
               }
             }
           }
@@ -147,8 +147,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c9796995151ef04a",
+  "active": "ff463ed69f3a41a4",
   "lastOpenFiles": [
+    "Mathematics/Second-Brain/Dynamical system/Notes/Dynamical system.md",
+    "Mathematics/Second-Brain/Dynamical system/Notes/未命名.md",
+    "Mathematics/Second-Brain/Dynamical system/Notes",
+    "Mathematics/Second-Brain/Dynamical system/未命名",
+    "Mathematics/Algebra and representation theory/Abstract Algebra/Dataview",
+    "Mathematics/Algebra and representation theory/Abstract Algebra/algebra.md",
     "Mathematics/Algebra and representation theory/Abstract Algebra/group algebra.md",
     "Mathematics/Algebra and representation theory/Abstract Algebra/module.md",
     "Mathematics/Second-Brain/Number theory/Master thesis project - Gal Dor/Kirillov model.md",
@@ -173,17 +179,11 @@
     "Mathematics/General information for math.md",
     "Templates/Simple-notes.md",
     "Mathematics/Second-Brain/Dynamical system/Examples/Thue-Morse sequence.md",
-    "Mathematics/Second-Brain/Dynamical system/Examples/Circle Rotation.md",
-    "Mathematics/Second-Brain/Dynamical system/Examples/Shift map.md",
-    "Mathematics/Second-Brain/Dynamical system/Examples/Doubling Map.md",
     "test",
     "Mathematics/Algebra and representation theory/Abstract Algebra",
     "Mathematics/Algebra and representation theory/Linear algebra",
     "Mathematics/Second-Brain/Dynamical system/Dataview/List of definitions from dynamical system.md~HEAD~HEAD",
     "Mathematics/Second-Brain/Dynamical system/Dataview/List of definitions from dynamical system.md~HEAD~main",
-    "Mathematics/Second-Brain/Number theory/Master thesis project - Gal Dor",
-    "Mathematics/Projects/Dynamical operator",
-    "Mathematics/Projects/Equivalence between Jacquet-Langlands, Godement-Jacquet and Rankin-Selberg",
-    "Excalidraw"
+    "Mathematics/Second-Brain/Number theory/Master thesis project - Gal Dor"
   ]
 }

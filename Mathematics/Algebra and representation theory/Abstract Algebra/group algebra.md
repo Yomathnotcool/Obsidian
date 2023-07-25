@@ -17,5 +17,6 @@
 The set of all finite $k-$linear combinations of elements of $G$: $\sum\limits a_{\sigma}\sigma$ where $a_{\sigma}\in k, \sigma\in G$ and $a_{\sigma}$ almost all zero. <font color="#953734">(we need this to keep the series convergent)</font>
 
 $k[G]$ vector space with $G$ as a basis:
-### e.g. $\mathbb{R}[\mathbb[Z]/3]$
+### e.g. $\mathbb{R}[\mathbb{Z}/3]$
+
 

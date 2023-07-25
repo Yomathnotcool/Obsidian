@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/List of all conjectures.md",
+                "file": "Mathematics/Algebra and representation theory/Abstract Algebra/group algebra.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Mathematics/List of all conjectures.md",
+            "file": "Mathematics/Algebra and representation theory/Abstract Algebra/group algebra.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Mathematics/List of all conjectures.md",
+            "file": "Mathematics/Algebra and representation theory/Abstract Algebra/group algebra.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Mathematics/List of all conjectures.md"
+            "file": "Mathematics/Algebra and representation theory/Abstract Algebra/group algebra.md"
           }
         }
       }
@@ -123,7 +123,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "templater-obsidian:Templater": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -132,8 +131,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "43ab9033f1e1d915",
+  "active": "b733eeaf0a41f872",
   "lastOpenFiles": [
+    "Mathematics/Second-Brain/Dynamical system/Notes/Dynamical system.md",
+    "Mathematics/Second-Brain/Dynamical system/Notes",
+    "Mathematics/List of all conjectures.md",
+    "Mathematics/Algebra and representation theory/Abstract Algebra/Dataview",
     "Mathematics/Algebra and representation theory/Abstract Algebra/module.md",
     "Mathematics/Algebra and representation theory/Abstract Algebra/algebra.md",
     "Mathematics/Algebra and representation theory/Abstract Algebra/ring.md",
@@ -155,9 +158,7 @@
     "Mathematics/Second-Brain/Number theory/Master thesis project - Gal Dor/Kirillov model.md",
     "Mathematics/Second-Brain/Number theory/Master thesis project - Gal Dor",
     "Mathematics/Second-Brain/Dynamical system/Dataview/List of definitions from dynamical system.md~HEAD~HEAD",
-    "Mathematics/Second-Brain/Dynamical system/Dataview/List of definitions from dynamical system.md~HEAD~main",
     "Mathematics/Projects/Dynamical operator/Spectral method for dynamical operators.md",
-    "Mathematics/Projects/Dynamical operator",
     "Mathematics/Projects/Equivalence between Jacquet-Langlands, Godement-Jacquet and Rankin-Selberg/Gal Dor's thesis.md",
     "Excalidraw/Drawing 2023-06-17 21.44.40.excalidraw.md",
     "Mathematics/Second-Brain/Dynamical system/Examples/Circle Rotation.md",
@@ -166,9 +167,7 @@
     "Mathematics/Second-Brain/Number theory/Dataview/List of theorems from number theory.md",
     "Mathematics/Second-Brain/Number theory/Dataview/List of definitions from number theory.md",
     "Mathematics/Second-Brain/Number theory/Modular form.md",
-    "Mathematics/List of all conjectures.md",
     "Mathematics/Projects/Gal Dor - Equivalence between Jacquet-Langlands, Godement-Jacquet and Rankin-Selberg/Gal Dor's thesis.md",
-    "Mathematics/Projects/Gal Dor - Equivalence between Jacquet-Langlands, Godement-Jacquet and Rankin-Selberg/Kirillov model.md",
-    "Mathematics/Projects/Peter Sarnak - Spectral method of geodesic flows and horocycle flows/Spectral method for dynamical operators.md"
+    "Mathematics/Projects/Gal Dor - Equivalence between Jacquet-Langlands, Godement-Jacquet and Rankin-Selberg/Kirillov model.md"
   ]
 }
