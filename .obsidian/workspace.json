@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "85ac0a325aeff7f2",
+        "id": "27ade3215a64db8c",
         "type": "tabs",
         "children": [
           {
-            "id": "c9796995151ef04a",
+            "id": "4183aa7bd91d6cfd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/Notes.md",
+                "file": "Mathematics/Second-Brain/Dynamical system/Dataview/List of definitions from dynamical system.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/Notes.md",
+                "file": "Mathematics/Second-Brain/Dynamical system/Dataview/List of definitions from dynamical system.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/Notes.md",
+                "file": "Mathematics/Second-Brain/Dynamical system/Dataview/List of definitions from dynamical system.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/Notes.md"
+                "file": "Mathematics/Second-Brain/Dynamical system/Dataview/List of definitions from dynamical system.md"
               }
             }
           }
@@ -147,33 +147,35 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c9796995151ef04a",
+  "active": "4183aa7bd91d6cfd",
   "lastOpenFiles": [
+    "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/Dataview/未命名.md",
+    "Templates/Notes.md",
+    "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/Dataview",
+    "Mathematics/Second-Brain/Algebra and representation theory/Representation theory",
+    "Mathematics/Second-Brain/Algebra and representation theory/Algebra",
     "Mathematics/Second-Brain/List of all conjectures.md",
     "Mathematics/Category Theory.md",
     "Mathematics/Second-Brain/Category Theory.md",
     "Mathematics/Algebra and representation theory/Abstract Algebra/group algebra.md",
-    "Mathematics/Second-Brain/Algebra and representation theory/Linear algebra/vector space.md",
-    "Mathematics/Second-Brain/Algebra and representation theory/Dataview/List of examples from algebra.md",
-    "Mathematics/Second-Brain/Algebra and representation theory/Lie group and Lie algebra/Jacobi identity-intuitive explanation.md",
-    "Mathematics/Second-Brain/Algebra and representation theory/Abstract Algebra/ring.md",
-    "Mathematics/Second-Brain/Algebra and representation theory/Abstract Algebra/module.md",
-    "Mathematics/Second-Brain/Algebra and representation theory/Abstract Algebra/group algebra.md",
-    "Mathematics/Second-Brain/Algebra and representation theory/Abstract Algebra/algebra.md",
-    "Mathematics/Second-Brain/Algebra and representation theory/Linear algebra",
-    "Mathematics/Second-Brain/Algebra and representation theory/Dataview",
-    "Mathematics/Second-Brain/Algebra and representation theory/Lie group and Lie algebra",
-    "Mathematics/Second-Brain/Algebra and representation theory/Abstract Algebra",
+    "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Linear algebra/vector space.md",
+    "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Dataview/List of examples from algebra.md",
+    "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Lie group and Lie algebra/Jacobi identity-intuitive explanation.md",
+    "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Abstract Algebra/ring.md",
+    "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Abstract Algebra/module.md",
+    "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Abstract Algebra/group algebra.md",
+    "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Abstract Algebra/algebra.md",
+    "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Linear algebra",
+    "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Dataview",
+    "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Lie group and Lie algebra",
+    "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Abstract Algebra",
     "Mathematics/Second-Brain/Algebra and representation theory",
     "Mathematics/Algebra and representation theory/Dataview/List of examples from algebra.md",
     "Mathematics/Algebra and representation theory/Dataview",
     "Mathematics/Algebra and representation theory/Abstract Algebra/Dataview/List of examples from algebra.md",
     "Mathematics/Algebra and representation theory/Abstract Algebra/Dataview",
     "Mathematics/Algebra and representation theory/Abstract Algebra/Dataview copy/List of examples from algebra.md",
-    "Mathematics/Algebra and representation theory/Abstract Algebra/Dataview copy",
-    "Templates/Notes.md",
     "template/NotesN未.md",
-    "Templates",
     "Mathematics/General information for math.md",
     "Mathematics/List of all conjectures.md",
     "Mathematics/Second-Brain/Dynamical system/examples/Doubling Map.md",
@@ -182,8 +184,6 @@
     "Mathematics/Second-Brain/Dynamical system/Notes/Lectures note about Dynamical System.md",
     "Mathematics/Second-Brain/Dynamical system/examples/Circle Rotation.md",
     "Mathematics/Second-Brain/Dynamical system/examples/Thue-Morse sequence.md",
-    "Mathematics/Second-Brain/Dynamical system/examples/Monotone Maps of Intervals.md",
-    "Mathematics/Second-Brain/Dynamical system/Notes/Dynamical System Course.md",
-    "Mathematics/Second-Brain/Dynamical system/examples"
+    "Mathematics/Second-Brain/Dynamical system/examples/Monotone Maps of Intervals.md"
   ]
 }
