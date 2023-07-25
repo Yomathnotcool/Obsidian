@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Second-Brain/Dynamical system/Dataview/List of definitions from dynamical system.md",
+                "file": "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/Dataview/List of theorems from representation theory.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathematics/Second-Brain/Dynamical system/Dataview/List of definitions from dynamical system.md",
+                "file": "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/Dataview/List of theorems from representation theory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathematics/Second-Brain/Dynamical system/Dataview/List of definitions from dynamical system.md",
+                "file": "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/Dataview/List of theorems from representation theory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathematics/Second-Brain/Dynamical system/Dataview/List of definitions from dynamical system.md"
+                "file": "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/Dataview/List of theorems from representation theory.md"
               }
             }
           }
@@ -149,12 +149,14 @@
   },
   "active": "ff463ed69f3a41a4",
   "lastOpenFiles": [
-    "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Dataview/List of theorems from dynamical system copy.md",
+    "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/Dataview/List of examples from representation theory.md",
+    "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/Dataview/List of definitions from representation theory.md",
+    "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/Dataview/List of theorems from representation theory.md",
+    "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Dataview/List of theorems from algebra.md",
+    "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Dataview/List of examples from algebra.md",
+    "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Dataview/List of definitions from algebra.md",
+    "Mathematics/Second-Brain/Dynamical system/Dataview/List of definitions from dynamical system.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Dataview/List of examples from dynamical system copy.md",
-    "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Dataview/List of definitions from dynamical system copy.md",
-    "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/Dataview/List of theorems from dynamical system copy.md",
-    "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/Dataview/List of examples from dynamical system copy.md",
-    "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/Dataview/List of definitions from dynamical system copy.md",
     "Mathematics/Second-Brain/Dynamical system/Dataview/List of theorems from dynamical system copy.md",
     "Mathematics/Second-Brain/Dynamical system/Dataview/List of examples from dynamical system copy.md",
     "Mathematics/Second-Brain/Dynamical system/Dataview/List of definitions from dynamical system copy.md",
@@ -168,7 +170,6 @@
     "Mathematics/Second-Brain/Category Theory.md",
     "Mathematics/Algebra and representation theory/Abstract Algebra/group algebra.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Linear algebra/vector space.md",
-    "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Dataview/List of examples from algebra.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Lie group and Lie algebra/Jacobi identity-intuitive explanation.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Abstract Algebra/ring.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Abstract Algebra/module.md",
@@ -183,7 +184,6 @@
     "Mathematics/Algebra and representation theory/Dataview",
     "Mathematics/Algebra and representation theory/Abstract Algebra/Dataview/List of examples from algebra.md",
     "Mathematics/Algebra and representation theory/Abstract Algebra/Dataview",
-    "Mathematics/Algebra and representation theory/Abstract Algebra/Dataview copy/List of examples from algebra.md",
-    "template/NotesN未.md"
+    "Mathematics/Algebra and representation theory/Abstract Algebra/Dataview copy/List of examples from algebra.md"
   ]
 }
