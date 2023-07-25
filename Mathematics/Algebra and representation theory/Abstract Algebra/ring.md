@@ -1,6 +1,6 @@
 
 ## Tags
-
+#algebra #notes 
 
 ---
 

@@ -1,4 +1,4 @@
 ```dataview 
-Table Def
+Table Thm
 FROM #dynamical-system and #notes 
 ```
