@@ -21,3 +21,5 @@ $\cdot: A\times A\rightarrow A$, it's $k-$bilinear, which means as following:
 1. $(x+y)\cdot z=x\cdot z+y\cdot z$;
 2. $z\cdot (x+y)=z\cdot x+z\cdot y$;
 3. $(ax)\cdot(by)=(ab)\cdot xy$;
+
+An algebra over a field $k$ is a ring which contains $k$ in its [[ring#^df6e2d|center]].

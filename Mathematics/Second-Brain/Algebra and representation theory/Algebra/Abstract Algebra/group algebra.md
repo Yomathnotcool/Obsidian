@@ -24,3 +24,8 @@ $$x+y\sigma+z\sigma^{2}$$
 
 ### Thm :: $k[G]$ is an algebra.
 
+This theorem gives us the reason that why we care about group algebra:
+### Thm :: There is a one-to-one correspondence between [[the representation of group]] $G$ and the group algebra $k[G]$.
+
+
+### Thm :: 
