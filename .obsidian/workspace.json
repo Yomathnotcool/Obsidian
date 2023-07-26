@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Abstract Algebra/group algebra.md",
+                "file": "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Abstract Algebra/group.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Abstract Algebra/group algebra.md",
+                "file": "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Abstract Algebra/group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Abstract Algebra/group algebra.md",
+                "file": "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Abstract Algebra/group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Abstract Algebra/group algebra.md"
+                "file": "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Abstract Algebra/group.md"
               }
             }
           }
@@ -149,6 +149,8 @@
   },
   "active": "4183aa7bd91d6cfd",
   "lastOpenFiles": [
+    "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Abstract Algebra/group algebra.md",
+    "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Abstract Algebra/group.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/Dataview/List of theorems from representation theory.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/Dataview/List of examples from representation theory.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/Dataview/List of definitions from representation theory.md",
@@ -173,7 +175,6 @@
     "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Lie group and Lie algebra/Jacobi identity-intuitive explanation.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Abstract Algebra/ring.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Abstract Algebra/module.md",
-    "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Abstract Algebra/group algebra.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Abstract Algebra/algebra.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Linear algebra",
     "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Dataview",
@@ -183,7 +184,6 @@
     "Mathematics/Algebra and representation theory/Dataview/List of examples from algebra.md",
     "Mathematics/Algebra and representation theory/Dataview",
     "Mathematics/Algebra and representation theory/Abstract Algebra/Dataview/List of examples from algebra.md",
-    "Mathematics/Algebra and representation theory/Abstract Algebra/Dataview",
-    "Mathematics/Algebra and representation theory/Abstract Algebra/Dataview copy/List of examples from algebra.md"
+    "Mathematics/Algebra and representation theory/Abstract Algebra/Dataview"
   ]
 }
