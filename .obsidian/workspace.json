@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/Dataview/List of theorems from representation theory.md",
+                "file": "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Abstract Algebra/group algebra.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/Dataview/List of theorems from representation theory.md",
+                "file": "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Abstract Algebra/group algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/Dataview/List of theorems from representation theory.md",
+                "file": "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Abstract Algebra/group algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/Dataview/List of theorems from representation theory.md"
+                "file": "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Abstract Algebra/group algebra.md"
               }
             }
           }
@@ -147,11 +147,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ff463ed69f3a41a4",
+  "active": "4183aa7bd91d6cfd",
   "lastOpenFiles": [
+    "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/Dataview/List of theorems from representation theory.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/Dataview/List of examples from representation theory.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/Dataview/List of definitions from representation theory.md",
-    "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/Dataview/List of theorems from representation theory.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Dataview/List of theorems from algebra.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Dataview/List of examples from algebra.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Dataview/List of definitions from algebra.md",
