@@ -26,6 +26,14 @@ $$x+y\sigma+z\sigma^{2}$$
 
 This theorem gives us the reason that why we care about group algebra:
 ### Thm :: There is a one-to-one correspondence between [[the representation of group]] $G$ and the group algebra $k[G]$.
+1. Any [[the representation of group|group representation]]  $(V,\rho)$ of group $G$ extends uniquely to a ring homeomorphism $\bar{\rho}：k[G]\rightarrow \text{End}_{k}(V)$ 
+2. Any $k[G]$-module $M$，the restriction of the action $k[G]$ is the group representation $\rho: G\rightarrow \text{Aut}_{k}(M)$;
+3. These two are inverse to each other.
 
+As long as there is this nice correspondence between group algebra and its representation, but these two concepts are still different.
 
-### Thm :: Any [[the representation of group|group representation]]  $(V,\rho)$ of group $G$ extends uniquely to a ring homeomorphism $\bar{\rho}：k[G]\rightarrow \text{End}_{k}(V)$ 
+The correspondence is known as the group algebra representation or the group algebra isomorphism. Let's break down this correspondence:
+
+One-to-One Correspondence: The one-to-one correspondence between group algebra and group representation stems from the concept of the regular representation. For a given group $G$, the regular representation is defined as the representation $(k[G], \rho_{\text{reg}})$, where $\rho_{\text{reg}}$ maps each group element $g \in G$ to the left multiplication operator on $k[G]$. 
+
+The key point is that any group representation $(V, \rho)$ can be realized as a module or vector space over the group algebra $k[G]$ through a process called the module or vector space induction. This process allows us to construct a module or vector space $V$ over $k[G]$ and a group homomorphism $\tau : G \to \text{Aut}(V)$, where $\text{Aut}(V)$ is the group of module or vector space automorphisms of $V$. This induced module or vector space provides an isomorphism between the group algebra $k[G]$ and the group representation $(V, \rho)$.
