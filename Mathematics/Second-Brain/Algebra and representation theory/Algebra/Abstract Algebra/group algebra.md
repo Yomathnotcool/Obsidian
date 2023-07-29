@@ -37,3 +37,6 @@ The correspondence is known as the group algebra representation or the group alg
 One-to-One Correspondence: The one-to-one correspondence between group algebra and group representation stems from the concept of the regular representation. For a given group $G$, the regular representation is defined as the representation $(k[G], \rho_{\text{reg}})$, where $\rho_{\text{reg}}$ maps each group element $g \in G$ to the left multiplication operator on $k[G]$. 
 
 The key point is that any group representation $(V, \rho)$ can be realized as a module or vector space over the group algebra $k[G]$ through a process called the module or vector space induction. This process allows us to construct a module or vector space $V$ over $k[G]$ and a group homomorphism $\tau : G \to \text{Aut}(V)$, where $\text{Aut}(V)$ is the group of module or vector space automorphisms of $V$. This induced module or vector space provides an isomorphism between the group algebra $k[G]$ and the group representation $(V, \rho)$.
+
+
+For those two concepts
