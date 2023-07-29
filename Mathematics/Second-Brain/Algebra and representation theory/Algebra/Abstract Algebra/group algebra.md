@@ -39,4 +39,5 @@ One-to-One Correspondence: The one-to-one correspondence between group algebra a
 The key point is that any group representation $(V, \rho)$ can be realized as a module or vector space over the group algebra $k[G]$ through a process called the module or vector space induction. This process allows us to construct a module or vector space $V$ over $k[G]$ and a group homomorphism $\tau : G \to \text{Aut}(V)$, where $\text{Aut}(V)$ is the group of module or vector space automorphisms of $V$. This induced module or vector space provides an isomorphism between the group algebra $k[G]$ and the group representation $(V, \rho)$.
 
 
-For those two concepts
+For those two concepts, there are still some conceptual differences between them: The module might not be faithful even if the group representation is faithful.
+### ex :: not faithful module while faithful representation
