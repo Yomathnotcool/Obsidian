@@ -14,7 +14,9 @@
 
 ---
 
-### Rmk :: what is the difference between automorphism and endomorphism?
+### Rmk :: what is the difference between automorphism and endomorphism? $\text{Aut}(G)$ is the group of units of $\text{End}(G)$.
+
+^1e7fcb
 
 In group theory, both automorphism and endomorphism are mappings that preserve the structure of a group $G$. However, there is a significant difference between the two.
 
@@ -27,3 +29,19 @@ Automorphisms are essentially transformations of the group that preserve its str
 Endomorphisms can be thought of as mappings that transform the elements of the group, while still preserving the group's operation. Examples of endomorphisms include the map $f: \mathbb{Z} \to \mathbb{Z}$ that doubles every integer, or the map $g: \mathbb{R} \to \mathbb{R}$ that squares every real number.
 
 To summarize, automorphisms are bijective mappings that preserve the entire structure of a group, while endomorphisms are mappings that preserve the group operation but may not be bijective.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

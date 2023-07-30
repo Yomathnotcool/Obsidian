@@ -19,6 +19,9 @@ This note is intended to prepare for the student seminar at UZH/ETH at fall seme
 ## Why do we need P-adic?
 ## Arithmetic structure
 ## Topological structure 
+## Algebraic structure
+### Thm :: $\mathbb{Q}_{p}$ is an uncountable dimensional $\mathbb{Q}$-vector space.
+
 ## Visualisation of P-adic world and fractal structure
 
 # Application of P-adic 

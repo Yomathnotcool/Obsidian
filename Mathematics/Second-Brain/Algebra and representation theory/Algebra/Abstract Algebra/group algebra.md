@@ -47,7 +47,7 @@ which can be restricted to the group representation:
 $$
 \rho|_{G}:G\rightarrow \text{Aut}_{k}(M).
 $$
-For more general ring structure information, see [[ring#^ed9bd9|here]].
+For more general ring structure information, see [[ring#^ed9bd9|here]], [[group#^1e7fcb|while keeping in mind that the $\text{Aut}_{k}(M)$ is the group of units of $\text{End}_{k}(M)$]].
 For those two concepts, there are still some conceptual differences between them: The module might not be faithful even if the group representation is faithful.
 ### ex :: not faithful module while faithful representation
 
