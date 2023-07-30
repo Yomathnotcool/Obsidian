@@ -37,3 +37,19 @@ $$
 ^a1e137
 
 A $R-$module $M$ is called faithful if the [[module#^f586ef|annihilator]] of $M$ is zero.
+
+### Thm :: module and ring homeomorphism
+
+^bfb7ec
+
+Given a ring $R$ and a left $R-$module $M$, then the action of $R$ on $M$ is defined as:
+$$\lambda_{r}(m)=r\cdot m
+$$
+And the [[ring#^df6e2d|center]] $Z(R)$of ring $R$ generates $Z(R)$-module which is defined as
+$$
+\lambda_{r}(a\cdot m)=r\cdot(a\cdot m)=a\cdot(r\cdot m)=a\cdot\lambda_{r}(m)
+$$
+Then this action gives a ring homeomorphism:
+$$
+\rho: R\rightarrow \text{End}_{Z(R)}(M)
+$$
