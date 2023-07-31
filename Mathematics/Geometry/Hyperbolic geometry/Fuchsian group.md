@@ -14,3 +14,5 @@
 
 ---
 
+# $\text{PSL}_{2}$
+Let's start with $\text{PSL}_{2}=\text{SL}_{2}/\{\pm1\}$, which is a [[topological group]].
