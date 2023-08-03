@@ -26,5 +26,7 @@ Given an element $g=\begin{pmatrix}a&b\\c&d\end{pmatrix}\in PSL_{2}{\mathbb{R}}$
 * Parabolic elements: $\text{Tr}(g)<2$, with a unique fixed point $z_{0}\in \mathbb{R}\bigcup\infty$.
 	Conjugate to the matrix $$\begin{pmatrix}1&\lambda\\ 0 &1\end{pmatrix}$$
 ### Rmk ::
- If $c=0$, then $\begin{pmatrix}a&b\\0&d\end{pmatrix}$ which acts as $\frac{az+b}{d}$,
+ If $c=0$, then $\begin{pmatrix}a&b\\0&d\end{pmatrix}$ which acts as $$\frac{az+b}{d},$$
+ then which gives the fixed point as $z=\frac{b}{a-d}.$
+ 
 
