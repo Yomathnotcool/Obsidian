@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Geometry/Hyperbolic geometry/Fuchsian group.md",
+                "file": "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Abstract Algebra/group.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathematics/Geometry/Hyperbolic geometry/Fuchsian group.md",
+                "file": "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Abstract Algebra/group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathematics/Geometry/Hyperbolic geometry/Fuchsian group.md",
+                "file": "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Abstract Algebra/group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathematics/Geometry/Hyperbolic geometry/Fuchsian group.md"
+                "file": "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Abstract Algebra/group.md"
               }
             }
           }
@@ -150,6 +150,7 @@
   "active": "ff463ed69f3a41a4",
   "lastOpenFiles": [
     "Mathematics/Geometry/Topology/Point-set topology.md",
+    "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Abstract Algebra/group.md",
     "Mathematics/Geometry/Hyperbolic geometry/Fuchsian group.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Algebra/topological group/topological group.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Algebra/topological group",
@@ -162,7 +163,6 @@
     "Mathematics/Second-Brain/Number theory/未命名.md",
     "Mathematics/Second-Brain/Number theory/Trace formula",
     "Mathematics/Second-Brain/Number theory/P-adic/Introduction to P-adic world.md",
-    "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Abstract Algebra/group.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Dataview/List of theorems from algebra.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Dataview/List of examples from algebra.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Dataview/List of definitions from algebra.md",

@@ -13,6 +13,34 @@
 
 
 ---
+### Def :: $G$-orbit
+For a point $x\in X$, the set $Gx:=\{gx|g\in G\}$ is called the $G$-orbit of the point $x\in X$.
+
+### Def :: Stabilizer of $x$
+For a point $x\in X$, the stabilizer $G_{x}$ of $x$ is defined as $G_{x}=\{g|gx=x\}$.
+
+### Def :: Properly discontinuous action
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### Rmk :: what is the difference between automorphism and endomorphism? $\text{Aut}(G)$ is the group of units of $\text{End}(G)$.
 
