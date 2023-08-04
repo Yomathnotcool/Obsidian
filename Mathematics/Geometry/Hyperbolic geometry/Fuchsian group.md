@@ -26,7 +26,12 @@ Given an element $g=\begin{pmatrix}a&b\\c&d\end{pmatrix}\in PSL_{2}{\mathbb{R}}$
 * Parabolic elements: $\text{Tr}(g)<2$, with a unique fixed point $z_{0}\in \mathbb{R}\bigcup\infty$.
 	Conjugate to the matrix $$\begin{pmatrix}1&\lambda\\ 0 &1\end{pmatrix}$$
 ### Rmk ::
- If $c=0$, then $\begin{pmatrix}a&b\\0&d\end{pmatrix}$ which acts as $$\frac{az+b}{d},$$
- then which gives the fixed point as $z=\frac{b}{a-d}.$
- 
+ If $c=0$, then $\begin{pmatrix}a&b\\0&a^{-1}\end{pmatrix}$ which acts as $$\frac{az+b}{a^{-1}},$$
+ then which gives the fixed point as $z=\frac{b}{a-a^{-1}}.$ If $a=1$, then the transformation becomes $z+b$, which has a fixed point $\infty$.
+
+  
+### Def :: Fuchsian group
+
+A discrete subgroup of $\text{Isom}(\mathbb{H})$ is called Fuchsian group if it consists of orientation-persevering transformations, in other words, A Fuchsian group is a discrete subgroup of $\text{PSL}_{2}(\mathbb{R})$. 
+
 
