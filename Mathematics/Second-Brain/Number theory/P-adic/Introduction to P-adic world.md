@@ -15,15 +15,21 @@
 ---
 This note is intended to prepare for the student seminar at UZH/ETH at fall semester, 2023.
 
-# What is P-adic?
-## Why do we need P-adic?
+# What is $P$-adic?
+## Why do we need $P$-adic?
+## Algebraic structure
+### Thm :: Ostrowski's theorem
+Any non-trivial valuation on $\mathbb{Q}$ is isomorphic to either the usual real absolute value or the $p$-adic value.
+	Proof: 
+
+### Thm :: $\mathbb{Q}_{p}$ is an uncountable dimensional $\mathbb{Q}$-vector space.
 ## Arithmetic structure
 ## Topological structure 
-## Algebraic structure
-### Thm :: $\mathbb{Q}_{p}$ is an uncountable dimensional $\mathbb{Q}$-vector space.
+
+
 
 ## Visualisation of P-adic world and fractal structure
 
-# Application of P-adic 
+# Application of $P$-adic 
 ## Number theory
 ## Dynamical system

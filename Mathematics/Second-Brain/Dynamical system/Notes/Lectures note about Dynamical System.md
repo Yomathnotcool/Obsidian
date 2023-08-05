@@ -114,5 +114,9 @@ A direct question from the definition: uniformly recurrent but not periodic poin
 
 
 
-## Thm :: A point $x$ is uniformly recurrent if and only if $\overline{\{T^{n}:n\geq 0\}}$ is minimal.
+### Thm :: A point $x$ is uniformly recurrent if and only if $\overline{\{T^{n}:n\geq 0\}}$ is minimal.
 
+
+
+### Thm :: Structural stability
+For the torus $X=\mathbb{R}^{2}/\mathbb{Z}^{2}$

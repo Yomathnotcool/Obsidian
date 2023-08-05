@@ -18,9 +18,10 @@
 Let's start with $\text{PSL}_{2}=\text{SL}_{2}/\{\pm1\}$, which is a [[topological group]].
 ## Classification of elements of $PSL_{2}(\mathbb{R})$
 ### Def :: Mobüis transformation
-Given an element $g=\begin{pmatrix}a&b\\c&d\end{pmatrix}\in PSL_{2}{\mathbb{R}}$, the action of $g$ is called the Mobüis transformation: $$z\mapsto \frac{az+b}{cz+d}, $$
+Given an element $g=\begin{pmatrix}a&b\\c&d\end{pmatrix}\in PSL_{2}(\mathbb{R})$, the action of $g$ is called the Mobüis transformation: $$z\mapsto \frac{az+b}{cz+d}, $$
 * Hyperbolic elements: $\text{Tr}(g)>2$, with two different real fixed points on $\mathbb{R}\bigcup\infty$, for those two points are called the attractive point and the repulsive point;
 	And they are conjugate to matrix of form $$\begin{pmatrix}\lambda & 0 \\ \\ 0 & \lambda^{-1}\end{pmatrix}$$
+	More precisely, there exists a matrix $S\in \text{PSL}_{2}(\mathbb{R})$, $$g=S\begin{pmatrix}\lambda & 0 \\ \\ 0 & \lambda^{-1}\end{pmatrix}S^{-1}.$$
 * Elliptic elements: $\text{Tr}(g)=2$, with fixed points $z_{0}\in \mathbb{H}$ and $\bar{z_{0}}$;
 	Conjugate to the matrix of form $$\begin{pmatrix}\cos(\theta)&\sin(\theta)\\ \\ -\sin(\theta)&\cos(\theta)\end{pmatrix}$$
 * Parabolic elements: $\text{Tr}(g)<2$, with a unique fixed point $z_{0}\in \mathbb{R}\bigcup\infty$.
@@ -33,5 +34,8 @@ Given an element $g=\begin{pmatrix}a&b\\c&d\end{pmatrix}\in PSL_{2}{\mathbb{R}}$
 ### Def :: Fuchsian group
 
 A discrete subgroup of $\text{Isom}(\mathbb{H})$ is called Fuchsian group if it consists of orientation-persevering transformations, in other words, A Fuchsian group is a discrete subgroup of $\text{PSL}_{2}(\mathbb{R})$. 
+	The action of Fuchsian group is [[group#^13da6a|properly discontinuous]].
 
 
+
+### Thm :: every hyperbolic and parabolic cyclic subgroup of $\text{PSL}_{2}(\mathbb{R})$ is Fuchsian.

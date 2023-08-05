@@ -21,6 +21,9 @@ For a point $x\in X$, the stabilizer $G_{x}$ of $x$ is defined as $G_{x}=\{g|gx=
 
 ### Def :: Properly discontinuous action
 
+^13da6a
+
+For a group $G$ acting on the topological space $X$, the action is called properly discontinuous if every $G$-orbit of all points $x\in X$ is [[Point-set topology#^129eee|locally finite]]. 
 
 
 

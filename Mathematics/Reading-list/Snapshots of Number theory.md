@@ -109,5 +109,6 @@ https://www.math.columbia.edu/~chaoli/docs/AutomorphicForm.html
 Topics in automorphic forms
 	Courses in Harvard by Jack Thorne
 
-
-
+### 34
+[https://www.math.uni-bielefeld.de/documenta/vol-06/18.pdf](https://www.math.uni-bielefeld.de/documenta/vol-06/18.pdf)
+Notes about P-adic Fourier theory

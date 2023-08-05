@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Abstract Algebra/group.md",
+                "file": "Mathematics/Second-Brain/Dynamical system/Notes/Lectures note about Dynamical System.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Abstract Algebra/group.md",
+                "file": "Mathematics/Second-Brain/Dynamical system/Notes/Lectures note about Dynamical System.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Abstract Algebra/group.md",
+                "file": "Mathematics/Second-Brain/Dynamical system/Notes/Lectures note about Dynamical System.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Abstract Algebra/group.md"
+                "file": "Mathematics/Second-Brain/Dynamical system/Notes/Lectures note about Dynamical System.md"
               }
             }
           }
@@ -147,11 +147,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ff463ed69f3a41a4",
+  "active": "6ace1d5ca543a96f",
   "lastOpenFiles": [
-    "Mathematics/Geometry/Topology/Point-set topology.md",
-    "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Abstract Algebra/group.md",
+    "Mathematics/Second-Brain/Number theory/P-adic/Introduction to P-adic world.md",
+    "Mathematics/Reading-list/Snapshots of Number theory.md",
     "Mathematics/Geometry/Hyperbolic geometry/Fuchsian group.md",
+    "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Abstract Algebra/group.md",
+    "Mathematics/Geometry/Topology/Point-set topology.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Algebra/topological group/topological group.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Algebra/topological group",
     "Mathematics/Geometry/Hyperbolic geometry",
@@ -162,7 +164,6 @@
     "Mathematics/Second-Brain/Number theory/Modular forms and Automorphic forms",
     "Mathematics/Second-Brain/Number theory/未命名.md",
     "Mathematics/Second-Brain/Number theory/Trace formula",
-    "Mathematics/Second-Brain/Number theory/P-adic/Introduction to P-adic world.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Dataview/List of theorems from algebra.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Dataview/List of examples from algebra.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Dataview/List of definitions from algebra.md",
@@ -183,7 +184,6 @@
     "Templates/Notes.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/Dataview",
     "Mathematics/Second-Brain/Algebra and representation theory/Representation theory",
-    "Mathematics/Second-Brain/List of all conjectures.md",
-    "Mathematics/Category Theory.md"
+    "Mathematics/Second-Brain/List of all conjectures.md"
   ]
 }
