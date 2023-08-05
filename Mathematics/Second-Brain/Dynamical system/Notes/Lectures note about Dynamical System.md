@@ -50,6 +50,8 @@ A point $x$ is periodic of period $n$ if $T^{n}x=x$.
 
 A  dynamical system $T$ on space $X$ is called topological mixing if for any two open subsets $U, V\subset X$, there exists a $N$ for any $n>N$ such that $T^{n}(U)\bigcap V\not=\emptyset$.
 
+https://i.stack.imgur.com/1hMNx.png
+
 ## Ex :: [[Monotone Maps of Intervals]] 
 ## Ex :: [[Circle Rotation]]
 ## Ex :: [[Doubling Map]]
@@ -120,5 +122,8 @@ A direct question from the definition: uniformly recurrent but not periodic poin
 
 
 ### Thm :: A point $x$ is uniformly recurrent if and only if $\overline{\{T^{n}:n\geq 0\}}$ is minimal.
+
+
+### Ex :: [[toral automorphism]]
 
 
