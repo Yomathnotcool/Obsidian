@@ -42,8 +42,13 @@ A (topological) dynamical system is called minimal if all orbits are dense.
 There is a dense orbit in the dynamical system.
 
 ## Def :: Periodic point
-
 A point $x$ is periodic of period $n$ if $T^{n}x=x$.
+
+### Def :: topological mixing
+
+^cba4af
+
+A  dynamical system $T$ on space $X$ is called topological mixing if for any two open subsets $U, V\subset X$, there exists a $N$ for any $n>N$ such that $T^{n}(U)\bigcap V\not=\emptyset$.
 
 ## Ex :: [[Monotone Maps of Intervals]] 
 ## Ex :: [[Circle Rotation]]
@@ -117,6 +122,3 @@ A direct question from the definition: uniformly recurrent but not periodic poin
 ### Thm :: A point $x$ is uniformly recurrent if and only if $\overline{\{T^{n}:n\geq 0\}}$ is minimal.
 
 
-
-### Thm :: Structural stability
-For the torus $X=\mathbb{R}^{2}/\mathbb{Z}^{2}$
