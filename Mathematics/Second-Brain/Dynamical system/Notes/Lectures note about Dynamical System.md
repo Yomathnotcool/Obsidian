@@ -73,7 +73,7 @@ Given $X, Y$ two metric spaces with two continuous maps: $T: X\rightarrow X,\ S:
 
 ## Thm :: The properties keep by conjugacy:
 - Periodic
-- Topological transitive
+- Topological transitive ^e0379f
 - ergodicity
 
 
@@ -127,3 +127,5 @@ A direct question from the definition: uniformly recurrent but not periodic poin
 ### Ex :: [[toral automorphism]]
 
 
+
+### Ex :: [[circle homeomorphism]]
