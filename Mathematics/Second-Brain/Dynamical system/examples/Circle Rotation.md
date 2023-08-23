@@ -32,4 +32,7 @@ Now we are ready to prove the theorem:
 ^0bb64c
 
 
+## Thm :: For $\alpha\in\mathbb{R}\backslash\mathbb{Q}$, $\{n\alpha(\mod1)|n\geq1\}$ is [[Lectures note about ergodic theory#^cd21e2|equidistributed]].
+
+^101f4d
 
