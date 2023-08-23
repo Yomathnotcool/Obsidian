@@ -59,3 +59,22 @@ Considering the time average $$A_{N}(f)(x)=\frac{1}{N}\sum\limits^{N-1}_{n=0}f(T
 ## Thm :: mean ergodic theorem
 For any $f\in L^{2}(X): ||A_{N}(f)-P(f)||_{2}\rightarrow 0$, where $P$ Is orthogonal projection on the space of $T$-invariant functions.
 
+### Recollection of functional analysis
+Notation: $L^{2}(X)=\{f:X\rightarrow\mathbb{C}|\int_{X}|f|^{2}\text{d}\mu<\infty\}$, $||f||_{2}=(\int_{X}|f|^{2}\text{d}\mu)^{1/2}$, $<f_{1},f_{2}>=\int_{X}f_{1}\overline{f_{2}}\text{d}\mu$.
+
+$L^{1}=\{f:X\rightarrow\mathbb{C}:||f||_{1}<\infty\}$ with $||f||_{1}=\int_{X}|f|\text{d}\mu$.
+And the relation between $||\cdot||_{1}$ and $||\cdot||_{2}$: $$||f||_{1}=\int_{X}|f|\text{d}\mu\leq(\int_{X}1^{2}\text{d}\mu)^{1/2}\cdot(\int_{X}|f|^{2}\text{d}\mu)^{1/2}=||f||_{2}$$
+Hence, $L^{2}(X)\subset L^{1}(X)$. Furthurmore,
+#### Thm :: $L^{2}(X)$ is dense in $L^{1}(X)$
+Consider simple functions.
+
+
+### Thm :: $\exists f\in L^{1}(X): \lim\limits_{n\rightarrow\infty}A_{N}(f)$ exists in $L^{1}(X)$.
+
+### Thm :: If $T$ is ergodic, $\forall f\in L^{1}(X): A_{N}(f)\rightarrow \int_{X}f\text{d}\mu$ in $L^{1}(X)$.
+
+
+## Thm :: Conditional expectation
+Given a measure space $(X,a,\mu)$ with $\mu(X)=1$, $\mathcal{B}\subset a$ as sub-$\sigma$-algebra, $f:X\rightarrow\mathbb{R}$ a measurable function.
+
+*Question* : Find an approximation for a $a$-measurable function $f$ which is $\mathcal{B}$-measurable?
