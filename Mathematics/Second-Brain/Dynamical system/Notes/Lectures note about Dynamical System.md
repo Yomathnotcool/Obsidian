@@ -10,6 +10,7 @@
 
 ---
 
+# Perliminares
 
 ### Def ::  Orbit:
 
@@ -129,3 +130,40 @@ A direct question from the definition: uniformly recurrent but not periodic poin
 
 
 ### Ex :: [[circle homeomorphism]]
+
+### Ex :: [continued fractions]
+
+
+# Measurable Dynamics
+
+More information about [measure theory].
+
+### Def :: measurable transformation
+$T:X\rightarrow X$ is called measurable transformation if $\forall A\in a: T^{-1}(A)\in a$.
+
+### Def :: measure-preserving transformation
+
+^3ec847
+
+a measurable $T:X\rightarrow X$ is measure-preserving if $\forall A\in a:\mu(T^{-1}(A))=\mu(A)$.
+
+#### Ex :: periodic orbits
+Suppose that $T^{n}x=x$. Let $\mu(A)=|\{n=0,..,n-1:T^{n}x\in A\}|$, $$\mu^{-1}(A)=|\{n=0,...,n-1:T^{n}\in T^{-1}(A)\}|=|\{n=0,...,n-1:T^{n+1}x\in A\}|=\mu(A).$$
+Hence, $\mu$ is $T$-invariant.
+
+#### Ex :: [[Doubling Map#^e53326|Doubling map is measure preserving.]] 
+
+#### Ex :: [[Gauss map#^416b99|Gauss map is measure preserving]]
+
+#### Ex :: [[toral automorphism#^93f4ca|Torus automorphsim is measure preserving]]
+
+
+### Thm :: $\mu$ is $T$-invariant if and only if $\forall f\in L^{1}(X,\mu): \int_{X}f(T(x))\text{d}\mu(x)=\int f \text{d}\mu$.
+
+
+### Thm :: Poincare Recurrence theorem
+
+$T:(X,\mu)\rightarrow(X,\mu)$ measure preserving then for any $A\subset X$ with $\mu(A)>0$, such that for almost every $x\in A, \exists n\geq 1: T^{n}x\in A$.
+![[Pasted image 20230821153415.png]]
+
+

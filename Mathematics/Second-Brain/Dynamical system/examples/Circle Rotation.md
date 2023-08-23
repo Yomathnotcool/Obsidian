@@ -26,3 +26,10 @@ Now we are ready to prove the theorem:
 ## Thm :: Rotation $R_{\alpha}: S^{1}\rightarrow S^{1}$ in which $\alpha\not\in \pi\mathbb{Q}$ is minimal then $\forall x\in S^{1}$ is [[Lectures note about Dynamical System#^88fab3|uniformly recurrent]].
 
 ^8903ec
+
+## Thm :: Rational rotation is not [[Lectures note about ergodic theory#^d8b2bc|ergodic]], but the irrational rotation is [[Lectures note about ergodic theory#^d8b2bc|ergodic]] but not [[Lectures note about ergodic theory#^3b262f|mixing]].
+
+^0bb64c
+
+
+

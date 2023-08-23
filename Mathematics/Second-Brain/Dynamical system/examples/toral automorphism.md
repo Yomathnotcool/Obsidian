@@ -53,3 +53,10 @@ in which $t\lambda^{n}_{1}v_{1}\rightarrow 0$.
 ### Thm :: Structural stability
 For the torus $X=\mathbb{R}^{2}/\mathbb{Z}^{2}$, $T: X\rightarrow X$ a hyperbolic automorphism:
 For any $\epsilon>0$, there exists $\delta>0$, any homeomorphism $S:X\rightarrow X$: $\text{max}_{x\in X}\text{d}(Sx,Tx)<\sigma$, there exists a 
+
+
+
+
+### Thm :: torus automorphism is measure preserving
+
+^93f4ca

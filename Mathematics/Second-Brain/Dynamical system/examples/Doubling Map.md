@@ -21,3 +21,13 @@ $T:x\mapsto 2x (\text{mod} 1)$
 
 ^203fe9
 
+
+## Thm :: Doubling map is [[Lectures note about Dynamical System#^3ec847|measure preserving]].
+
+^e53326
+
+
+## Thm :: Doubling map is [[Lectures note about ergodic theory#^3b262f|mixing]].
+
+^0b208e
+
