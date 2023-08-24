@@ -85,3 +85,9 @@ $\forall\rho\in\mathbb{R}\backslash\mathbb{Q}$, there exists non-transitive home
 ### Thm :: (Denjoy)
 * there exists such $C^{1}$ map;
 * every $C^{2}$ map with $\rho(T)\not\in\mathbb{Q}$ is topological transitive.
+
+
+## Thm :: A circle homeomorphism $T:X\rightarrow X$ with degree 1 without periodic points, then $T$ is [[Lectures note about ergodic theory#^56e37e|uniquely ergodic]].
+
+^93b97b
+

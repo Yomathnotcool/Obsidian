@@ -36,3 +36,7 @@ Now we are ready to prove the theorem:
 
 ^101f4d
 
+## Thm :: Irrational rotation is [[Lectures note about ergodic theory#^56e37e|uniquely ergodic]].
+
+^22605f
+

@@ -154,6 +154,13 @@ a sequence $(x_{n})_{n\geq 1}\subset[0,1]$ is equidistributed if $\forall(a,b)\s
 
 ## Ex :: [[Circle Rotation#^101f4d|irrational rotation is equidistributed]].
 
+## Thm :: Weyl theorem about equidistribution
+For an irrational number $\alpha$, the sequence $(\{n^{2}\alpha\})_{n\geq1}$ is equidistributed. 
+### Rmk :: in fact, this works for general polynomials.
+
+
+
+
 
 # Space of measures
 Given a compact metric space $X$ and the space of probability measure 
@@ -163,4 +170,46 @@ $C(X)=\{f:X\rightarrow\mathbb{R}:f\ \text{continuous}\}$
 ## Thm :: $C(X)$ has a countable dense subset and it's dense in $L^{1}(X,\mu)$.
 
 
+## Def :: The limit of measure
+For $\mu_{n}, \mu\in P(X),$ then
+$$\mu_{n}\rightarrow \mu\Leftrightarrow\ \forall f\in C(X): \int_{X}f\text{d}\mu_{n}\rightarrow \int_{X}f\text{d}\mu.$$
 
+### Ex :: $\frac{1}{N}\sum\limits^{N-1}_{n=0}\delta_{\{n\alpha\}}\rightarrow \text{Lebesgue measure}$ is not true.
+We showed that $\forall f\in C([0,1]): \frac{1}{N}\sum\limits^{N-1}_{n=0}f(\{n\alpha\})\rightarrow\int^{1}_{0}f(x)\text{d}x.$ So $\frac{1}{N}\sum\limits^{N-1}_{n=0}\delta_{\{n\alpha\}}\rightarrow \text{Lebesgue measure}$ is an easy guess. However, it is not true that $$\frac{1}{N}\sum\limits^{N-1}_{n=0}\chi_{A}(\{n\alpha\})\rightarrow\int^{1}_{0}\chi_{A}\text{d}x,$$
+for all Borel subsets in $[0,1]$.
+
+
+## Thm :: compactness of measure space
+$\forall \mu_{n}\in P(X): \exists\ \text{subsequence}\ \mu_{n_{i}}$: $$\mu_{n_{i}}\rightarrow \mu\in P(X).$$
+
+## Thm :: Bogolubov-Krylov
+For continuous transformation $T:X\rightarrow X$, there exists $T$-invariant measure $\mu\in P(X)$.
+
+
+## Def :: extreme measure
+A measure $\mu\in P_{T}(X)$ is extreme if $\mu\not=\alpha_{1}\mu_{1}+\alpha_{2}\mu_{2}$ for $\mu_{1}\not=\mu_{2}\in P_{T}(X)$ in which $\alpha_{1},\alpha_{2}\in (0,1)$ and $\alpha_{1}+\alpha_{2}=1$.
+
+## Thm :: For $\mu\in P_{T}(X), \mu-\text{ergodic}\Leftrightarrow\mu-\text{extreme}$.
+
+
+## Thm :: $\exists$ ergodic measure $\mu\in P_{T}(X)$.
+
+
+
+# unique ergodicity
+
+Given a compact metric space X, and a continuous transformation $T:X\rightarrow X$,
+
+## Def :: uniquely ergodic
+
+^56e37e
+
+$T$ is uniquely ergodic if the $T$-invariant measure is unique.
+
+
+## Thm :: Equivalent definition
+$T$ is uniquely ergodic if and only if there exists $\mu\in P_{T}(X): \forall f\in C(X)$: $$\text{max}_{x\in X}|\frac{1}{N}\sum\limits^{N-1}_{n=0}f(T^{n}x)-\int_{X}f\text{d}\mu|\rightarrow 0.$$
+
+## Ex :: [[Circle Rotation#^22605f|irrational rotation is uniquely ergodic]].
+
+## Ex :: [[Circle homeomorphism#^93b97b|A circle homeomorphism with degree 1 without periodic points is uniquely ergodic.]]
