@@ -288,4 +288,160 @@ The entropy of $T$ is $$h(T)=\text{sup}_{\xi:H(\xi)<\infty}h(T,\xi).$$
 Given two measure spaces $(X,a,\mu)$ with $\mu(X)=1$ and $(Y,\mathcal{B},\nu)$ with $\nu(Y)=1$, and two measure-preserving transformation $T:X\rightarrow X$ and $S:Y\rightarrow Y.$
 
 ## Def :: isomorphism between two transformation $T$ and $S$
-$T$ and $S$ are isomorphic if $$
+
+^01ac2a
+
+$T$ and $S$ are isomorphic if 
+- $\exists X_{0}\subset X:\mu(X_{0})=1,\ T(X_{0})\subset X_{0}$;
+- $\exists Y_{0}\subset Y:\nu(Y_{0})=1,\ S(Y_{0})\subset Y_{0}$.
+There exists a bijection $\phi:X_{0}\rightarrow Y_{0}$ and $\phi,\phi^{-1}$ are measurable and measure-preserving.
+![[IMG_C4DD7CD1C586-1.jpeg]]
+
+
+### Ex :: [[Bernoulli system|Bernoulli shift]] is isomorphic to [[Doubling Map]].
+
+
+## Thm :: If $T$ and $S$ are isomorphic, then $h(T)=h(S)$.
+
+
+
+## Thm :: Kolmogorov-Sinai
+Consider partitions $\xi^{(1)}<\xi^{(2)}<...<\xi^{(i)}<...$ with finite entropy such that  $\bigcup_{i\geq1}\xi^{(i)}$ generates $a$. Then $h(T)=\lim\limits_{i\rightarrow\infty} h(T,\xi^{(i)})$.
+
+
+## Def :: generation partition
+A partition $\xi$ is called generation if the partition $\xi^{(n)}=\bigvee\limits_{i=0}^{n-1}T^{-i}(\xi)$ generate $a$.
+### Thm :: If $\xi$ is generating, $h(T)=h(T,\xi)$.
+
+#### Ex :: [[Doubling Map#^0dc795|Entropy of Doubling map]]
+#### Ex :: [[Circle Rotation#^2a6425|Entropy of circle rotation]]
+#### Ex :: [[Bernoulli system#^519a78|Entropy of Markov Shift]]
+
+
+
+
+
+## Thm :: Future determines present 
+$$H(T,\xi)=\lim_{n\rightarrow\infty}H(\xi|\bigvee\limits^{n}_{i=1}T^{-i}\xi).$$
+
+#### Ex :: [[Gauss map#^6e220e|Entropy of Gauss map]]
+
+
+# Topological Entropy with partition
+
+^0726fe
+
+#### Notations:
+$X$ compact metric space
+$T:X\rightarrow X$ continuous
+
+#### *Question*: how to measure complexity of $T$?
+Idea: Partition gives us open covers.
+Given an open cover $\{U_{i}\}_{i\in I}$ of $X$, $\{U_{i_{1}}\bigcap T^{-1}(U_{i_{2}})\bigcap...\bigcap T^{-(n-1)}(U_{i_{n}})\}_{i_{1},...,i_{n}\in I}$ are also open covers of $X$. We want to measure _complexity_ of these covers.
+
+## Def :: Open cover
+$\xi=\{U_{i}\}_{i\in I}$ is an open cover of $X$ if $U_{i}$ are open and $X=\bigcup\limits_{i\in I}U_{i}$.
+
+## Def :: Operations between partitions
+1. $\xi<\eta$ if $\forall V\in\eta$, there exists $U\in\xi$ such that  $V\subset U$;
+2. $\xi\vee\eta=\{U\bigcap V|U\in\xi,V\in\eta\}$;
+3. Since $X$ is compact, $X=\bigcup\limits^{N}_{k=1}U_{i_{k}}$. Denote $N(\xi)$ as the smallest $N$ such that  covers $X$.
+
+## Def :: entropy of partition $\xi$
+$$H(\xi)=\log N(\xi).$$
+## Thm :: Basic properties of entropy of partitions $\xi$ and $\eta$
+1. If $\xi<\eta,\ H(\xi)\leq H(\eta)$;
+2. $H(\xi\vee\eta)\leq H(\xi)+H(\eta)$;
+3. $H(T^{-1}\xi)\leq H(\xi)$, if $T$ is surjective, The equality holds.
+
+## Def :: entropy of $T$ for partition $\xi$
+Given continuous transformation $T:X\rightarrow X$, and open cover $\xi$ of $X$, let $\xi=\xi\vee T^{-1}\xi\vee...\vee T^{-(n-1)}\xi$.
+The entropy of $T$ for $\xi$ is $$H(T,\xi)=\lim\limits_{n\rightarrow\infty}\frac{H(\xi_{n})}{n},$$
+the entropy of $T$ is $$h_{top}(T)=\text{sup}_{\xi-\text{open cover}}H(T,\xi).$$
+
+### Rmk :: 
+$H(\xi_{n+m})=H(\xi\vee...\vee T^{-(n-1)}\xi\vee...\vee T^{-(n+m-1)}\xi)$ in which first part is $\xi_{n}$ and second part is $T^{-n}\xi_{m}$.
+$$\begin{eqnarray}\leq& H(\xi_{n})+H(T^{-n}\xi_{m})\\ \leq& H(\xi_{n})+H(\xi_{n})\end{eqnarray}$$
+Hence, the limit $H(T,\xi)$ exists.
+
+
+## Thm :: Let $\text{diam}(\xi)=\text{sup}_{u\in\xi}\text{diam}(u)$, let $\xi_{n}$ be a sequence of open covers such that  $\text{diam}(\xi_{n})\rightarrow0$. Then $$h(T)=\lim\limits_{n\rightarrow\infty}h(T,\xi_{n}).$$
+### Thm :: Lebesgue number
+Given a compact metric space $X$ with $\bigcup_{i}U_{i}$. Then there is $r>0$ such that  for any $x\in X: \exists i: x\in B(x,r)\subset U_{i}.$
+
+### Ex :: [[Bernoulli system#^480094|entropy of Bernoulli shift]]
+
+
+## Def :: generating open cover $\xi$
+$\xi$ is called generating if $\forall i_{k}=1,...,s,\ k\in\mathbb{Z}:$ $$\{x\in X|T^{k}\in\overline{U_{i_{k}}}\ \text{for}\ k\in\mathbb{Z}\}$$
+contains at most one point.
+
+## Thm :: If $\xi$ is generating, $h(T)=h(T,\xi).$
+
+
+# Topological entropy with metric
+
+^164e5b
+
+#### Notations:
+Compact metric space $X$;
+$T:X\rightarrow X$ continuous;
+$d_{n}(x,y)=\text{max}_{0\leq i\leq n-1}d(T^{i}x,T^{i}y)$ which is a metric on $X$;
+$B_{n}(x,\epsilon)=\{y\in X|d_{n}(x,y)<\epsilon\};$
+$a(n,\epsilon)$ the smallest size of $(n,\epsilon)-$spanning set;
+$a(\epsilon)=\overline{\lim}\limits_{n\rightarrow\infty}\frac{\log a(n,\epsilon)}{n}$;
+$b(n,\epsilon)$ the biggest size of $(n,\epsilon)-$seperated set;
+$b(\epsilon)=\overline{\lim}\limits_{n\rightarrow\infty}\frac{\log b(n,\epsilon)}{n}$
+
+
+
+
+#### *Question*: how to measure complexity of $T$?
+This is a different approach than [[Lectures note about ergodic theory#^0726fe|partitions]].
+_Idea_: Consider points which have $\epsilon-$similar, orbits $x,y\in X: d(T^{i}x,T^{i})<\epsilon$ for $i=0,...,n-1$. So how many points with different behaviour?
+
+
+### Def :: $(n,\epsilon)-$spanning
+$F\subset X$ is $(n,\epsilon)-$spanning if $X=\bigcup_{x\in F}B_{n}(x,\epsilon)$, 
+
+#### Ex :: [[Doubling Map#^35f5a7| $(n,\epsilon)-$spanning of doubling map]]
+#### Ex :: [[Circle Rotation#^005402| $(n,\epsilon)-$spanning of circle rotation]]
+
+
+### Def :: $(n,\epsilon)-$seperated
+$S\subset X$ is $(n,\epsilon)-$seperated if $\forall s_{1}\not= s_{2}\in S:\ d_{n}(s_{1}, s_{2})\geq\epsilon.$
+
+
+#### Ex :: [[Doubling Map#^35f5a7| $(n,\epsilon)-$seperated subset of doubling map]]
+
+### Thm :: $a(n,\epsilon)\leq b(n,\epsilon)\leq a(n,\epsilon/2)$
+
+#### Thm :: $\lim\limits_{\epsilon\rightarrow0}a(\epsilon)=\lim\limits_{\epsilon}b(\epsilon)$
+
+
+## Thm :: $h_{top}(T)=\lim\limits_{\epsilon\rightarrow0}a(\epsilon)=\lim\limits_{\epsilon\rightarrow0}b(\epsilon)$
+
+
+#### Ex :: [[Doubling Map#^7dc2e2|topological entropy of doubling map]]
+
+#### Ex :: [[toral automorphism#^bd3803|topological entropy of torus automorphism]]
+
+
+
+# Variation Principle
+what is the relation between [[Lectures note about ergodic theory#^0726fe|measure entropy]] and [[Lectures note about ergodic theory#^164e5b|topological entropy]]?
+
+#### Notations:
+$X$ compact metric space
+$T:X\rightarrow X$ continuous
+
+
+## Thm :: variation principle
+$$h_{top}(T)=\text{sup}\{h_{\mu}(T)|\mu-T\ \text{invariant measure}\}.$$
+### Thm :: For $n\in\mathbb{N}$, $h_{top}(T^{n})=n\cdot h_{top}(T)$.
+
+
+### Thm :: For $n\in\mathbb{N}, h_{\mu}(T^{n})=n\cdot h_{\mu}(T).$
+
+
+### Thm :: Let $p_{i}\geq 0, \sum\limits_{i}p_{i}=1,$ $\mu_{i}$-$T$ invariant measures, $\mu_{i}(X)=1$, $\mu=\sum\limits_{i}p_{i}\mu_{i}$. Then $h_{\mu}(T)\geq \sum\limits_{i}p_{i}\cdot h_{\mu_{i}}(T)$.

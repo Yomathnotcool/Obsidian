@@ -40,3 +40,11 @@ Now we are ready to prove the theorem:
 
 ^22605f
 
+### Thm :: The entropy of Circle rotation
+
+^2a6425
+
+
+### Thm :: $(n,\epsilon)-$spanning/seperated subset of circle rotation
+
+^005402

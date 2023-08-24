@@ -57,6 +57,11 @@ For any $\epsilon>0$, there exists $\delta>0$, any homeomorphism $S:X\rightarrow
 
 
 
-### Thm :: torus automorphism is measure preserving
+### Thm :: torus automorphism is [[Lectures note about Dynamical System#^3ec847|measure preserving]].
 
 ^93f4ca
+
+
+### Thm :: topological entropy of torus automorphism
+
+^bd3803
