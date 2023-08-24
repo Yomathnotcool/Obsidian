@@ -213,3 +213,79 @@ $T$ is uniquely ergodic if and only if there exists $\mu\in P_{T}(X): \forall f\
 ## Ex :: [[Circle Rotation#^22605f|irrational rotation is uniquely ergodic]].
 
 ## Ex :: [[Circle homeomorphism#^93b97b|A circle homeomorphism with degree 1 without periodic points is uniquely ergodic.]]
+
+
+# Entropy
+
+### Notations:
+$(X,a,\mu)$ measure space with $\mu(X)=1$ 
+$T:X\rightarrow X$ measure preserving
+Fix a partition $X=A_{0}\sqcup...\sqcup A_{k-1}$.
+$x\sim y$ if and only if $x$ and $y$ in the same $A_{i}$.   
+
+*Question*: For $x\in X$, we know that $T^{i}x\in A_{l(i)}$ for $i=0,...,n-1$. How much _information_ does this give about $x$?
+
+Let $W_{n}(x)=\{y\in X|T^{i}x\sim T^{i}y\ \text{for}\ i=0,...,n-1\}$. One expects that $\mu(W_{n}(x))\rightarrow 0,\ n\rightarrow\infty$. 
+The decay rate 
+$$\lim_{n\rightarrow\infty}\frac{-\log\mu(W_{n}(x))}{n}$$
+tells the amount of information for the question, which we can extract from $T^{i}x\in A_{l(i)}$ for $i=0,...,n-1$.
+
+### Ex :: [[Bernoulli system#^bc8a1d|the decay rate of Bernoulli shift]]
+
+
+## Partitions and Entropy
+
+### Def :: Partitions
+Given a measure space $(X,a,\mu)$,
+1. A collection $\xi=\{A_{i}\}\subset a$ is a partition
+	- $\mu(A_{i}\bigcap A_{j})=0$ for $i\not=j$;
+	- $X=\bigcup_{i}A_{i}$ up to measure 0.
+2. For partitions $\xi=\{A_{i}\}$ and $\eta=\{B_{j}\}$, $\xi\vee\eta=\{A_{i}\bigcap B_{j}\}$ is also a partition;
+3. $\xi<\eta$ if and only if $\forall j, \exists i: B_{j}\subset A_{i}$ up to measure 0.
+
+### Def :: entropy of a partition
+For a partition $\xi=\{A_{i}\}$, the entropy of $\xi$ is $$H(\xi)=\sum\limits_{k}-\mu(A_{k})\log\mu(A_{k}).$$
+
+### Def :: conditional entropy
+Let $\eta=\{B_{j}\}$ be another partition. Then $\xi_{j}=\{A_{i}\bigcap B_{j}\}_{i}$ is a partition of $B_{j}$. Then we get normalized measure on $B_{j}$: $$\mu_{j}(C)=\frac{\mu(C)}{\mu(B_{j})}.$$
+The conditional entropy is $$H(\xi|\eta)=\sum\limits_{j}\mu(B_{j})H_{\mu_{j}}(\xi_{j}).$$
+### Thm :: the basic property of conditional entropy
+1. $H(\xi\vee\eta|\sigma)=H(\xi|\sigma)+H(\eta|\xi\vee\sigma)$;
+2. If $\xi<\eta$, $H(\xi|\sigma)\leq H(\eta|\sigma)$; 
+3. If $\eta < \xi$, $H(\sigma|\xi)\leq H(\sigma|\eta)$.
+
+### Def :: metric between partitions
+For partitions $\xi$ and $\eta$, Define the metric: $$d(\xi,\eta)=H(\xi|\eta)+H(\eta|\xi).$$
+Partitions are identified up to measure 0.
+
+
+### Thm :: $\forall\xi$ with $H(\xi)<\infty$: there are sequences of finite $\xi_{n}$, then $d(\xi, \xi_{n})\rightarrow0.$
+
+
+### Thm :: let $\mathcal{B}$ be an algebra which generates the $\sigma-$algebra $a$. Then for any finite partition $\xi$ in $a$, there exists finite partitions $\eta_{n}$ in $\mathcal{B}:$ $$d(\eta_{n},\xi)\rightarrow0.$$
+
+# Entropy of dynamical sytems
+### Notations:
+$(X,a,\mu)$ measure space with $\mu(X)=1$;
+$T:X\rightarrow X$ measure-preserving;
+$\xi$ a partition of $X$ with $H(\xi)<\infty$;
+$T^{-i}(\xi)=\{T^{-i}(A)|A\in\xi\}$;
+$\xi_{n}=\xi\vee T^{-1}(\xi)\vee...\vee T^{-(n-1)}(\xi)$ which gives information about $x,Tx,...,T^{n-1}x$ with respect to  $\xi.$
+
+
+## Def :: entropy of $T$ for partition $\xi$
+The entropy of $T$ for partition $\xi$ is $$h(T,\xi)=\lim_{n\rightarrow\infty}\frac{1}{n}H(\xi_{n}).$$
+The entropy of $T$ is $$h(T)=\text{sup}_{\xi:H(\xi)<\infty}h(T,\xi).$$
+### Thm :: entropy of $T$ for $\xi$ is well-defined. (Limit exists)
+
+
+### Thm :: basic properties of entropy of $T$
+1. $h(T,\xi\vee\eta)=h(T,\xi)+h(T,\eta)$;
+2. $h(T,\eta)\leq h(T,\xi)+H(\eta|\xi)$.
+
+# Isomorphism Problem
+
+Given two measure spaces $(X,a,\mu)$ with $\mu(X)=1$ and $(Y,\mathcal{B},\nu)$ with $\nu(Y)=1$, and two measure-preserving transformation $T:X\rightarrow X$ and $S:Y\rightarrow Y.$
+
+## Def :: isomorphism between two transformation $T$ and $S$
+$T$ and $S$ are isomorphic if $$
