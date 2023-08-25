@@ -36,3 +36,15 @@ Now we are ready to prove the theorem:
 
 ^101f4d
 
+## Thm :: Irrational rotation is [[Lectures note about ergodic theory#^56e37e|uniquely ergodic]].
+
+^22605f
+
+### Thm :: The entropy of Circle rotation
+
+^2a6425
+
+
+### Thm :: $(n,\epsilon)-$spanning/seperated subset of circle rotation
+
+^005402

@@ -36,3 +36,7 @@ What are the frequencies of digits with continued fraction expansion?
 For $k\in\mathbb{N}$, let $D_{N}(x,k)=\#\{i=1,...,N|x_{i}=k\}$, 
 $$\frac{D_{N}(x,k)}{N}\longrightarrow\frac{1}{\log2}\log(\frac{(k+2)k}{(k+1)^{2}}).$$
 
+### Thm :: Entropy of Gauss map
+
+^6e220e
+

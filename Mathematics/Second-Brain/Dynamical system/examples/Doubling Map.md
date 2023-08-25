@@ -39,3 +39,23 @@ $x\in [0,1)$ then $x$ can be written as decimal expansion, then the question is 
 
 For $k=0,...,9$, $D_{N}(x,k)=\#\{i=1,...,N:x_{i}=k\}$. For almost every $x\in[0,1)$ with Lebesgue measure,
 $$\frac{D_{N}(x,k)}{N}\longrightarrow\frac{1}{10}.$$ ^999c28
+
+
+
+### Ex :: are doubling map and $x\rightarrow 3x(\mod1)$ [[Lectures note about ergodic theory#^01ac2a|isomorphic]]?
+
+
+### Thm :: The entropy of Doubling map
+
+^0dc795
+
+
+
+### Thm ::  $(n,\epsilon)-$spanning/seperated subsets of doubling map
+
+^35f5a7
+
+
+### Thm :: topological entropy of doubling map
+
+^7dc2e2

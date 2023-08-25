@@ -154,6 +154,13 @@ a sequence $(x_{n})_{n\geq 1}\subset[0,1]$ is equidistributed if $\forall(a,b)\s
 
 ## Ex :: [[Circle Rotation#^101f4d|irrational rotation is equidistributed]].
 
+## Thm :: Weyl theorem about equidistribution
+For an irrational number $\alpha$, the sequence $(\{n^{2}\alpha\})_{n\geq1}$ is equidistributed. 
+### Rmk :: in fact, this works for general polynomials.
+
+
+
+
 
 # Space of measures
 Given a compact metric space $X$ and the space of probability measure 
@@ -163,4 +170,278 @@ $C(X)=\{f:X\rightarrow\mathbb{R}:f\ \text{continuous}\}$
 ## Thm :: $C(X)$ has a countable dense subset and it's dense in $L^{1}(X,\mu)$.
 
 
+## Def :: The limit of measure
+For $\mu_{n}, \mu\in P(X),$ then
+$$\mu_{n}\rightarrow \mu\Leftrightarrow\ \forall f\in C(X): \int_{X}f\text{d}\mu_{n}\rightarrow \int_{X}f\text{d}\mu.$$
 
+### Ex :: $\frac{1}{N}\sum\limits^{N-1}_{n=0}\delta_{\{n\alpha\}}\rightarrow \text{Lebesgue measure}$ is not true.
+We showed that $\forall f\in C([0,1]): \frac{1}{N}\sum\limits^{N-1}_{n=0}f(\{n\alpha\})\rightarrow\int^{1}_{0}f(x)\text{d}x.$ So $\frac{1}{N}\sum\limits^{N-1}_{n=0}\delta_{\{n\alpha\}}\rightarrow \text{Lebesgue measure}$ is an easy guess. However, it is not true that $$\frac{1}{N}\sum\limits^{N-1}_{n=0}\chi_{A}(\{n\alpha\})\rightarrow\int^{1}_{0}\chi_{A}\text{d}x,$$
+for all Borel subsets in $[0,1]$.
+
+
+## Thm :: compactness of measure space
+$\forall \mu_{n}\in P(X): \exists\ \text{subsequence}\ \mu_{n_{i}}$: $$\mu_{n_{i}}\rightarrow \mu\in P(X).$$
+
+## Thm :: Bogolubov-Krylov
+For continuous transformation $T:X\rightarrow X$, there exists $T$-invariant measure $\mu\in P(X)$.
+
+
+## Def :: extreme measure
+A measure $\mu\in P_{T}(X)$ is extreme if $\mu\not=\alpha_{1}\mu_{1}+\alpha_{2}\mu_{2}$ for $\mu_{1}\not=\mu_{2}\in P_{T}(X)$ in which $\alpha_{1},\alpha_{2}\in (0,1)$ and $\alpha_{1}+\alpha_{2}=1$.
+
+## Thm :: For $\mu\in P_{T}(X), \mu-\text{ergodic}\Leftrightarrow\mu-\text{extreme}$.
+
+
+## Thm :: $\exists$ ergodic measure $\mu\in P_{T}(X)$.
+
+
+
+# unique ergodicity
+
+Given a compact metric space X, and a continuous transformation $T:X\rightarrow X$,
+
+## Def :: uniquely ergodic
+
+^56e37e
+
+$T$ is uniquely ergodic if the $T$-invariant measure is unique.
+
+
+## Thm :: Equivalent definition
+$T$ is uniquely ergodic if and only if there exists $\mu\in P_{T}(X): \forall f\in C(X)$: $$\text{max}_{x\in X}|\frac{1}{N}\sum\limits^{N-1}_{n=0}f(T^{n}x)-\int_{X}f\text{d}\mu|\rightarrow 0.$$
+
+## Ex :: [[Circle Rotation#^22605f|irrational rotation is uniquely ergodic]].
+
+## Ex :: [[Circle homeomorphism#^93b97b|A circle homeomorphism with degree 1 without periodic points is uniquely ergodic.]]
+
+
+# Entropy
+
+### Notations:
+$(X,a,\mu)$ measure space with $\mu(X)=1$ 
+$T:X\rightarrow X$ measure preserving
+Fix a partition $X=A_{0}\sqcup...\sqcup A_{k-1}$.
+$x\sim y$ if and only if $x$ and $y$ in the same $A_{i}$.   
+
+*Question*: For $x\in X$, we know that $T^{i}x\in A_{l(i)}$ for $i=0,...,n-1$. How much _information_ does this give about $x$?
+
+Let $W_{n}(x)=\{y\in X|T^{i}x\sim T^{i}y\ \text{for}\ i=0,...,n-1\}$. One expects that $\mu(W_{n}(x))\rightarrow 0,\ n\rightarrow\infty$. 
+The decay rate 
+$$\lim_{n\rightarrow\infty}\frac{-\log\mu(W_{n}(x))}{n}$$
+tells the amount of information for the question, which we can extract from $T^{i}x\in A_{l(i)}$ for $i=0,...,n-1$.
+
+### Ex :: [[Bernoulli system#^bc8a1d|the decay rate of Bernoulli shift]]
+
+
+## Partitions and Entropy
+
+### Def :: Partitions
+Given a measure space $(X,a,\mu)$,
+1. A collection $\xi=\{A_{i}\}\subset a$ is a partition
+	- $\mu(A_{i}\bigcap A_{j})=0$ for $i\not=j$;
+	- $X=\bigcup_{i}A_{i}$ up to measure 0.
+2. For partitions $\xi=\{A_{i}\}$ and $\eta=\{B_{j}\}$, $\xi\vee\eta=\{A_{i}\bigcap B_{j}\}$ is also a partition;
+3. $\xi<\eta$ if and only if $\forall j, \exists i: B_{j}\subset A_{i}$ up to measure 0.
+
+### Def :: entropy of a partition
+For a partition $\xi=\{A_{i}\}$, the entropy of $\xi$ is $$H(\xi)=\sum\limits_{k}-\mu(A_{k})\log\mu(A_{k}).$$
+
+### Def :: conditional entropy
+Let $\eta=\{B_{j}\}$ be another partition. Then $\xi_{j}=\{A_{i}\bigcap B_{j}\}_{i}$ is a partition of $B_{j}$. Then we get normalized measure on $B_{j}$: $$\mu_{j}(C)=\frac{\mu(C)}{\mu(B_{j})}.$$
+The conditional entropy is $$H(\xi|\eta)=\sum\limits_{j}\mu(B_{j})H_{\mu_{j}}(\xi_{j}).$$
+### Thm :: the basic property of conditional entropy
+1. $H(\xi\vee\eta|\sigma)=H(\xi|\sigma)+H(\eta|\xi\vee\sigma)$;
+2. If $\xi<\eta$, $H(\xi|\sigma)\leq H(\eta|\sigma)$; 
+3. If $\eta < \xi$, $H(\sigma|\xi)\leq H(\sigma|\eta)$.
+
+### Def :: metric between partitions
+For partitions $\xi$ and $\eta$, Define the metric: $$d(\xi,\eta)=H(\xi|\eta)+H(\eta|\xi).$$
+Partitions are identified up to measure 0.
+
+
+### Thm :: $\forall\xi$ with $H(\xi)<\infty$: there are sequences of finite $\xi_{n}$, then $d(\xi, \xi_{n})\rightarrow0.$
+
+
+### Thm :: let $\mathcal{B}$ be an algebra which generates the $\sigma-$algebra $a$. Then for any finite partition $\xi$ in $a$, there exists finite partitions $\eta_{n}$ in $\mathcal{B}:$ $$d(\eta_{n},\xi)\rightarrow0.$$
+
+# Entropy of dynamical sytems
+### Notations:
+$(X,a,\mu)$ measure space with $\mu(X)=1$;
+$T:X\rightarrow X$ measure-preserving;
+$\xi$ a partition of $X$ with $H(\xi)<\infty$;
+$T^{-i}(\xi)=\{T^{-i}(A)|A\in\xi\}$;
+$\xi_{n}=\xi\vee T^{-1}(\xi)\vee...\vee T^{-(n-1)}(\xi)$ which gives information about $x,Tx,...,T^{n-1}x$ with respect to  $\xi.$
+
+
+## Def :: entropy of $T$ for partition $\xi$
+The entropy of $T$ for partition $\xi$ is $$h(T,\xi)=\lim_{n\rightarrow\infty}\frac{1}{n}H(\xi_{n}).$$
+The entropy of $T$ is $$h(T)=\text{sup}_{\xi:H(\xi)<\infty}h(T,\xi).$$
+### Thm :: entropy of $T$ for $\xi$ is well-defined. (Limit exists)
+
+
+### Thm :: basic properties of entropy of $T$
+1. $h(T,\xi\vee\eta)=h(T,\xi)+h(T,\eta)$;
+2. $h(T,\eta)\leq h(T,\xi)+H(\eta|\xi)$.
+
+# Isomorphism Problem
+
+Given two measure spaces $(X,a,\mu)$ with $\mu(X)=1$ and $(Y,\mathcal{B},\nu)$ with $\nu(Y)=1$, and two measure-preserving transformation $T:X\rightarrow X$ and $S:Y\rightarrow Y.$
+
+## Def :: isomorphism between two transformation $T$ and $S$
+
+^01ac2a
+
+$T$ and $S$ are isomorphic if 
+- $\exists X_{0}\subset X:\mu(X_{0})=1,\ T(X_{0})\subset X_{0}$;
+- $\exists Y_{0}\subset Y:\nu(Y_{0})=1,\ S(Y_{0})\subset Y_{0}$.
+There exists a bijection $\phi:X_{0}\rightarrow Y_{0}$ and $\phi,\phi^{-1}$ are measurable and measure-preserving.
+![[IMG_C4DD7CD1C586-1.jpeg]]
+
+
+### Ex :: [[Bernoulli system|Bernoulli shift]] is isomorphic to [[Doubling Map]].
+
+
+## Thm :: If $T$ and $S$ are isomorphic, then $h(T)=h(S)$.
+
+
+
+## Thm :: Kolmogorov-Sinai
+Consider partitions $\xi^{(1)}<\xi^{(2)}<...<\xi^{(i)}<...$ with finite entropy such that  $\bigcup_{i\geq1}\xi^{(i)}$ generates $a$. Then $h(T)=\lim\limits_{i\rightarrow\infty} h(T,\xi^{(i)})$.
+
+
+## Def :: generation partition
+A partition $\xi$ is called generation if the partition $\xi^{(n)}=\bigvee\limits_{i=0}^{n-1}T^{-i}(\xi)$ generate $a$.
+### Thm :: If $\xi$ is generating, $h(T)=h(T,\xi)$.
+
+#### Ex :: [[Doubling Map#^0dc795|Entropy of Doubling map]]
+#### Ex :: [[Circle Rotation#^2a6425|Entropy of circle rotation]]
+#### Ex :: [[Bernoulli system#^519a78|Entropy of Markov Shift]]
+
+
+
+
+
+## Thm :: Future determines present 
+$$H(T,\xi)=\lim_{n\rightarrow\infty}H(\xi|\bigvee\limits^{n}_{i=1}T^{-i}\xi).$$
+
+#### Ex :: [[Gauss map#^6e220e|Entropy of Gauss map]]
+
+
+# Topological Entropy with partition
+
+^0726fe
+
+#### Notations:
+$X$ compact metric space
+$T:X\rightarrow X$ continuous
+
+#### *Question*: how to measure complexity of $T$?
+Idea: Partition gives us open covers.
+Given an open cover $\{U_{i}\}_{i\in I}$ of $X$, $\{U_{i_{1}}\bigcap T^{-1}(U_{i_{2}})\bigcap...\bigcap T^{-(n-1)}(U_{i_{n}})\}_{i_{1},...,i_{n}\in I}$ are also open covers of $X$. We want to measure _complexity_ of these covers.
+
+## Def :: Open cover
+$\xi=\{U_{i}\}_{i\in I}$ is an open cover of $X$ if $U_{i}$ are open and $X=\bigcup\limits_{i\in I}U_{i}$.
+
+## Def :: Operations between partitions
+1. $\xi<\eta$ if $\forall V\in\eta$, there exists $U\in\xi$ such that  $V\subset U$;
+2. $\xi\vee\eta=\{U\bigcap V|U\in\xi,V\in\eta\}$;
+3. Since $X$ is compact, $X=\bigcup\limits^{N}_{k=1}U_{i_{k}}$. Denote $N(\xi)$ as the smallest $N$ such that  covers $X$.
+
+## Def :: entropy of partition $\xi$
+$$H(\xi)=\log N(\xi).$$
+## Thm :: Basic properties of entropy of partitions $\xi$ and $\eta$
+1. If $\xi<\eta,\ H(\xi)\leq H(\eta)$;
+2. $H(\xi\vee\eta)\leq H(\xi)+H(\eta)$;
+3. $H(T^{-1}\xi)\leq H(\xi)$, if $T$ is surjective, The equality holds.
+
+## Def :: entropy of $T$ for partition $\xi$
+Given continuous transformation $T:X\rightarrow X$, and open cover $\xi$ of $X$, let $\xi=\xi\vee T^{-1}\xi\vee...\vee T^{-(n-1)}\xi$.
+The entropy of $T$ for $\xi$ is $$H(T,\xi)=\lim\limits_{n\rightarrow\infty}\frac{H(\xi_{n})}{n},$$
+the entropy of $T$ is $$h_{top}(T)=\text{sup}_{\xi-\text{open cover}}H(T,\xi).$$
+
+### Rmk :: 
+$H(\xi_{n+m})=H(\xi\vee...\vee T^{-(n-1)}\xi\vee...\vee T^{-(n+m-1)}\xi)$ in which first part is $\xi_{n}$ and second part is $T^{-n}\xi_{m}$.
+$$\begin{eqnarray}\leq& H(\xi_{n})+H(T^{-n}\xi_{m})\\ \leq& H(\xi_{n})+H(\xi_{n})\end{eqnarray}$$
+Hence, the limit $H(T,\xi)$ exists.
+
+
+## Thm :: Let $\text{diam}(\xi)=\text{sup}_{u\in\xi}\text{diam}(u)$, let $\xi_{n}$ be a sequence of open covers such that  $\text{diam}(\xi_{n})\rightarrow0$. Then $$h(T)=\lim\limits_{n\rightarrow\infty}h(T,\xi_{n}).$$
+### Thm :: Lebesgue number
+Given a compact metric space $X$ with $\bigcup_{i}U_{i}$. Then there is $r>0$ such that  for any $x\in X: \exists i: x\in B(x,r)\subset U_{i}.$
+
+### Ex :: [[Bernoulli system#^480094|entropy of Bernoulli shift]]
+
+
+## Def :: generating open cover $\xi$
+$\xi$ is called generating if $\forall i_{k}=1,...,s,\ k\in\mathbb{Z}:$ $$\{x\in X|T^{k}\in\overline{U_{i_{k}}}\ \text{for}\ k\in\mathbb{Z}\}$$
+contains at most one point.
+
+## Thm :: If $\xi$ is generating, $h(T)=h(T,\xi).$
+
+
+# Topological entropy with metric
+
+^164e5b
+
+#### Notations:
+Compact metric space $X$;
+$T:X\rightarrow X$ continuous;
+$d_{n}(x,y)=\text{max}_{0\leq i\leq n-1}d(T^{i}x,T^{i}y)$ which is a metric on $X$;
+$B_{n}(x,\epsilon)=\{y\in X|d_{n}(x,y)<\epsilon\};$
+$a(n,\epsilon)$ the smallest size of $(n,\epsilon)-$spanning set;
+$a(\epsilon)=\overline{\lim}\limits_{n\rightarrow\infty}\frac{\log a(n,\epsilon)}{n}$;
+$b(n,\epsilon)$ the biggest size of $(n,\epsilon)-$seperated set;
+$b(\epsilon)=\overline{\lim}\limits_{n\rightarrow\infty}\frac{\log b(n,\epsilon)}{n}$
+
+
+
+
+#### *Question*: how to measure complexity of $T$?
+This is a different approach than [[Lectures note about ergodic theory#^0726fe|partitions]].
+_Idea_: Consider points which have $\epsilon-$similar, orbits $x,y\in X: d(T^{i}x,T^{i})<\epsilon$ for $i=0,...,n-1$. So how many points with different behaviour?
+
+
+### Def :: $(n,\epsilon)-$spanning
+$F\subset X$ is $(n,\epsilon)-$spanning if $X=\bigcup_{x\in F}B_{n}(x,\epsilon)$, 
+
+#### Ex :: [[Doubling Map#^35f5a7| $(n,\epsilon)-$spanning of doubling map]]
+#### Ex :: [[Circle Rotation#^005402| $(n,\epsilon)-$spanning of circle rotation]]
+
+
+### Def :: $(n,\epsilon)-$seperated
+$S\subset X$ is $(n,\epsilon)-$seperated if $\forall s_{1}\not= s_{2}\in S:\ d_{n}(s_{1}, s_{2})\geq\epsilon.$
+
+
+#### Ex :: [[Doubling Map#^35f5a7| $(n,\epsilon)-$seperated subset of doubling map]]
+
+### Thm :: $a(n,\epsilon)\leq b(n,\epsilon)\leq a(n,\epsilon/2)$
+
+#### Thm :: $\lim\limits_{\epsilon\rightarrow0}a(\epsilon)=\lim\limits_{\epsilon}b(\epsilon)$
+
+
+## Thm :: $h_{top}(T)=\lim\limits_{\epsilon\rightarrow0}a(\epsilon)=\lim\limits_{\epsilon\rightarrow0}b(\epsilon)$
+
+
+#### Ex :: [[Doubling Map#^7dc2e2|topological entropy of doubling map]]
+
+#### Ex :: [[toral automorphism#^bd3803|topological entropy of torus automorphism]]
+
+
+
+# Variation Principle
+what is the relation between [[Lectures note about ergodic theory#^0726fe|measure entropy]] and [[Lectures note about ergodic theory#^164e5b|topological entropy]]?
+
+#### Notations:
+$X$ compact metric space
+$T:X\rightarrow X$ continuous
+
+
+## Thm :: variation principle
+$$h_{top}(T)=\text{sup}\{h_{\mu}(T)|\mu-T\ \text{invariant measure}\}.$$
+### Thm :: For $n\in\mathbb{N}$, $h_{top}(T^{n})=n\cdot h_{top}(T)$.
+
+
+### Thm :: For $n\in\mathbb{N}, h_{\mu}(T^{n})=n\cdot h_{\mu}(T).$
+
+
+### Thm :: Let $p_{i}\geq 0, \sum\limits_{i}p_{i}=1,$ $\mu_{i}$-$T$ invariant measures, $\mu_{i}(X)=1$, $\mu=\sum\limits_{i}p_{i}\mu_{i}$. Then $h_{\mu}(T)\geq \sum\limits_{i}p_{i}\cdot h_{\mu_{i}}(T)$.
