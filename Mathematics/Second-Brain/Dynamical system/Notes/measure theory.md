@@ -42,7 +42,7 @@ By this claim, we have that $\lambda(\bigsqcup_{q\in\mathbb{Q},-1<q<1}(q+\Omega)
 $S\subset\mathcal{P}(\Omega)$,
 1. $\Omega\in S$;
 2. $A,B\in S\Rightarrow A\bigcap B\in S$;
-3. $A\in S\Rightarrow A^{c}=\sum\limits^{n}_{i=1}E_{i}, \exists E_{i}\in S$.
+3. $A\in S\Rightarrow A^{c}=\bigsqcup^{n}_{i=1}E_{i}, \exists E_{i}\in S$.
 ### Ex :: $\Omega=\mathbb{R}$
 $S=\bigg\{\{(a,b],a<b,a,b\in\mathbb{R}\},\{(\infty,b],\ b\in\mathbb{R}\},\{(a,+\infty),\ a\in\mathbb{R}\},\emptyset\bigg\}$ 
 ## Def :: algebra
