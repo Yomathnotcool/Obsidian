@@ -14,6 +14,43 @@
 
 
 ---
+After knowing the natural length $\lambda((a,b]))=b-a$ of intervals $(a,b]$, naturally we want to generalise to all subsets of $\mathbb{R}$ with similar properties as usual length $\lambda$:
+1. $\lambda((a,b])=b-a$;
+2. $\lambda:\mathcal{P}(\mathbb{R})\rightarrow \mathbb{R}_{>0}\bigcup\{\infty\}$, in which $\mathcal{P}(\mathbb{R})$ is the power set of $\mathbb{R}$;
+3. For any subset $A\subset \mathbb{R}$ and any $x\in \mathbb{R}$, $\lambda(A)=\lambda(A+x)$, in which $A+x=\{x+y|y\in A\}$.
+4. $\lambda(\sqcup_{j}A_{j})=\sum\limits_{j}\lambda(A_{j})$. 
+
+However, which is not possible due to the following theorem:
+### Thm :: **non-measurable sets** exists.
+#### Construction of non-measurable sets
+Define an **Equivalence relation**： $x\sim y,\ x,y\in\mathbb{R}$ if $x-y\in\mathbb{Q}$.
+Then we can pick one and only one representative element from every equivalence class $\mathbb{R}/\sim$ to collect them into set $\Omega\subset (0,1)$.
+
+
+#### Claim: $\Omega$ is non-measurable.
+$\lambda((0,1))=1>\lambda(\Omega)$, and we can prove that $\lambda(\Omega)=0$.
+##### Claim: For any $p,q\in\mathbb{Q}$, either $\Omega+p=\Omega+q$ or $(\Omega+p)\bigcap(\Omega+q)=\emptyset$.
+Assume $x\in(\Omega+p)\bigcap(\Omega+q)\not=\emptyset$. We can write $x=\alpha+p=\beta+q$ then $\alpha-\beta=q-p\in\mathbb{Q}$. 
+
+Then we have the disjoint union $\lambda(\bigsqcup_{q\in\mathbb{Q}, -1<q<1}q+\Omega)\leq 3$, which gives us $\infty\cdot\lambda(q+\Omega)\leq3$. So $\lambda(q+\Omega)=0$. 
+#### Claim: $(0,1)\subset\bigsqcup_{q\in\mathbb{Q},-1<q<1}(q+\Omega)$.
+$\forall x\in(0,1)$, $\exists\alpha\in[x]\bigcap\Omega$, such that $\alpha\in(0,1)$. Then $\alpha-x=q\in(-1,1)\bigcap\mathbb{Q}$, $x=\alpha+q\in\Omega+q$.    
+
+By this claim, we have that $\lambda(\bigsqcup_{q\in\mathbb{Q},-1<q<1}(q+\Omega))>1$, which contradicts to the earlier claim.
+
+## Def :: Semi-algebra
+$S\subset\mathcal{P}(\Omega)$,
+1. $\Omega\in S$;
+2. $A,B\in S\Rightarrow A\bigcap B\in S$;
+3. $A\in S\Rightarrow A^{c}=\sum\limits^{n}_{i=1}E_{i}, \exists E_{i}\in S$.
+### Ex :: $\Omega=\mathbb{R}$
+$S=\bigg\{\{(a,b],a<b,a,b\in\mathbb{R}\},\{(\infty,b],\ b\in\mathbb{R}\},\{(a,+\infty),\ a\in\mathbb{R}\},\emptyset\bigg\}$ 
+## Def :: algebra
+ $\mathcal{A}\subset\mathcal{P}(\Omega)$ an algebra
+ 1. $\Omega\in\mathcal{A}$;
+ 2. $A,B\in\mathcal{A}\Rightarrow A\bigcap B\in\mathcal{A}$;
+ 3. $A\in\mathcal{A}\Rightarrow A^{c}\in\mathcal{A}$.
+
 
 ### Def :: measure space 
 

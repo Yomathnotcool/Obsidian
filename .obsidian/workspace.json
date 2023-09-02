@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Lie group and Lie algebra/examples/AB-BA=B.md",
+                "file": "Mathematics/Second-Brain/Dynamical system/Notes/measure theory.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Lie group and Lie algebra/examples/AB-BA=B.md",
+                "file": "Mathematics/Second-Brain/Dynamical system/Notes/measure theory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Lie group and Lie algebra/examples/AB-BA=B.md",
+                "file": "Mathematics/Second-Brain/Dynamical system/Notes/measure theory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Lie group and Lie algebra/examples/AB-BA=B.md"
+                "file": "Mathematics/Second-Brain/Dynamical system/Notes/measure theory.md"
               }
             }
           }
@@ -149,8 +149,8 @@
   },
   "active": "8b4d72f7ece920b9",
   "lastOpenFiles": [
-    "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Lie group and Lie algebra/Notes/Background of Lie algebra.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Lie group and Lie algebra/examples/AB-BA=B.md",
+    "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Lie group and Lie algebra/Notes/Background of Lie algebra.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Lie group and Lie algebra/Notes/Outline of Lie group and Lie algebra.md",
     "GTM.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Lie group and Lie algebra/Notes/Additional note from discrete resources",
