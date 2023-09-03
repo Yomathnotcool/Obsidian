@@ -16,7 +16,7 @@
 ---
 After knowing the natural length $\lambda((a,b]))=b-a$ of intervals $(a,b]$, naturally we want to generalise to all subsets of $\mathbb{R}$ with similar properties as usual length $\lambda$:
 1. $\lambda((a,b])=b-a$;
-2. $\lambda:\mathcal{P}(\mathbb{R})\rightarrow \mathbb{R}_{>0}\bigcup\{\infty\}$, in which $\mathcal{P}(\mathbb{R})$ is the power set of $\mathbb{R}$;
+2. $\lambda:\mathcal{P}(\mathbb{R})\rightarrow \mathbb{R}_{\geq0}\bigcup\{\infty\}$, in which $\mathcal{P}(\mathbb{R})$ is the power set of $\mathbb{R}$;
 3. For any subset $A\subset \mathbb{R}$ and any $x\in \mathbb{R}$, $\lambda(A)=\lambda(A+x)$, in which $A+x=\{x+y|y\in A\}$.
 4. $\lambda(\sqcup_{j}A_{j})=\sum\limits_{j}\lambda(A_{j})$. 
 
