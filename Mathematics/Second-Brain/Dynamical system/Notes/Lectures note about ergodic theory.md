@@ -35,7 +35,7 @@ The transformation $T$ above is called ergodic if $\forall A\in a$, such that $T
 
 ^3b262f
 
-$T$ is mixing if $\forall A, B\in a: \mu(T^{-n}(A)\bigcap B)\rightarrow B\rightarrow \mu(A)\mu(B)$.
+$T$ is mixing if $\forall A, B\in a: \mu(T^{-n}(A)\bigcap B)\rightarrow \mu(A)\mu(B)$.
 
 ## Thm :: other equivalent definition of mixing
 $T$ is mixing if and only if $\forall f,g \in L^{2}(X): \int_{X}f(T^{n}x)g(x)\text{d}\mu(x)\rightarrow\int_{X}f\text{d}\mu\int_{X}g\text{d}\mu$.
@@ -43,7 +43,7 @@ $T$ is mixing if and only if $\forall f,g \in L^{2}(X): \int_{X}f(T^{n}x)g(x)\te
 
 The relation between mixing and ergodic is given as 
 ## Thm :: mixing $\Rightarrow$ erogidc
-
+For $A\in a$, by the definition of [[Lectures note about ergodic theory#^3b262f|mixing]], $\mu(T^{-n}(A)\cap A)\rightarrow\mu(A)\mu(A).$ Meanwhile, If $T^{-1}(A)=A,\ T^{-n}(A)\cap A=A.$ So $\mu(A)\rightarrow \mu(A)^{2}.$ 
 
 ### Ex :: [[Circle Rotation#^0bb64c|Rational rotation is not ergodic, but the irrational rotation is ergodic but not mixing.]]
 
