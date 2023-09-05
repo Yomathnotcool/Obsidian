@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Second-Brain/Dynamical system/Notes/measure theory.md",
+                "file": "Mathematics/Second-Brain/Dynamical system/Notes/Lectures note about ergodic theory.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathematics/Second-Brain/Dynamical system/Notes/measure theory.md",
+                "file": "Mathematics/Second-Brain/Dynamical system/Notes/Lectures note about ergodic theory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathematics/Second-Brain/Dynamical system/Notes/measure theory.md",
+                "file": "Mathematics/Second-Brain/Dynamical system/Notes/Lectures note about ergodic theory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathematics/Second-Brain/Dynamical system/Notes/measure theory.md"
+                "file": "Mathematics/Second-Brain/Dynamical system/Notes/Lectures note about ergodic theory.md"
               }
             }
           }
@@ -149,6 +149,12 @@
   },
   "active": "8b4d72f7ece920b9",
   "lastOpenFiles": [
+    "Mathematics/Second-Brain/Dynamical system/examples/Doubling Map.md",
+    "Mathematics/Second-Brain/Dynamical system/Notes/Lectures note about ergodic theory.md",
+    "Mathematics/Second-Brain/Dynamical system/examples/Circle Rotation.md",
+    "Mathematics/Second-Brain/Dynamical system/examples/Circle homeomorphism.md",
+    "Mathematics/Second-Brain/Dynamical system/Notes/Dynamical System Course.md",
+    "Mathematics/Second-Brain/Dynamical system/Notes/measure theory.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Lie group and Lie algebra/examples/AB-BA=B.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Lie group and Lie algebra/Notes/Background of Lie algebra.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Lie group and Lie algebra/Notes/Outline of Lie group and Lie algebra.md",
@@ -157,11 +163,8 @@
     "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Lie group and Lie algebra/examples",
     "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Lie group and Lie algebra/Notes",
     "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Lie group and Lie algebra/Notes/Additional note from discrete resources/Jacobi identity-intuitive explanation.md",
-    "Mathematics/Second-Brain/Dynamical system/Notes/Lectures note about ergodic theory.md",
     "Mathematics/Second-Brain/Dynamical system/examples/toral automorphism.md",
-    "Mathematics/Second-Brain/Dynamical system/examples/Doubling Map.md",
     "Mathematics/Second-Brain/Dynamical system/examples/continued fractions.md",
-    "Mathematics/Second-Brain/Dynamical system/examples/Circle Rotation.md",
     "Mathematics/Second-Brain/Dynamical system/examples/Bernoulli system.md",
     "Mathematics/Second-Brain/Dynamical system/examples/Gauss map.md",
     "IMG_C4DD7CD1C586-1.jpeg",
@@ -173,13 +176,10 @@
     "未命名 3.canvas",
     "未命名 2.canvas",
     "未命名 1.canvas",
-    "Mathematics/Second-Brain/Dynamical system/examples/Circle homeomorphism.md",
     "Mathematics/Second-Brain/Number theory/P-adic/Introduction to P-adic world.md",
     "Mathematics/Second-Brain/Dynamical system/Dataview/List of theorems from dynamical system.md",
     "Mathematics/Second-Brain/Dynamical system/Dataview/List of examples from dynamical system.md",
     "Mathematics/Second-Brain/Dynamical system/Dataview/List of definitions from dynamical system.md",
-    "Mathematics/Second-Brain/Dynamical system/Notes/measure theory.md",
-    "Mathematics/Second-Brain/Dynamical system/Notes/Dynamical System Course.md",
     "Mathematics/Second-Brain/Dynamical system/Notes/Lectures note about Dynamical System.md",
     "Pasted image 20230821153415.png",
     "Mathematics/Second-Brain/Dynamical system/examples/Thue-Morse sequence.md",
