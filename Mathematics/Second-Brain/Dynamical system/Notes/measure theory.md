@@ -128,7 +128,29 @@ $\mu:\mathcal{C}\rightarrow\mathbb{R}_{\geq0}\cup\{+\infty\}$
 $\mu((a,b])=\bigg\{\begin{array} +\infty,\ \ a=0\\ b-a,\ \ a>0\end{array}$  
 
 
+As for a function, it is useful to define the "continuous":
+## Def :: Continuous set function
+$\mathcal{C}\subset \mathcal{P}(\Omega)$ a class of subsets
+$\mu:\mathcal{C}\rightarrow\mathbb{R}_{\geq0}\bigcup\in\{\infty\}$.
+1. $\mu$ is called continuous from below at $E\in\mathcal{C}$, if $\forall (E_{n})_{n\geq1}, E_{n}\in\mathcal{C}$ and $E_{n}\uparrow E$ (i.e. $E_{n}\subset E_{n+1},\ \bigcup_{n\geq1}E_{n}=E$), such that  $\mu(E_{n})\rightarrow \mu(E)$;
+2. $\mu$ is called continuous from above at $E$ if $\forall (E_{n})_{n\geq1}, E_{n}\in\mathcal{C}$ and similarly $E_{n}\downarrow E$ (i.e. $E_{n+1}\subset E_{n}, \bigcap_{n\geq1} E_{n}=E$), $\exists n_{0},\ \mu(E_{n_{0}}<\infty)$, such that  $\mu(E_{n})\rightarrow \mu(E)$; 
+3. $\mu$ is continuous if it's both from below and above.
 
+### Ex :: why do we need $\exists n_{0},\ \mu(E_{n_{0}}<\infty)$?
+$\Omega=\mathbb{R}$, $E_{n}=\{(a+n,\infty), \text{fixed}\ a\ \& \ n\in\mathbb{N}\}$ 
+$\lim_{n}E_{n}=\emptyset$ but $\mu(\emptyset)=0$.
+
+
+
+### Thm :: relation between $\sigma$-additive and continuous
+1. $\mu$ is $\sigma-$additive then $\mu$ is continuous at $\forall E\in\mathcal{A}$;
+2. $\mu$ is continuous from below then $\mu$ is $\sigma-$additive;
+3. $\mu$ is continuous from above at $\emptyset$ and finite then $\mu$ is $\sigma$-additive.
+
+### Proof:
+1. $\mu$ is $\sigma-$additive then $\mu$ is continuous at $\forall E\in\mathcal{A}$;
+	1. $\mu$ is $\sigma$-additive then $\mu$ is continuous from below.
+	2.  $\mu$ is $\sigma-$additive then $\mu$ is continuous from above.
 
 
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Second-Brain/Dynamical system/Notes/measure theory.md",
+                "file": "Mathematics/Second-Brain/Dynamical system/Notes/Ergodic theory towards number theory.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathematics/Second-Brain/Dynamical system/Notes/measure theory.md",
+                "file": "Mathematics/Second-Brain/Dynamical system/Notes/Ergodic theory towards number theory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathematics/Second-Brain/Dynamical system/Notes/measure theory.md",
+                "file": "Mathematics/Second-Brain/Dynamical system/Notes/Ergodic theory towards number theory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathematics/Second-Brain/Dynamical system/Notes/measure theory.md"
+                "file": "Mathematics/Second-Brain/Dynamical system/Notes/Ergodic theory towards number theory.md"
               }
             }
           }
@@ -149,8 +149,10 @@
   },
   "active": "ff463ed69f3a41a4",
   "lastOpenFiles": [
-    "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Lie group and Lie algebra/Notes/Outline of Lie group and Lie algebra.md",
+    "Mathematics/Second-Brain/Dynamical system/Notes/Dynamical System Course.md",
+    "Mathematics/Second-Brain/Dynamical system/Notes/Ergodic theory towards number theory.md",
     "Mathematics/Second-Brain/Dynamical system/Notes/measure theory.md",
+    "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Lie group and Lie algebra/Notes/Outline of Lie group and Lie algebra.md",
     "Mathematics/Second-Brain/Dynamical system/Notes/Lectures note about ergodic theory.md",
     "Templates/Notes.md",
     "Templates",
@@ -176,12 +178,10 @@
     "Mathematics/Second-Brain/Dynamical system/examples/Monotone Maps of Intervals.md",
     "Mathematics/Second-Brain/Dynamical system/examples/Circle Rotation.md",
     "Mathematics/Second-Brain/Dynamical system/Notes/Lectures note about Dynamical System.md",
-    "Mathematics/Second-Brain/Dynamical system/Notes/Dynamical System Course.md",
     "Mathematics/Second-Brain/Dynamical system/Dataview/List of theorems from dynamical system.md",
     "Mathematics/Second-Brain/Dynamical system/Dataview/List of examples from dynamical system.md",
     "Mathematics/Second-Brain/Dynamical system/Dataview/List of definitions from dynamical system.md",
     "Mathematics/Second-Brain/Dynamical system/Dataview",
-    "Mathematics/Second-Brain/Category Theory.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/Dataview",
     "Mathematics/Second-Brain/Algebra and representation theory/Representation theory",
     "Mathematics/Second-Brain/Algebra and representation theory/Algebra/topological group",

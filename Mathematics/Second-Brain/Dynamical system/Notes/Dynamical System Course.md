@@ -29,4 +29,6 @@ A dynamical system consists of :
 
 [[Lectures note about ergodic theory]]
 
+[[Ergodic theory towards number theory]]
+
 [[Notes about chaos theory]]
