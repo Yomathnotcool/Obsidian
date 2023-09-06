@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Second-Brain/Dynamical system/Notes/Lectures note about ergodic theory.md",
+                "file": "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Lie group and Lie algebra/Notes/Outline of Lie group and Lie algebra.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Mathematics/Second-Brain/Dynamical system/Notes/Lectures note about ergodic theory.md",
+            "file": "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Lie group and Lie algebra/Notes/Outline of Lie group and Lie algebra.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Mathematics/Second-Brain/Dynamical system/Notes/Lectures note about ergodic theory.md",
+            "file": "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Lie group and Lie algebra/Notes/Outline of Lie group and Lie algebra.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Mathematics/Second-Brain/Dynamical system/Notes/Lectures note about ergodic theory.md"
+            "file": "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Lie group and Lie algebra/Notes/Outline of Lie group and Lie algebra.md"
           }
         }
       }
@@ -132,10 +132,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b733eeaf0a41f872",
+  "active": "43ab9033f1e1d915",
   "lastOpenFiles": [
-    "Mathematics/Second-Brain/Dynamical system/examples/Bernoulli system.md",
+    "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Lie group and Lie algebra/Notes/Background of Lie algebra.md",
+    "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Lie group and Lie algebra/Notes/Outline of Lie group and Lie algebra.md",
     "Mathematics/Second-Brain/Dynamical system/Notes/Lectures note about ergodic theory.md",
+    "Mathematics/Second-Brain/Dynamical system/examples/Bernoulli system.md",
     "Mathematics/Second-Brain/Dynamical system/examples/Doubling Map.md",
     "Mathematics/Second-Brain/Dynamical system/examples/Circle Rotation.md",
     "Mathematics/Second-Brain/Dynamical system/examples/continued fractions.md",
@@ -169,8 +171,6 @@
     "Mathematics/Second-Brain/Dynamical system/Dataview/List of theorems from dynamical system.md",
     "Mathematics/Second-Brain/Number theory/Notes for traces formula.md",
     "Mathematics/General information for math.md",
-    "Mathematics/Second-Brain/Dynamical system/examples/Monotone Maps of Intervals.md",
-    "Mathematics/Second-Brain/Dynamical system/examples/Shift map.md",
     "Mathematics/Second-Brain/Dynamical system/examples",
     "Mathematics/Reading-list",
     "Mathematics/Second-Brain/Dynamical system/Notes"
