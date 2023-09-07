@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Second-Brain/Dynamical system/Notes/Ergodic theory towards number theory.md",
+                "file": "Mathematics/Projects/Roger Howe-Eng Chye Tan - Non-Abelian Harmonic Analysis_Applications of SL(2,R)/Main Content of the Book.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathematics/Second-Brain/Dynamical system/Notes/Ergodic theory towards number theory.md",
+                "file": "Mathematics/Projects/Roger Howe-Eng Chye Tan - Non-Abelian Harmonic Analysis_Applications of SL(2,R)/Main Content of the Book.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathematics/Second-Brain/Dynamical system/Notes/Ergodic theory towards number theory.md",
+                "file": "Mathematics/Projects/Roger Howe-Eng Chye Tan - Non-Abelian Harmonic Analysis_Applications of SL(2,R)/Main Content of the Book.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathematics/Second-Brain/Dynamical system/Notes/Ergodic theory towards number theory.md"
+                "file": "Mathematics/Projects/Roger Howe-Eng Chye Tan - Non-Abelian Harmonic Analysis_Applications of SL(2,R)/Main Content of the Book.md"
               }
             }
           }
@@ -147,10 +147,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ff463ed69f3a41a4",
+  "active": "8b4d72f7ece920b9",
   "lastOpenFiles": [
-    "Mathematics/Second-Brain/Dynamical system/Notes/Dynamical System Course.md",
+    "Mathematics/Projects/Peter Sarnak - Spectral method of geodesic flows and horocycle flows/Asymptotic behavior of periodic orbits of the horocycle flow and Eisenstein series.md",
     "Mathematics/Second-Brain/Dynamical system/Notes/Ergodic theory towards number theory.md",
+    "Mathematics/Second-Brain/Dynamical system/Notes/Dynamical System Course.md",
     "Mathematics/Second-Brain/Dynamical system/Notes/measure theory.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Lie group and Lie algebra/Notes/Outline of Lie group and Lie algebra.md",
     "Mathematics/Second-Brain/Dynamical system/Notes/Lectures note about ergodic theory.md",
@@ -180,7 +181,6 @@
     "Mathematics/Second-Brain/Dynamical system/Notes/Lectures note about Dynamical System.md",
     "Mathematics/Second-Brain/Dynamical system/Dataview/List of theorems from dynamical system.md",
     "Mathematics/Second-Brain/Dynamical system/Dataview/List of examples from dynamical system.md",
-    "Mathematics/Second-Brain/Dynamical system/Dataview/List of definitions from dynamical system.md",
     "Mathematics/Second-Brain/Dynamical system/Dataview",
     "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/Dataview",
     "Mathematics/Second-Brain/Algebra and representation theory/Representation theory",
