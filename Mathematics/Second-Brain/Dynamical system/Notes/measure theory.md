@@ -152,7 +152,8 @@ $\lim_{n}E_{n}=\emptyset$ but $\mu(\emptyset)=0$.
 	1. $\mu$ is $\sigma$-additive then $\mu$ is continuous from below.
 		 For $E\in \Omega$ and the increasing sequence $E_{n}\uparrow E$, by this sequence, we can define $F_{1}=E_{1},\ F_{2}=E_{2}\backslash E_{1},....,F_{n}=E_{n}\backslash E_{n-1}$ which are disjoint and $\bigcup_{n\geq1}E_{n}=\bigsqcup_{k\geq1}F_{k}$. $\mu(E)=\sum\limits_{k}\mu(F_{k})=\lim_{k\rightarrow\infty}\sum\limits^{n}_{k=1}\mu(F_{k})=\lim_{n}\mu(\bigsqcup^{n}_{k}F_{k})=\lim_{n\rightarrow\infty}\mu(E_{n})$   
 	2.  $\mu$ is $\sigma-$additive then $\mu$ is continuous from above.
-		   Similarly we want to construct a sequence of sets $G_{1}=E_{n_{0}}\backslash E_{n_{0}+1},...,G_{k}=E_{n_{0}}\backslash E_{n_{0}+k}$ and this sequence $\mathcal{A}\ni G_{k}\uparrow E_{n_{0}}\backslash E$.  By 1, we have $\mu(G_{k}) \rightarrow \mu(E_{n_{0}}\backslash E)$.   And $\mu(E_{n_{o}}\backslash E)=\lim_{k\rightarrow \infty}\mu(E_{n_{0}}\backslash E_{n_{0}+k})$, since $\mu(E_{n_{0}})$ is finte, $\mu(E_{n_{0}})-\mu(E)=\mu(E_{n_{0}})-\lim_{k\rightarrow\infty}E_{n_{0}+k}$. 
+		   Similarly we want to construct a sequence of sets $G_{1}=E_{n_{0}}\backslash E_{n_{0}+1},...,G_{k}=E_{n_{0}}\backslash E_{n_{0}+k}$ and this sequence $\mathcal{A}\ni G_{k}\uparrow E_{n_{0}}\backslash E$.  By 1, we have $\mu(G_{k}) \rightarrow \mu(E_{n_{0}}\backslash E)$.   And $\mu(E_{n_{o}}\backslash E)=\lim_{k\rightarrow \infty}\mu(E_{n_{0}}\backslash E_{n_{0}+k})$, since $\mu(E_{n_{0}})$ is finite, $\mu(E_{n_{0}})-\mu(E)=\mu(E_{n_{0}})-\lim_{k\rightarrow\infty}\mu(E_{n_{0}+k})$. $\mu(E)=\lim_{k\rightarrow\infty}\mu(E_{n_{0}+k})$.
+2. $\mu$ is $\sigma-$additive if $\mu$ is continuous from below.
 
 
 
