@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Second-Brain/Analysis/measure theorey/measure theory.md",
+                "file": "Mathematics/Second-Brain/Analysis/measure theorey/The proof of Caratheodory theorem.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathematics/Second-Brain/Analysis/measure theorey/measure theory.md",
+                "file": "Mathematics/Second-Brain/Analysis/measure theorey/The proof of Caratheodory theorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathematics/Second-Brain/Analysis/measure theorey/measure theory.md",
+                "file": "Mathematics/Second-Brain/Analysis/measure theorey/The proof of Caratheodory theorem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathematics/Second-Brain/Analysis/measure theorey/measure theory.md"
+                "file": "Mathematics/Second-Brain/Analysis/measure theorey/The proof of Caratheodory theorem.md"
               }
             }
           }
@@ -149,11 +149,14 @@
   },
   "active": "ff463ed69f3a41a4",
   "lastOpenFiles": [
-    "Mathematics/Second-Brain/Dynamical system/Dataview/List of definitions from dynamical system.md",
     "Mathematics/Second-Brain/Analysis/measure theorey/measure theory.md",
+    "Mathematics/Second-Brain/Analysis/measure theorey/The proof of Caratheodory theorem.md",
+    "Pasted image 20230909134939.png",
+    "Mathematics/Second-Brain/Analysis/measure theorey/未命名",
     "Mathematics/Second-Brain/Analysis/Dataview/List of examples from analysis.md",
     "Mathematics/Second-Brain/Analysis/Dataview/List of definitions from analysis.md",
     "Mathematics/Second-Brain/Analysis/Dataview/List of theorems from analysis.md",
+    "Mathematics/Second-Brain/Dynamical system/Dataview/List of definitions from dynamical system.md",
     "Mathematics/Second-Brain/Dynamical system/Notes/Dynamical System Course.md",
     "Mathematics/Second-Brain/Dynamical system/Notes/Ergodic theory towards number theory.md",
     "Mathematics/Second-Brain/Dynamical system/Notes/Lectures note about ergodic theory.md",
@@ -182,9 +185,6 @@
     "Mathematics/Second-Brain/Number theory/Modular forms and Automorphic forms",
     "Mathematics/Second-Brain/Number theory/Classical number theory(before Tate)",
     "Mathematics/Second-Brain/Number theory",
-    "Mathematics/Second-Brain/List of all conjectures.md",
-    "Mathematics/Second-Brain/Dynamical system/examples/Thue-Morse sequence.md",
-    "Mathematics/Second-Brain/Dynamical system/Dataview",
     "IMG_C4DD7CD1C586-1.jpeg",
     "未命名.canvas",
     "未命名 7.canvas",

@@ -180,7 +180,13 @@ For a [[measure theory#^85e7d2|semi-algebra]] $\mathcal{S}\subset\mathcal{P}(\Om
 1. $\exists \nu:\mathcal{A}(\mathcal{S})\rightarrow \overline{\mathbb{R}_{\geq0}}$;
 2. $\nu(A)=\mu(A),\ \forall A\in\mathcal{A}$;
 3. $\mu_{1},\mu_{2}:\mathcal{A}(\mathcal{S}\rightarrow\overline{\mathbb{R}_{\geq0}})$ and  $\mu_{1}(A)=\mu_{2}(A),\forall A\in\mathcal{S}$ such that  $\forall E\in\mathcal{A}(\mathcal{S}), \mu_{1}(A)=\mu_{2}(A)$.
+[[The proof of Caratheodory theorem]] 
 
+
+#### Def :: outer measure
+Given a class $\mathcal{C}\ni\emptyset\subset\mathcal{P}(\Omega)$, $\mu:\mathcal{C}\rightarrow\overline{\mathbb{R}_{\geq0}}$ satisfies:
+1. $\mu(\emptyset)=0$;
+2. If $E\subset F,\ E,F\in\mathcal{C}$, such that $\mu(E)\leq\mu(F)$.
 
 
 
