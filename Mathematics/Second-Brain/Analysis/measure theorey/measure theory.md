@@ -1,5 +1,5 @@
 # Tags
-#dynamical-system #notes #measure-theory
+#notes #measure-theory #analysis
 
 ---
 
@@ -99,6 +99,9 @@ Check the definitions:
 	By the definition of [[measure theory#^85e7d2|semi-algebra]], $E_{i}^{c}=\bigsqcup^{l_{i}}_{k_{i}}E_{i,k}$ in which $E_{j,k}\in\mathcal{S}$.
 
 ## Def :: Additive set function
+
+^007702
+
 Given a class of subsets $\mathcal{C}\subset\mathcal{P}(\Omega)$ with $\emptyset\in\mathcal{C}$, a set function $$\mu:\mathcal{C}\rightarrow\mathbb{R}_{\geq0}\cup\{\infty\}$$ is called additive if 
 1. $\mu(\emptyset)=0$;
 2. $\mu(\bigsqcup^{n}_{i} E_{i})=\sum\limits^{n}_{i}\mu(E_{i})$.
@@ -170,7 +173,13 @@ $\lim_{n}E_{n}=\emptyset$ but $\mu(\emptyset)=0$.
 #### Ex :: why do we need $\mu$ finite for [[measure theory#^04d668|the theorem above]]?
 Considering the [[measure theory#^994a94|set function additive but not $\sigma-$additive]], define $E_{n}=(a_{n,1},b_{n,1}]\cup...\cup(a_{n,k},b_{n,k}]$ in which $a_{n,j}<a_{n,j+1}$ and $$\bigg\{\begin{array}  aa_{n,1}=0, \forall n\\ 
 a_{n_{0},1}>0, \exists n_{0}, \mu(E_{n_{0}})<\infty\end{array}$$
+It's not $\sigma-$additive because it's not finite. 
 
+### Thm :: Caratheodory theorem
+For a [[measure theory#^85e7d2|semi-algebra]] $\mathcal{S}\subset\mathcal{P}(\Omega)$ and a [[measure theory#^007702|additive]] set function $\mu$ defined on $\mathcal{S}$, then there is a unique extension $\nu$ of $\mu$ satisfying:
+1. $\exists \nu:\mathcal{A}(\mathcal{S})\rightarrow \overline{\mathbb{R}_{\geq0}}$;
+2. $\nu(A)=\mu(A),\ \forall A\in\mathcal{A}$;
+3. $\mu_{1},\mu_{2}:\mathcal{A}(\mathcal{S}\rightarrow\overline{\mathbb{R}_{\geq0}})$ and  $\mu_{1}(A)=\mu_{2}(A),\forall A\in\mathcal{S}$ such that  $\forall E\in\mathcal{A}(\mathcal{S}), \mu_{1}(A)=\mu_{2}(A)$.
 
 
 
