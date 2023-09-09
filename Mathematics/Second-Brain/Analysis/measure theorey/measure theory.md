@@ -184,10 +184,13 @@ For a [[measure theory#^85e7d2|semi-algebra]] $\mathcal{S}\subset\mathcal{P}(\Om
 
 
 #### Def :: outer measure
+
+^36aaff
+
 Given a class $\mathcal{C}\ni\emptyset\subset\mathcal{P}(\Omega)$, $\mu:\mathcal{C}\rightarrow\overline{\mathbb{R}_{\geq0}}$ satisfies:
 1. $\mu(\emptyset)=0$;
-2. If $E\subset F,\ E,F\in\mathcal{C}$, such that $\mu(E)\leq\mu(F)$.
-
+2. If $E\subset F,\ E,F\in\mathcal{C}$, such that $\mu(E)\leq\mu(F)$;
+3. $E,\ E_{i}\in\mathcal{C},\ E\subset \bigcup E_{i}$ such that  $\mu(E)\leq\sum\limits_{i}\mu(E_{i})$.
 
 
 

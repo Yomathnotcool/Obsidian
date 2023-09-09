@@ -33,5 +33,10 @@ Now we need to show that
 The [[The proof of Caratheodory theorem#^08973e| theorem]] can be further extended:
 ![[Pasted image 20230909134939.png]]
 
-
+In order to construct the extension $\pi$, we can construct the [[measure theory#^36aaff|outer measure]] $\pi^{*}:\mathcal{P}(\Omega)\rightarrow \overline{\mathbb{R}_{\geq0}}$, for a class of subset $\mathcal{M}\subset\mathcal{P}(\Omega)$, it satifies:
+1. it's $\sigma-$algebra;
+2. $\mathcal{A}\subset\mathcal{M}$;
+3. $\pi^{*}|_{\mathcal{M}}$ is $\sigma-$additive;
+4. $\pi^{*}|_{\mathcal{A}}=\nu$.
+And $\pi^{*}$ is constructed as $A\subset\Omega,\ \pi^{*}(A)=\text{inf}_{\{E_{i}\}}\sum\limits_{i\geq1}\nu(E_{i})$ in which $\{E_{i}|i\geq1\}\subset\mathcal{A}$ and $A\subset\bigcup_{i\geq1}E_{i}$.
 
