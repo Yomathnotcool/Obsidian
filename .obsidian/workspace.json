@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Second-Brain/Analysis/measure theorey/measure theory.md",
+                "file": "Mathematics/Second-Brain/Analysis/measure theorey/The proof of Caratheodory theorem.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathematics/Second-Brain/Analysis/measure theorey/measure theory.md",
+                "file": "Mathematics/Second-Brain/Analysis/measure theorey/The proof of Caratheodory theorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathematics/Second-Brain/Analysis/measure theorey/measure theory.md",
+                "file": "Mathematics/Second-Brain/Analysis/measure theorey/The proof of Caratheodory theorem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathematics/Second-Brain/Analysis/measure theorey/measure theory.md"
+                "file": "Mathematics/Second-Brain/Analysis/measure theorey/The proof of Caratheodory theorem.md"
               }
             }
           }
@@ -147,10 +147,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8b4d72f7ece920b9",
+  "active": "ff463ed69f3a41a4",
   "lastOpenFiles": [
-    "Mathematics/Second-Brain/Analysis/measure theorey/The proof of Caratheodory theorem.md",
     "Mathematics/Second-Brain/Analysis/measure theorey/measure theory.md",
+    "Mathematics/Second-Brain/Analysis/measure theorey/The proof of Caratheodory theorem.md",
     "Pasted image 20230909134939.png",
     "Mathematics/Second-Brain/Analysis/measure theorey/未命名",
     "Mathematics/Second-Brain/Analysis/Dataview/List of examples from analysis.md",

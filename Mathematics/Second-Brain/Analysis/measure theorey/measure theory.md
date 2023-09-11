@@ -49,6 +49,9 @@ $S\subset\mathcal{P}(\Omega)$,
 ### Ex :: $\Omega=\mathbb{R}$
 $S=\bigg\{\{(a,b],a<b,a,b\in\mathbb{R}\},\{(\infty,b],\ b\in\mathbb{R}\},\{(a,+\infty),\ a\in\mathbb{R}\},\emptyset\bigg\}$ 
 ## Def :: algebra
+
+^30d6ff
+
  $\mathcal{A}\subset\mathcal{P}(\Omega)$ an algebra
  1. $\Omega\in\mathcal{A}$;
  2. $A,B\in\mathcal{A}\Rightarrow A\bigcap B\in\mathcal{A}$;
