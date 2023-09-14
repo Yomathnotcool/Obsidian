@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Second-Brain/Analysis/measure theorey/The proof of Caratheodory theorem.md",
+                "file": "Mathematics/Second-Brain/Dynamical system/Notes/Lectures note about ergodic theory.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "mixing",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathematics/Second-Brain/Analysis/measure theorey/The proof of Caratheodory theorem.md",
+                "file": "Mathematics/Second-Brain/Dynamical system/Notes/Lectures note about ergodic theory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathematics/Second-Brain/Analysis/measure theorey/The proof of Caratheodory theorem.md",
+                "file": "Mathematics/Second-Brain/Dynamical system/Notes/Lectures note about ergodic theory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathematics/Second-Brain/Analysis/measure theorey/The proof of Caratheodory theorem.md"
+                "file": "Mathematics/Second-Brain/Dynamical system/Notes/Lectures note about ergodic theory.md"
               }
             }
           }
@@ -147,10 +148,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ff463ed69f3a41a4",
+  "active": "8b4d72f7ece920b9",
   "lastOpenFiles": [
-    "Mathematics/Second-Brain/Analysis/measure theorey/measure theory.md",
+    "Mathematics/Second-Brain/Dynamical system/examples/Circle Rotation.md",
     "Mathematics/Second-Brain/Analysis/measure theorey/The proof of Caratheodory theorem.md",
+    "Mathematics/Second-Brain/Analysis/measure theorey/measure theory.md",
     "Pasted image 20230909134939.png",
     "Mathematics/Second-Brain/Analysis/measure theorey/未命名",
     "Mathematics/Second-Brain/Analysis/Dataview/List of examples from analysis.md",
