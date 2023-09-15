@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mixing",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -148,7 +147,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8b4d72f7ece920b9",
+  "active": "ff463ed69f3a41a4",
   "lastOpenFiles": [
     "Mathematics/Second-Brain/Dynamical system/examples/Circle Rotation.md",
     "Mathematics/Second-Brain/Analysis/measure theorey/The proof of Caratheodory theorem.md",
