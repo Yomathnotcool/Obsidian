@@ -6,11 +6,7 @@
 # Doubling map
 ## Def :: Doubling map:
 
-<<<<<<< HEAD
 Given the space $X = \mathbb{R}/\mathbb{Z}$ with metric $d(x,y)=\text{min}_{n\in\mathbb{Z}}|x-y+n|,$
-=======
-Given the space $X = \mathbb{R}/\mathbb{Z}$ with metric $d(x,y)=\text{min}_{n\in\mathbb{Z}}|x-y+n|$ ,
->>>>>>> parent of 503fca6 (2023年9月4日 09:26 andiPad)
 $T:x\mapsto 2x (\text{mod} 1)$ 
 
 ## Thm :: Doubling map $T$ has $2^{n}-1$ periodic points. And the set of periodic points are dense.
