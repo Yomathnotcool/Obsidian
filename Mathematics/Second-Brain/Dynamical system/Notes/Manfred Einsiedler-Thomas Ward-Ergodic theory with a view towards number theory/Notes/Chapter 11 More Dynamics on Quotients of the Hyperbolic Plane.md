@@ -94,23 +94,3 @@ in which $x\in X$ and $x\in\mathbb{R}$.
 Based on those two definitions, there are two subgroups that are defined as following:
 $$U^{-}=\bigg\{\begin{pmatrix}1 & -s\\ 0 & 1\end{pmatrix}|s\in\mathbb{R}\bigg\},$$
 $$A=\bigg\{\begin{pmatrix}e^{t/2} & 0\\ 0 & e^{-t/2}\end{pmatrix}|t\in\mathbb{R}\bigg\}.$$
-Deng kldrngibjdnri;bergbsrg
-Bsdf
-
-Bs
-Db
-Sdgb
-
-Grs
-
-Bd
-B
-Sgd
-S
-Fv
-
-Df
-
-Vf
-
-Dv
