@@ -11,8 +11,12 @@
             "id": "fa96428788f77ac2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Mathematics/Second-Brain/Dynamical system/Notes/Manfred Einsiedler-Thomas Ward-Ergodic theory with a view towards number theory/Notes/Chapter 11 More Dynamics on Quotients of the Hyperbolic Plane.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "Mathematics/Second-Brain/Dynamical system/Notes/Manfred Einsiedler-Thomas Ward-Ergodic theory with a view towards number theory/Notes/Chapter 11 More Dynamics on Quotients of the Hyperbolic Plane.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "Mathematics/Second-Brain/Dynamical system/Notes/Manfred Einsiedler-Thomas Ward-Ergodic theory with a view towards number theory/Notes/Chapter 11 More Dynamics on Quotients of the Hyperbolic Plane.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -107,7 +113,9 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {}
+          "state": {
+            "file": "Mathematics/Second-Brain/Dynamical system/Notes/Manfred Einsiedler-Thomas Ward-Ergodic theory with a view towards number theory/Notes/Chapter 11 More Dynamics on Quotients of the Hyperbolic Plane.md"
+          }
         }
       }
     ],
