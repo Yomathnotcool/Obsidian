@@ -1,5 +1,5 @@
 # Tags
-#dynamical-system #notes #measure-theory
+#notes #measure-theory #analysis
 
 ---
 
@@ -49,6 +49,9 @@ $S\subset\mathcal{P}(\Omega)$,
 ### Ex :: $\Omega=\mathbb{R}$
 $S=\bigg\{\{(a,b],a<b,a,b\in\mathbb{R}\},\{(\infty,b],\ b\in\mathbb{R}\},\{(a,+\infty),\ a\in\mathbb{R}\},\emptyset\bigg\}$ 
 ## Def :: algebra
+
+^30d6ff
+
  $\mathcal{A}\subset\mathcal{P}(\Omega)$ an algebra
  1. $\Omega\in\mathcal{A}$;
  2. $A,B\in\mathcal{A}\Rightarrow A\bigcap B\in\mathcal{A}$;
@@ -99,6 +102,9 @@ Check the definitions:
 	By the definition of [[measure theory#^85e7d2|semi-algebra]], $E_{i}^{c}=\bigsqcup^{l_{i}}_{k_{i}}E_{i,k}$ in which $E_{j,k}\in\mathcal{S}$.
 
 ## Def :: Additive set function
+
+^007702
+
 Given a class of subsets $\mathcal{C}\subset\mathcal{P}(\Omega)$ with $\emptyset\in\mathcal{C}$, a set function $$\mu:\mathcal{C}\rightarrow\mathbb{R}_{\geq0}\cup\{\infty\}$$ is called additive if 
 1. $\mu(\emptyset)=0$;
 2. $\mu(\bigsqcup^{n}_{i} E_{i})=\sum\limits^{n}_{i}\mu(E_{i})$.
@@ -122,16 +128,72 @@ Given a class of subsets $\mathcal{C}\subset\mathcal{P}(\Omega)$ with $\emptyset
 1. $\mu(\emptyset)=0$;
 2. $\{E_{j}\}_{j>0}\in\mathcal{C}$ such that  $E=\bigsqcup_{j>0}E_{j}\in\mathcal{C}$, $\mu(E)=\sum\limits_{j>0}\mu(E_{j})$.
 ### Ex :: additive but not $\sigma$-algebra
+
+^994a94
+
 $\Omega=(0,1)$
 $\mathcal{C}=\{(a,b],0\leq a<b<1\}$
 $\mu:\mathcal{C}\rightarrow\mathbb{R}_{\geq0}\cup\{+\infty\}$
 $\mu((a,b])=\bigg\{\begin{array} +\infty,\ \ a=0\\ b-a,\ \ a>0\end{array}$  
 
 
+As for a function, it is useful to define the "continuous":
+## Def :: Continuous set function
+$\mathcal{C}\subset \mathcal{P}(\Omega)$ a class of subsets
+$\mu:\mathcal{C}\rightarrow\mathbb{R}_{\geq0}\bigcup\in\{\infty\}$.
+1. $\mu$ is called continuous from below at $E\in\mathcal{C}$, if $\forall (E_{n})_{n\geq1}, E_{n}\in\mathcal{C}$ and $E_{n}\uparrow E$ (i.e. $E_{n}\subset E_{n+1},\ \bigcup_{n\geq1}E_{n}=E$), such that  $\mu(E_{n})\rightarrow \mu(E)$;
+2. $\mu$ is called continuous from above at $E$ if $\forall (E_{n})_{n\geq1}, E_{n}\in\mathcal{C}$ and similarly $E_{n}\downarrow E$ (i.e. $E_{n+1}\subset E_{n}, \bigcap_{n\geq1} E_{n}=E$), $\exists n_{0},\ \mu(E_{n_{0}}<\infty)$, such that  $\mu(E_{n})\rightarrow \mu(E)$; 
+3. $\mu$ is continuous if it's both from below and above.
+
+### Ex :: why do we need $\exists n_{0},\ \mu(E_{n_{0}}<\infty)$?
+$\Omega=\mathbb{R}$, $E_{n}=\{(a+n,\infty), \text{fixed}\ a\ \& \ n\in\mathbb{N}\}$ 
+$\lim_{n}E_{n}=\emptyset$ but $\mu(\emptyset)=0$.
 
 
 
+### Thm :: relation between $\sigma$-additive and continuous
 
+^04d668
+
+1. $\mu$ is $\sigma-$additive then $\mu$ is continuous at $\forall E\in\mathcal{A}$;
+2. $\mu$ is continuous from below then $\mu$ is $\sigma-$additive;
+3. $\mu$ is continuous from above at $\emptyset$ and finite then $\mu$ is $\sigma$-additive.
+
+#### Proof:
+1. $\mu$ is $\sigma-$additive then $\mu$ is continuous at $\forall E\in\mathcal{A}$;
+	1. $\mu$ is $\sigma$-additive then $\mu$ is continuous from below.
+		 For $E\in \Omega$ and the increasing sequence $E_{n}\uparrow E$, by this sequence, we can define $F_{1}=E_{1},\ F_{2}=E_{2}\backslash E_{1},....,F_{n}=E_{n}\backslash E_{n-1}$ which are disjoint and $\bigcup_{n\geq1}E_{n}=\bigsqcup_{k\geq1}F_{k}$. $\mu(E)=\sum\limits_{k}\mu(F_{k})=\lim_{k\rightarrow\infty}\sum\limits^{n}_{k=1}\mu(F_{k})=\lim_{n}\mu(\bigsqcup^{n}_{k}F_{k})=\lim_{n\rightarrow\infty}\mu(E_{n})$   
+	2.  $\mu$ is $\sigma-$additive then $\mu$ is continuous from above.
+		   Similarly we want to construct a sequence of sets $G_{1}=E_{n_{0}}\backslash E_{n_{0}+1},...,G_{k}=E_{n_{0}}\backslash E_{n_{0}+k}$ and this sequence $\mathcal{A}\ni G_{k}\uparrow E_{n_{0}}\backslash E$.  By 1, we have $\mu(G_{k}) \rightarrow \mu(E_{n_{0}}\backslash E)$.   And $\mu(E_{n_{o}}\backslash E)=\lim_{k\rightarrow \infty}\mu(E_{n_{0}}\backslash E_{n_{0}+k})$, since $\mu(E_{n_{0}})$ is finite, $\mu(E_{n_{0}})-\mu(E)=\mu(E_{n_{0}})-\lim_{k\rightarrow\infty}\mu(E_{n_{0}+k})$. $\mu(E)=\lim_{k\rightarrow\infty}\mu(E_{n_{0}+k})$.
+2. $\mu$ is $\sigma-$additive if $\mu$ is continuous from below. 
+		 $E=\bigsqcup_{k\geq1}E_{k},\  \  E, E_{k}\in\mathcal{A}$
+		 $\bigsqcup^{n}_{k=1}E_{k}\subset E, \ \sum\limits^{n}_{k=1}\mu(E_{k})\leq \mu(E)$
+		 we want to prove that $\sum\limits^{n}_{k=1}\mu(E_{k})\leq \mu(E),\ \forall n\in\mathbb{N}_{>0}$.
+		 $F_{n}=\bigsqcup^{n}_{k=1}E_{k}\in\mathcal{A}$, this should give an increasing sequence $F_{n}\uparrow E$. By continuous from below, we have $\mu(F_{n})=\sum\limits^{n}_{k=1}\mu(E_{k})\rightarrow \mu(E)$.   
+3. $\mu$ is finite if $\mu$ is continuous from above at $\emptyset$ and is finite.
+	  $E_{k}, E\in\mathcal{A},\ E=\bigcup_{k\geq1}E_{k},$ Construct a decreasing subsets $F_{n}=\sum\limits_{k\geq n}E_{k}=E\backslash\sum\limits^{n-1}_{j=1}E_{j}\in\mathcal{A}$ then $F_{n}\downarrow\emptyset, \mu(F_{1})<\infty, \mu(F_{n})\rightarrow\infty$.     $\mu(E)=\mu((\bigcup^{n}_{k=1})\bigcup(\bigcup_{k>n}E_{k}))=\sum\limits^{n}_{k=1}\mu(E_{k})+\mu(F_{n+1})\rightarrow\sum\limits_{k\geq1}\mu(E_{k})$ 
+
+#### Ex :: why do we need $\mu$ finite for [[measure theory#^04d668|the theorem above]]?
+Considering the [[measure theory#^994a94|set function additive but not $\sigma-$additive]], define $E_{n}=(a_{n,1},b_{n,1}]\cup...\cup(a_{n,k},b_{n,k}]$ in which $a_{n,j}<a_{n,j+1}$ and $$\bigg\{\begin{array}  aa_{n,1}=0, \forall n\\ 
+a_{n_{0},1}>0, \exists n_{0}, \mu(E_{n_{0}})<\infty\end{array}$$
+It's not $\sigma-$additive because it's not finite. 
+
+### Thm :: Caratheodory theorem
+For a [[measure theory#^85e7d2|semi-algebra]] $\mathcal{S}\subset\mathcal{P}(\Omega)$ and a [[measure theory#^007702|additive]] set function $\mu$ defined on $\mathcal{S}$, then there is a unique extension $\nu$ of $\mu$ satisfying:
+1. $\exists \nu:\mathcal{A}(\mathcal{S})\rightarrow \overline{\mathbb{R}_{\geq0}}$;
+2. $\nu(A)=\mu(A),\ \forall A\in\mathcal{A}$;
+3. $\mu_{1},\mu_{2}:\mathcal{A}(\mathcal{S}\rightarrow\overline{\mathbb{R}_{\geq0}})$ and  $\mu_{1}(A)=\mu_{2}(A),\forall A\in\mathcal{S}$ such that  $\forall E\in\mathcal{A}(\mathcal{S}), \mu_{1}(A)=\mu_{2}(A)$.
+[[The proof of Caratheodory theorem]] 
+
+
+#### Def :: outer measure
+
+^36aaff
+
+Given a class $\mathcal{C}\ni\emptyset\subset\mathcal{P}(\Omega)$, $\mu:\mathcal{C}\rightarrow\overline{\mathbb{R}_{\geq0}}$ satisfies:
+1. $\mu(\emptyset)=0$;
+2. If $E\subset F,\ E,F\in\mathcal{C}$, such that $\mu(E)\leq\mu(F)$;
+3. $E,\ E_{i}\in\mathcal{C},\ E\subset \bigcup E_{i}$ such that  $\mu(E)\leq\sum\limits_{i}\mu(E_{i})$.
 
 
 

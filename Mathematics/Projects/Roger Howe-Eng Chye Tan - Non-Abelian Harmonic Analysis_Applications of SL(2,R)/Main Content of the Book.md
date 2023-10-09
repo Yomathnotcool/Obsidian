@@ -14,3 +14,4 @@
 
 ---
 
+[[Howe-Moore theorem]]
