@@ -57,7 +57,7 @@ For a function $f\in C^{\infty}(G)$, $Xf(g)=\sum\limits^{n}_{j}X_{j}(g)\frac{\pa
 For any vector fields,
 1. Bilinear;
 2. $[X,X]=0$;
-3. [[Jacobi identity-intuitive explanation|Jacobi identity]] $[[X,Y],Z]+[[Y,Z],X]+[[Z,X],Y]=0$.
+3. [[Notes/Mathematics/Second-Brain/Algebra and representation theory/Algebra/Lie group and Lie algebra/Notes/Additional note from discrete resources/Jacobi identity-intuitive explanation|Jacobi identity]] $[[X,Y],Z]+[[Y,Z],X]+[[Z,X],Y]=0$.
 
 ## Def :: Lie algebra
 
