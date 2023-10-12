@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "69c3a3e795e0d748",
+    "id": "1357845c21bbc72e",
     "type": "split",
     "children": [
       {
-        "id": "1528396216f8b9e6",
+        "id": "f34c2878b36de5fa",
         "type": "tabs",
         "children": [
           {
-            "id": "fa96428788f77ac2",
+            "id": "7d680fa07029325f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -25,11 +25,11 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "589c37e4757f53ce",
+    "id": "5ed62804081c957b",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "be14a69eceb0c023",
+        "id": "27547bc4d355e8c2",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
@@ -39,7 +39,7 @@
         }
       },
       {
-        "id": "1bbc5268f434f09d",
+        "id": "679c5ead5fd297cd",
         "type": "leaf",
         "state": {
           "type": "search",
@@ -54,7 +54,7 @@
         }
       },
       {
-        "id": "caa50be75be20bec",
+        "id": "e3a7f0fa0240687b",
         "type": "leaf",
         "state": {
           "type": "tag",
@@ -65,7 +65,7 @@
         }
       },
       {
-        "id": "acc60cc7790d5153",
+        "id": "879f30ee0be7151e",
         "type": "leaf",
         "state": {
           "type": "bookmarks",
@@ -76,11 +76,11 @@
     "currentTab": 0
   },
   "right": {
-    "id": "8ad8b3451bf9967b",
+    "id": "b90d29255d8dbe7c",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "1a93082499fe30d0",
+        "id": "57c30a3ee8ed4f02",
         "type": "leaf",
         "state": {
           "type": "backlink",
@@ -97,7 +97,7 @@
         }
       },
       {
-        "id": "ae72cb3a0d99ce26",
+        "id": "dbcf76df70b3f95f",
         "type": "leaf",
         "state": {
           "type": "outgoing-link",
@@ -109,7 +109,7 @@
         }
       },
       {
-        "id": "be63d2fe8c0bf4a7",
+        "id": "3cd9eb39ac49f3a4",
         "type": "leaf",
         "state": {
           "type": "outline",
@@ -131,8 +131,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fa96428788f77ac2",
+  "active": "7d680fa07029325f",
   "lastOpenFiles": [
+    "Mathematics/Second-Brain/Dynamical system/Notes/Manfred Einsiedler-Thomas Ward-Ergodic theory with a view towards number theory/Ergodic theory towards number theory.md",
+    "Obsidian/Mathematics/Second-Brain/Dynamical system/Notes/Manfred Einsiedler-Thomas Ward-Ergodic theory with a view towards number theory/Notes/Chapter 11 More Dynamics on Quotients of the Hyperbolic Plane.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Lie group and Lie algebra/Notes/Additional note from discrete resources/Jacobi identity-intuitive explanation.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Lie group and Lie algebra/Notes/Background of Lie algebra.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Lie group and Lie algebra/Notes/Outline of Lie group and Lie algebra.md",
@@ -157,7 +159,6 @@
     "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/Dataview/List of examples from representation theory.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/Dataview/List of definitions from representation theory.md",
     "Mathematics/Second-Brain/Dynamical system/Notes/Manfred Einsiedler-Thomas Ward-Ergodic theory with a view towards number theory/Notes",
-    "Mathematics/Second-Brain/Dynamical system/Notes/Manfred Einsiedler-Thomas Ward-Ergodic theory with a view towards number theory/Ergodic theory towards number theory.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Algebra/topological group",
     "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Linear algebra",
     "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Abstract Algebra",
@@ -168,12 +169,15 @@
     "Mathematics/Second-Brain/Geometry/Hyperbolic geometry/Fuchsian group.md",
     "Mathematics/Second-Brain/Geometry/Topology/Point-set topology.md",
     "Mathematics/Second-Brain/Number theory/Modular forms and Automorphic forms/Langlands-Shahidi method.md",
-    "Mathematics/Second-Brain/Number theory/Modular forms and Automorphic forms/Modular form.md",
     "Pasted image 20230821153415.png",
     "IMG_C4DD7CD1C586-1.jpeg",
     "Pasted image 20230909134939.png",
     "Pasted image 20230819103128.png",
     "Pasted image 20230821141245.png",
-    "Pasted image 20230821142412.png"
+    "Pasted image 20230821142412.png",
+    "Obsidian/Pasted image 20230821153415.png",
+    "Obsidian/IMG_C4DD7CD1C586-1.jpeg",
+    "Obsidian/Pasted image 20230909134939.png",
+    "Obsidian/Pasted image 20230819103128.png"
   ]
 }

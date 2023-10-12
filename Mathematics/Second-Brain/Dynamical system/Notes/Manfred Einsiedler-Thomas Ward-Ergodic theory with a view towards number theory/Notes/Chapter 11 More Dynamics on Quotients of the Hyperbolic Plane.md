@@ -1,10 +1,12 @@
+
 # Tags
 #ergodic-theory #dynamical-system #number-theory #measure-theory 
+
 
 ---
 
 # References
-[ergodic theory towards number theory](skim:///Users/zhdeng/Library/CloudStorage/OneDrive-tp3ns/GoodNotes/%E5%8A%A8%E5%8A%9B%E7%B3%BB%E7%BB%9F%20(1)/GTM%20259%20-%20ISBN978-0-85729-020-5%20-%20Manfred%20Einsiedler,%20Thomas%20Ward%20-%20Ergodic%20Theory%20-%20with%20a%20view%20towards%20Number%20Theory.pdf#page=14)
+
 
 ---
 
@@ -13,33 +15,6 @@
 
 
 ---
-
-# Chapter 9 Geodesic Flow on Quotients of the Hyperbolic Plane
-
-## The Hyperbolic Plane and the Isometric Action
-
-### Thm :: hyperbolic metric
-For any two points $z_{0},z_{1}\in\mathbb{H}$, there is a unique path $\phi:[0,\text{d}(z_{0},z_{1})]\rightarrow\mathbb{H}$ of unit speed with $\phi(0)=z_{0}$ and $\phi(\text{d}(z_{0},z_{1}))=z_{1}$.
-
-## Def :: fundamental domain of $PSL_{2}(\mathbb{R})$
- $E=\{z\in\mathbb{H}||z|\geq1,|\mathfrak{R}(z)\leq \frac{1}{2}|\}$ 
-$\mu(\gamma E\cap E)=0$ for $\gamma\in PSL_{2}\backslash\{Id\}$, and $\mathbb{H}=\bigcup_{\gamma}\gamma E$.
-
-
-### Def :: Fuchsian group
-A discrete subgroup $\Gamma\leq PSL_{2}(\mathbb{R})$
-
-### Def :: Lattice
-Discrete subgroup $\Gamma$ such that fundamental domain of $\Gamma\backslash PSL_{2}(\mathbb{R})$ is of finite area.
-
-#### Def :: uniform lattice
-
-^6d290e
-
-If $\Gamma\backslash PSL_{2}(\mathbb{R})$ is compact.
-
-
-# Chapter 11 More Dynamics on Quotients of the Hyperbolic Plane
 
 ## Dirichlet regions
 ### Def :: Properly discontinuous action
