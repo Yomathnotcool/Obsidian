@@ -94,3 +94,23 @@ in which $x\in X$ and $x\in\mathbb{R}$.
 Based on those two definitions, there are two subgroups that are defined as following:
 $$U^{-}=\bigg\{\begin{pmatrix}1 & -s\\ 0 & 1\end{pmatrix}|s\in\mathbb{R}\bigg\},$$
 $$A=\bigg\{\begin{pmatrix}e^{t/2} & 0\\ 0 & e^{-t/2}\end{pmatrix}|t\in\mathbb{R}\bigg\}.$$
+
+
+### Thm :: Rigidity of horocycle flow
+$\Gamma\subset SL_{{2}}(\mathbb{R})$, $X=\Gamma\backslash SL_{{2}}(\mathbb{R})$
+$\mu$ probability measure and ergodic under $h(s)$ horocycle flow, $s\in \mathbb{R}$ 
+Then $\mu=m_{{X}}$ or $\mu$ is unique invariant measure supported on periodic orbit for $U^{-}$. 
+If $X$ is compact, the only choice is $\mu=m_{{X}}$ since there is no periodic orbit.
+
+
+
+To prove the theorem, we need the following proposition:
+#### Thm :: Asymptotic formula of horocycle flow
+Let $K\subset X$ a compact subset, then there exists some constant $\eta$ with the following property: 
+	suppose that $(t_{{n}})$ is a sequence in $\mathbb{R}$ with $t_{n}\rightarrow\infty$ and with $R_{a_{t_{n}}}\in K$ for all $n$, then
+	$$
+\frac{1}{\eta e^{t_{n}}}\int ^{e^{t_{n}}}_{0}f(h(s)\cdot x_{0}) \, ds \rightarrow \int _{X}f(x)\ d m_{X}
+$$
+as $n\rightarrow\infty$ for all $f\in C_{c}(X)$.
+
+In order to prove this theorem, we 
