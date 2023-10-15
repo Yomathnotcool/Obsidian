@@ -113,4 +113,41 @@ Let $K\subset X$ a compact subset, then there exists some constant $\eta$ with t
 $$
 as $n\rightarrow\infty$ for all $f\in C_{c}(X)$.
 
-In order to prove this theorem, we 
+In order to prove this theorem, we need to break the measure of $G$ into measure of $ST$.
+
+#### Thm :: $G$ a $\sigma$-compact unimodular group, $S,T\leq G$ and $S\cap T=\{ e \}$ and $ST$ contains a neighborhood of $e\in G$. Let $\phi:S\times T \rightarrow G$ be the product map $\phi(s,t)=st \in ST\subset G.$ 
+
+
+Then by the Haar measure $m_{G}$ restricted to $ST$ is proportional to the pushforward $\phi_{*}(m^{l}_{S}\times m^{r}_{T})$ where $m_{S}^{l}$ is the left Haar measure on $S$ and $m^{r}_{T}$ is right Haar measure on $T.$
+
+We want to use this lemma on $G=PSL_{2}(\mathbb{R})$, $S=U^{-}$ and $T=U^{+}A$. 
+1. $S\cap T=\{ e \}$;
+2. $S, T\leq G$
+3. $ST$ contains a neighborhood of $\{ e \}$.
+
+###### Proof: 
+Considering the Lie algebra of $S$ and $T$, 
+$$
+\mathfrak{s}=\{\begin{pmatrix}0 & a \\
+0 & 0 
+\end{pmatrix}|a\in\mathbb{R}  \}
+$$
+$$
+\mathfrak{t}=\{ \begin{pmatrix}
+a &  \\
+c & -a
+\end{pmatrix}|a,c\in\mathbb{R} \}
+$$
+$$
+\begin{array}
+\ \phi:\mathfrak{s}\times \mathfrak{t}\rightarrow \mathfrak{g}\\
+(v,w)\mapsto \log(\exp(v)\exp(w))=v+w+\frac{1}{2}[v,w]+\frac{1}{12}([v,[v,w]]-[w,[v,w]])+\dots
+\end{array}
+$$
+
+
+So now we can define $m^{l}_{S}$ as the one-dimensional Lebesgue measure on $\mathbb{R}$ and $m^{r}_{T}$ as the right measure such that  $m_{G}$ restricted to $U^{-}T$ coincides with product measure of $m^{l}_{S}$ and $m^{r}_{T}$.
+
+Based the theorem about [[Chapter 9 Geodesic Flow on Quotients of the Hyperbolic Plane#^132adb|injective radius]], there exists a constant $\eta=\eta(K)>0$, then there is an embedding $u^{-}([0,\eta])B^{T}_{\eta}\hookrightarrow K$ for any $x\in K$. 
+
+$f\in C_{c}^{X}$, with loss of generality $f\geq 0$ and it's uniformly continuous on compact subset $K$: $\forall \epsilon$ 

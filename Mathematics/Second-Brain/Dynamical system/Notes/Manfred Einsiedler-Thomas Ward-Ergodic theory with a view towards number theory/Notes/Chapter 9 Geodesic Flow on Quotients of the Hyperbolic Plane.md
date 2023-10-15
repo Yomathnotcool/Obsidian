@@ -40,3 +40,10 @@ Discrete subgroup $\Gamma$ such that fundamental domain of $\Gamma\backslash PSL
 ^6d290e
 
 If $\Gamma\backslash PSL_{2}(\mathbb{R})$ is compact.
+
+
+
+### Thm :: Injective radius
+
+^132adb
+
