@@ -150,4 +150,102 @@ So now we can define $m^{l}_{S}$ as the one-dimensional Lebesgue measure on $\ma
 
 Based the theorem about [[Chapter 9 Geodesic Flow on Quotients of the Hyperbolic Plane#^132adb|injective radius]], there exists a constant $\eta=\eta(K)>0$, then there is an embedding $u^{-}([0,\eta])B^{T}_{\eta}\hookrightarrow K$ for any $x\in K$. 
 
-$f\in C_{c}^{X}$, with loss of generality $f\geq 0$ and it's uniformly continuous on compact subset $K$: $\forall \epsilon$ 
+$f\in C_{c}^{X}$, with loss of generality $f\geq 0$ and it's uniformly continuous on compact subset $K$: $\forall \epsilon$, there exists some $\delta$, $d(x,y)<\delta$  such that $\mid f(x)-f(y)\mid<\epsilon$. Fixed $\epsilon$, there exists some the uniform continuous condition holds.
+
+Now denote $$
+\begin{equation}
+Q_{\delta}=u^{-}(-[0,\eta])\cdot B^{T}_{\delta}=\{\begin{pmatrix}
+1 & s \\  & 1
+\end{pmatrix}\mid s\in -[0,\eta]  \}\cdot \{ g\in T=U^{+}A \mid d_{G}(g,e)<\delta \}
+\end{equation}
+$$
+then for $\delta<\eta$, there is the embedding $Q_{\delta}\hookrightarrow K$, we want to prove the integral on the interval $[0,e^{t_{n}}\cdot\eta]$, which is $$
+\begin{pmatrix}
+e^{-t_{n}/2 } & \\ & e^{t_{n}/2}
+\end{pmatrix}\begin{pmatrix}
+1 & s\\  & 1 
+\end{pmatrix}\begin{pmatrix}
+e^{-t_{n}/2 } & \\ & e^{t_{n}/2}
+\end{pmatrix}=\begin{pmatrix}
+e^{-t_{n}/2 } & \\ & e^{t_{n}/2}
+\end{pmatrix}\begin{pmatrix}
+e^{-t_{n}/2} & s\cdot e^{t_{n}/2}\\ & e^{-t_{n}/2}
+\end{pmatrix}=\begin{pmatrix}
+1 & s\cdot e^{t_{n}}\\ & 1
+\end{pmatrix}
+$$
+So the integral interval is $a^{-1}_{t_{n}}u^{-}(-[0,\eta])a_{t_{n}}$. We want to make the integral "larger" to make the geodesic $R_{a_{t_{n}}}$-orbit  more clear to study, which is why we need to add the ball $B_{\eta}^{T}$ in $Q_{\delta}$.
+
+
+Now we fixed a point $x_{o}$, then denote $B_{n}=\{  R_{a_{t_{n}}}^{-1}(R_{a_{t_{n}}}(x_{0}Q_{\delta})) \}=x_{0}(a^{-1}_{t_{n}}Q_{\delta}a_{t_{n}})\subset x_{0}u^{-}(-[0,e^{t_{n}}\eta])B^{T}_{\eta}$.
+
+We need to study the integral over $B_{n}$:
+$$
+\begin{align}
+\frac{1}{m_{G}(B_{n})} \int_{B_{n}}f(x) \, dm_{X}
+&=\int_{x_{0}(a_{t_{n}}Q_{\delta}a_{t_{n}})}f(x) \, dm_{X} \\
+&= \frac{1}{m_{G}(B_{n})}\int_{a^{-1}_{t_{n}}Q_{\delta}a_{t_{n}}}f(x_{0}g) \, dm_{G}(g) \\
+&= \frac{1}{m_{G}(B_{n})}\int_{a^{-1}_{t_{n}}Q_{\delta}B^{T}_{\eta}a_{t_{n}}}f(x_{0}g) \, dm_{G}(g) \\
+&= \frac{1}{m_{G}(B_{n})}\int_{a^{-1}Q_{\delta}a_{t_{n}}a^{-1}_{t_{n}}B^{T}_{\eta}} f(x_{0}g) \, dm_{G}(g) \\
+\text{By the decomposition of the measure}\ m_{G}\ \text{the lemma above} \\
+&=\frac{1}{\eta e^{t_{n}}} \frac{1}{m_{G}(a^{-1}_{t_{n}})a_{t_{n}}}\int_{0}^{\eta e^{t_{n}}}\int_{a^{-1}_{t_{n}}B^{T}_{\eta}a_{t_{n}}}f(x_{0}u^{-}(-s)g) \, dm^{r}_{T}(g)  \, ds 
+\end{align}
+$$
+
+
+
+Now we want to know how the uniform continuous work on $x_{0}u^{-}(-[0,e_{t_{n}}\eta])B^{T}_{\eta}$: $$
+\begin{equation}
+d_{X}(x_{0}u^{-}(-s),x_{0}u^{-}(-s)h)\leq d_{X}(e,h)<\delta
+\end{equation}
+$$
+And this,
+$$
+\mid \frac{1}{\eta e^{t_{n}}} \frac{1}{m_{G}(a^{-1}_{t_{n}})a_{t_{n}}}\int_{0}^{\eta e^{t_{n}}}\int_{a^{-1}_{t_{n}}B^{T}_{\eta}a_{t_{n}}}f(x_{0}u^{-}(-s)g) \, dm^{r}_{T}(g)  \, ds - \frac{1}{\eta e^{t_{n}}}\int^{\eta e^{t_{n}}}_{0}f(x_{0}u^{-}(-s))  \, ds\mid<\epsilon
+$$
+
+	*_Now we want to construct subsets that mixing property can be applied easily_*
+
+And since $K$ is compact, then there are finite many balls $B^{X}_{\kappa}$ with $\kappa$ sufficiently small that covers $K=\bigcup^{n}_{i}y_{i}B^{T}_{\kappa}$ .
+By the regularity of  measure, there exists a compact subset $P_{\delta}\subset Q^{0}_{\delta}$ and a compact subset $R_{\delta}$ containing $\overline{Q_{\delta}}$, so that $$
+\frac{m_{G}(R_{\delta}\backslash P_{\delta})}{m_{G}(Q_{\delta})}<\epsilon.
+$$
+and $B^{G}_{\kappa}P_{\delta}\subset Q_{\delta}$ and $B^{G}_{\kappa}Q_{\delta}\subset R_{\delta}$, which is well-defined since for any $g_{1}\in B^{G}_{\kappa}$ and $x \in P_{\delta}$, it satisfies $$
+d_{G}(x,gx)=d_{G}(e,g)<\kappa,
+$$
+as the same reason above.
+
+	Now we are ready to use the "mixing" property.
+
+$$
+\begin{align}
+<f, \frac{1}{m_{G}(Q_{\delta})}\chi_{y_{i}P_{\delta}}\circ R_{a_{t_{n}}}>
+&= \frac{1}{m_{G}}\int_{X}f(x)\cdot\chi_{y_{i}P_{\delta}}\circ R_{a_{t_{n}}}\,dm_{X}\\
+&\longrightarrow \text{By the mixing of horocycle flow}\\
+& \frac{1}{m_{G}}\int_{X}f(x)\,dm_{X}\int_{X}\chi_{y_{i}P_{\delta}}(x)\,dm_{X}\\
+& =\frac{m_{G}(P_{\delta})}{m_{G}(Q_{\delta})}\int_{X}f(x)\,dm_{X} 
+\end{align}
+$$
+Similarly, there is the asymptotic formula for $<f(x), \frac{1}{m_{G}(Q_{\delta})}\chi_{y_{i}R_{\delta}}\circ R_{a_{t_{n}}}>$.
+
+Then if $x=R_{a_{t_{n}}}(x_{0})\in y_{i}B^{X}_{\eta}\subset K$, then $y_{i}P_{\delta}\subseteq xQ_{\delta}\subseteq y_{i}R_{\delta}$.
+
+This gives us that 
+$$
+\begin{align}
+<f, \frac{1}{m_{G}(Q_{\delta})}\chi_{y_{i}P_{\delta}}\circ R_{a_{t_{n}}}>
+\leq \\ <f(x), \frac{1}{m_{G}(Q_{\delta})}\chi_{B_{n}}>
+\leq \\<f(x), \frac{1}{m_{G}(Q_{\delta})}\chi_{y_{i}R_{\delta}}\circ R_{a_{t_{n}}}>,
+\end{align}
+$$
+in which
+$$
+\begin{align}
+<f(x), \frac{1}{m_{G}(Q_{\delta})}\chi_{B_{n}}> &=\frac{1}{m_{G}(Q_{\delta})}\int_{X}f(x)\chi_{B_{n}}(x)\,dm_{X}\\
+&=\frac{1}{m_{G}(Q_{\delta})}\int_{X}f(x)\chi_{R_{a_{t_{n}}}^{-1}(x_{0}a^{-1}_{t_{n}}Q_{\delta})}(x)\,dm_{X}\\
+& = \frac{1}{m_{G}(Q_{\delta})}\int_{X}f(x)\chi_{x_{0}a_{t_{n}}^{-1}Q_{\delta}}(R_{a_{t_{n}}}(x))\,dm_{X}\\
+&\longrightarrow \text{By the property of mixing of geodesic flow}\\
+&= \frac{1}{m_{G}(Q_{\delta})}\int_{X}f(x)\,dm_{X}\int_{X}\chi_{x_{0}a^{-1}_{t_{n}}Q_{\delta}}(x)\,dm_{X}\\
+&=\int_{X}f(x)\,dm_{X} .
+\end{align}
+$$
