@@ -22,7 +22,8 @@
 ^6ee38f
 
 Given a locally compact metric space $X$ with an action of countable group $\Gamma$ by homeomorphism, the action is properly discontinuous if for any compact subspace $K\subset X$, $$\{\gamma\in\Gamma|\gamma K\cap K\not=\emptyset\}$$ is finite.
-i.e. any compact subset of $X$ only intersects with finitely many orbit points of action. 
+	i.e. any compact subset of $X$ only intersects with finitely many orbit points of action. $\forall K$ compact, there exists $g\in G$, $\{ K\cap \{ g^{n}x\mid n\in\mathbb{N} \} \}\not=\emptyset$.
+
 
 ### Def :: fundamental domain
 A measurable subset $F$ of $X$ is fundamental domain if $|\Gamma z\cap F|=1$ for any $z\in X$. 
@@ -77,6 +78,10 @@ $D$ Dirichlet domain for a lattice $\Gamma$ in $PSL_{2}(\mathbb{R})$, points of 
 
 ### Thm :: A lattice of $PSL_{2}(\mathbb{R})$ is finitely generated.
 
+
+
+
+
 ## Examples of lattices
 
 ## Unitary representation, Mautner phenomenon, and ergodicity
@@ -94,6 +99,8 @@ in which $x\in X$ and $x\in\mathbb{R}$.
 Based on those two definitions, there are two subgroups that are defined as following:
 $$U^{-}=\bigg\{\begin{pmatrix}1 & -s\\ 0 & 1\end{pmatrix}|s\in\mathbb{R}\bigg\},$$
 $$A=\bigg\{\begin{pmatrix}e^{t/2} & 0\\ 0 & e^{-t/2}\end{pmatrix}|t\in\mathbb{R}\bigg\}.$$
+
+
 
 
 ### Thm :: Rigidity of horocycle flow
