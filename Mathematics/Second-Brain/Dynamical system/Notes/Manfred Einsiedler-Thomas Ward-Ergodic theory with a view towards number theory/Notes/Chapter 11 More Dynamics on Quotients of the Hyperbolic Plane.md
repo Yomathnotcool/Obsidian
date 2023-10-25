@@ -256,3 +256,19 @@ $$
 &=\int_{X}f(x)\,dm_{X} .
 \end{align}
 $$
+### Thm :: Non-divergence theorem refined by Dani
+For any lattice $L\subset SL_{2}(\mathbb{R})$, every compact subset $K$ in $X=\Gamma \backslash SL_{2}(\mathbb{R})$, and $\forall\epsilon$, there exists a compact subset $L=L(K,\epsilon)$ of $X$, such that 
+$$
+\frac{1}{T}m_{\mathbb{R}}(\{ t\in[0,T]\mid h(t)\cdot x\not\in L \})\leq\epsilon
+$$
+for $\forall\epsilon$ and $\forall x \in K.$
+
+Moreover, there is a compact set $L=L(\varepsilon) \subseteq X$ (independent of $K$ and of $x$ ) such that for any $x \in X$ either $x$ is periodic or there exists some $T_x>0$ such that 
+$$
+\frac{1}{T}m_{\mathbb{R}}(\{ t\in[0,T]\mid h(t)\cdot x\not\in L \})\leq\epsilon
+$$
+holds for all $T \geqslant T_x$.
+
+#### Remark ::
+
+So this theorem gives a uniform control for all points in $X$.
