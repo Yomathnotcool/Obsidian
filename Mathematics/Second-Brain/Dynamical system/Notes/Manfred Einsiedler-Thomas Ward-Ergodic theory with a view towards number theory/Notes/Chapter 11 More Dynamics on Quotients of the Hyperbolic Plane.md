@@ -262,13 +262,29 @@ $$
 \frac{1}{T}m_{\mathbb{R}}(\{ t\in[0,T]\mid h(t)\cdot x\not\in L \})\leq\epsilon
 $$
 for $\forall\epsilon$ and $\forall x \in K.$
-
 Moreover, there is a compact set $L=L(\varepsilon) \subseteq X$ (independent of $K$ and of $x$ ) such that for any $x \in X$ either $x$ is periodic or there exists some $T_x>0$ such that 
 $$
 \frac{1}{T}m_{\mathbb{R}}(\{ t\in[0,T]\mid h(t)\cdot x\not\in L \})\leq\epsilon
 $$
 holds for all $T \geqslant T_x$.
-
 #### Remark ::
 
-So this theorem gives a uniform control for all points in $X$.
+So this theorem gives a uniform control for all points in $X$. 
+
+
+In the proof of this theorem, an important idea is to transfer the points in the quotient space to a different way of understanding: [[Moduli space|moduli]]of lattice, which requires the identification:
+$$
+\begin{array}
+\ X_{2} = SL_{2}(\mathbb{Z})\backslash SL_{2}(\mathbb{R})= \{ SL_{2}(\mathbb{Z})g\mid g\in SL_{2}(\mathbb{R})\}\cong& X_{2}=\{\text{All lattices in}\ SL_{2}(\mathbb{R})\}\\
+SL_{2}(\mathbb{Z})g \longleftrightarrow g^{-1}\mathbb{Z}^{2}
+\end{array}
+$$
+The benefit of using lattice is by the following [[Chapter 11 More Dynamics on Quotients of the Hyperbolic Plane#^99ae84|Mahler compactness criterion]].
+
+
+
+
+
+
+### Thm :: Mahler compactness criterion
+A set $K \subset X_{d}$ has compact closure if and only if  there is a $s>0$, such that 

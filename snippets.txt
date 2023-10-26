@@ -130,7 +130,7 @@
 	{trigger: "+-", replacement: "\\pm", options: "mA"},
 	{trigger: "-+", replacement: "\\mp", options: "mA"},
 	{trigger: "...", replacement: "\\dots", options: "mA"},
-	{trigger: "lrarr", replacement: "\\leftrightarrow ", options: "mA"},
+	{trigger: "lrarr", replacement: "\\longleftrightarrow ", options: "mA"},
 	{trigger: "rarrow", replacement: "\\to", options: "mA"},
 	{trigger: "mapsto", replacement: "\\mapsto", options: "mA"},
     	{trigger: "longrarrow", replacement: "\\longrightarrow", options: "mA"},
@@ -143,12 +143,13 @@
 	{trigger: "in", replacement: "\\in", options: "mA"},
 	{trigger: "any", replacement: "\\forall", options: "mA"},
 	{trigger: "subeq", replacement: "\\subseteq", options: "mA"},
-	{trigger: "sset", replacement: "\\{ $0 \\}$1", options: "mA"},
+	{trigger: "sset", replacement: "\\{$0\\}$1", options: "mA"},
 	{trigger: "Rarr", replacement: "\\implies", options: "mA"},
 	{trigger: "Larr", replacement: "\\impliedby", options: "mA"},
 	{trigger: "iff", replacement: "\\iff", options: "mA"},
 	{trigger: "ets", replacement: "\\exists", options: "mA", priority: 1},
 	{trigger: "===", replacement: "\\equiv", options: "mA"},
+	{trigger: "cong", replacement: "\\cong", options: "mA"},
 	{trigger: "Sq", replacement: "\\square", options: "mA"},
 	{trigger: "!=", replacement: "\\neq", options: "mA"},
 	{trigger: "geq", replacement: "\\geq", options: "mA"},
@@ -276,7 +277,7 @@
 	{trigger: "lr|", replacement: "\\left| $0 \\right| $1", options: "mA"},
 	{trigger: "lr{", replacement: "\\left\\{ $0 \\right\\} $1", options: "mA"},
 	{trigger: "lr[", replacement: "\\left[ $0 \\right] $1", options: "mA"},
-	{trigger: "lra", replacement: "\\left< $0 \\right> $1", options: "mA"},
+	{trigger: "lraa", replacement: "\\left< $0 \\right> $1", options: "mA"},
 
 
 
