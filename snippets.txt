@@ -122,6 +122,7 @@
 
 	// Symbols
 	{trigger: "ooo", replacement: "\\infty", options: "mA"},
+	{trigger: "empty", replacement: "\\emptyset", options: "mA"},
 	{trigger: "sum", replacement: "\\sum", options: "mA"},
 	{trigger: "prod", replacement: "\\prod", options: "mA"},
 	{trigger: "lim", replacement: "\\lim_{ ${0:n} \\to ${1:\\infty} } $2", options: "mA"},
@@ -131,7 +132,7 @@
 	{trigger: "-+", replacement: "\\mp", options: "mA"},
 	{trigger: "...", replacement: "\\dots", options: "mA"},
 	{trigger: "lrarr", replacement: "\\longleftrightarrow ", options: "mA"},
-	{trigger: "rarrow", replacement: "\\to", options: "mA"},
+	{trigger: "to", replacement: "\\to", options: "mA"},
 	{trigger: "mapsto", replacement: "\\mapsto", options: "mA"},
     	{trigger: "longrarrow", replacement: "\\longrightarrow", options: "mA"},
 	{trigger: "invs", replacement: "^{-1}", options: "mA"},
@@ -146,7 +147,7 @@
 	{trigger: "sset", replacement: "\\{$0\\}$1", options: "mA"},
 	{trigger: "Rarr", replacement: "\\implies", options: "mA"},
 	{trigger: "Larr", replacement: "\\impliedby", options: "mA"},
-	{trigger: "iff", replacement: "\\iff", options: "mA"},
+	{trigger: "IFF", replacement: "\\iff", options: "mA"},
 	{trigger: "ets", replacement: "\\exists", options: "mA", priority: 1},
 	{trigger: "===", replacement: "\\equiv", options: "mA"},
 	{trigger: "cong", replacement: "\\cong", options: "mA"},
@@ -163,7 +164,6 @@
 	{trigger: "nabl", replacement: "\\nabla", options: "mA"},
 	{trigger: "del", replacement: "\\nabla", options: "mA"},
 	{trigger: "xx", replacement: "\\times", options: "mA"},
-	{trigger: "***", replacement: "\\cdot", options: "mA"},
 	{trigger: "para", replacement: "\\parallel", options: "mA"},
 
 

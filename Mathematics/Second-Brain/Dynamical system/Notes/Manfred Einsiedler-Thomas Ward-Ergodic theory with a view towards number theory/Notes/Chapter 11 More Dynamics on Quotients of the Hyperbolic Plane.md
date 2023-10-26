@@ -280,11 +280,52 @@ SL_{2}(\mathbb{Z})g \longleftrightarrow g^{-1}\mathbb{Z}^{2}
 \end{array}
 $$
 The benefit of using lattice is by the following [[Chapter 11 More Dynamics on Quotients of the Hyperbolic Plane#^99ae84|Mahler compactness criterion]].
-
+### Thm :: Proof of the identity
+The following are equivalent:
+1. $x$ is periodic under $U^{-}.$
+2. $x \in \mathbb{Z}^{2}AU^{-}.$
+3. $x\cdot a_{s}\to \infty$ as $s \to \infty$. 
 
 
 
 
 
 ### Thm :: Mahler compactness criterion
-A set $K \subset X_{d}$ has compact closure if and only if  there is a $s>0$, such that 
+A set $K \subset X_{d}$ has compact closure if and only if  there is a $s>0$, such that $$
+\forall \Lambda \in K, \Lambda \cap B_{S}(0)=\{0\}.
+$$
+
+^d946ab
+
+
+$K\subseteq \Omega_{\delta}=\{\Lambda \in X_{2}\mid \Lambda \cap B_{\delta}(0)=\{0\}\}$, in which $\delta \in(0,1)$. by the [[Chapter 11 More Dynamics on Quotients of the Hyperbolic Plane#^d946ab| Mahler compactness criterion]], this makes sure that $K$ is compact.
+Our goal is to choose a constant $\eta \in\left( 0,\frac{\delta}{4} \right)$ such that $L=\Omega_{\delta}$ satisfies  $$\frac{1}{T}m_{\mathbb{R}}(\{t\in[0,T]\mid h(t)\cdot x\not\in L\})\leq\epsilon, \text{for any}\ T>0, x \in K.$$Here we want to use  [[Chapter 11 More Dynamics on Quotients of the Hyperbolic Plane#^d946ab| Mahler compactness criterion]] for lattice, this depends on the lemma before [[Chapter 11 More Dynamics on Quotients of the Hyperbolic Plane#^d946ab|Identity between quotient space and moduli of lattice.]]
+The corresponding elements under horocycle flow: 
+$$ 
+\begin{array}
+\ h(t)\cdot x=U^{-}(-t)x\\
+x=\Gamma g \longleftrightarrow g^{-1}\mathbb{Z}^{2}=\Lambda\\
+u^{-}(-t)x\longleftrightarrow u^{-}(t)\Lambda
+\end{array}
+$$
+Consider the maximal set of mutually non-proportional primitive elements of $\Lambda$, which is denoted as $\Pi = \{v_{1},\dots\}$. 
+	if $v=u^{-}(t)v_{i}\in U^{-}(t)\Lambda \backslash\{0\}$ and the norm $\mid v\mid<\eta \iff u^{-}(t)v=u^{-}nv_{i}$, which gives $\mid u^{-}(t)v_{i}\mid<\eta$. So the set $\Pi$ is the only collection of vectors that we need to consider.
+Pick $\Lambda \in K\subseteq \Omega_{\delta}$, so for any $v_{i}\in\Lambda$, $\mid v_{i}\mid \geq \delta$.
+Fix $T>0$, for any $i\geq 1$,
+$$
+B_{i}=\{t\in[0,T]\mid u^{-}(t)v_{i}\in B^{\mathbb{R}^{2}}_{\delta}(0)\},\ \ \ \text{the bad time}
+$$
+and $$
+P_{i}=\{t\in[0,T]\mid u^{-}(t)v_{i}\in B^{\mathbb{R}^{2}}_{\delta}(0)\},\ \ \ \text{the protected time that holds compactness.}
+$$
+it satisfies the properties below:
+1. $B_{i}\subseteq P_{i}$;
+2. $\forall i\not=j, P_{i}\cap P_{j}=\emptyset$. 
+
+The first is trivial, and the second is proved by contradiction to the unimodular condition. 
+
+##### Claim : $m_{\mathbb{R}}(B_{i})\leq \frac{4\eta}{\delta}m_{\mathbb{R}}(P_{i})$.
+Proof: 
+
+
+
