@@ -327,5 +327,25 @@ The first is trivial, and the second is proved by contradiction to the unimodula
 ##### Claim : $m_{\mathbb{R}}(B_{i})\leq \frac{4\eta}{\delta}m_{\mathbb{R}}(P_{i})$.
 Proof: 
 
+For the vector $v_{i}=\begin{pmatrix}\alpha_{1} \\ \alpha_{2}\end{pmatrix}$, then the vector under horocycle flow is $u^{-}(t)=\begin{pmatrix}\alpha_{1}+t\alpha_{2}\\ \alpha_{2}\end{pmatrix}$. 
+Then the $\alpha_{2}$ is the moving speed under horocycle flow, so if $\alpha_{2}=0$, then $v_{i}$ under horocycle flow, which gives the $B_{i}=\emptyset$.
 
+If $\alpha_{2}\geq \frac{\delta}{4}>\eta$, $\mid v_{i}\mid >\eta$. So $B_{i}=\emptyset$.
 
+So the only interval that we need to consider is $\alpha_{2}<\eta \leq \frac{\delta}{4}$:
+	Since the horocycle flow is continuous flow, denote the set $P_{i}=[T_{1},T_{2}]$, there exists $T'$, $\alpha_{1}+T'\alpha_{2}<\eta \leq \frac{\delta}{4}$, and for the time $T_{1}$, $\mid U^{-}(T_{1})v_{i}\mid=\delta=\mid \begin{pmatrix}\alpha_{1}+T_{1}\alpha_{2}\\ \alpha_{2}\end{pmatrix}\leq \mid \alpha_{1}+T_{1}\alpha_{2}\mid+\mid \alpha_{2}\mid$, as $\mid\alpha_{2}\mid< \frac{\delta}{4}$, $\mid \alpha_{1}+T_{1}\alpha_{2}\geq \frac{3\delta}{4}$. 
+	SO $m_{\mathbb{R}}(P_{i})=T_{2}-T_{1}>T'-T_{1}> \frac{\delta}{2}\cdot \mid \alpha_{2}\mid^{-1}$ (distance divides speed = time). 
+	And similarly, $m_{\mathbb{R}}(B_{i})=T_{3}-T_{4}\geq \frac{2\eta}{\alpha_{2}}$.
+	$$
+m_{\mathbb{R}}(B_{i})\leq \frac{4\eta}{\delta}m_{\mathbb{R}}(P_{i}).
+$$
+And $$
+\begin{array}
+m_{\mathbb{R}}(\{\Lambda\mid u^{-}(t)\Lambda \not\in \Omega_{\eta}\})\\
+= m_{\mathbb{R}}(\{t\in[0,T]\mid h(t)\cdot x\not\in L\})\\
+=\sum_{i}m_{\mathbb{R}}(B_{i})\\
+\leq \frac{4\eta}{\delta}\sum_{i}m_{\mathbb{R}}(P_{i})\\
+\leq \frac{4\eta}{\delta}T.
+\end{array}
+$$
+So choose $\eta \leq \frac{\epsilon\delta}{4}.$
