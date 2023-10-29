@@ -288,3 +288,63 @@ The benefit of using lattice is by the following [[Chapter 11 More Dynamics on Q
 
 ### Thm :: Mahler compactness criterion
 A set $K \subset X_{d}$ has compact closure if and only if  there is a $s>0$, such that 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+At the end of the chapter 11, our main goal is
+### Thm :: equidistribution of orbits of horocycle flow
+$\forall x \in X=SL_{2}(\mathbb{Z})\backslash SL_{2}(\mathbb{R}),$ which is not periodic under $h(t)$, for any $f \in C_{c}(X)$,
+$$
+\frac{1}{T}\int^{T}_{0}f(x\cdot u(t))\,dt \to \int_{X}f\,dm_{X}
+$$
+in which $m_{X}$ is the [[Haar measure]].
+
+Recall [[Riesz representation theory]] and [[Functional Analysis#^1f9d81|Banach-Alaogulu theorem]].
+
+Define $Y=X \bigsqcup\{\infty\}$ as the one-point compactification of $X$. Then for the time average of horocycle flow, it can be realized as a linear functional:
+$$
+M_{T}(f)=\frac{1}{T}\int^{T}_{0}f(x\cdot u(t))\,dt,
+$$
+And $M_{T}(f)\in M(Y)$ is a the space of continuous linear map from $C_{c}(Y)$ to $\mathbb{R}$. 
+
+By the [[Functional Analysis#^1f9d81|Banach-Alaogulu theorem]], the sequence $M_{T_{i}}$ has convergent subsequence, so we can assume that it's convergent: $M_{T_{i}}\to M$.
+
+##### Claim :: it's invariant under horocycle flow.
+
+$$
+\begin{array}
+\mid M(f\circ u(s))-M(f)\mid&=\lim\limits_{ T_{i} \to \infty } \frac{1}{T_{i}}\mid \int^{T_{i}}_{0}f(x u(t+s))\,dt-\int^{T_{i}}_{0}f(xu(t))\,dt\mid \\
+&\leq \lim\limits_{ T_{i} \to \infty } 2s\cdot \frac{max(f)}{T_{i}}=0
+\end{array}
+$$
