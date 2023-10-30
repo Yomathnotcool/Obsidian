@@ -69,6 +69,7 @@
 	{trigger: "cb", replacement: "^{3}", options: "mA"},
 	{trigger: "rd", replacement: "^{$0}$1", options: "mA"},
 	{trigger: "_", replacement: "_{$0}$1", options: "mA"},
+	{trigger: "^", replacement: "^{$0}$1", options: "mA"},
 	{trigger: "sts", replacement: "_\\text{$0}", options: "rmA"},
 	{trigger: "sq", replacement: "\\sqrt{ $0 }$1", options: "mA"},
 	{trigger: "//", replacement: "\\frac{$0}{$1}$2", options: "mA"},
@@ -125,7 +126,7 @@
 	{trigger: "empty", replacement: "\\emptyset", options: "mA"},
 	{trigger: "sum", replacement: "\\sum", options: "mA"},
 	{trigger: "prod", replacement: "\\prod", options: "mA"},
-	{trigger: "lim", replacement: "\\lim_{ ${0:n} \\to ${1:\\infty} } $2", options: "mA"},
+	{trigger: "lim", replacement: "\\lim\\limits_{ ${0:n} \\to ${1:\\infty} } $2", options: "mA"},
 	{trigger: "([^\\\\])pm", replacement: "[[0]]\\pm", options: "rm"},
 	{trigger: "([^\\\\])mp", replacement: "[[0]]\\mp", options: "rm"},
 	{trigger: "+-", replacement: "\\pm", options: "mA"},
@@ -141,6 +142,7 @@
     	{trigger: "backsl", replacement: "\\backslash", options: "mA"},
 	{trigger: "and", replacement: "\\cap", options: "mA"},
 	{trigger: "or", replacement: "\\cup", options: "mA"},
+	{trigger: "disj", replacement: "\\bigsqcup", options: "mA"},
 	{trigger: "in", replacement: "\\in", options: "mA"},
 	{trigger: "any", replacement: "\\forall", options: "mA"},
 	{trigger: "subeq", replacement: "\\subseteq", options: "mA"},
@@ -242,7 +244,7 @@
 	{trigger: "ot\\mathrm{Im}es", replacement: "\\otimes ", options: "mA"}, // Handle conflict with "im" snippet
 	{trigger: "bra", replacement: "\\bra{$0} $1", options: "mA"},
 	{trigger: "ket", replacement: "\\ket{$0} $1", options: "mA"},
-	{trigger: "brk", replacement: "\\braket{ $0 | $1 } $2", options: "mA"},
+	{trigger: "brk", replacement: "\\braket{ $0,$1 } $2", options: "mA"},
 	{trigger: "\\\\bra{([^|]+)\\|", replacement: "\\braket{ [[0]] | $0 ", options: "rmA", description: "Convert bra into braket"},
 	{trigger: "\\\\bra{(.+)}([^ ]+)>", replacement: "\\braket{ [[0]] | $0 ", options: "rmA", description: "Convert bra into braket (alternate)"},
 	{trigger: "outp", replacement: "\\ket{${0:\\psi}} \\bra{${0:\\psi}} $1", options: "mA"},
@@ -284,3 +286,4 @@
 	// Misc
 	{trigger: "tayl", replacement: "${0:f}(${1:x} + ${2:h}) = ${0:f}(${1:x}) + ${0:f}'(${1:x})${2:h} + ${0:f}''(${1:x}) \\frac{${2:h}^{2}}{2!} + \\dots$3", options: "mA"},
 ]
+	{trigger: "max", replacement: "\\text{max}", options: "mA"},
