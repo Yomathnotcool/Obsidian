@@ -291,7 +291,7 @@ The following are equivalent:
 
 
 ### Thm :: Mahler compactness criterion
-<<<<<<< HEAD
+
 A set $K \subset X_{d}$ has compact closure if and only if  there is a $s>0$, such that $$
 \forall \Lambda \in K, \Lambda \cap B_{S}(0)=\{0\}.
 $$
@@ -350,7 +350,7 @@ m_{\mathbb{R}}(\{\Lambda\mid u^{-}(t)\Lambda \not\in \Omega_{\eta}\})\\
 \end{array}
 $$
 So choose $\eta \leq \frac{\epsilon\delta}{4}.$
-=======
+
 A set $K \subset X_{d}$ has compact closure if and only if  there is a $s>0$, such that 
 
 
@@ -412,4 +412,3 @@ $$
 &\leq \lim\limits_{ T_{i} \to \infty } 2s\cdot \frac{max(f)}{T_{i}}=0
 \end{array}
 $$
->>>>>>> d7d7fdfdd6682477cd06f034bd6387fe49ba87e2
