@@ -169,7 +169,7 @@ $B(x, y) = tr(ad_x \circ ad_y)$
 
 where $ad_x$ and $ad_y$ are adjoint operations, which involve the commutator of the Lie algebra: $ad_x(y) = [x, y]$. Here, $tr$ denotes the trace of the corresponding linear map, and the commutator $[x,y]=xy-yx$signifies the Lie bracket operation. 
 
-For compact groups and their corresponding Lie algebras, the Killing form actually turns out to be negative definite. This property is quite useful. In fact, one alternative definition for a compact Lie algebra is a Lie algebra with a negative definite Killing form.
+For compact groups and their corresponding Lie  for a compact Lie algebra is a Lie algebra with a negative definite Killing form.
 
 The point of the Killing form, in the context of the eigenvalue computations for the Casimir operator, is that it provides an invariant way to measure lengths or more generally to take scalar products in the underlying vector space of the Lie algebra. This scalar product structure turns out to be just the right tool to compute eigenvalues of the Casimir operator.
 
