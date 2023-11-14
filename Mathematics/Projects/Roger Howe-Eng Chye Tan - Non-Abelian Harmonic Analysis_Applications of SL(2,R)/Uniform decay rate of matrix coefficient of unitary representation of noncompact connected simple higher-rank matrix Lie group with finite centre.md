@@ -53,7 +53,7 @@ So, if a representation's character matches that of the irreducible representati
 Finally, the direct sum notation $\oplus$ is used to denote a sum of subspaces, where each element of the resulting space $H$ can be uniquely written as a sum of elements from each subspace $H_{\sigma}$. In the infinite dimensional case, this sum will usually be infinite. It is the extension of the usual concept of a sum of subspaces to include an infinite number of summands.
 
 
-# so in summary, we can decomposition $H$ as $\bigoplus_{\sigma\in K} H_{\sigma}, then by Peter-weyl and compactness of $K$, we can further decompose $H_{\sigma}$ into isomorphic component of representation $\sigma$
+# so in summary, we can decomposition $H$ as $\bigoplus_{\sigma\in K} H_{\sigma}$, then by Peter-weyl and compactness of $K$, we can further decompose $H_{\sigma}$ into isomorphic component of representation $\sigma$
 
 The direct sum decomposition of $H$ is indeed given by $H = \bigoplus_{\sigma \in \hat{K}} H_{\sigma}$, where each $H_{\sigma}$is the direct sum of all components isomorphic to the irreducible representation $\sigma$. 
 
