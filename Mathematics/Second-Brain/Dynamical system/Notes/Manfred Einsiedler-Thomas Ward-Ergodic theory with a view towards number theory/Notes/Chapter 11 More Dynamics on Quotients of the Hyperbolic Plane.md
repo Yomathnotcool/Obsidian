@@ -413,6 +413,3 @@ $$
 \end{array}
 $$
 
-Give a unitary representation $(\rho, V)$ of $\mathbb{R}^{n}$, define $\hat{\rho}(f)=(2\pi)^{-n/2}\int_{\mathbb{R}^{n}}\hat{f}(x)\rho(x)dx$, in which $\hat{f}(\xi)=(2\pi)^{-n/2}\int_{\mathbb{R}^{n}}e^{-i\xi x}f(x)dx$, $\ then how to calculate $\hat{\rho}(f_{1}f_{2})=\hat{\rho}(f_{1})\hat{\rho}(f_{2})$. 
-
-Show the details of the calculation
