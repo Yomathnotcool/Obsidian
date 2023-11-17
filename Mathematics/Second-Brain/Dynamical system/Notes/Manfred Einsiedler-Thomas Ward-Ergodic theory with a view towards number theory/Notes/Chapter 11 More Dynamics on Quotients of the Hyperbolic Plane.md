@@ -104,6 +104,9 @@ $$A=\bigg\{\begin{pmatrix}e^{t/2} & 0\\ 0 & e^{-t/2}\end{pmatrix}|t\in\mathbb{R}
 
 
 ### Thm :: Rigidity of horocycle flow
+
+^954038
+
 $\Gamma\subset SL_{{2}}(\mathbb{R})$, $X=\Gamma\backslash SL_{{2}}(\mathbb{R})$
 $\mu$ probability measure and ergodic under $h(s)$ horocycle flow, $s\in \mathbb{R}$ 
 Then $\mu=m_{{X}}$ or $\mu$ is unique invariant measure supported on periodic orbit for $U^{-}$. 
@@ -259,6 +262,9 @@ $$
 ### Thm :: Non-divergence theorem refined by Dani
 For any lattice $L\subset SL_{2}(\mathbb{R})$, every compact subset $K$ in $X=\Gamma \backslash SL_{2}(\mathbb{R})$, and $\forall\epsilon$, there exists a compact subset $L=L(K,\epsilon)$ of $X$, such that 
 $$
+
+^7b3825
+
 \frac{1}{T}m_{\mathbb{R}}(\{ t\in[0,T]\mid h(t)\cdot x\not\in L \})\leq\epsilon
 $$
 for $\forall\epsilon$ and $\forall x \in K.$
@@ -286,7 +292,8 @@ The following are equivalent:
 2. $x \in \mathbb{Z}^{2}AU^{-}.$
 3. $x\cdot a_{s}\to \infty$ as $s \to \infty$. 
 
-
+#### Proof:
+$x\cdot u(t)=x$ by Mahler's criterion. 
 
 
 
@@ -413,3 +420,50 @@ $$
 \end{array}
 $$
 
+In order to prove the equidistribution formula, it's sufficient to show that every limit of 
+$$
+M_{T}(f)=\frac{1}{T}\int^{T}_{0}f(x\cdot u(t))\,dt 
+$$
+is the $\int_{X}f\,dm_{X}$. 
+
+By [[Chapter 11 More Dynamics on Quotients of the Hyperbolic Plane#^954038|Ridigity of horocycle flow]], there is no periodic points when $X$ is compact. 
+
+#### Thm :: Let $\Gamma \subset SL_{2}(\mathbb{R})$ discrete subgroup. For $x_{0}\in X=\Gamma \backslash SL_{2}(\mathbb{R})$ under action of $U^{-}$. Then $R_{a_{t_{0}}}(x_{0})$ diverges to $\infty$(leaves any compact subsets of $X$). If $X$ is compact then there is no periodic orbits for $U^{-}$.
+
+This theorem is well-known by the theorem before.
+
+#### Def :: Time averages sequence of horocycle flow
+A sequence $(\mu_{n})$ of probaility measures 
+$$
+\int f\,d\mu_{n}=\frac{1}{T_{n}}\int^{T_{n}}_{0}f(h(t)\cdot x)\,dt:=M_{T_{n}}(f)
+
+$$
+By [[Functional Analysis#^5b63b2|Banach-Alaogulu theorem]], with loss of generality, we can always assume that there exists a convergent sequence $\mu_{n}\to \mu$ with respect to  $weak^{*}$ topology.
+
+Limit points of sequences of uniform measures on long orbits are probaility measure. And this property is the [[Chapter 11 More Dynamics on Quotients of the Hyperbolic Plane#^7b3825|Quantitative non-divergence or non-escape of mass]].
+
+So now we know each such measure is either $m_{X}$ or unique invariant measure supported on a periodic orbit for $U^{-}$. 
+
+By the [[Chapter 4 invariant measures for continuous maps#^2a6b16|ergodic decomposition theorem]], the measure can be written as a sum(integral) of all ergodic measures: so in order to prove the measure is only $m_{X}$, the goal is to show that $$
+\mu(\{y\mid h(t)y=y, \text{for some}\ t\})=0
+$$
+or in the language of lattice
+$$
+\mu(\mathbb{Z}^{2}AU)=0
+$$
+which means all the probability measures are just zero.
+
+Let $I\subset \mathbb{R}$ be compact interval, and $B=\mathbb{Z}^{2}a_{I}U$, it suffices to show that $\mu(B)=0$ for all $I$.
+Let $\epsilon>0$ and $K=K(\epsilon)$, $Ba_{s}\to \infty$ as $s\to \infty$ which induces $Ba_{s}\subset X\backslash K$ for all $s\geq s_{0}$.
+
+Set $O=(x\backslash K)a_{s}^{-1}\supseteq B$,  for function $f\in C_{c}(X)$, and $\text{supp}(f)\subseteq O$ and $f\mid_{B}=1$ with bound $0\leq f\leq 1$.
+
+$$
+\begin{align}
+\mu(B)&\leq \lim\limits_{ n \to \infty } \frac{1}{T_{n}}\int^{T_{n}}_{0}f(x\cdot u(t))\,dt \\
+&\leq\overline{\lim\limits_{ n \to \infty } } \frac{1}{T_{n}}\mid \{t\in [0, T_{n}]\mid x \cdot U(t)\in O\}\mid \\
+&\iff x\cdot U(t)\cdot a_{s_{0}}=x\cdot a_{s_{0}}U_{e^{^{-s}t}}\not\in K \\
+&=\overline{\lim\limits_{ i \to \infty } } \frac{1}{T_{i}e^{{s_{0}}}} \mid \{t \in [0, T_{i}e^{s_{0}}]\mid (x\cdot a_{s_{0}}\cdot U(t))\not\in K\}\mid \\
+& \leq \epsilon
+\end{align}
+$$

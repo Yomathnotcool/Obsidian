@@ -124,7 +124,7 @@
 	// Symbols
 	{trigger: "ooo", replacement: "\\infty", options: "mA"},
 	{trigger: "empty", replacement: "\\emptyset", options: "mA"},
-	{trigger: "sum", replacement: "\\sum", options: "mA"},
+	{trigger: "sum", replacement: "\\sum\\limits^{$0}_{$1}", options: "mA"},
 	{trigger: "prod", replacement: "\\prod", options: "mA"},
 	{trigger: "lim", replacement: "\\lim\\limits_{ ${0:n} \\to ${1:\\infty} } $2", options: "mA"},
 	{trigger: "([^\\\\])pm", replacement: "[[0]]\\pm", options: "rm"},
@@ -146,6 +146,8 @@
 	{trigger: "in", replacement: "\\in", options: "mA"},
 	{trigger: "any", replacement: "\\forall", options: "mA"},
 	{trigger: "subeq", replacement: "\\subseteq", options: "mA"},
+	{trigger: "supset", replacement: "\\supset", options: "mA"},
+	{trigger: "supseteq", replacement: "\\supseteq", options: "mA"},
 	{trigger: "sset", replacement: "\\{$0\\}$1", options: "mA"},
 	{trigger: "Rarr", replacement: "\\implies", options: "mA"},
 	{trigger: "Larr", replacement: "\\impliedby", options: "mA"},
@@ -167,7 +169,7 @@
 	{trigger: "del", replacement: "\\nabla", options: "mA"},
 	{trigger: "xx", replacement: "\\times", options: "mA"},
 	{trigger: "para", replacement: "\\parallel", options: "mA"},
-
+ 	{trigger: "supp", replacement: "\\text{supp}", options: "mA"},
 
 	{trigger: "xnn", replacement: "x_{n}", options: "mA"},
 	{trigger: "xii", replacement: "x_{i}", options: "mA"},
