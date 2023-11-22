@@ -11,12 +11,8 @@
             "id": "384362f1b6938f58",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathematics/Projects/Roger Howe-Eng Chye Tan - Non-Abelian Harmonic Analysis_Applications of SL(2,R)/Uniform decay rate of matrix coefficient of unitary representation of noncompact connected simple higher-rank matrix Lie group with finite centre.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Mathematics/Projects/Roger Howe-Eng Chye Tan - Non-Abelian Harmonic Analysis_Applications of SL(2,R)/Uniform decay rate of matrix coefficient of unitary representation of noncompact connected simple higher-rank matrix Lie group with finite centre.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Mathematics/Projects/Roger Howe-Eng Chye Tan - Non-Abelian Harmonic Analysis_Applications of SL(2,R)/Uniform decay rate of matrix coefficient of unitary representation of noncompact connected simple higher-rank matrix Lie group with finite centre.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -113,9 +107,7 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {
-            "file": "Mathematics/Projects/Roger Howe-Eng Chye Tan - Non-Abelian Harmonic Analysis_Applications of SL(2,R)/Uniform decay rate of matrix coefficient of unitary representation of noncompact connected simple higher-rank matrix Lie group with finite centre.md"
-          }
+          "state": {}
         }
       }
     ],
@@ -133,10 +125,13 @@
   },
   "active": "384362f1b6938f58",
   "lastOpenFiles": [
+    "Mathematics/Projects/Roger Howe-Eng Chye Tan - Non-Abelian Harmonic Analysis_Applications of SL(2,R)/Uniform decay rate of matrix coefficient of unitary representation of noncompact connected simple higher-rank matrix Lie group with finite centre.md",
+    "Mathematics/Projects/uniform decay rate of matrix coefficient for high rank Lie group/Notes",
+    "Mathematics/Projects/uniform decay rate of matrix coefficient for high rank Lie group",
+    "Mathematics/Projects/uniform decay rate of matrix coefficient for high rank Lie group/Notes/Uniform decay rate of matrix coefficient of unitary representation of noncompact connected simple higher-rank matrix Lie group with finite centre.md",
     "Untitled.canvas",
     "2023-11-14.md",
     "Mathematics/Second-Brain/Dynamical system/Notes/Manfred Einsiedler-Thomas Ward-Ergodic theory with a view towards number theory/Notes/Chapter 11 More Dynamics on Quotients of the Hyperbolic Plane.md",
-    "Mathematics/Projects/Roger Howe-Eng Chye Tan - Non-Abelian Harmonic Analysis_Applications of SL(2,R)/Uniform decay rate of matrix coefficient of unitary representation of noncompact connected simple higher-rank matrix Lie group with finite centre.md",
     "Mathematics/Second-Brain/Analysis/Functional analysis/Notes/Projection valued measure.md",
     "snippets.txt",
     "Mathematics/Second-Brain/Dynamical system/Notes/Manfred Einsiedler-Thomas Ward-Ergodic theory with a view towards number theory/Notes/Chapter 4 invariant measures for continuous maps.md",
@@ -163,12 +158,9 @@
     "Mathematics/Second-Brain/Dynamical system/Notes/Manfred Einsiedler-Thomas Ward-Ergodic theory with a view towards number theory/Notes/Chapter 9 Geodesic Flow on Quotients of the Hyperbolic Plane.md",
     "Mathematics/Projects/Roger Howe-Eng Chye Tan - Non-Abelian Harmonic Analysis_Applications of SL(2,R)/Notes/unitary representation.md",
     "Mathematics/Second-Brain/Analysis/Real analysis/Integral.md",
-    "Mathematics/Second-Brain/Analysis/Real analysis",
     "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Lie group and Lie algebra/Notes/Additional note from discrete resources/Jacobi identity-intuitive explanation.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Lie group and Lie algebra/Notes/Background of Lie algebra.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Lie group and Lie algebra/Notes/Outline of Lie group and Lie algebra.md",
-    "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Lie group and Lie algebra/Notes/Additional note from discrete resources",
-    "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Lie group and Lie algebra/examples/AB-BA=B.md",
     "Pasted image 20230821153415.png",
     "IMG_C4DD7CD1C586-1.jpeg",
     "Pasted image 20230909134939.png",
