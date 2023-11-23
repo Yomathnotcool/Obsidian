@@ -107,7 +107,7 @@ $\Gamma \geq PSL_{2}(\mathbb{R})$. Any trivial element of geodesic flow that is 
 Sketch of proof:
 If $f:X\to \mathbb{R}$ uniformly continuous invariant under $R_{a_{t}}:f(R_{a_{t}}(x))=f(x)$, then $f$ is invariant with $U^{-}$ and $U^{{+}}$. Therefore $f$ is a constant.
 ———
-$x,y\in X$ and $xu^{-}=y\in X$, $R_{a_{t}}^{n}(y)=R^{n}_{a_{t}}(x)a^{n}_{t}u^{-}a^{-n}_{t}$
+$x,y\in X$ and $xu^{-}=y\in X$, $R_{a_{t}}^{n}(y)=R_{a_{t}}^{n}(xu^{-})=R^{n}_{a_{t}}(x)a^{n}_{t}u^{-}a^{-n}_{t}$
 
 ### Thm :: Rigidity of horocycle flow
 
