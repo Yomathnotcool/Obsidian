@@ -101,7 +101,11 @@ $$U^{-}=\bigg\{\begin{pmatrix}1 & -s\\ 0 & 1\end{pmatrix}|s\in\mathbb{R}\bigg\},
 $$A=\bigg\{\begin{pmatrix}e^{t/2} & 0\\ 0 & e^{-t/2}\end{pmatrix}|t\in\mathbb{R}\bigg\}.$$
 
 
+### Thm :: Geodesic flow is ergodic.
+$\Gamma \geq PSL_{2}(\mathbb{R})$. Any trivial element of geodesic flow that is the $R_{a_{t}}$ for some $t\not=0$ is an ergodic transformation on $X=\Gamma \backslash PSL_{2}(\mathbb{R})$ with respect to $m_{X}$.
 
+Sketch of proof:
+If $f:X\to \mathbb{R}$ uniformly continuous invariant under $R_{a_{t}}:f(R_{a_{t}}(x))=f(x)$, then $f$ is invariant with $U^{-}$ and $U^{{+}}$. Therefore $f$ is a constant.
 
 ### Thm :: Rigidity of horocycle flow
 
