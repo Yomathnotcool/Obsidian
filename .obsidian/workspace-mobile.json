@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Second-Brain/Dynamical system/Notes/Manfred Einsiedler-Thomas Ward-Ergodic theory with a view towards number theory/Notes/Chapter 11 More Dynamics on Quotients of the Hyperbolic Plane.md",
+                "file": "Mathematics/Second-Brain/Dynamical system/Notes/Cohomology of dynamical system.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Mathematics/Second-Brain/Dynamical system/Notes/Manfred Einsiedler-Thomas Ward-Ergodic theory with a view towards number theory/Notes/Chapter 11 More Dynamics on Quotients of the Hyperbolic Plane.md",
+            "file": "Mathematics/Second-Brain/Dynamical system/Notes/Cohomology of dynamical system.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Mathematics/Second-Brain/Dynamical system/Notes/Manfred Einsiedler-Thomas Ward-Ergodic theory with a view towards number theory/Notes/Chapter 11 More Dynamics on Quotients of the Hyperbolic Plane.md",
+            "file": "Mathematics/Second-Brain/Dynamical system/Notes/Cohomology of dynamical system.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Mathematics/Second-Brain/Dynamical system/Notes/Manfred Einsiedler-Thomas Ward-Ergodic theory with a view towards number theory/Notes/Chapter 11 More Dynamics on Quotients of the Hyperbolic Plane.md"
+            "file": "Mathematics/Second-Brain/Dynamical system/Notes/Cohomology of dynamical system.md"
           }
         }
       }
@@ -131,15 +131,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "be14a69eceb0c023",
+  "active": "384362f1b6938f58",
   "lastOpenFiles": [
+    "Mathematics/Second-Brain/Dynamical system/Notes/Manfred Einsiedler-Thomas Ward-Ergodic theory with a view towards number theory/Notes/Chapter 11 More Dynamics on Quotients of the Hyperbolic Plane.md",
+    "Mathematics/Second-Brain/Dynamical system/Notes/Cohomology of dynamical system.md",
     "Mathematics/Projects/Roger Howe-Eng Chye Tan - Non-Abelian Harmonic Analysis_Applications of SL(2,R)/Uniform decay rate of matrix coefficient of unitary representation of noncompact connected simple higher-rank matrix Lie group with finite centre.md",
     "Mathematics/Projects/uniform decay rate of matrix coefficient for high rank Lie group/Notes",
     "Mathematics/Projects/uniform decay rate of matrix coefficient for high rank Lie group",
     "Mathematics/Projects/uniform decay rate of matrix coefficient for high rank Lie group/Notes/Uniform decay rate of matrix coefficient of unitary representation of noncompact connected simple higher-rank matrix Lie group with finite centre.md",
     "Untitled.canvas",
     "2023-11-14.md",
-    "Mathematics/Second-Brain/Dynamical system/Notes/Manfred Einsiedler-Thomas Ward-Ergodic theory with a view towards number theory/Notes/Chapter 11 More Dynamics on Quotients of the Hyperbolic Plane.md",
     "Mathematics/Second-Brain/Analysis/Functional analysis/Notes/Projection valued measure.md",
     "snippets.txt",
     "Mathematics/Second-Brain/Dynamical system/Notes/Manfred Einsiedler-Thomas Ward-Ergodic theory with a view towards number theory/Notes/Chapter 4 invariant measures for continuous maps.md",
