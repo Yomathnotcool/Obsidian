@@ -13,3 +13,7 @@ then by this action, we can have an easy dynamical system.
 Now we define the chain and cochain:
 ### Def :: $n$-Chain
 Given a $n$-family $(g_{1},g_{2},\dots,g_{n},x)$ which can take as a oriented $n-$simplex
+![[Pasted image 20231126214801.png]]
+
+
+so for 1-chain, it’s just 
