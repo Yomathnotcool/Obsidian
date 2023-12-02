@@ -36,3 +36,25 @@ how to calculate $\exp(td)$ as the expontial map from Lie algebra to Lie group, 
 
 
 when we consider the representation of $G$, why do we need to consider $\pi(X)v=\lim\frac{\exp(tX)v-v}{t}$
+
+
+Calculate the integral $\int^{2\pi}_{0}(1-r(\tanh t)e^{i\theta})^{-n}\,d\theta$, in which $\mid r(\tanh t)\mid<1$ and $n>2$ we can simply expand the innermost term in a power series. Then we get the integral as a constant $2\pi$.
+
+
+what is the self-adjoint of matrix $k_{\theta}=\begin{pmatrix}e^{-i\theta}&0\\0&e^{i\theta}\end{pmatrix}$.
+
+
+Change $z\to z=r\cdot e^{i\theta}$, then calculate $dz$ in terms of $r,\theta$.
+
+Consider the integral $\int f(z)\,dz$ how to change variable into $r,\theta$ as double integral $\int f(r\cdot e^{i\theta})\,dr d\theta$
+
+how to get the area element $rdr d\theta$ 
+
+how to change variable in  $\oint_{\mid z\mid=R} \frac{f(z)}{z-z_{0}} \, dz$ into $\int^{2\pi}_{0}\frac{f(Re^{i\theta})}{Re^{i\theta}-z_{0}}Rie^{i\theta}\,d\theta$. 
+
+
+Given a sequence that we have $\sum\limits^{\infty}_{l=0}\mid\mid a_{l}z^{l}\mid\mid=\mid\mid f\mid\mid$is convergent then under what condition will we have $\sum\limits^{\infty}_{l=0}a_{l}z^{l}$ is convergent to $f$.
+
+
+Given a $K$ as compact subgroup of $G$, then consider the unitary representation $(\pi,H)$ of $G$, then suppose $K\cong S^{1}$, then there are non-trivial eigenvector $v\in H$ of $k_{\theta}\in K$.
+
