@@ -106,8 +106,12 @@ $\Gamma \geq PSL_{2}(\mathbb{R})$. Any trivial element of geodesic flow that is 
 
 Sketch of proof:
 If $f:X\to \mathbb{R}$ uniformly continuous invariant under $R_{a_{t}}:f(R_{a_{t}}(x))=f(x)$, then $f$ is invariant with $U^{-}$ and $U^{{+}}$. Therefore $f$ is a constant.
-———
-$x,y\in X$ and $xu^{-}=y\in X$, $R_{a_{t}}^{n}(y)=R_{a_{t}}^{n}(xu^{-})=R^{n}_{a_{t}}(x)a^{n}_{t}u^{-}a^{-n}_{t}$
+_______
+$x,y\in X$ and $xu^{-}=y\in X$, $R_{a_{t}}^{n}(y)=R_{a_{t}}^{n}(xu^{-})=R^{n}_{a_{t}}(x)a^{n}_{t}u^{-}a^{-n}_{t}$ and $R^{n}_{a_{t}}(x)$ are very close together for large $n$. So $f(x)=f(R^{n}_{a_{t}}(x))\sim f(R^{n}_{a_{t}}(y))=f(y)$ are getting very close together, which gives us that $f(x)=f(y)$.
+____
+
+Same method for the measurable function, which is needed ergodicity. For continuous property, we use the large $n$, but for measurable function, we should be more careful with the choice of $n$. 
+
 
 ### Thm :: Rigidity of horocycle flow
 
