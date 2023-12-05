@@ -123,6 +123,9 @@ For $l\geq 0$, $R^{l}_{a_{t}}x \in K$ and $R^{l}_{a_{t}}y \in K$ used similar to
 
 By this theorem, we know that the almost all points that the orbit falls into the compact subset $K$. 
 
+##### Proof:
+Define the function $g^{*}(x)=\lim\limits_{ n \to \infty } \frac{1}{n}\sum\limits^{n-1}_{l=0}\chi_{K}(R_{a_{t}}^{l})\leq \lim\limits_{ n \to \infty }1- \frac{1}{n}\leq 1$ exists a.e.
+
 
 ### Thm :: Rigidity of horocycle flow
 
