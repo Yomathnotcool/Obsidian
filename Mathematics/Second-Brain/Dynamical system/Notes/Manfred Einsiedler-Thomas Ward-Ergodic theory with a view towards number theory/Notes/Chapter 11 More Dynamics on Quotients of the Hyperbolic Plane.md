@@ -112,6 +112,17 @@ ____
 
 Same method for the measurable function, which is needed ergodicity. For continuous property, we use the large $n$, but for measurable function, we should be more careful with the choice of $n$. 
 
+Considering $m_{X}(X)=1$, and $f:X\to \mathbb{R}$ measurable and $R_{a_{t}}$ invariant. Fixed $\epsilon>0$, and compact subset $K\subset X$, and $m_{X}(K)>1-\epsilon$ that $f_{K}$ is continuous.
+(The existence of $f_{K}$ is guaranteed by [[Lusin's theorem]]). 
+
+#### Thm :: $m_{X}(B)\geq 1-2\epsilon$
+$$
+B=\left\{ x\mid \lim\limits_{ n \to \infty } \frac{1}{n} \sum\limits^{n-1}_{l=0}\chi_{K}(R^{l}_{a_{t}}x)> \frac{1}{2} \right\}
+$$
+For $l\geq 0$, $R^{l}_{a_{t}}x \in K$ and $R^{l}_{a_{t}}y \in K$ used similar to $f(x)=f(R_{a_{t}}x)\sim f(R_{a_{t}}y)=f(y)$.
+
+By this theorem, we know that the almost all points that the orbit falls into the compact subset $K$. 
+
 
 ### Thm :: Rigidity of horocycle flow
 
