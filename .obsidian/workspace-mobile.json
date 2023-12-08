@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "bc702d8daa21a9b5",
+        "id": "1528396216f8b9e6",
         "type": "tabs",
         "children": [
           {
-            "id": "fb68bef1406cf1dd",
+            "id": "fa96428788f77ac2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Second-Brain/Dynamical system/Notes/Cohomology of dynamical system.md",
+                "file": "Mathematics/Second-Brain/Dynamical system/Notes/Manfred Einsiedler-Thomas Ward-Ergodic theory with a view towards number theory/Ergodic theory towards number theory.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Mathematics/Second-Brain/Dynamical system/Notes/Cohomology of dynamical system.md",
+            "file": "Mathematics/Second-Brain/Dynamical system/Notes/Manfred Einsiedler-Thomas Ward-Ergodic theory with a view towards number theory/Ergodic theory towards number theory.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Mathematics/Second-Brain/Dynamical system/Notes/Cohomology of dynamical system.md",
+            "file": "Mathematics/Second-Brain/Dynamical system/Notes/Manfred Einsiedler-Thomas Ward-Ergodic theory with a view towards number theory/Ergodic theory towards number theory.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Mathematics/Second-Brain/Dynamical system/Notes/Cohomology of dynamical system.md"
+            "file": "Mathematics/Second-Brain/Dynamical system/Notes/Manfred Einsiedler-Thomas Ward-Ergodic theory with a view towards number theory/Ergodic theory towards number theory.md"
           }
         }
       }
@@ -131,44 +131,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fb68bef1406cf1dd",
+  "active": "fa96428788f77ac2",
   "lastOpenFiles": [
-    "test.tex",
-    "Pasted image 20231126214801.png",
-    "Untitled.canvas",
-    "Mathematics/Second-Brain/Dynamical system/Notes/Cohomology of dynamical system.md",
     "Mathematics/Second-Brain/Dynamical system/Notes/Manfred Einsiedler-Thomas Ward-Ergodic theory with a view towards number theory/Notes/Chapter 11 More Dynamics on Quotients of the Hyperbolic Plane.md",
-    "Mathematics/Projects/Roger Howe-Eng Chye Tan - Non-Abelian Harmonic Analysis_Applications of SL(2,R)/Uniform decay rate of matrix coefficient of unitary representation of noncompact connected simple higher-rank matrix Lie group with finite centre.md",
+    "Pasted image 20231126214801.png",
+    "Mathematics/Second-Brain/Dynamical system/Notes/Manfred Einsiedler-Thomas Ward-Ergodic theory with a view towards number theory/Notes/Chapter 4 invariant measures for continuous maps.md",
+    "Mathematics/Second-Brain/Dynamical system/Notes/Manfred Einsiedler-Thomas Ward-Ergodic theory with a view towards number theory/Notes/Chapter 2 Ergodicity, Recurrence and Mixing.md",
+    "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Linear algebra/SU.md",
+    "Mathematics/Second-Brain/Geometry/Hyperbolic geometry/Dataview",
+    "Mathematics/Second-Brain/Analysis/Real analysis/Integral.md",
+    "Mathematics/Second-Brain/Analysis/Real analysis",
+    "Mathematics/Second-Brain/Dynamical system/Notes/Cohomology of dynamical system.md",
+    "test.tex",
+    "Mathematics/Projects/Roger Howe-Eng Chye Tan - Non-Abelian Harmonic Analysis_Applications of SL(2,R)/Notes/unitary representation.md",
+    "Mathematics/Second-Brain/Geometry/Hyperbolic geometry/Dataview/List of definitions from dynamical system.md",
+    "kuai.txt",
+    "Mathematics/Second-Brain/Geometry/Hyperbolic geometry/Dataview/List of theorems from dynamical system.md",
     "Mathematics/Projects/uniform decay rate of matrix coefficient for high rank Lie group/Notes",
     "Mathematics/Projects/uniform decay rate of matrix coefficient for high rank Lie group",
-    "Mathematics/Projects/uniform decay rate of matrix coefficient for high rank Lie group/Notes/Uniform decay rate of matrix coefficient of unitary representation of noncompact connected simple higher-rank matrix Lie group with finite centre.md",
-    "2023-11-14.md",
-    "Mathematics/Second-Brain/Analysis/Functional analysis/Notes/Projection valued measure.md",
-    "snippets.txt",
-    "Mathematics/Second-Brain/Dynamical system/Notes/Manfred Einsiedler-Thomas Ward-Ergodic theory with a view towards number theory/Notes/Chapter 4 invariant measures for continuous maps.md",
-    "Mathematics/Second-Brain/Geometry/Topology/Dataview",
-    "Mathematics/Second-Brain/Geometry/Topology/Dataview/List of definitions from dynamical system.md",
-    "Mathematics/Second-Brain/Analysis/Functional analysis",
     "Mathematics/Second-Brain/Analysis/measure theorey/Haar measure.md",
-    "Mathematics/Second-Brain/Geometry/Topology/Dataview/List of theorems from dynamical system.md",
-    "Mathematics/Second-Brain/Analysis/Functional analysis/Notes/Riesz representation theory.md",
-    "Mathematics/Second-Brain/Analysis/Functional analysis/Notes/Functional Analysis.md",
-    "Mathematics/Second-Brain/Analysis/Functional analysis/Notes",
+    "Mathematics/Second-Brain/Geometry/Hyperbolic geometry/Dataview/List of examples from dynamical system.md",
+    "Mathematics/Second-Brain/Dynamical system/Notes/Manfred Einsiedler-Thomas Ward-Ergodic theory with a view towards number theory/Notes/Chapter 8.md",
+    "Mathematics/Second-Brain/Geometry/Moduli/Notes/Moduli spaces.md",
     "Mathematics/Second-Brain/Geometry/Moduli/Dataview/List of examples from dynamical system.md",
-    "Mathematics/Second-Brain/Geometry/Moduli/Dataview/List of theorems from dynamical system.md",
+    "Mathematics/Second-Brain/Geometry/Moduli/Dataview/List of definitions from dynamical system.md",
     "Mathematics/Second-Brain/Geometry/Moduli/Notes",
     "Mathematics/Second-Brain/Geometry/Moduli/Dataview",
     "Mathematics/Second-Brain/Geometry/Moduli",
     "Mathematics/Second-Brain/Geometry/Topology/Dataview/List of examples from dynamical system.md",
-    "Mathematics/Second-Brain/Geometry/Moduli/Notes/Moduli spaces.md",
-    "Mathematics/Second-Brain/Geometry/Moduli/Dataview/List of definitions from dynamical system.md",
-    "Mathematics/Second-Brain/Geometry/Hyperbolic geometry/Dataview/List of examples from dynamical system.md",
-    "Mathematics/Second-Brain/Geometry/Hyperbolic geometry/Dataview/List of definitions from dynamical system.md",
-    "Mathematics/Second-Brain/Geometry/Hyperbolic geometry/Dataview/List of theorems from dynamical system.md",
-    "Mathematics/Second-Brain/Geometry/Hyperbolic geometry/Dataview",
-    "Mathematics/Second-Brain/Dynamical system/Notes/Manfred Einsiedler-Thomas Ward-Ergodic theory with a view towards number theory/Notes/Chapter 9 Geodesic Flow on Quotients of the Hyperbolic Plane.md",
-    "Mathematics/Projects/Roger Howe-Eng Chye Tan - Non-Abelian Harmonic Analysis_Applications of SL(2,R)/Notes/unitary representation.md",
-    "Mathematics/Second-Brain/Analysis/Real analysis/Integral.md",
+    "Mathematics/Second-Brain/Geometry/Topology/Dataview/List of definitions from dynamical system.md",
+    "Mathematics/Second-Brain/Geometry/Topology/Dataview",
+    "Mathematics/Projects/uniform decay rate of matrix coefficient for high rank Lie group/Notes/Uniform decay rate of matrix coefficient of unitary representation of noncompact connected simple higher-rank matrix Lie group with finite centre.md",
+    "Mathematics/Second-Brain/Analysis/Functional analysis/Notes/Riesz representation theory.md",
+    "Mathematics/Second-Brain/Analysis/Functional analysis/Notes/Projection valued measure.md",
+    "Mathematics/Second-Brain/Analysis/Functional analysis/Notes/Functional Analysis.md",
+    "Mathematics/Second-Brain/Analysis/Functional analysis/Notes/Lusin's theorem.md",
+    "Mathematics/Second-Brain/Geometry/Moduli/Dataview/List of theorems from dynamical system.md",
+    "Untitled.canvas",
+    "Mathematics/Second-Brain/Geometry/Topology/Dataview/List of theorems from dynamical system.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Lie group and Lie algebra/Notes/Additional note from discrete resources/Jacobi identity-intuitive explanation.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Lie group and Lie algebra/Notes/Background of Lie algebra.md",
     "Pasted image 20230821153415.png",
