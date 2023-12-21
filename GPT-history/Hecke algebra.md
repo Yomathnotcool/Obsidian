@@ -92,4 +92,45 @@ for checking $f(1)\in V^{K}$, I do not understand why $k\cdot 1=1$ and why $f(k)
 so you mean $k\cdot 1 =k$ and $K$-homomorphism means it's invariant under $K$-action, I am not sure how you define it here
 
 
-$F(V)=V^{K}$ is functorial in $V$.
+Given a repsentation $(\pi,V)$ of finite group $G$ and $K$ is the subgroup of $G$, then for the $K$-invariant subspace $V^{K}$, $F(V)=V^{K}$ is functorial in $V$.
+
+Yes, the assignment $V \mapsto V^K$ is indeed functorial in $V$. 
+
+The category in question here is the category of representations of G, where the objects are linear representations of the group G (i.e., group homomorphisms from G to the general linear group of some vector space), and the morphisms are intertwiners (i.e., linear transformations between the corresponding vector spaces which commute with the action of the group).
+
+The functor F maps a representation V of G to the subspace $V^K$ of vectors fixed by every element in the subgroup K of G. Given a morphism $f:V\to W$ in the category of G-representations (i.e., an intertwiner from V to W), the functor F maps f to the restriction $f|_{V^K}$.
+
+The functoriality of F follows from the following two properties:
+
+1. Identity morphisms are preserved: For every representation V of G, the restriction of the identity morphism on V to the subspace $V^K$ is the identity on $V^K$, i.e., $F(id_V) = id_{F(V)}$.
+    
+2. Composition of morphisms is preserved: For all representations V, W and X of G and all morphisms (intertwiners) f : V -> W and g : W -> X, the restriction of the composition g o f to the subspace $V^K$ is the composition of the restriction of g to $W^K$ with the restriction of f to $V^K$, i.e., $F(g o f) = F(g) o F(f)$.
+    
+
+These two properties make F a (covariant) functor from the category of representations of G to the category of vector spaces.
+
+$F(V)$ is representable by $\mathbb{C}[G/K]$, in which $\mathbb{C}[G/K]$ is the group algebra over $\mathbb{C}$
+
+
+About the definition of representable functor that I am familiar with, given a locally small category $\mathcal{C}$, and denote $\mathcal{Set}$ as the category of sets, then a functor $F$ is representable if for some $A\in ob(\mathcal{C})$, $F$ is naturally isomorphic to $Hom(A,-)$. And the representation of $F$ is a pair $(A,\Phi)$, for $A\in ob(\mathcal{C})$, where $\Phi:Hom(A,-)\to F$ is a natural isomorphism.
+
+Based on this definition, I am not sure I understand your proof, so could you please check the proof again with more details explaining with definitions.
+
+
+why do we have the functor $F:Rep_{\mathbb{C}}(G)\to \mathcal{Set}$ contravariant.
+
+
+Now by Yoneda lemma, we have that $$
+End(F)\cong End_{G}(\mathbb{C}[G/K])
+$$
+
+no, here we only consider the $F$ isomorphic to $Hom_{Rep_{\mathbb{C}}(G)}(\mathbb{C}[G/K],-)$ 
+
+
+by the universal property, this can be identified with $\mathbb{C}[G/K]^{K}$, which can be further identified as a vector space with $\mathbb{C}[K\backslash G/K]$.
+
+
+for an endomorphism $\phi \in End_{G}(\mathbb{C}[G/K])$, let's consider the map $\alpha: End_{G}(\mathbb{C}[G/K])\to \mathbb{C}[G/K]^{K}$, then what is the image of $\alpha(\phi)$.
+
+
+let me try to understand your notation: $\phi(f)=g\cdot f=\pi(g)f$ and $\pi(g)f(x)=f(g\cdot x)$.
