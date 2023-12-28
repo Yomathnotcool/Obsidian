@@ -126,6 +126,71 @@ By this theorem, we know that the almost all points that the orbit falls into th
 ##### Proof:
 Define the function $g^{*}(x)=\lim\limits_{ n \to \infty } \frac{1}{n}\sum\limits^{n-1}_{l=0}\chi_{K}(R_{a_{t}}^{l})\leq \lim\limits_{ n \to \infty }1- \frac{1}{n}\leq 1$ exists a.e.
 
+$$
+\int g^{*}\,dm_{X} = m_{X}(K)\geq 1-\epsilon
+$$
+And $1-\epsilon \leq \int_{B}g^{*}\,dm_{X}+\int_{X-B}g^{*}\,dm_{X}\leq m_{X}(B)+ \frac{1}{2}m_{X}(X\backslash B)= \frac{1}{2} m_{X}(B)+ \frac{1}{2}$ in which $B=\left\{ g^{*}> \frac{1}{2} \right\}, g^{*}\leq 1$ and $g^{*}\leq \chi_{B}$. Then $X\backslash B=\left\{ g^{*}\leq \frac{1}{2} \right\}$.
+For point $x$ and $y=R_{u^{-}(s)}x$, $x \in \mathbb{R}$ and $x,y \in B$, $f(x)=f(R^{l}_{a_{t}}(x))$ and $f(y)=f(R^{l}_{a_{t}}(y))$ for any $y \geq 1$.
+
+The distance between the orbit: $d_{X}(R^{l}_{a_{t}}(x),R^{l}_{a_{t}}(y))=d_{X}(xa^{-l}_{t},xu^{-}(-s)a^{-l}_{t})\leq d_{PSL_{2}(\mathbb{R})}(I_{2},a^{l}_{t}u^{-}(-s)a^{-l}_{t})\to 0$ as  $l\to \infty$.
+
+Here we use the fact that $PSL_{2}(\mathbb{R})\cong T^{1}\mathbb{H}$ (the orbits of a point $g_{0} \in PSL_{2}(\mathbb{R})$ under the right action of $U^{-}$ gives the stable manifold). For subgroup
+$$
+U^{-}=\{\begin{pmatrix}
+1 & s \\
+ & 1 
+\end{pmatrix} s \in \mathbb{R}\}
+$$
+A point $g_{1} \in PSL_{2}(\mathbb{R})$ is in the orbit $g_{0}U^{-}$ if and only if $$
+d(R_{a_{t}}(g_{0}),R_{a_{t}}(g_{1}))\to 0\ \text{as}\ t \to  \infty
+$$
+By left-invariance, $$
+d(R_{a_{t}}(g_{0}),R_{a_{t}}(g_{1}))=d(g_{0}a^{-1}_{t},g_{1}a^{-1}_{t})=d(I_{2},a_{t}g_{0}^{-1}g_{1}a^{-1}_{t})
+$$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### Thm :: Rigidity of horocycle flow
 

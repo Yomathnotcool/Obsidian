@@ -143,7 +143,7 @@
 	{trigger: "and", replacement: "\\cap", options: "mA"},
 	{trigger: "or", replacement: "\\cup", options: "mA"},
 	{trigger: "disj", replacement: "\\bigsqcup", options: "mA"},
-	{trigger: "in", replacement: "\\in $0", options: "mA"},
+	{trigger: "in", replacement: "\\in", options: "mA"},
 	{trigger: "any", replacement: "\\forall", options: "mA"},
 	{trigger: "subeq", replacement: "\\subseteq", options: "mA"},
 	{trigger: "supset", replacement: "\\supset", options: "mA"},
