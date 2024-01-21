@@ -5,7 +5,7 @@
     "snippetsTrigger": "Tab",
     "removeSnippetWhitespace": true,
     "loadSnippetsFromFile": true,
-    "snippetsFileLocation": "snippets.txt",
+    "snippetsFileLocation": "kuai.txt",
     "concealEnabled": false,
     "colorPairedBracketsEnabled": true,
     "highlightCursorBracketsEnabled": true,
