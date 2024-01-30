@@ -28,5 +28,12 @@ For a representation $\pi \in \widehat{SL_{2}(\mathbb{R})}$, it's called even re
 
 For the [[Principal series representation of SL(2,R)#^62e5c4|Principal series representaition]], its even part is 
 $$
-H^{even}_{\xi}=\{f\in H_{\xi}\mid f(g)=f(-g)\}
+H^{even}_{\xi}=\{f\in H_{\xi}\mid f(g)=f(-g)\}=\{\pi_{-I}f=f\}
 $$
+on the other side, the odd part of the [[Principal series representation of SL(2,R)#^62e5c4|Principal series representaition]] is 
+$$
+H^{odd}_{\xi}=\{f\in H_{\xi}\mid f(g)=-f(-g)\}=\{\pi(f)=-f\}
+$$
+
+There is more explicit construction of this two spaces that will be provided later.
+
