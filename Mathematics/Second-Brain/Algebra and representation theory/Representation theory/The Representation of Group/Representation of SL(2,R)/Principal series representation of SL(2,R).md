@@ -28,12 +28,25 @@ For a representation $\pi \in \widehat{SL_{2}(\mathbb{R})}$, it's called even re
 
 For the [[Principal series representation of SL(2,R)#^62e5c4|Principal series representaition]], its even part is 
 $$
-H^{even}_{\xi}=\{f\in H_{\xi}\mid f(g)=f(-g)\}=\{\pi_{-I}f=f\}
+H^{even}_{\xi}=\{f\in H_{\xi}\mid f(g)=f(-g)\}=\{\pi_{-I}f=f\}=<F_{\xi,2n}\mid n \in \mathbb{Z}>
 $$
 on the other side, the odd part of the [[Principal series representation of SL(2,R)#^62e5c4|Principal series representaition]] is 
 $$
-H^{odd}_{\xi}=\{f\in H_{\xi}\mid f(g)=-f(-g)\}=\{\pi(f)=-f\}
+H^{odd}_{\xi}=\{f\in H_{\xi}\mid f(g)=-f(-g)\}=\{\pi(f)=-f\}=<F_{\xi,2n+1}\mid n \in \mathbb{Z}>
 $$
 
-There is more explicit construction of this two spaces that will be provided later.
+There is the proof of more explicit construction of this two spaces that will be provided later, in which $F_{\xi,n}(k_{\psi}a_{t}u_{x})=e^{-in\psi-i\xi t-td}$.
+
+### The properties of the principal series representation
+
+1. $\pi^{\xi}, \pi^{\xi,even},\pi^{\xi,odd}$ are unitary representations
+2. For $\xi \in \mathbb{R}$, $\pi^{\xi,even}$ and for $\xi \in \mathbb{R}\backslash \{0\}$, $\pi^{\xi,odd}$ are irreducible.
+3. $\pi^{0,odd}=\delta^{1,+}\oplus\delta^{1,-}$
+in the property 3, $\delta$ is denoted for the [[Discrete series representation of SL(2,R)]].
+
+
+
+#### Proof for unitary representation
+
+
 
