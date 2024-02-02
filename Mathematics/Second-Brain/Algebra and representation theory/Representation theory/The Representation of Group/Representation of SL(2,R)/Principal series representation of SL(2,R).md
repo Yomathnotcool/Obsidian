@@ -65,5 +65,5 @@ Now by using the theorem, we can construct the unitary representation of $G=SL_{
 
 #### Ex :: unitary normalized representation
 
-Unit circle $S^{1}$ in 2-dim plane $\mathbb{R}^{2}$ with normalised measure class
+Unit circle $S^{1}$ in 2-dim plane $\mathbb{R}^{2}$ with normalized measure class
 $c(g,x)=\mid\mid g^{-1}x \mid\mid^{-1-i\xi}$
