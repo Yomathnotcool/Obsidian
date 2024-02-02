@@ -138,22 +138,24 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "templater-obsidian:Templater": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "d1e5e896e4821e00",
   "lastOpenFiles": [
+    "Mathematics/Second-Brain/Analysis/measure theorey/Randon-Nikodym.md",
+    "Mathematics/Second-Brain/Analysis/measure theorey/measure theory.md",
+    "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/The Representation of Group/Representation of SL(2,R)/Principal series representation of SL(2,R).md",
     "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/The Representation of Group/Representation of SL(2,R)/Discrete series representation of SL(2,R).md",
     "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/The Representation of Group/The product and sum of representations.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/The Representation of Group/The basic definitions about representation of groups.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/The Representation of Group/Representation of SL(2,R)/Regular representation of SL(2,R).md",
-    "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/The Representation of Group/Representation of SL(2,R)/Principal series representation of SL(2,R).md",
     "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/The Representation of Group/Representation of SL(2,R)/Iwasawa decomposition of SL(2,R).md",
     "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/The Representation of Group/Representation of SL(2,R)"
   ]
