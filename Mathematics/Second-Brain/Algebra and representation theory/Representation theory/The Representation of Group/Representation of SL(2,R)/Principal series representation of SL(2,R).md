@@ -67,3 +67,42 @@ Now by using the theorem, we can construct the unitary representation of $G=SL_{
 
 Unit circle $S^{1}$ in 2-dim plane $\mathbb{R}^{2}$ with normalized measure class
 $c(g,x)=\mid\mid g^{-1}x \mid\mid^{-1-i\xi}$
+And the $G$-action is defined as $g\cdot x= \frac{gx}{\mid\mid gx\mid\mid}$.
+
+The corresponding normalized unitary representation: $$
+\pi^{S^{1},\xi}_{g}(f)(x)= \mid\mid g^{-1}x\mid\mid^{-1-i\xi}f(g^{-1}\cdot x)
+$$
+is unitary.
+
+##### Proof of the unitary 
+
+$$
+\begin{align}
+\mid\mid\pi^{S^{1},\xi}_{g}(f)\mid\mid^{2}=&\int_{X}\mid\pi^{S^{1},\xi}_{g}(f)\mid^{2}\,d\mu_{X}(x) \\
+=&\int_{X}\mid\mid\mid g^{-1}x\mid\mid^{-1-i\xi}f(g^{-1}\cdot x)\mid^{2}\,dm_{X}(x)  \\
+=&\int_{X}\mid\mid g^{-1}x\mid\mid^{-2}\mid\mid\mid g^{-1}x\mid\mid^{-i\xi}\mid^{2}f^{2}(g^{-1}\cdot x)\,d m_{X}(x) \\
+
+\end{align}
+$$
+in the third line, it uses the fact that for $a\in\mathbb{R}$
+$$
+\begin{align}
+\mid a^{i}\mid^{2}=&\mid e^{i\ln a}\mid^{2} \\
+=& \mid \cos(\ln a)+ i\sin(\ln a)\mid^{2} \\
+=& \cos^{2}(\ln a)+\sin^{2}(\ln a) \\
+=&1
+\end{align}
+$$
+Here we use the [[Euler formula]].
+
+Then the proof of unitary representation can be done by the property of [[Randon-Nikodym]].
+
+Now the second step is to show that isomorphism between $\pi^{S^{1},\xi}_{g}$ and $\pi^{\xi}$.
+
+Define function $$
+\begin{align}
+U(f): G &\to  \mathbb{C} \\
+g &\to  \mid\mid g e_{1}\mid\mid^{-1-i\xi}f(g\cdot e_{1})
+\end{align}
+$$
+Show that $U$ is equivariant.
