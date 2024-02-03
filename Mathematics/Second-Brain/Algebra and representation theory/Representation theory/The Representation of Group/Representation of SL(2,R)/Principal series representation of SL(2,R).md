@@ -54,12 +54,14 @@ The idea is to construct the unitary representation of $SL_{2}(\mathbb{R})$ over
 
 ##### Thm :: 
 Consider $G$ acting on the space $X$, $G$-action preserves [[Randon-Nikodym#^306315|measure class]], and $(X,\mu)$ is locally finite, Suppose there exists continuous map $c(g,x): G\times X \to \mathbb{C}^{\times}$ by $(g,x)\to \mid\mid g^{-1}x\mid\mid^{-2}$ and it satisfies the [[Randon-Nikodym]] derivate $$
-\frac{dg_{*}\mu}{d\mu} =\mid\mid c(g,\cdot)\mid\mid^{2}
+\frac{dg_{*}\mu}{d\mu} =\mid\mid c(g,\cdot)\mid\mid^{2} 
 $$ 
 and this map holds the cocycle relation $$
 c(g_{1}g_{2},x)=c(g_{1},x)c(g_{2},g_{1}^{-1}\cdot x)
 $$
 Then the representation $\pi^{c}_{g}(f)(x)=c(g,x)f(g^{-1},x)$ is a unitary representation.
+
+
 
 Now by using the theorem, we can construct the unitary representation of $G=SL_{2}(\mathbb{R})$ over the unit circle: 
 
@@ -70,6 +72,9 @@ $c(g,x)=\mid\mid g^{-1}x \mid\mid^{-1-i\xi}$
 And the $G$-action is defined as $g\cdot x= \frac{gx}{\mid\mid gx\mid\mid}$.
 
 The corresponding normalized unitary representation: $$
+
+^8d488c
+
 \pi^{S^{1},\xi}_{g}(f)(x)= \mid\mid g^{-1}x\mid\mid^{-1-i\xi}f(g^{-1}\cdot x)
 $$
 is unitary.
@@ -79,8 +84,8 @@ is unitary.
 $$
 \begin{align}
 \mid\mid\pi^{S^{1},\xi}_{g}(f)\mid\mid^{2}=&\int_{X}\mid\pi^{S^{1},\xi}_{g}(f)\mid^{2}\,d\mu_{X}(x) \\
-=&\int_{X}\mid\mid\mid g^{-1}x\mid\mid^{-1-i\xi}f(g^{-1}\cdot x)\mid^{2}\,dm_{X}(x)  \\
-=&\int_{X}\mid\mid g^{-1}x\mid\mid^{-2}\mid\mid\mid g^{-1}x\mid\mid^{-i\xi}\mid^{2}f^{2}(g^{-1}\cdot x)\,d m_{X}(x) \\
+=&\int_{X}\mid\mid\mid g^{-1}x\mid\mid^{-1-i\xi}f(g^{-1}\cdot x)\mid^{2}\,d\mu_{X}(x)  \\
+=&\int_{X}\mid\mid g^{-1}x\mid\mid^{-2}\mid\mid\mid g^{-1}x\mid\mid^{-i\xi}\mid^{2}f^{2}(g^{-1}\cdot x)\,d \mu_{X}(x) \\
 
 \end{align}
 $$
@@ -106,3 +111,22 @@ g &\to  \mid\mid g e_{1}\mid\mid^{-1-i\xi}f(g\cdot e_{1})
 \end{align}
 $$
 Show that $U$ is equivariant.
+First to prove $U$ preserves the norm:
+$$
+\mid\mid U(f)\mid\mid_{L^{2}(K)}=\mid\mid f\mid\mid_{L^{2}(S^{1})}
+$$
+Here $U(f)$ belongs to the $L^{2}(K)$ because of [[Iwasawa decomposition of SL(2,R)]]
+
+As shown in the [[Principal series representation of SL(2,R)#^8d488c|normalized unitary representation]],
+$$
+\frac{dg_{*}\mu}{d\mu}=\mid\mid c(g,\cdot)\mid\mid^{2}
+$$
+and $$
+\int f \frac{dg_{*}\mu}{d\mu} \,d\mu_{X}(x) =\int f\,dg_{*}\mu
+$$
+So $\mid\mid U(f)\mid\mid_{L^{2}(K)}=\mid\mid f\mid\mid_{L^{2}(S^{1})}$.
+
+In order to prove $\pi^{S^{1},\xi}\cong \pi^{\xi}$ we need to prove the diagram commutes:
+![[Pasted image 20240203134129.png]]
+
+1. $U(f)\in H_{\xi}$, here we need to verify the property of induced representation 
