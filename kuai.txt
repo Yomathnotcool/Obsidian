@@ -183,6 +183,7 @@
 
 	{trigger: "mcal", replacement: "\\mathcal{$0}$1", options: "mA"},
 	{trigger: "mbb", replacement: "\\mathbb{$0}$1", options: "mA"},
+	{trigger: "mfrak", replacement: "\\mathfrak{$0}$1", options: "mA"},
 	{trigger: "ell", replacement: "\\ell", options: "mA"},
 	{trigger: "lll", replacement: "\\ell", options: "mA"},
 	{trigger: "LL", replacement: "\\mathcal{L}", options: "mA"},

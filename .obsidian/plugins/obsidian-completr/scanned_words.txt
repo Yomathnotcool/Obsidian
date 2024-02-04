@@ -11,6 +11,9 @@ space
 second
 step
 shown
+subspace
+so
+some
 representation
 representations
 relations
@@ -30,6 +33,7 @@ its
 irreducible
 idea
 isomorphism
+invariant
 which
 will
 we
@@ -50,6 +54,7 @@ then
 theorem
 there
 third
+they
 character
 called
 construction
@@ -61,6 +66,7 @@ can
 class
 corresponding
 commutes
+conclusion
 of
 or
 odd
@@ -73,6 +79,7 @@ for
 function
 finite
 fact
+facts
 any
 as
 and
@@ -81,6 +88,7 @@ are
 about
 acting
 action
+admit
 The
 There
 Thm

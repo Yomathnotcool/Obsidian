@@ -129,4 +129,35 @@ So $\mid\mid U(f)\mid\mid_{L^{2}(K)}=\mid\mid f\mid\mid_{L^{2}(S^{1})}$.
 In order to prove $\pi^{S^{1},\xi}\cong \pi^{\xi}$ we need to prove the diagram commutes:
 ![[Pasted image 20240203134129.png]]
 
-1. $U(f)\in H_{\xi}$, here we need to verify the property of induced representation 
+1. $U(f)\in H_{\xi}$, here we need to verify the property of induced representation:
+$$
+\begin{align}
+U(f)(gb)=&\mid\mid bge_{1}\mid\mid^{-1-i\xi}f(gb\cdot e_{1})\\ 
+=& \mid\mid g \cdot a_{t}u_{x}\cdot e_{1} \mid\mid^{-1-i\xi}f(gb\cdot e_{1}) \\
+=&e^{-t-i\xi t}\mid\mid g e_{1}\mid\mid^{-1-i\xi}f(g\cdot v) \\
+=& \overline{\chi_{\xi}(b)}\Delta_{B}(b)^{1/2} U(f)(g) 
+\end{align}
+$$
+2. $U(\pi^{S^{1},\xi}_{g}f)(g_{0})=\pi^{\xi}_{g}(U(f))(g_{0})$
+
+Then in conclusion, $(\pi^{\xi},H_{\xi})$ is unitary, and $-I \in C(G), H^{even}_{\xi},H^{odd}_{\xi}$ invariant subspace so they are unitary.
+
+
+
+Now the third step: irreducible
+
+Here we need to admit some facts about [[Universal Enveloping Algebra]], 
+
+Denote: $$
+r^{+}=\frac{1}{2}(a+id), \ \ r^{-}= \frac{1}{2}(a-id) \in \mathfrak{sl}_{2}(\mathbb{C})
+$$
+in which $$
+a= \begin{pmatrix}
+1 & \\
+& -1
+\end{pmatrix},
+d= \begin{pmatrix}
+& 1  \\
+1&
+\end{pmatrix}
+$$
