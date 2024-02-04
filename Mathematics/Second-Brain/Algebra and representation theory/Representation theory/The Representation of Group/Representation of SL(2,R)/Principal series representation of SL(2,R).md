@@ -54,8 +54,8 @@ The idea is to construct the unitary representation of $SL_{2}(\mathbb{R})$ over
 
 ##### Thm :: 
 Consider $G$ acting on the space $X$, $G$-action preserves [[Randon-Nikodym#^306315|measure class]], and $(X,\mu)$ is locally finite, Suppose there exists continuous map $c(g,x): G\times X \to \mathbb{C}^{\times}$ by $(g,x)\to \mid\mid g^{-1}x\mid\mid^{-2}$ and it satisfies the [[Randon-Nikodym]] derivate $$
-\frac{dg_{*}\mu}{d\mu} =\mid\mid c(g,\cdot)\mid\mid^{2} 
-$$ 
+\frac{dg_{*}\mu}{d\mu} =\mid\mid c(g,\cdot)\mid\mid^{2}$$  ^686105
+ 
 and this map holds the cocycle relation $$
 c(g_{1}g_{2},x)=c(g_{1},x)c(g_{2},g_{1}^{-1}\cdot x)
 $$
@@ -71,10 +71,10 @@ Unit circle $S^{1}$ in 2-dim plane $\mathbb{R}^{2}$ with normalized measure clas
 $c(g,x)=\mid\mid g^{-1}x \mid\mid^{-1-i\xi}$
 And the $G$-action is defined as $g\cdot x= \frac{gx}{\mid\mid gx\mid\mid}$.
 
-The corresponding normalized unitary representation: $$
+The corresponding normalized unitary representation: 
 
 ^8d488c
-
+$$
 \pi^{S^{1},\xi}_{g}(f)(x)= \mid\mid g^{-1}x\mid\mid^{-1-i\xi}f(g^{-1}\cdot x)
 $$
 is unitary.
@@ -117,7 +117,7 @@ $$
 $$
 Here $U(f)$ belongs to the $L^{2}(K)$ because of [[Iwasawa decomposition of SL(2,R)]]
 
-As shown in the [[Principal series representation of SL(2,R)#^8d488c|normalized unitary representation]],
+As shown in the [[Principal series representation of SL(2,R)#^686105|normalized unitary representation]],
 $$
 \frac{dg_{*}\mu}{d\mu}=\mid\mid c(g,\cdot)\mid\mid^{2}
 $$
@@ -143,7 +143,7 @@ $$
 Then in conclusion, $(\pi^{\xi},H_{\xi})$ is unitary, and $-I \in C(G), H^{even}_{\xi},H^{odd}_{\xi}$ invariant subspace so they are unitary.
 
 
-
+##### Proof of the irreducible
 Now the third step: irreducible
 
 Here we need to admit some facts about [[Universal Enveloping Algebra]], 
@@ -159,5 +159,30 @@ a= \begin{pmatrix}
 d= \begin{pmatrix}
 & 1  \\
 1&
-\end{pmatrix}
+\end{pmatrix}.
 $$
+And $$
+\begin{align}
+\pi^{\xi}_{\partial}(r^{+})F_{\xi,n}= \frac{n+1+i\xi}{2} F_{\xi,n+2} \\
+\pi^{\xi}_{\partial}(r^{-})F_{\xi,n}= \frac{-n+1+i\xi}{2} F_{\xi,n-2}.
+\end{align}
+$$
+Suppose $\mathcal{V}\subset H^{even}_{\xi}$ closed non-trivial, invariant subspace and without lost of generality, $F_{\xi,n}\in \mathcal{V}$.
+
+Then $\frac{{n+1+i\xi}}{2}\not=0$ for any $\xi$, $F_{\xi,n+2}$, $F_{\xi,n-2}\in \mathcal{V}$. It deduces that $<f_{\xi,n+2k}|k\in \mathbb{N}>=\mathcal{V}=H_{\xi}$.
+
+Similarly for $H_{\xi}$, only problem: if $\xi=0, n=-1$.
+
+
+##### Proof of isomorphism
+$$
+\begin{align}
+\pi^{\xi,even}=\pi^{-\xi,even} \\
+\pi^{\xi,odd}=\pi^{-\xi,odd} \\
+\pi^{0,odd}=\delta^{1,+} \oplus \delta^{1,-} 
+\end{align}
+$$
+Here recall some facts about [[Discrete series representation of SL(2,R)]].
+
+And we need another theorem from earlier in the book:
+#### Thm :: uniquely determined matrix coefficients 
