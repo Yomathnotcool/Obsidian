@@ -28,3 +28,17 @@ Define sub-exponential growth as following: for locally compact group $G$, every
 Why is $SL_{2}(\mathbb{R})$  unimodular? And why does unimodular give us that $m(K^{n})=m(K)^{n}$.
 
 Then how do you show that $SL_{2}(\mathbb{R})$ has sub-exponential growth
+
+
+ consider the complementary series representation $(\gamma^{s},V_{s})$ of $SL_{2}(\mathbb{R})=BK=AUK$, it's defined as following:
+
+$$
+V_{s}=\{f:SL_{2}(\mathbb{R})\to \mathbb{C}\mid f\ \text{is smooth,even and} f(gb)=\chi_{(s)}(b)^{-1}\Delta_{B}(b)^{1/2}f(g)\ \text{for all}\ g \in SL_{2}(\mathbb{R})\ \text{ and }\ b\in B\}.
+$$
+in which $\chi_{(s)}(a_{t}u_{x})=e^{st}$ is a non-unitary character, And $\gamma^{s}$ is the left-regular representation acting on $V_{s}$.
+
+Now claim $\gamma^{s}$ does not preserve the $L^{2}(K)$-norm.
+
+
+
+consider the Lie algebra $\mathfrak{sl}_{2}(\mathbb{R})$ of $SL_{2}(\mathbb{R})$, in order to define the [[Universal Enveloping Algebra]] of $\mathfrak{sl}_{2}(\mathbb{R})$, what is the corresponding complex associative algebra.
