@@ -42,3 +42,30 @@ Now claim $\gamma^{s}$ does not preserve the $L^{2}(K)$-norm.
 
 
 consider the Lie algebra $\mathfrak{sl}_{2}(\mathbb{R})$ of $SL_{2}(\mathbb{R})$, in order to define the [[Universal Enveloping Algebra]] of $\mathfrak{sl}_{2}(\mathbb{R})$, what is the corresponding complex associative algebra.
+
+
+Prove the integral $$
+\int^{\pi}_{0} \frac{d\theta}{\mid \sin(\theta)\mid^{1-s}}
+$$
+is finite.
+
+To show that the integral is finite, we must ensure that it doesn't blow up to infinity at any point in the interval [0,π]. The tricky points here are 0 and π, where the denominator sin(θ) becomes 0. Let's try to estimate the integral near these points.
+
+First consider a small positive quantity ε and evaluate the integral successively for ε→0+ using absolute values to handle negative fractions in the calculation:
+
+$$\lim_{{ε→0}^+} \int^{ε}_{0} \frac{d\theta}{|\sin(\theta)|^{1-s}} = \lim_{{ε→0}^+} \int^{ε}_{0} \frac{d\theta}{\theta^{1-s}}$$
+
+The latter integral equality is due to the fact that sin(θ)~θ near 0. The integral evaluates using standard results to [θ^s]^{ε}_{0} = ε^s for s>0. Given 0<s<1, this means the integral is finite for ε→0+.
+
+Similarly, consider a small positive quantity δ and evaluate the integral successively for δ→0+ using the periodic property of the sin function to make the limit finite:
+
+$$\lim_{{δ→0}^+} \int^{\pi}_{\pi-δ} \frac{d\theta}{|\sin(\theta)|^{1-s}} = \lim_{{δ→0}^+} \int^{\pi}_{\pi-δ} \frac{d\theta}{(\pi-\theta)^{1-s}}$$
+
+The latter integral equality is due to the fact that sin(θ)~π−θ near π. The integral evaluates using standard results to [(\pi-\theta)^s]^{\pi}_{\pi-δ} = δ^s for s>0. Given 0<s<1, this means the integral is finite for δ→0+.
+
+So, near 0 and π, where the denominator could create problems, we have shown that the integral is finite. Therefore, we can conclude that the entire integral over the range 0 to π is finite.
+
+In the theory of Fourier analysis, we denote the coefficient $$
+(c_{n})\in l^{1}(2\mathbb{Z})
+$$
+what is the notation $l^{1}(2\mathbb{Z})$.
