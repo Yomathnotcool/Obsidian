@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/The Representation of Group/Representation of SL(2,R)/Principal series representation of SL(2,R).md",
+                "file": "GPT-history/Hecke algebra.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/The Representation of Group/Representation of SL(2,R)/Principal series representation of SL(2,R).md",
+                "file": "GPT-history/Hecke algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/The Representation of Group/Representation of SL(2,R)/Principal series representation of SL(2,R).md",
+                "file": "GPT-history/Hecke algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/The Representation of Group/Representation of SL(2,R)/Principal series representation of SL(2,R).md"
+                "file": "GPT-history/Hecke algebra.md"
               }
             }
           }
@@ -149,8 +149,8 @@
   },
   "active": "d1e5e896e4821e00",
   "lastOpenFiles": [
-    "Mathematics/Second-Brain/Analysis/measure theorey/Randon-Nikodym.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/The Representation of Group/Representation of SL(2,R)/Principal series representation of SL(2,R).md",
+    "Mathematics/Second-Brain/Analysis/measure theorey/Randon-Nikodym.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Lie group and Lie algebra/Universal Enveloping Algebra.md",
     "Pasted image 20240203134129.png",
     "Mathematics/Second-Brain/Analysis/Complex analysis/Euler formula.md",
