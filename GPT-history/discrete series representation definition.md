@@ -69,3 +69,37 @@ In the theory of Fourier analysis, we denote the coefficient $$
 (c_{n})\in l^{1}(2\mathbb{Z})
 $$
 what is the notation $l^{1}(2\mathbb{Z})$.
+
+
+Consider the unitary irreducible representation $(\pi,H_{\pi})$ of $PSL_{2}(\mathbb{R})$, $H_{\pi}$ can be taken as $L^{2}(PSL_{2}(\mathbb{R}))$, define a measure $$
+m_{T}(f)=\frac{1}{2T} \int^{T}_{-T}f(n(t))\,dt,\ \ f\in H_{\pi}
+$$
+we want to understand the notation $\pi(m_{T})v$, in which $v \in H_{\pi}$.
+
+so the operator is defined as 
+$$
+\pi(m_{T})v= \frac{1}{2T}\int^{T}_{-T}\pi(n(t))v\,dt 
+$$
+in which 
+$$
+n(t)= \begin{pmatrix}
+1 & t  \\
+ & 1
+\end{pmatrix}
+$$
+then define 
+$$
+\pi(m_{T}n(x)a(y)k(\theta))v= \frac{1}{2T} \int^{T}_{-T}\pi(n(t+x)a(y)k(\theta))v\,dt
+$$
+how to understand the derivative $$
+\begin{align}
+\frac{\partial^{2}}{\partial x^{2}}\int^{T}_{-T}\pi(n(t+x)a(y)v\,dt  \\
+= \frac{\partial}{\partial x}[\pi(n(T+x)a(y))v-\pi(n(-T+x)a(y))v]
+\end{align}
+$$
+
+my confusion is about first $\pi(n(t))$ is an operator on $H_{\pi}$, how to do the derivate inside of this operator, second, i don't understand the integral $v \in H_{\pi}= L^{2}(SL_{2}(\mathbb{R}))$ is a function, so the $\pi(n(t))v$ is also a function in $H_{\pi}$, but our integral is over $t$ on the interval $[-T,T]$, so my understanding about this integral is $$
+\int^{T}_{-T}\pi(n(t))v\,dt = \int^{T}_{-T}\pi(n(t))v(\cdot)\,dt
+$$
+in which the $\cdot$ represents an indefinite variable in $SL_{2}(\mathbb{R})$, then again the integral can be understood as a vector in $H_{\pi}$.
+
