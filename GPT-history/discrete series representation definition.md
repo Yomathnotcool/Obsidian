@@ -103,3 +103,51 @@ my confusion is about first $\pi(n(t))$ is an operator on $H_{\pi}$, how to do t
 $$
 in which the $\cdot$ represents an indefinite variable in $SL_{2}(\mathbb{R})$, then again the integral can be understood as a vector in $H_{\pi}$.
 
+
+
+
+In the paper, given unitary continuous representation $(\pi,H)$ of $PSL_{2}(\mathbb{R})$, and consider $$
+X_{-}=\begin{pmatrix}
+ &  \\
+1 & 
+\end{pmatrix}
+$$
+and it corresponds to the differential operator $$
+X_{-}=y\cos 2\theta  \frac{\partial}{ \partial x}+y\sin 2\theta -\cos^{2}\theta  \frac{\partial}{\partial \theta}
+$$
+then what is the notation $d\pi(X_{-})$
+
+
+in the proof of lemma 1 in the paper, we want to understand the calculation: 
+$$
+\begin{align}
+y^{2}  \frac{\partial^{2}}{\partial y^{2}}\pi(m_{T}a(y))v-\lambda \pi(m_{T}(a(y)))v\\
+= \frac{y}{2T} \frac{\partial}{\partial \theta}\mid_{\theta=0}[\pi(n(T))-\pi(n(-T))]\pi(a(y)k(\theta))v  \\
+- \frac{y^{2}}{2T} \frac{\partial}{\partial x}\mid_{x=0} [\pi(n(T+x))-\pi(n(-T+x)]\pi(a(y))v
+\end{align}
+$$
+then in the paper this is equal to
+$$
+\frac{y}{2T}[\pi(n(T))-\pi(n(-T))]\pi(a(y))d\pi(X_{-})v
+$$
+
+as we know that, $X_{-}\mid_{x=\theta=0}=y \frac{\partial}{\partial x}\mid_{{x=0}}- \frac{\partial}{\partial \theta}\mid_{\theta=0}$, so could you please give me more details about how to understand the calculation above?
+
+
+
+I don't understand that how to connect the definition of differential representation of Lie algebra $d\pi(X_{-})v=\lim\limits_{ t \to \infty }\exp(tX_{-})v$ and the differential operator $X_{-}|_{x=\theta=0}= y \frac{\partial}{\partial x}- \frac{\partial}{\partial \theta}$.
+
+
+in the formulae, we can conclude that 
+$$
+\begin{align}
+\pi(a(y))\frac{d}{dt}|_{t=0}\pi(\exp(tX_{-}))v \\
+= \frac{\partial}{\partial \theta}\mid_{\theta=0}[\pi(n(T))-\pi(n(-T))]\pi(a(y)k(\theta))v-y \frac{\partial}{\partial x}[\pi(n(T+x))-\pi(n(-T+x))]\pi(a(y))v
+\end{align}
+$$
+
+
+your explanation is very useful but still I don't understand why this is true:
+$$
+y^{2}  \frac{\partial^{2}}{\partial y^{2}}\pi(m_{T}a(y))v-\lambda \pi(m_{T}(a(y)))v=\frac{y}{2T}[\pi(n(T))-\pi(n(-T))]\pi(a(y))d\pi(X_{-})v
+$$

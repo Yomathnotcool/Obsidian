@@ -171,6 +171,7 @@
 	{trigger: "xx", replacement: "\\times", options: "mA"},
 	{trigger: "para", replacement: "\\parallel", options: "mA"},
  	{trigger: "supp", replacement: "\\text{supp}", options: "mA"},
+	{trigger: "pc", replacement: "\\prec", options: "mA"},
 
 	{trigger: "xnn", replacement: "x_{n}", options: "mA"},
 	{trigger: "xii", replacement: "x_{i}", options: "mA"},
@@ -289,4 +290,5 @@
 	// Misc
 	{trigger: "tayl", replacement: "${0:f}(${1:x} + ${2:h}) = ${0:f}(${1:x}) + ${0:f}'(${1:x})${2:h} + ${0:f}''(${1:x}) \\frac{${2:h}^{2}}{2!} + \\dots$3", options: "mA"},
 	{trigger: "max", replacement: "\\text{max}", options: "mA"},
+	{trigger: "sup", replacement: "\\text{sup}", options: "mA"},
 ]
