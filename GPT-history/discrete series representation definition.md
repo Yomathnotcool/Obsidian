@@ -103,6 +103,7 @@ my confusion is about first $\pi(n(t))$ is an operator on $H_{\pi}$, how to do t
 $$
 in which the $\cdot$ represents an indefinite variable in $SL_{2}(\mathbb{R})$, then again the integral can be understood as a vector in $H_{\pi}$.
 
+<<<<<<< Updated upstream
 
 
 
@@ -151,3 +152,6 @@ your explanation is very useful but still I don't understand why this is true:
 $$
 y^{2}  \frac{\partial^{2}}{\partial y^{2}}\pi(m_{T}a(y))v-\lambda \pi(m_{T}(a(y)))v=\frac{y}{2T}[\pi(n(T))-\pi(n(-T))]\pi(a(y))d\pi(X_{-})v
 $$
+=======
+When we consider a unitary irreducible representation $(\pi,H)$ of $SL_{2}(\mathbb{R})$, and the universal enveloping algebra is denoted as $\mathcal{U}(\mathfrak{g})$, then what is the notation with $d\pi(w)$, in which $w$ is the Casimir element that generates the center of $\mathcal{U}(\mathfrak{g})$.
+>>>>>>> Stashed changes
