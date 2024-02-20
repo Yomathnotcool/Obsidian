@@ -172,6 +172,8 @@
 	{trigger: "para", replacement: "\\parallel", options: "mA"},
  	{trigger: "supp", replacement: "\\text{supp}", options: "mA"},
 	{trigger: "pc", replacement: "\\prec", options: "mA"},
+	{trigger: "zhengfu", replacement: "\\pm", options: "mA"},
+
 
 	{trigger: "xnn", replacement: "x_{n}", options: "mA"},
 	{trigger: "xii", replacement: "x_{i}", options: "mA"},

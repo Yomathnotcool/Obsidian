@@ -52,6 +52,7 @@ sub
 sin
 successively
 standard
+subset
 representation
 representations
 relations
@@ -149,6 +150,8 @@ why
 well
 what
 walk
+weakly
+wish
 define
 defined
 denoted
@@ -189,6 +192,8 @@ don
 doesn
 denominator
 derivative
+definite
+dense
 the
 this
 two
@@ -283,6 +288,8 @@ calculation
 create
 conclude
 confusion
+contained
+cyclic
 of
 or
 odd
@@ -328,6 +335,7 @@ financial
 fore
 fractions
 first
+formula
 any
 as
 and
@@ -371,6 +379,7 @@ To
 Technically
 Take
 Thus
+Tempered
 principal
 part
 proof
@@ -500,6 +509,8 @@ evaluate
 equality
 evaluates
 entire
+equivalent
+easily
 For
 First
 Furthermore
@@ -520,6 +531,7 @@ loss
 learnt
 latter
 limit
+lemmas
 unitary
 unit
 using
@@ -538,6 +550,7 @@ unimodular
 upgrade
 up
 understood
+useful
 Recall
 Reciprocally
 Unitarily
@@ -551,6 +564,7 @@ vectors
 various
 values
 variable
+verified
 Suppose
 Show
 So
@@ -616,3 +630,5 @@ your
 question
 quantity
 Motion
+Moreover
+Verification
