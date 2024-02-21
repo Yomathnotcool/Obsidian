@@ -155,3 +155,81 @@ $$
 =======
 When we consider a unitary irreducible representation $(\pi,H)$ of $SL_{2}(\mathbb{R})$, and the universal enveloping algebra is denoted as $\mathcal{U}(\mathfrak{g})$, then what is the notation with $d\pi(w)$, in which $w$ is the Casimir element that generates the center of $\mathcal{U}(\mathfrak{g})$.
 >>>>>>> Stashed changes
+
+
+
+calculate 
+$$
+\int^{b}_{1}\int^{b}_{a}a^{-2\alpha}y^{\alpha-1}f(y)\,dy \,da=\int^{b}_{1}\left(  \frac{y^{-\alpha}-y^{\alpha-1}}{1-2\alpha} \right)f(y)\,dy  
+$$
+
+
+$$
+\int^{b}_{1}\int^{b}_{a}a^{-2\alpha}y^{\alpha-1}f(y)\,dy \,da=\int^{b}_{1}\int^{y}_{1}a^{-2\alpha} y^{\alpha-1}f(y)\,da \,dy 
+$$
+
+
+To rigorously handle the given problem and demonstrate the computation that equates both sides of the initial expression, let's follow the suggested change of the order of integration carefully. This involves exploiting Fubini's Theorem, which allows for the interchange of the order of integration under certain conditions that are met in this case (integrable function over a rectangular region for continuous functions (f) with respect to (y)).
+Given problem:
+$$
+[ \int^{b}_{1}\int^{b}_{a}a^{-2\alpha}y^{\alpha-1}f(y)\,dy \,da ]
+$$
+Change the order of integration as suggested:
+$$
+[ \int^{b}_{1}\int^{y}_{1}a^{-2\alpha} y^{\alpha-1}f(y)\,da \,dy ]
+$$
+Original Order of Integration Analysis:
+The original double integral can be re-ordered by examining the limits of integration for variables (a) and (y). Initially, (y) is integrated from (a) to (b), and then (a) is integrated from (1) to (b).
+Changing Order of Integration:
+Upon changing the order of integration according to the domains of (a) and (y), note that when (y) varies from (1) to (b), (a) varies from (1) to (y), interpreting the initial setup's domain restriction properly.
+Calculating the Changed Order:
+The integral, after changing the order of integration, becomes:
+$$
+[ \int^{b}_{1}\int^{y}_{1}a^{-2\alpha} y^{\alpha-1}f(y)\,da \,dy ]
+$$
+Step 1: Solve the Integral with Respect to (a):
+Now, integrate with respect to (a).
+$$
+[ = \int^{b}_{1} y^{\alpha-1}f(y) \left( \int^{y}_{1} a^{-2\alpha} da \right) dy ]
+$$
+Solving the integral inside, we get:
+$$
+[ \left[ \frac{a^{-2\alpha+1}}{-2\alpha+1} \right]^{y}_{1} ]
+$$
+This evaluates to:
+$[ = \frac{y^{-2\alpha+1} - 1}{-2\alpha+1} ]$
+Therefore, the expression becomes:
+$$
+[ \int^{b}_{1} y^{\alpha-1}f(y) \cdot \frac{y^{-2\alpha+1} - 1}{-2\alpha+1} \,dy ]
+$$
+This integrated expression is exactly what you've detailed, showing how changing the order of integration while considering the domain of (a) and (y) allows us to directly compute or transform the given integral accordingly.
+Conclusion:
+By changing the order of integration, we've properly handled the integral within the specified limits. This technique exemplifies handling double integrals with variable limits, utilizing Fubini's theorem where the integration order is switched while carefully considering the bounds within which each variable operates. The final formula offers a structured way to approach the integration over differing domains for each variable, affirmed by the bounds adjustment according to the setup.
+
+
+To prove the given equality, we can leverage the theorem for changing the order of integration in a double integral, commonly known as Fubini's Theorem. This theorem allows us to interchange the order of integration if the function being integrated is continuous over the region of integration. The function $(a^{-2\alpha}y^{\alpha-1}f(y))$ is continuous if (f(y)) is continuous and both (\alpha) and (y) are within domains that make the expression well-defined.
+Given the integral: $$
+[ \int^{b}{1}\int^{b}{a}a^{-2\alpha}y^{\alpha-1}f(y)\,dy \,da ]
+$$
+We aim to prove it equals: $$
+[ \int^{b}{1}\int^{y}{1}a^{-2\alpha} y^{\alpha-1}f(y)\,da \,dy ]
+$$
+Let's represent the region of integration in the xy-plane to understand how we can change the order of integration.
+Original Order of Integration:
+The original region of integration can be described as follows: 1. For each (a) in ([1, b]), (y) ranges from (a) to (b).
+This means we are integrating over a triangular region in the (a)-(y) plane bounded by (a = 1), (y = b), and (y = a).
+Changing the Order of Integration:
+To change the order of integration, we need to describe this same region differently: 1. For each (y) in ([1, b]), (a) ranges from (1) to (y).
+This description allows us to loop over the same triangular region from a different perspective, effectively changing the order of integration.
+Proof:
+Applying this change of perspective, we get: $$
+[ \int^{b}{1}\left(\int^{y}{1}a^{-2\alpha} da\right) y^{\alpha-1}f(y) \,dy ]
+$$
+Since (a^{-2\alpha}) and (y^{\alpha-1}f(y)) are separable in the sense that the integration of one does not depend on the value of the other, changing the order of integration is permissible.
+The integral within the brackets is only with respect to (a), and the outer integral is with respect to (y), matching the structure of the right-hand side of the equality we aim to prove. Therefore, by applying the procedure for changing the order of integration according to Fubini's Theorem, given that the function is continuous and well-defined over the region, we have shown the two integrals are equal.
+In a more formal mathematical proof, details about the continuity of (f(y)) and the behavior of the function (a^{-2\alpha}y^{\alpha-1}f(y)) across the defined region would be elaborated further to rigorously justify the use of Fubini’s Theorem. However, this explanation provides the conceptual framework for understanding how the equality holds through the changing order of integration in the context provided.
+
+$$
+\int^{b}_{1}\int^{b}_{a}af(y)\,dy\,da=\int^{y}_{1}\int^{b}_{1}af(y)\,dy \,da  
+$$
+
