@@ -233,3 +233,8 @@ $$
 \int^{b}_{1}\int^{b}_{a}af(y)\,dy\,da=\int^{y}_{1}\int^{b}_{1}af(y)\,dy \,da  
 $$
 
+if $\alpha \in (0, \frac{1}{2}]$ and $T\geq 1$, consider the limit
+$$
+\lim\limits_{ T \to \infty } C \cdot (T^{-\alpha}-T^{\alpha-1})
+$$
+in which the constant $C>0$.
