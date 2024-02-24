@@ -87,6 +87,7 @@
 	{trigger: "([A-Za-z])_(\\d\\d)", replacement: "[[0]]_{[[1]]}", options: "rmA"},
 	{trigger: "\\hat{([A-Za-z])}(\\d)", replacement: "hat{[[0]]}_{[[1]]}", options: "rmA"},
 	{trigger: "\\\\mathbf{([A-Za-z])}(\\d)", replacement: "\\mathbf{[[0]]}_{[[1]]}", options: "rmA"},
+	{trigger: "\\\\mathfrak{([A-Za-z])}(\\d)", replacement: "\\mathfrak{[[0]]}_{[[1]]}", options: "rmA"},
 	{trigger: "\\\\vec{([A-Za-z])}(\\d)", replacement: "\\vec{[[0]]}_{[[1]]}", options: "rmA"},
 	{trigger: "([a-zA-Z])bar", replacement: "\\bar{[[0]]}", options: "rmA"},
 	{trigger: "([a-zA-Z])hat", replacement: "\\hat{[[0]]}", options: "rmA"},
@@ -143,7 +144,7 @@
 	{trigger: "and", replacement: "\\cap", options: "mA"},
 	{trigger: "or", replacement: "\\cup", options: "mA"},
 	{trigger: "disj", replacement: "\\bigsqcup", options: "mA"},
-	{trigger: "in", replacement: "\\in $0", options: "mA"},
+	{trigger: "in", replacement: "\\in", options: "mA"},
 	{trigger: "any", replacement: "\\forall", options: "mA"},
 	{trigger: "subeq", replacement: "\\subseteq", options: "mA"},
 	{trigger: "supset", replacement: "\\supset", options: "mA"},
@@ -170,6 +171,9 @@
 	{trigger: "xx", replacement: "\\times", options: "mA"},
 	{trigger: "para", replacement: "\\parallel", options: "mA"},
  	{trigger: "supp", replacement: "\\text{supp}", options: "mA"},
+	{trigger: "pc", replacement: "\\prec", options: "mA"},
+	{trigger: "zhengfu", replacement: "\\pm", options: "mA"},
+
 
 	{trigger: "xnn", replacement: "x_{n}", options: "mA"},
 	{trigger: "xii", replacement: "x_{i}", options: "mA"},
@@ -182,6 +186,7 @@
 
 	{trigger: "mcal", replacement: "\\mathcal{$0}$1", options: "mA"},
 	{trigger: "mbb", replacement: "\\mathbb{$0}$1", options: "mA"},
+	{trigger: "mfrak", replacement: "\\mathfrak{$0}$1", options: "mA"},
 	{trigger: "ell", replacement: "\\ell", options: "mA"},
 	{trigger: "lll", replacement: "\\ell", options: "mA"},
 	{trigger: "LL", replacement: "\\mathcal{L}", options: "mA"},
@@ -197,7 +202,7 @@
 	{trigger: "AA", replacement: "\\mathcal{A}", options: "mA"},
 	{trigger: "BB", replacement: "\\mathbf{B}", options: "mA"},
 	{trigger: "EE", replacement: "\\mathbf{E}", options: "mA"},
-
+	{trigger: "sl_{2}r", replacement: "SL_{2}(\\mathbb{R})", options: "mA"},
 
 
 	// Unit vectors
@@ -287,4 +292,5 @@
 	// Misc
 	{trigger: "tayl", replacement: "${0:f}(${1:x} + ${2:h}) = ${0:f}(${1:x}) + ${0:f}'(${1:x})${2:h} + ${0:f}''(${1:x}) \\frac{${2:h}^{2}}{2!} + \\dots$3", options: "mA"},
 	{trigger: "max", replacement: "\\text{max}", options: "mA"},
+	{trigger: "sup", replacement: "\\text{sup}", options: "mA"},
 ]

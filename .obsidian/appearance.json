@@ -1,4 +1,9 @@
 {
   "accentColor": "",
-  "baseFontSize": 27
+  "baseFontSize": 30,
+  "cssTheme": "Things",
+  "translucency": true,
+  "enabledCssSnippets": [
+    "page-width"
+  ]
 }

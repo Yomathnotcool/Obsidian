@@ -126,6 +126,88 @@ By this theorem, we know that the almost all points that the orbit falls into th
 ##### Proof:
 Define the function $g^{*}(x)=\lim\limits_{ n \to \infty } \frac{1}{n}\sum\limits^{n-1}_{l=0}\chi_{K}(R_{a_{t}}^{l})\leq \lim\limits_{ n \to \infty }1- \frac{1}{n}\leq 1$ exists a.e.
 
+$$
+\int g^{*}\,dm_{X} = m_{X}(K)\geq 1-\epsilon
+$$
+And $1-\epsilon \leq \int_{B}g^{*}\,dm_{X}+\int_{X-B}g^{*}\,dm_{X}\leq m_{X}(B)+ \frac{1}{2}m_{X}(X\backslash B)= \frac{1}{2} m_{X}(B)+ \frac{1}{2}$ in which $B=\left\{ g^{*}> \frac{1}{2} \right\}, g^{*}\leq 1$ and $g^{*}\leq \chi_{B}$. Then $X\backslash B=\left\{ g^{*}\leq \frac{1}{2} \right\}$.
+For point $x$ and $y=R_{u^{-}(s)}x$, $x \in \mathbb{R}$ and $x,y \in B$, $f(x)=f(R^{l}_{a_{t}}(x))$ and $f(y)=f(R^{l}_{a_{t}}(y))$ for any $y \geq 1$.
+
+The distance between the orbit: $d_{X}(R^{l}_{a_{t}}(x),R^{l}_{a_{t}}(y))=d_{X}(xa^{-l}_{t},xu^{-}(-s)a^{-l}_{t})\leq d_{PSL_{2}(\mathbb{R})}(I_{2},a^{l}_{t}u^{-}(-s)a^{-l}_{t})\to 0$ as  $l\to \infty$.
+
+Here we use the fact that $PSL_{2}(\mathbb{R})\cong T^{1}\mathbb{H}$ (the orbits of a point $g_{0} \in PSL_{2}(\mathbb{R})$ under the right action of $U^{-}$ gives the stable manifold). For subgroup
+$$
+U^{-}=\{\begin{pmatrix}
+1 & s \\
+ & 1 
+\end{pmatrix} s \in \mathbb{R}\}
+$$
+A point $g_{1} \in PSL_{2}(\mathbb{R})$ is in the orbit $g_{0}U^{-}$ if and only if $$
+d(R_{a_{t}}(g_{0}),R_{a_{t}}(g_{1}))\to 0\ \text{as}\ t \to  \infty
+$$
+By left-invariance, $$
+d(R_{a_{t}}(g_{0}),R_{a_{t}}(g_{1}))=d(g_{0}a^{-1}_{t},g_{1}a^{-1}_{t})=d(I_{2},a_{t}g_{0}^{-1}g_{1}a^{-1}_{t})
+	$$
+Here we use the fact that continuous function in compact set is uniformly continuous. 
+
+So we know that the function $f$ we consider above is uniformly continuous on $K$. So $f(R^{l_{n}}_{a_{t}}(x))\to f(R^{l_{n}}_{a_{t}}(y))$ as $d_{X}(R^{l_{n}}_{a_{t}}(x),R^{l_{n}}_{a_{t}}(y))\to 0$ by uniformly continuous. So $f(x)=f(y)$ when $x,y \in B$. This gives us that $f(x)=f(R_{U^{-}(s)}(x))$.
+
+At this point, we have shown that the function $f$ is invariant under horocycle flow. 
+
+Pick $\epsilon_{1} <\epsilon$, and $K_{1}\subset X$ such that  $m_{X}(K_{1})>1-\epsilon_{1}$. So $f\mid_{K}$ is continuous. Assume $K\subset K_{1}$, $f\mid_{K_{1}}, f\mid_{K}, f\mid_{K\cup K_{1}}=f\mid_{K_{1}}$ is continuous. 
+
+$$
+B_{1}=\left\{ x\mid \lim\limits_{ n \to \infty } \frac{1}{n}\sum\limits^{n-1}_{l=0}\chi_{K_{1}}(R^{l}_{a_{t}})> \frac{1}{2} \right\}
+$$
+Obviously $B\subset B_{1}$. 
+
+For arbitrary $\epsilon$, we can conclude there exists $X'$ such that $m_{X}(X')=1$, such that  $x,y\in X'$, $f(x)=f(R_{U^{-}(s)}(x))=f(y)$.
+
+Similarly we have $X''$ such that  $f(x)=f(R_{U^{+}(s)}(x))=f(y)$. Denote $X_{1}=X'\cap X''$ if $g=u^{+}(s_{4})u^{-}(s_{3})u^{+}(s_{2})u^{-}(s_{1})$ then $X_{g}=X_{1}\cap R^{-1}_{u_{s_{1}}(X_{1})}\cap R^{-1}_{u^{+}(s_{2})u^{-}(s_{1})}(X_{1})\cap R^{-1}u^{-1}(s_{3})u^{+}(s_{2})u^{-}(s_{1})(X_{1})\cap R^{-1}_{g}(X'').$ Obviously $m_{X}(X_{g})=1$. 
+
+Claim: for any $x \in X_{g}$, $f(x)=f(R_{g})=f(y)$, $y=R_{u^{-}(s_{1})(x)}\in X_{1}\cap R^{-1}(u^{+}(s_{2})(x_{1}))\implies f(x)=f(y)$.
+
+
+Note that $SL_{2}(\mathbb{R})=<U^{+},U^{-}>$. Consider function $f:X \to \mathbb{R}$ is not constant almost everywhere with respect to  $m_{X}$. 
+There exists two intervals $I_{1}$ and $I_{2}$  of $\mathbb{R}$ such that  $I_{1} \cap I_{2}=\emptyset$ $C_{j}=\{h \in PSL_{2}(\mathbb{R})\mid f(\Gamma h)\in I_{j}\}$ in which $j=1,2$,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### Thm :: Rigidity of horocycle flow
 

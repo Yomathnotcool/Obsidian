@@ -25,8 +25,8 @@ $$x+y\sigma+z\sigma^{2}$$
 ### Thm :: $k[G]$ is an [[algebra]].
 
 This theorem gives us the reason that why we care about group algebra:
-### Thm :: There is a one-to-one correspondence between [[the representation of group]] $G$ and the group algebra $k[G]$.
-1. Any [[the representation of group|group representation]]  $(V,\rho)$ of group $G$ extends uniquely to a ring homeomorphism $\bar{\rho}：k[G]\rightarrow \text{End}_{k}(V)$ 
+### Thm :: There is a one-to-one correspondence between [[The Representation of Group]] $G$ and the group algebra $k[G]$.
+1. Any [[The Representation of Group|group representation]]  $(V,\rho)$ of group $G$ extends uniquely to a ring homeomorphism $\bar{\rho}：k[G]\rightarrow \text{End}_{k}(V)$ 
 2. Any $k[G]$-module $M$，the restriction of the action $k[G]$ is the group representation $\rho: G\rightarrow \text{Aut}_{k}(M)$;
 3. These two are inverse to each other.
 
