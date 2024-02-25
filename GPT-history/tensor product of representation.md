@@ -21,3 +21,13 @@ then the tensor product $\pi \otimes \pi$ can be written as $$
 $$
 
 
+given a cofinite Fuchsian group $\Gamma$ of $SL_{2}(\mathbb{R})$, denote $\mathcal{F}$ as the canonical fundamental domain. then here are the vertices $\mu_{1},\mu_{2},\dots,\mu_{k}$ which are not $\Gamma$-equivalent. Then consider the stabilizer $\Gamma_{\mu_{i}}$ of $\mu_{i}$, it can be written $$
+\Gamma_{\mu_{i}}=N_{i}^{-1}\begin{pmatrix}
+1 & -1 \\
+0 & 1 
+\end{pmatrix}N_{i}
+$$
+in which $N_{i}(\mu_{i})=\infty$.
+
+
+The question here is to understand why the stabilizer can be written as a conjugation of $N_{i}$.
