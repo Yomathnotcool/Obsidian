@@ -31,3 +31,11 @@ in which $N_{i}(\mu_{i})=\infty$.
 
 
 The question here is to understand why the stabilizer can be written as a conjugation of $N_{i}$.
+
+
+what is the inverse of $$
+\begin{pmatrix}
+a  & b \\
+ 0 & 0
+\end{pmatrix}
+$$
