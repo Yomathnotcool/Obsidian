@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3c027666ba794b13",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.8"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -147,7 +158,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d1e5e896e4821e00",
+  "active": "3c027666ba794b13",
   "lastOpenFiles": [
     "GPT-history/analysis review.md",
     "GPT-history/analysis.md",
