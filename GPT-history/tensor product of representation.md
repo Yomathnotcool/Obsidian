@@ -39,3 +39,52 @@ a  & b \\
  0 & 0
 \end{pmatrix}
 $$
+
+
+Consider a linear functional defined as $$
+F(f)= \frac{1}{T}\int^{T}_{0}f(xn(t))\,dt 
+$$
+in which $T$ is a fixed constant, and $x$ is a fixed point in the upper half plane, and $n(t)$ is the unitrangular matrix that represents the horocycle flow.
+
+and the $f$ is a continuous function in $W_{4}$ which is the space of Sobolev norm of order 4. The function $f$ satisfies condition $$
+\mid f (x) \mid \ll_{\Gamma} C\mid\mid f\mid\mid_{W_{2}}
+$$
+in which $\Gamma$ is the lattice of $SL_{2}(\mathbb{R})$ and $C$ is a constant that depends on the fixed point $x.$
+
+
+Then let's try to simplify this claim:
+The linear functional $$
+F(f)=\int^{T}_{0}f(n(t))\,dt
+$$
+and $f\in W_{4}$ is continuous and $$
+\mid f(x)\mid< C(x)\mid\mid f\mid\mid_{W_{2}}
+$$
+in which the $C(x)$ is a function that depends on $x$. then prove the $F(f)$ depends continuously on $f \in W_{4}$ with the norm $\mid\mid \cdot \mid\mid_{W_{4}}$. 
+
+
+under what condition, that a bounded operator from Hilbert space $H$ to itself becomes continuous?
+
+
+what does it mean by the function $f$ in the Hilbert space is orthogonal to the space of constant functions.
+
+
+for a unitary representation $(\pi,H)$ of $SL_{2}(\mathbb{R})$, it can be decomposed into direct integral:
+$$
+H=\int^{\oplus}_{Z}H(\xi)\,d\mu(\xi)
+$$
+in which $Z$ is Borel measurable space, and $\mu$ is a measure that is defined on $Z$.
+
+Furthermore, if $H=L^{2}(\Gamma \backslash G)$ the decomposition can be refined based on the eigenvalue $\lambda$ of Laplacian $\Delta$, $\lambda$ can be written as $s(1-s)$. Then $$
+H=H_{0}\oplus H_{ct} \oplus H_{rs}=\int^{\oplus}_{Z}H(\xi)\,d\mu(\xi) 
+$$
+in which $H_{0}$ is the cuspidal part, and $H_{ct}$ represents the continuous part and $H_{rs}$ is the residue part.
+Now the question is that we want to find an explicit relationship between $\xi$ and $s$. 
+
+now we have a function $$
+t_{y}(\xi)=y^{s}
+$$
+based on the discussion, how to prove this function is uniformly continuous for $\xi$, in which $s=s(\xi)$. my confusion is about this "hidden" function $s(\xi)$.
+
+
+Based on the discussion before, the problem is that I dont understand the property of this function $s(\xi)$ about whether this function is continuous ?
+

@@ -23,9 +23,11 @@
             "id": "3c027666ba794b13",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.5.8"
+                "file": "GPT-history/tensor product of representation.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -160,8 +162,8 @@
   },
   "active": "3c027666ba794b13",
   "lastOpenFiles": [
-    "GPT-history/analysis review.md",
     "GPT-history/analysis.md",
+    "GPT-history/analysis review.md",
     "GPT-history/tensor product of representation.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/The Representation of Group/Tempered representation.md",
     "GPT-history/discrete series representation definition.md",

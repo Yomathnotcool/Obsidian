@@ -63,6 +63,9 @@ specific
 sense
 specialized
 sources
+separable
+satisfy
+stabilizer
 representation
 representations
 relations
@@ -335,6 +338,9 @@ centre
 coming
 correspond
 common
+cofinite
+canonical
+conjugation
 of
 or
 odd
@@ -386,6 +392,7 @@ first
 formula
 free
 fast
+fundamental
 any
 as
 and
@@ -521,6 +528,7 @@ And
 As
 Applying
 About
+An
 norm
 normalized
 need
@@ -585,6 +593,7 @@ Firstly
 Finally
 Fourier
 Fix
+Fuchsian
 later
 locally
 line
@@ -637,6 +646,7 @@ values
 variable
 verified
 vary
+vertices
 Suppose
 Show
 So
@@ -668,6 +678,7 @@ Here
 Hence
 Heat
 However
+Hilbert
 In
 It
 If
@@ -685,6 +696,7 @@ gradient
 growth
 generalized
 good
+generally
 On
 One
 Operator
