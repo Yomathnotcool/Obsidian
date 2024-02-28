@@ -33,6 +33,7 @@ in which $N_{i}(\mu_{i})=\infty$.
 The question here is to understand why the stabilizer can be written as a conjugation of $N_{i}$.
 
 
+<<<<<<< Updated upstream
 what is the inverse of $$
 \begin{pmatrix}
 a  & b \\
@@ -88,3 +89,15 @@ based on the discussion, how to prove this function is uniformly continuous for 
 
 Based on the discussion before, the problem is that I dont understand the property of this function $s(\xi)$ about whether this function is continuous ?
 
+=======
+consider the discrete subgroup $\Gamma$ of $SL_{2}(\mathbb{R})$, by the usual action, we have the hyperbolic surface $\Gamma \backslash H$, in which $H$ is the upper half plane. And we know that $$
+H=SL_{2}(\mathbb{R})/SO_{2}(\mathbb{R}), \Gamma \backslash H=\Gamma \backslash SL_{2}(\mathbb{R})/SO_{2}(\mathbb{R})
+$$
+and unit tangent bundle $T^{1}H$ is $PSL_{2}(\mathbb{R})$, and $T^{1}\Gamma \backslash H=\Gamma \backslash PSL_{2}(\mathbb{R})$.
+
+Now I want to translate the terms into $\mathbb{Q}_{p}$, then the group becomes $SL_{2}(\mathbb{Q}_{p})$ and the other group quotients can be adopted easily. But the question is that what the $H$ is in $\mathbb{Q}_{p}$.
+
+Consider the space of cuspidal elements in $L^{p}(\Gamma \backslash G)$, they are just cusp forms with finite $L^{p}$-norm.
+
+
+>>>>>>> Stashed changes
