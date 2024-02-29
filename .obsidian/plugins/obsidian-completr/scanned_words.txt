@@ -66,6 +66,7 @@ sources
 separable
 satisfy
 stabilizer
+simplify
 representation
 representations
 relations
@@ -88,6 +89,9 @@ represents
 regulation
 refer
 reviewed
+refined
+residue
+relationship
 Consider
 Casimir
 Considering
@@ -119,6 +123,9 @@ blow
 becomes
 branch
 boundedness
+bounded
+based
+before
 in
 is
 induced
@@ -226,6 +233,11 @@ different
 depending
 discussed
 de
+depends
+decomposed
+direct
+discussion
+dont
 the
 this
 two
@@ -341,6 +353,10 @@ common
 cofinite
 canonical
 conjugation
+constant
+condition
+continuously
+cuspidal
 of
 or
 odd
@@ -361,6 +377,7 @@ options
 operators
 originates
 obviously
+orthogonal
 for
 function
 finite
@@ -393,6 +410,9 @@ formula
 free
 fast
 fundamental
+functional
+flow
+find
 any
 as
 and
@@ -524,6 +544,7 @@ moderate
 manifests
 meanings
 mathematical
+measurable
 And
 As
 Applying
@@ -547,6 +568,7 @@ negative
 notion
 ng
 note
+now
 even
 explicit
 equalence
@@ -611,6 +633,7 @@ limit
 lemmas
 lines
 literature
+lattice
 unitary
 unit
 using
@@ -631,6 +654,8 @@ up
 understood
 useful
 upper
+unitrangular
+uniformly
 Recall
 Reciprocally
 Unitarily
@@ -653,6 +678,7 @@ So
 Similarly
 Sure
 Start
+Sobolev
 holds
 here
 hand
@@ -668,6 +694,8 @@ handle
 half
 harmonic
 however
+horocycle
+hidden
 Now
 Next
 Ex
@@ -714,6 +742,7 @@ Yoneda
 But
 Based
 Brownian
+Borel
 just
 ji
 yields
