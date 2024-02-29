@@ -1,0 +1,7 @@
+# Short Description of the PhD Project
+
+The project is about the effective bound of ergodic averages on homogenous space. The more classical results were proved by Dani and Smillie that each point in the homogenous space does not belong to a closed orbit of the horocycle flow, the orbit of this point under horocycle flow becomes asymptotically equidistributed. And this equidistribution theorem was later vastly generalized by Ratner to the case of an arbitary unipotent flow on a general homogeneous space. afterwards, a natural and important question is to prove the effective bounds on the rate of convergence in Rater's general result.
+
+For the compact homogenous space, Marc Burger proved that the rate of convergence has uniform bound. By using Marc Burger's result, Andreas Strömbergsson proved the effective bound for noncompact case. With the work by Flaminio and Forni, the precise asymptotics for ergodic avergaes of suffciently regular functions in the compact case by improving Burger's result. For cuspidal horocycles on noncompact surfaces of finite, the asymptotics were obtained by Peter Sarnak.
+
+After studying the work on classical setting: special linear group on real numbers, the project is to study the possible effective bound on p-adic numbers, which should bring more interesting results or tools for dynamical system and automorphic forms.
