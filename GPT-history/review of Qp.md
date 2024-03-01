@@ -310,3 +310,7 @@ The transformation illustrates how the action of $A$ on a lattice can navigate
 This example explicates the subgroup $A$'s role in facilitating transitions between various scales of lattice configurations within $\mathbb{Q}_{2}^{2}$, mirrored in the combinatorial navigating through the Bruhat-Tits tree. It succinctly encapsulates the essence of "geodesic-like" flows within an algebraic-combinatorial framework, asserting the profound interconnectedness of algebraic actions and geometrically inspired dynamical systems.
 
 
+given a local field $K$ of characteristic 0 with a discrete valuation $v_{K}$,a finite residue field $k\cong \mathbb{F}_{p^{r}}$, where $p \in \mathbb{Z}$ and $r \in \mathbb{Z}_{\geq 1}$. Define the norm on $K$, $$
+\mid\mid x \mid\mid_{K}= \frac{1}{q^{v_{K}(x)}}
+$$
+how to understand the notation $\mid K\mid_{K}$.
