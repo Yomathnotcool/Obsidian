@@ -26,6 +26,7 @@ pL_{1}\subsetneqq L_{2} \subsetneqq L_{1},
 $$
 can you give me an example?
 
+<<<<<<< Updated upstream
 Denote the $X$ as the graph with the vertices $V(X)=S$, in which $S$ is the set of all the equivalent class of lattice in $\mathbb{Q}_{p}^{n}$.
 if they satisfy this property, then we call $\{[L_{1}],[L_{2}]\}$ an edge.
 
@@ -314,3 +315,8 @@ given a local field $K$ of characteristic 0 with a discrete valuation $v_{K}$,a 
 \mid\mid x \mid\mid_{K}= \frac{1}{q^{v_{K}(x)}}
 $$
 how to understand the notation $\mid K\mid_{K}$.
+=======
+
+
+$\mathbb{Z}_{p}/p\mathbb{Z}_{p}=\mathbb{Z}/p\mathbb{Z}$.
+>>>>>>> Stashed changes
