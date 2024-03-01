@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GPT-history/review of Qp.md",
+                "file": "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Finite field.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 347.50152587890625
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "fb414bd233ea6456",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GPT-history/review of Qp.md",
+                "file": "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Finite field.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GPT-history/review of Qp.md",
+                "file": "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Finite field.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GPT-history/review of Qp.md"
+                "file": "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Finite field.md"
               }
             }
           }
@@ -162,8 +163,9 @@
   },
   "active": "3c027666ba794b13",
   "lastOpenFiles": [
-    "().md",
     "GPT-history/review of Qp.md",
+    "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Finite field.md",
+    "().md",
     "GPT-history/tensor product of representation.md",
     "GPT-history/Doctor Agreement.md",
     "GPT-history/analysis.md",

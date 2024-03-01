@@ -653,6 +653,7 @@ contingent
 correspondences
 compressed
 contracted
+changes
 of
 or
 odd
@@ -1129,6 +1130,7 @@ lens
 layers
 levels
 landscapes
+local
 unitary
 unit
 using
@@ -1168,6 +1170,7 @@ unfolds
 underscore
 underpinning
 underscored
+upstream
 Recall
 Reciprocally
 Resulting
@@ -1178,6 +1181,7 @@ Understanding
 Under
 Using
 Upper
+Updated
 via
 verify
 vector
@@ -1202,6 +1206,7 @@ vs
 versus
 velocity
 version
+valuation
 Suppose
 Show
 So
@@ -1219,6 +1224,7 @@ Structures
 Scaling
 Since
 Starting
+Stashed
 holds
 here
 hand

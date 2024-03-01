@@ -204,7 +204,6 @@
 	{trigger: "BB", replacement: "\\mathbf{B}", options: "mA"},
 	{trigger: "EE", replacement: "\\mathbf{E}", options: "mA"},
 	{trigger: "sl_{2}r", replacement: "SL_{2}(\\mathbb{R})", options: "mA"},
-	{trigger: "mod", replacement: "\\text{mod}", options: "mA"}
 
 
 	// Unit vectors
