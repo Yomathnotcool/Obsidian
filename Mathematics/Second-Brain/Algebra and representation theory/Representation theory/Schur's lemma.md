@@ -1,0 +1,1 @@
+There are too many versions of Schur's lemma, so this note is to collect the versions of Hensel's lemma that I have met.
