@@ -141,8 +141,8 @@
 	{trigger: "back", replacement: "\\backslash", options: "mA"},
 	{trigger: "||", replacement: "\\mid", options: "mA"},
     	{trigger: "backsl", replacement: "\\backslash", options: "mA"},
-	{trigger: "and", replacement: "\\cap", options: "mA"},
-	{trigger: "or", replacement: "\\cup", options: "mA"},
+	{trigger: "cap", replacement: "\\cap", options: "mA"},
+	{trigger: "cup", replacement: "\\cup", options: "mA"},
 	{trigger: "disj", replacement: "\\bigsqcup", options: "mA"},
 	{trigger: "in", replacement: "\\in", options: "mA"},
 	{trigger: "any", replacement: "\\forall", options: "mA"},
@@ -171,6 +171,7 @@
 	{trigger: "xx", replacement: "\\times", options: "mA"},
 	{trigger: "para", replacement: "\\parallel", options: "mA"},
  	{trigger: "supp", replacement: "\\text{supp}", options: "mA"},
+ 	{trigger: "mod", replacement: "\\text{mod}", options: "mA"},
 	{trigger: "pc", replacement: "\\prec", options: "mA"},
 	{trigger: "zhengfu", replacement: "\\pm", options: "mA"},
 

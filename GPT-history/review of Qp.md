@@ -320,3 +320,46 @@ how to understand the notation $\mid K\mid_{K}$.
 
 $\mathbb{Z}_{p}/p\mathbb{Z}_{p}=\mathbb{Z}/p\mathbb{Z}$.
 >>>>>>> Stashed changes
+
+
+$GL_{2}(\mathbb{Q}_{p})/GL_{2}(\mathbb{Z}_{p})=SL_{2}(\mathbb{Q}_{p})/SL_{2}(\mathbb{Z}_{p})$.
+
+The statement $$GL_{2}(\mathbb{Q}_{p})/GL_{2}(\mathbb{Z}_{p}) = SL_{2}(\mathbb{Q}_{p})/SL_{2}(\mathbb{Z}_{p})$$ is incorrect as stated. Let's clarify the groups involved and then address the distinction between the statement and the actual relationships among these groups.
+
+### Definitions:
+
+1. **$GL_{2}(\mathbb{Q}_{p})$**: This is the General Linear Group over the $p$-adic numbers, consisting of all $2 \times 2$ invertible matrices with entries in $\mathbb{Q}_{p}$.
+    
+2. **$GL_{2}(\mathbb{Z}_{p})$**: This is a subgroup of $GL_{2}(\mathbb{Q}_{p})$, consisting of all $2 \times 2$ invertible matrices with entries in the $p$-adic integers $\mathbb{Z}_{p}$.
+    
+3. **$SL_{2}(\mathbb{Q}_{p})$**: This is the Special Linear Group over $\mathbb{Q}_{p}$, consisting of all $2 \times 2$ matrices with entries in $\mathbb{Q}_{p}$ and determinant equal to 1.
+    
+4. **$SL_{2}(\mathbb{Z}_{p})$**: This is a subgroup of $SL_{2}(\mathbb{Q}_{p})$, consisting of all $2 \times 2$ matrices with entries in $\mathbb{Z}_{p}$ and determinant equal to 1.
+    
+
+### Clarification:
+
+- The quotient group $GL_{2}(\mathbb{Q}_{p})/GL_{2}(\mathbb{Z}_{p})$ considers the coset space of the General Linear Group over $\mathbb{Q}_{p}$ relative to its integral counterpart. This quotient effectively captures how matrices over $\mathbb{Q}_{p}$ relate to those strictly defined over $\mathbb{Z}_{p}$ in the broader group $GL_{2}$.
+    
+- The quotient group $SL_{2}(\mathbb{Q}_{p})/SL_{2}(\mathbb{Z}_{p})$ identifies a similar relationship but specifically within the context of matrices of determinant 1.
+    
+
+### Discrepancy:
+
+The direct equality suggested in the statement oversimplifies the relationship between these groups. The general linear group $GL_2$ includes matrices with arbitrary nonzero determinants, while the special linear group $SL_2$ specifically contains those of determinant 1. Their respective quotient spaces relate to how matrices with $p$-adic entries modulate or are reduced by their counterparts in $p$-adic integers, but these quotient spaces encapsulate fundamentally different properties:
+
+- **$GL_{2}(\mathbb{Q}_{p})/GL_{2}(\mathbb{Z}_{p})$** concerns the adaption of any invertible $p$-adic matrix against the backdrop of integral $p$-adic matrices, without restrictions on the determinant (other than being nonzero).
+    
+- **$SL_{2}(\mathbb{Q}_{p})/SL_{2}(\mathbb{Z}_{p})$** specifically regards matrices adhering to the determinant-one condition, mapping how these particular matrices with $p$-adic coefficients are "modulated" or related back to the structure defined by determinant-one matrices with $p$-adic integer entries.
+    
+
+### Conclusion:
+
+While both quotient sets are intriguing and of significant algebraic and geometric interest in their own rights, they articulate distinct concepts. The equality as presented conflates the broader adaptability and structure captured in the general linear groups with the more nuanced volume-preserving or determinant-specific nuances in the special linear groups, overlooking the substantive differences in the nature of the matrices each group and quotient operation considers.
+
+$GL_{2}(\mathbb{Q}_{p})/GL_{2}(\mathbb{Z}_{p})=ASL_{2}(\mathbb{Q}_{p})/SL_{2}(\mathbb{Z}_{p})$, in which $$
+A=\{\begin{pmatrix}
+a & 0 \\
+0& a
+\end{pmatrix}\mid a \in \mathbb{Q}_{p}/\mathbb{Z}_{p}\}
+$$
