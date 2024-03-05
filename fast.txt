@@ -171,6 +171,7 @@
 	{trigger: "xx", replacement: "\\times", options: "mA"},
 	{trigger: "para", replacement: "\\parallel", options: "mA"},
  	{trigger: "supp", replacement: "\\text{supp}", options: "mA"},
+ 	{trigger: "gcd", replacement: "\\text{gcd}", options: "mA"},
  	{trigger: "mod", replacement: "\\text{mod}", options: "mA"},
 	{trigger: "pc", replacement: "\\prec", options: "mA"},
 	{trigger: "zhengfu", replacement: "\\pm", options: "mA"},
