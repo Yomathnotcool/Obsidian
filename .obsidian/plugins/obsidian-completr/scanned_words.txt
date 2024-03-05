@@ -200,6 +200,11 @@ realms
 radically
 rotating
 role
+roots
+rational
+reduced
+review
+respect
 Consider
 Casimir
 Considering
@@ -222,6 +227,9 @@ Characteristics
 Conclusion
 Choose
 Combinatorial
+Calculate
+Complete
+Cauchy
 by
 be
 between
@@ -336,6 +344,7 @@ interwoven
 illustrating
 interconnectedness
 inspired
+integer
 which
 will
 we
@@ -452,6 +461,7 @@ descending
 determining
 dimension
 deepened
+degree
 the
 this
 two
@@ -654,6 +664,7 @@ correspondences
 compressed
 contracted
 changes
+converges
 of
 or
 odd
@@ -817,6 +828,7 @@ ascending
 analogous
 algebraically
 asserting
+assume
 The
 There
 Thm
@@ -837,6 +849,7 @@ Tree
 Translational
 Transition
 Transformation
+TA
 principal
 part
 proof
@@ -970,6 +983,7 @@ moves
 making
 mimics
 mirrored
+metric
 And
 As
 Applying
@@ -1011,6 +1025,7 @@ nature
 navigating
 navigational
 navigates
+number
 even
 explicit
 equalence
@@ -1088,6 +1103,7 @@ elevated
 embodying
 explicates
 encapsulates
+extension
 For
 First
 Furthermore
@@ -1207,6 +1223,7 @@ versus
 velocity
 version
 valuation
+versa
 Suppose
 Show
 So
@@ -1265,6 +1282,10 @@ Each
 Example
 Edges
 Element
+Exercises
+Exercise
+Extension
+Einsenstein
 Here
 Hence
 Heat
@@ -1346,6 +1367,7 @@ Base
 Basis
 Behavior
 Both
+By
 just
 ji
 yields
@@ -1363,7 +1385,10 @@ Möbius
 Movement
 Verification
 Vertices
+Vice
 know
 kind
+key
 Key
 Just
+Quick
