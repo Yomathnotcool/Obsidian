@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GPT-history/analysis.md",
+                "file": "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/The Representation of Group/Representation of SL(2,R)/Principal series representation of SL(2,R).md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GPT-history/analysis.md",
+                "file": "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/The Representation of Group/Representation of SL(2,R)/Principal series representation of SL(2,R).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GPT-history/analysis.md",
+                "file": "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/The Representation of Group/Representation of SL(2,R)/Principal series representation of SL(2,R).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GPT-history/analysis.md"
+                "file": "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/The Representation of Group/Representation of SL(2,R)/Principal series representation of SL(2,R).md"
               }
             }
           }
@@ -162,12 +162,15 @@
   },
   "active": "3c027666ba794b13",
   "lastOpenFiles": [
+    "Mathematics/Second-Brain/Dynamical system/Notes/Cohomology of dynamical system.md",
+    "GPT-history/analysis.md",
+    "Economy and Finance/Ten Principles of Economics",
+    "Economy and Finance",
     "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Finite field.md",
     "GPT-history/review of Qp.md",
     "().md",
     "GPT-history/tensor product of representation.md",
     "GPT-history/Doctor Agreement.md",
-    "GPT-history/analysis.md",
     "GPT-history/analysis review.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/The Representation of Group/Tempered representation.md",
     "GPT-history/discrete series representation definition.md",

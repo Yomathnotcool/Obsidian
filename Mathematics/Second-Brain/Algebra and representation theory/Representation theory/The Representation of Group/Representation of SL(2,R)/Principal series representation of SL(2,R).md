@@ -35,7 +35,7 @@ $$
 H^{odd}_{\xi}=\{f\in H_{\xi}\mid f(g)=-f(-g)\}=\{\pi(f)=-f\}=<F_{\xi,2n+1}\mid n \in \mathbb{Z}>
 $$
 
-There is the proof of more explicit construction of this two spaces that will be provided later, in which $F_{\xi,n}(k_{\psi}a_{t}u_{x})=e^{-in\psi-i\xi t-td}$.
+There is the proof of more explicit construction of this two spaces that will be provided later, in which $F_{\xi,n}(k_{\psi}a_{t}u_{x})=e^{-in\psi-i\xi t-td}$, which builds the basis of the $H_{\xi}$ due to Fourier expansions.
 
 ### The properties of the principal series representation
 

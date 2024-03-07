@@ -148,6 +148,8 @@ suggests
 subdivision
 somewhat
 substantiate
+system
+simplex
 representation
 representations
 relations
@@ -255,6 +257,9 @@ Correction
 Covering
 Correctness
 Claim
+Chain
+Cochain
+Cobounary
 by
 be
 between
@@ -289,6 +294,7 @@ bound
 bridge
 being
 behaved
+bounary
 in
 is
 induced
@@ -378,6 +384,7 @@ intended
 insight
 interactions
 inequalities
+imagine
 which
 will
 we
@@ -576,6 +583,7 @@ type
 typical
 translating
 translations
+take
 character
 called
 construction
@@ -724,6 +732,9 @@ constructed
 coherently
 comes
 critically
+chain
+cochain
+cobounary
 of
 or
 odd
@@ -766,6 +777,7 @@ offering
 open
 onto
 often
+oriented
 for
 function
 finite
@@ -910,6 +922,7 @@ assertion
 analytical
 arguments
 applicable
+abelian
 The
 There
 Thm
@@ -1491,6 +1504,7 @@ Basis
 Behavior
 Both
 By
+Boundary
 just
 ji
 justify
