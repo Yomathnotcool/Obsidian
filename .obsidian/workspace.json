@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/The Representation of Group/Representation of SL(2,R)/Principal series representation of SL(2,R).md",
+                "file": "GPT-history/Injective Radius, length of horocycle and cardinality of fiber.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/The Representation of Group/Representation of SL(2,R)/Principal series representation of SL(2,R).md",
+                "file": "GPT-history/Injective Radius, length of horocycle and cardinality of fiber.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/The Representation of Group/Representation of SL(2,R)/Principal series representation of SL(2,R).md",
+                "file": "GPT-history/Injective Radius, length of horocycle and cardinality of fiber.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/The Representation of Group/Representation of SL(2,R)/Principal series representation of SL(2,R).md"
+                "file": "GPT-history/Injective Radius, length of horocycle and cardinality of fiber.md"
               }
             }
           }
@@ -162,6 +162,8 @@
   },
   "active": "3c027666ba794b13",
   "lastOpenFiles": [
+    "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/The Representation of Group/Representation of SL(2,R)/Principal series representation of SL(2,R).md",
+    "GPT-history/Injective Radius, length of horocycle and cardinality of fiber.md",
     "Mathematics/Second-Brain/Dynamical system/Notes/Cohomology of dynamical system.md",
     "GPT-history/analysis.md",
     "Economy and Finance/Ten Principles of Economics",
@@ -174,7 +176,6 @@
     "GPT-history/analysis review.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/The Representation of Group/Tempered representation.md",
     "GPT-history/discrete series representation definition.md",
-    "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/The Representation of Group/Representation of SL(2,R)/Principal series representation of SL(2,R).md",
     "page-width.css",
     "新建 文本文档.txt",
     "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/The Representation of Group/Representation of SL(2,R)/Iwasawa decomposition of SL(2,R).md",
