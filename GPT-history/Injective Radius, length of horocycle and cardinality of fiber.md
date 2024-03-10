@@ -81,3 +81,6 @@ $$
 
 
 ### in the hyperbolic surface as we consider right now, what is distance from given point $x$ to the cusp?
+
+
+### the tangent unit bundle of disjoint open cusps $A_{i}=S^{1}\times \mathbb{R}^{+}$
