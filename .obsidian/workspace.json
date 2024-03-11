@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Novels/这个游戏也太真实了/第一章.md",
+                "file": "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Finite field.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Novels/这个游戏也太真实了/第一章.md",
+                "file": "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Finite field.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Novels/这个游戏也太真实了/第一章.md",
+                "file": "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Finite field.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Novels/这个游戏也太真实了/第一章.md"
+                "file": "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Finite field.md"
               }
             }
           }
@@ -162,8 +162,9 @@
   },
   "active": "3c027666ba794b13",
   "lastOpenFiles": [
-    "Novels/这个游戏也太真实了/名字.md",
+    "GPT-history/Sobolev Embedding for homogeneous space.md",
     "Novels/这个游戏也太真实了/第一章.md",
+    "Novels/这个游戏也太真实了/名字.md",
     "GPT-history/Injective Radius, length of horocycle and cardinality of fiber.md",
     "Novels/这个游戏也太真实了",
     "Novels/未命名.md",

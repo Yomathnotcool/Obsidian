@@ -247,3 +247,9 @@ $$
 
 
 for quotient group $X=\Gamma \backslash G$, what is the inverse of $\Gamma g$ in $X$.
+
+
+Consider the cuspidal function $f$ on homogeneous space $\Gamma \backslash H$, which is called cuspidal if $$
+\int^{1}_{0}f(n(t)g)\,dt=0.
+$$
+I do not understand that why integrate over $(0,1)$ in the definition.

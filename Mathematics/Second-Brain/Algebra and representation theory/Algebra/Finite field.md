@@ -15,6 +15,7 @@ and $\mathbb{Q}[\sqrt{ 7 }]=\mathbb{Q}[x]/<x^{2}-7>$.
 
 By Einsenstein, $x^{7}+3x+6$ is irreducible.
 
+$\mathbb{Q}[x]/<x>=\mathbb{Q}$ and $\mathbb{Q}[x]/<x^{2}>=\mathbb{Q}[\sqrt{ d }]$
 
 
 
