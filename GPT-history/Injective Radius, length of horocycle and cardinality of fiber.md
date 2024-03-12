@@ -84,3 +84,49 @@ $$
 
 
 ### the tangent unit bundle of disjoint open cusps $A_{i}=S^{1}\times \mathbb{R}^{+}$
+
+### consider the congruence subgroup $$
+\Gamma_{0}(N)=\{\begin{pmatrix}
+a &b \\
+c & d
+\end{pmatrix}\mid c \equiv 0 \text{mod} N\},
+$$study the quotient space $\Gamma_{0}(N) \backslash H$, which has two cusps $\infty$ and $0$. For the cusp $\infty$ is trivial to check since $$
+\begin{pmatrix}
+1 & 1  \\
+0 & 1
+\end{pmatrix}\cdot \infty = \frac{\infty+1}{1}=\infty
+$$ but I do not know how to check why $0$ is a cusp point.
+Understanding cusps for the quotient space $\Gamma_{0}(N) \backslash \mathbb{H}$, where $\mathbb{H}$ denotes the upper half-plane, involves working with modular transformations and seeing how they act on points at the boundary of $\mathbb{H}$, specifically at $\infty$ and $0$. 
+
+The cusp $\infty$ is straightforward because matrices of the form $$  
+\begin{pmatrix}  
+1 & n \\  
+0 & 1  
+\end{pmatrix}  
+$$ with $n \in \mathbb{Z}$ preserve $\infty$ under modular transformations, based on the action $$  
+\frac{a\tau + b}{c\tau + d},  
+$$ where the matrix is $$\begin{pmatrix}  
+a & b \\  
+c & d  
+\end{pmatrix}$$ and acts on the point $\tau \in \mathbb{H}$.
+
+To understand why $0$ is considered a cusp for $\Gamma_{0}(N)$, let's investigate a transformation mapping $0$ to $\infty$, as cusps are equivalent under the action of the modular group if they can be mapped to one another by a modular transformation. For $0$ to be a cusp, we require a transformation sending $0$ to $\infty$. 
+
+A candidate transformation is $$  
+\gamma = \begin{pmatrix}  
+0 & -1 \\  
+N & 0  
+\end{pmatrix}.  
+$$
+
+This matrix belongs to $\Gamma_0(N)$, as its lower-left entry is divisible by $N$, by the definition of $\Gamma_0(N)$. The action of this matrix on $\tau = 0$ results in $$  
+\gamma \cdot 0 = \frac{-1}{0+N} = \infty,  
+$$ which effectively sends the cusp at $0$ to the cusp at $\infty$. This demonstrates that under the action of the congruence subgroup $\Gamma_0(N)$, the point $0$ is indeed identified as a cusp of the quotient space, given that it can be mapped to the well-understood cusp at $\infty$ via a valid modular transformation within the group.
+
+In more general terms, the presence of a cusp at $0$ indicates abstractly the equivalence of the behavior of $\Gamma_0(N) \backslash H$ at this boundary point to its behavior at $\infty$. Translating cusps to $\infty$ can simplify their study, leveraging well-established properties of modular forms and functions at this canonical cusp.
+
+### now consider the unit tangent bundle $$
+T^{1}(\Gamma \backslash H)=\Gamma \backslash T^{1}H=\Gamma \backslash S^{1}\times H = S^{1}\times \Gamma \backslash H
+$$
+
+### what is the derivative of $\ln\left(  \frac{1}{2y}+ \sqrt{  \frac{1}{4y^{2}}+1 } \right)\cdot \frac{y}{y_{0}}$, in which $y_{0}$ is a constant. And we know that the derivative of function $\ln( x + \sqrt{ x^{2}+1 })$ is $\frac{1}{\sqrt{ x^{2}+1 }}$.
