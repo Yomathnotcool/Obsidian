@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GPT-history/analysis.md",
+                "file": "Mathematics/PhD commitee/first year report.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GPT-history/analysis.md",
+                "file": "Mathematics/PhD commitee/first year report.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GPT-history/analysis.md",
+                "file": "Mathematics/PhD commitee/first year report.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GPT-history/analysis.md"
+                "file": "Mathematics/PhD commitee/first year report.md"
               }
             }
           }
@@ -162,8 +162,14 @@
   },
   "active": "3c027666ba794b13",
   "lastOpenFiles": [
-    "GPT-history/未命名.md",
+    "Pasted image 20240319230151.png",
+    "Pasted image 20240319225928.png",
+    "Pasted image 20240319224953.png",
+    "Pasted image 20240319224759.png",
     "GPT-history/analysis.md",
+    "Mathematics/PhD commitee/first year report.md",
+    "Mathematics/PhD commitee",
+    "GPT-history/未命名.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Finite field.md",
     "GPT-history/finite field.md",
     "GPT-history/Sobolev Embedding for homogeneous space.md",
@@ -194,8 +200,6 @@
     "Pasted image 20240203134129.png",
     "Mathematics/Second-Brain/Analysis/Complex analysis/Euler formula.md",
     "Mathematics/Second-Brain/Analysis/Complex analysis",
-    "Mathematics/Second-Brain/Analysis/measure theorey/measure theory.md",
-    "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/The Representation of Group/The product and sum of representations.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Representation theory/The Representation of Group/Representation of SL(2,R)"
   ]
 }
