@@ -83,3 +83,24 @@ This assertion relies critically on the continuity of $\omega$. While the origi
 ### Conclusion
 
 If $\omega(x)$ is indeed a continuous function (as is often the case for weight functions used in analysis), then its boundedness on a compact space $X$ follows directly from the compactness of $X$ and the properties of continuous functions on compact spaces. This boundedness is crucial for various analytical arguments, ensuring that estimates or inequalities involving $\omega(x)$ remain globally applicable across $X$.
+
+
+
+function $f(t)=t^{2}$, what is the integral of $f(t)$ over $(-r,r)$. 
+
+what is the $L^{2}$ norm of $f(t)$ over $(-r,r)$.
+
+what is the $2,3$ Sobolev norm of $f(t)$ over $(-r,r)$, which means $$
+\lvert \lvert f \rvert  \rvert_{2,3}^{2}=\sum\limits_{\lvert \alpha \rvert <3} \lvert \lvert D^{\alpha}f \rvert  \rvert_{2} 
+$$
+
+
+claim that $\lvert \lvert f \rvert \rvert^{2}_{2,3}\ll r$
+
+
+what is the 2,3 Sobolev norm of $f(t)$ over $\mathbb{R}$
+
+
+Consider function $\phi: SL_{2}(\mathbb{R}) \to \mathbb{R}$, which is defined as following:$$
+\phi(g)=\phi(n(x)a(t)r(\theta))=\phi(a(t))=t^{2},
+$$what is the 2,3 Sobolev norm of $\phi$ over $SL_{2}(\mathbb{R})$.
