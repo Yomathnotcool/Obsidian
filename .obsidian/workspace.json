@@ -30,9 +30,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "50ca58d7444dcf14",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.11"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -160,7 +170,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c027666ba794b13",
+  "active": "50ca58d7444dcf14",
   "lastOpenFiles": [
     "Pasted image 20240319230151.png",
     "Pasted image 20240319225928.png",
