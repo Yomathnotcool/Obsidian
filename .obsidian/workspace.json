@@ -25,24 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/PhD commitee/first year report.md",
+                "file": "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Finite field.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "50ca58d7444dcf14",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.11"
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -108,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathematics/PhD commitee/first year report.md",
+                "file": "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Finite field.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathematics/PhD commitee/first year report.md",
+                "file": "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Finite field.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathematics/PhD commitee/first year report.md"
+                "file": "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Finite field.md"
               }
             }
           }
@@ -170,14 +160,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "50ca58d7444dcf14",
+  "active": "3c027666ba794b13",
   "lastOpenFiles": [
+    "Mathematics/PhD commitee/first year report.md",
     "Pasted image 20240319230151.png",
     "Pasted image 20240319225928.png",
     "Pasted image 20240319224953.png",
     "Pasted image 20240319224759.png",
     "GPT-history/analysis.md",
-    "Mathematics/PhD commitee/first year report.md",
     "Mathematics/PhD commitee",
     "GPT-history/未命名.md",
     "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Finite field.md",
