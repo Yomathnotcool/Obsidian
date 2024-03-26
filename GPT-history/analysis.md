@@ -104,3 +104,51 @@ what is the 2,3 Sobolev norm of $f(t)$ over $\mathbb{R}$
 Consider function $\phi: SL_{2}(\mathbb{R}) \to \mathbb{R}$, which is defined as following:$$
 \phi(g)=\phi(n(x)a(t)r(\theta))=\phi(a(t))=t^{2},
 $$what is the 2,3 Sobolev norm of $\phi$ over $SL_{2}(\mathbb{R})$.
+
+
+Consider the Iwasawa decomposition of $SL_{2}(\mathbb{R})$, i.e. $$
+g=pk
+$$
+in which $p=au$ are from the parabolic subgroup $P=AU$ and $k\in K=SO(2)$. 
+
+Now given integral over $SL_{2}(\mathbb{R})$, $$
+\int_{SL_{2}(\mathbb{R})}f(g)\,d\mu(g)=\int_{AUK}f(auk)\Delta(a)\,d\mu_{1}(a)d\mu_{2}(u)d\mu_{3}(k)  
+$$
+
+how to Calculate this modular function $\Delta$.
+
+
+
+
+
+Now we have a different decomposition $$
+g= \begin{pmatrix}
+1 & 0 \\
+t_{1} & 1
+\end{pmatrix} \begin{pmatrix}
+e^{t_{2}/2} &  0\\
+0 & e^{-t_{2}/2}
+\end{pmatrix} \begin{pmatrix}
+1 & t_{3} \\
+0& 1
+\end{pmatrix}
+$$
+then similarly when we have the integral $$
+\int_{SL_{2}(\mathbb{R})}\phi(g)\,d\mu(g)=\int_{H^{-}H_{0}H}\phi(\begin{pmatrix}
+1 & 0 \\
+t_{1} & 1
+\end{pmatrix} \begin{pmatrix}
+e^{t_{2}/2} &  0\\
+0 & e^{-t_{2}/2}
+\end{pmatrix} \begin{pmatrix}
+1 & t_{3} \\
+0& 1
+\end{pmatrix})\,d\mu_{1}(t_{1})d\mu_{2}(t_{2})d\mu_{3}(t_{3})  
+$$
+
+Now claim the $$
+\Delta(\begin{pmatrix}
+e^{t_{2}/2} &  0\\
+0 & e^{-t_{2}/2}
+\end{pmatrix})=e^{-t}
+$$

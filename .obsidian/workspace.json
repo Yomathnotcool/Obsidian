@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Finite field.md",
+                "file": "GPT-history/analysis.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Finite field.md",
+                "file": "GPT-history/analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Finite field.md",
+                "file": "GPT-history/analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Finite field.md"
+                "file": "GPT-history/analysis.md"
               }
             }
           }
@@ -162,6 +162,7 @@
   },
   "active": "3c027666ba794b13",
   "lastOpenFiles": [
+    "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Finite field.md",
     "Mathematics/PhD commitee/first year report.md",
     "Pasted image 20240319230151.png",
     "Pasted image 20240319225928.png",
@@ -170,7 +171,6 @@
     "GPT-history/analysis.md",
     "Mathematics/PhD commitee",
     "GPT-history/未命名.md",
-    "Mathematics/Second-Brain/Algebra and representation theory/Algebra/Finite field.md",
     "GPT-history/finite field.md",
     "GPT-history/Sobolev Embedding for homogeneous space.md",
     "Novels/这个游戏也太真实了/第一章.md",
