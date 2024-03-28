@@ -238,3 +238,12 @@ $$
 \lim\limits_{ T \to \infty } C \cdot (T^{-\alpha}-T^{\alpha-1})
 $$
 in which the constant $C>0$.
+
+
+
+
+
+Given any local field $F$ with $char(F)\not=2$ or $F\not=\mathbb{C}$,  Here is a very definition of group $G$ over $F$, $G$ is the group of $F$-rational points of a connected reductive linear algebraic group over $F$ with $F$-s.s.rank$G\geq 2$ with $G/Z(G)$ almost $F$-simple.
+
+Can you help me understand these abstract definitions?
+And can we just take $G=SL_{2}(F)$ as an example?
