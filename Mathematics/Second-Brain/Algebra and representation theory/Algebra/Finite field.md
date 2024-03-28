@@ -99,3 +99,6 @@ $$
 \ x^{p^{n}}-x = \left( \sum\limits^{k}_{i=1}x^{p^{n}-i(p^{d}-1)-1} \right)\cdot (x^{p^{d}}-x)+(x^{p^{n}-k(p^{d}-1)}-x)
 \end{array}
 $$
+
+
+$\mathbb{F}_{7}/<x^{3}-2>=\mathbb{F}_{7}(\alpha)=\mathbb{F}_{7^{3}}$.
